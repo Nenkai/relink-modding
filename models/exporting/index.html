@@ -740,9 +740,27 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#flatbuffers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flatbuffers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exporting" class="md-nav__link">
     <span class="md-ellipsis">
       Exporting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-the-minfo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing the MInfo
     </span>
   </a>
   
@@ -790,10 +808,10 @@
 <h1 id="model-exporting"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 12h9.8l-2.5-2.5 1.4-1.4 4.9 4.9-4.9 4.9-1.4-1.4 2.5-2.5H9v-2m12 5.4V20H3V6h18v2.6l2 2V4c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2v-4.6l-2 2Z"/></svg></span> Model Exporting<a class="headerlink" href="#model-exporting" title="Permanent link">&para;</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Exporting requires Blender knowledge.</p>
+<p>Exporting requires Blender knowledge and command line usage.</p>
 </div>
 <h2 id="blender-plugin">Blender Plugin<a class="headerlink" href="#blender-plugin" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/WistfulHopes/GBFRBlenderImporter/releases">GBFRBlenderExporter</a> is required for model exporter. Download the latest release of the <strong><em>Exporter</em></strong>, not the <strong><em>Importer</em></strong>.</p>
+<p><a href="https://github.com/WistfulHopes/GBFRBlenderImporter/releases">GBFRBlenderExporter</a> is required for model exports. Download the latest release of the <strong><em>Exporter</em></strong>, not the <strong><em>Importer</em></strong>.</p>
 <p>In Blender:</p>
 <ul>
 <li>In Edit <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Preferences <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Add-ons</li>
@@ -801,8 +819,39 @@
 <li>Select the zip file you just downloaded</li>
 <li>Make sure to tick <code>Granblue Fantasy Relink Mesh Exporter</code>.</li>
 </ul>
+<h2 id="flatbuffers">Flatbuffers<a class="headerlink" href="#flatbuffers" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/google/flatbuffers/releases/">Flatbuffers</a> is required to edit .minfo files. Download the latest binary for your operating system (e.g. Windows.flatc.binary.zip) and extract it anywhere.</p>
+<p><a href="https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MInfo_ModelInfo.fbs">Model Info - FlatBuffer</a> is also required to edit .minfo files. Download the file and place it in the same folder as Flatbuffers.</p>
 <hr />
 <h2 id="exporting">Exporting<a class="headerlink" href="#exporting" title="Permanent link">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Currently, the Blender exporter can only be used with existing .minfo files.</p>
+</div>
+<p>In Blender:</p>
+<ul>
+<li>In File <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Export <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Granblue Fantasy Relink .minfo</li>
+<li>Select the .minfo file of the edited model.</li>
+</ul>
+<p>This will create a new .mmesh file and a .json file. Copy the .mmesh file into every LOD folder (model\lod0, model\lod1, etc).</p>
+<h2 id="editing-the-minfo">Editing the MInfo<a class="headerlink" href="#editing-the-minfo" title="Permanent link">&para;</a></h2>
+<p>Flatbuffers is a <em>command-line program</em> that you need to run under the command prompt (<code>cmd</code> or Windows Terminal on Windows).</p>
+<p>In the command line, run the following command:</p>
+<div class="highlight"><span class="filename">Command</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>flatc --json MInfo_ModelInfo.fbs -- &lt;path to minfo file&gt; --raw-binary
+</code></pre></div>
+<p>This will create a new JSON file in the Flatbuffers directory. </p>
+<p>Using the exported JSON as a reference, update the .minfo JSON as follows:</p>
+<ul>
+<li>For each entry in LODInfos:<ul>
+<li>Replace MeshBuffers, Chunks, VertCount, PolyCountX3, and BufferTypes with the ones in the exported JSON.</li>
+</ul>
+</li>
+<li>In SubMeshes, add any new submeshes to the submesh list by copying an existing submesh and replacing the name.</li>
+</ul>
+<p>Back in the command line, run the following command:</p>
+<div class="highlight"><span class="filename">Command</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>flatc --binary MInfo_ModelInfo.fbs -- &lt;path to minfo json&gt;
+</code></pre></div>
+<p>This will create a .bin file with the same name as your minfo. Change its file extension to .minfo, and copy it to your mod directory. </p>
 
 
 
@@ -852,6 +901,11 @@
 
     
     <nav>
+      
+        <a href="https://github.com/WistfulHopes" class="md-author" title="@WistfulHopes">
+          
+          <img src="https://avatars.githubusercontent.com/u/9942055?v=4&size=72" alt="WistfulHopes">
+        </a>
       
         <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">
           
