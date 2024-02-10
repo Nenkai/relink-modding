@@ -10,7 +10,7 @@ icon: material/application-import
 
 ## Blender Plugin
 
-[GBFRBlenderImporter](https://github.com/WistfulHopes/GBFRBlenderImporter/releases) is required for model import. Download the latest release of the ***Importer***, not the ***Exporter***.
+[GBFRBlenderImporter](https://github.com/WistfulHopes/GBFRBlenderImporter/releases) is required for model imports. Download the latest release of the ***Importer***, not the ***Exporter***.
 
 In Blender:
 
