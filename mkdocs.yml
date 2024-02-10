@@ -104,7 +104,7 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
-      repository: squidfunk/mkdocs-material
+      repository: nenkai/relink-modding
       branch: main
   - social
   - search:
