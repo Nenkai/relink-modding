@@ -1,0 +1,1 @@
+# Granblue Fantasy: Relink Modding

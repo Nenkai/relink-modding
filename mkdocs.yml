@@ -1,0 +1,129 @@
+
+site_name: Granblue Fantasy - Relink Modding
+site_description: Granblue Fantasy - Relink Modding Docs
+site_url: https://nenkai.github.io/relink-modding/
+repo_url: https://github.com/Nenkai/relink-modding
+repo_name: nenkai/relink-modding
+
+copyright: Copyright &copy; 2024 Nenkai
+
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/favicon.png
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - toc.integrate
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - content.action.edit
+    - content.code.annotate
+    - header.autohide
+  language: en
+  palette:
+
+  # Palette toggle for automatic mode
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to light mode
+
+  # Palette toggle for light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default 
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+    primary: blue
+    accent: blue 
+
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to system preference
+    primary: blue
+    accent: blue
+
+
+nav:
+  - Main Page: index.md
+  - Getting Started: 
+    - Extraction/Modding: getting_started/extraction_modding.md
+  - Resources / Files:
+    - Asset Paths: resources/asset_paths.md
+    - File Extensions: resources/file_extensions.md
+    - Entity Prefixes: resources/entity_prefixes.md
+    - Model IDs: resources/model_ids.md
+  - Models:
+    - Model Importing: models/importing.md 
+    - Model Exporting: models/exporting.md 
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.mark
+  - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: squidfunk/mkdocs-material
+      branch: main
+  - social
+  - search:
+      lang: en
+  - glightbox
+      
+extra:
+  social:
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/gbsG4CDsru
+
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/Nenkaai
+
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Nenkai
+
+    - icon: simple/kofi
+      link: https://ko-fi.com/nenkai
+
+extra_css:
+  - stylesheets/extra.css
