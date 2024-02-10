@@ -17,6 +17,8 @@ hide:
 
     [:octicons-arrow-right-24: Getting started](getting_started/extraction_modding.md)
 
+    [:octicons-arrow-right-24: Mod manager](getting_started/mod_manager.md)
+
 -   :material-book-alphabet:{ .lg .middle } __Modding Resources__
 
     ---
@@ -38,9 +40,9 @@ hide:
 
     Learn how to import models, or create & export new game models
 
-    [:material-application-import: Importing **to** Blender](#)
+    [:material-application-import: Importing **to** Blender](models/importing.md)
 
-    [:material-application-export: Exporting **from** Blender](#)
+    [:material-application-export: Exporting **from** Blender](models/exporting.md)
 
 -   :simple-discord:{ .lg .middle } __Discord__
 
@@ -48,7 +50,7 @@ hide:
 
     Join the Discord for mods, guidance & more!
 
-    [![GT Modding Community Discord](https://discordapp.com/api/guilds/1203608338344976434/widget.png?style=banner2&raw=true)](https://discord.gg/gbsG4CDsru)
+    [![Relink Modding Community Discord](https://discordapp.com/api/guilds/1203608338344976434/widget.png?style=banner2&raw=true)](https://discord.gg/gbsG4CDsru)
 
 -   :material-heart:{ .lg .middle } __Support__
 
