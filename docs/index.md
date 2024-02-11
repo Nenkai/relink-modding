@@ -48,7 +48,7 @@ hide:
 
     ---
 
-    Learn how to import models, or create & export new game models
+    Custom Textures, Texture Extraction, etc.
 
     :material-texture: Extracting/Creating Textures (TODO)
 
