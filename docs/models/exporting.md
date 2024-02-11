@@ -52,7 +52,7 @@ flatc --json MInfo_ModelInfo.fbs -- <path to minfo file> --raw-binary
 
 This will create a new JSON file in the Flatbuffers directory. 
 
-Using the exported JSON as a reference, update the .minfo JSON as follows:
+Using the Blender exported JSON as a reference, update the JSON in the flatc directory as follows:
 
 * For each entry in LODInfos:
     * Replace `MeshBuffers`, `Chunks`, `VertCount`, `PolyCountX3`, and `BufferTypes` with the ones in the exported JSON.
