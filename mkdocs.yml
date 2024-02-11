@@ -80,6 +80,7 @@ nav:
   - Textures:
     - Granite Textures (.gtp/gts): textures/granite.md
 
+  - Contributing: contributing.md
 
 markdown_extensions:
   - toc:

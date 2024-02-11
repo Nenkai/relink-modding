@@ -62,7 +62,7 @@ hide:
 
     [![Relink Modding Community Discord](https://discordapp.com/api/guilds/1203608338344976434/widget.png?style=banner2&raw=true)](https://discord.gg/gbsG4CDsru)
 
--   :material-heart:{ .lg .middle } __Support__
+-   :material-heart:{ .lg .middle } __Support / Contributing__
 
     ---
 
@@ -71,4 +71,6 @@ hide:
     [:simple-kofi: Nenkai](https://ko-fi.com/nenkai)
 
     [:material-patreon: Ryn](https://www.patreon.com/WistfulHopes)
+
+    [:material-book-plus: Improving the site](contributing.md)
 </div>
