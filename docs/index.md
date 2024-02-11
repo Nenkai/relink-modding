@@ -44,6 +44,16 @@ hide:
 
     [:material-application-export: Exporting **from** Blender](models/exporting.md)
 
+-   :material-texture-box:{ .lg .middle } __Texture Extraction/Modding__
+
+    ---
+
+    Learn how to import models, or create & export new game models
+
+    :material-texture: Extracting/Creating Textures (TODO)
+
+    [:simple-dask: Extracting Granite Textures](textures/granite.md)
+
 -   :simple-discord:{ .lg .middle } __Discord__
 
     ---

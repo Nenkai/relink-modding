@@ -33,3 +33,7 @@ In Blender:
 * In File :material-arrow-right: Import :material-arrow-right: Granblue Fantasy Relink .minfo
 * Select a .minfo file.
 
+!!! warning
+
+    :material-arrow-right: Refer to the [Granite Texture Extraction](../textures/granite.md) page for getting model textures.
+

@@ -75,7 +75,10 @@ nav:
 
   - Models:
     - Model Importing: models/importing.md 
-    - Model Exporting: models/exporting.md 
+    - Model Exporting: models/exporting.md
+
+  - Textures:
+    - Granite Textures (.gtp/gts): textures/granite.md
 
 
 markdown_extensions:
