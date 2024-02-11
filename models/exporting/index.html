@@ -450,7 +450,30 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m23 12-4-4v3h-9v2h9v3M1 18V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3h-2V6H3v12h12v-3h2v3a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2Z"/></svg>
   
   <span class="md-ellipsis">
-    Extraction/Modding
+    Extraction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting_started/mod_manager/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M5.22 14.78a.75.75 0 0 0 1.06-1.06L4.56 12h8.69a.75.75 0 0 0 0-1.5H4.56l1.72-1.72a.75.75 0 0 0-1.06-1.06l-3 3a.75.75 0 0 0 0 1.06l3 3Zm5.56-6.5a.75.75 0 1 1-1.06-1.06l1.72-1.72H2.75a.75.75 0 0 1 0-1.5h8.69L9.72 2.28a.75.75 0 0 1 1.06-1.06l3 3a.75.75 0 0 1 0 1.06l-3 3Z"/></svg>
+  
+  <span class="md-ellipsis">
+    Mod Manager
   </span>
   
 
@@ -594,6 +617,77 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Formats
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Formats
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/formats/minfo/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 2 4 4h-3v7.85l6.53 3.76L21 15.03l1.5 5.47-5.5 1.46 1.53-2.61L12 15.58l-6.53 3.77L7 21.96 1.5 20.5 3 15.03l1.47 2.58L11 13.85V6H8l4-4m9 3h-2V3h2v2m1 5v2h-4v-2h1V8h-1V6h3v4h1Z"/></svg>
+  
+  <span class="md-ellipsis">
+    .minfo - Model Info
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -831,9 +925,9 @@
 <p>In Blender:</p>
 <ul>
 <li>In File <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Export <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Granblue Fantasy Relink .minfo</li>
-<li>Select the .minfo file of the edited model.</li>
+<li>Select the <code>.minfo</code> file of the edited model.</li>
 </ul>
-<p>This will create a new .mmesh file and a .json file. Copy the .mmesh file into every LOD folder (model\lod0, model\lod1, etc).</p>
+<p>This will create a new <code>.mmesh</code> file and a <code>.json</code> file. Copy the <code>.mmesh</code> file into every LOD folder (<code>model\lod0</code>, <code>model\lod1</code>, etc).</p>
 <h2 id="editing-the-minfo">Editing the MInfo<a class="headerlink" href="#editing-the-minfo" title="Permanent link">&para;</a></h2>
 <p>Flatbuffers is a <em>command-line program</em> that you need to run under the command prompt (<code>cmd</code> or Windows Terminal on Windows).</p>
 <p>In the command line, run the following command:</p>
@@ -843,10 +937,10 @@
 <p>Using the exported JSON as a reference, update the .minfo JSON as follows:</p>
 <ul>
 <li>For each entry in LODInfos:<ul>
-<li>Replace MeshBuffers, Chunks, VertCount, PolyCountX3, and BufferTypes with the ones in the exported JSON.</li>
+<li>Replace <code>MeshBuffers</code>, <code>Chunks</code>, <code>VertCount</code>, <code>PolyCountX3</code>, and <code>BufferTypes</code> with the ones in the exported JSON.</li>
 </ul>
 </li>
-<li>In SubMeshes, add any new submeshes to the submesh list by copying an existing submesh and replacing the name.</li>
+<li>In <code>SubMeshes</code>, add any new submeshes to the submesh list by copying an existing submesh and replacing the name.</li>
 </ul>
 <p>Back in the command line, run the following command:</p>
 <div class="highlight"><span class="filename">Command</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>flatc --binary MInfo_ModelInfo.fbs -- &lt;path to minfo json&gt;
@@ -874,7 +968,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 10, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 11, 2024</span>
   </span>
 
     
@@ -902,14 +996,14 @@
     
     <nav>
       
-        <a href="https://github.com/WistfulHopes" class="md-author" title="@WistfulHopes">
-          
-          <img src="https://avatars.githubusercontent.com/u/9942055?v=4&size=72" alt="WistfulHopes">
-        </a>
-      
         <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">
           
           <img src="https://avatars.githubusercontent.com/u/13786175?v=4&size=72" alt="Nenkai">
+        </a>
+      
+        <a href="https://github.com/WistfulHopes" class="md-author" title="@WistfulHopes">
+          
+          <img src="https://avatars.githubusercontent.com/u/9942055?v=4&size=72" alt="WistfulHopes">
         </a>
       
       
