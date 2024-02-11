@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://nenkai.github.io/relink-modding/contributing/</loc>
+         <lastmod>2024-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://nenkai.github.io/relink-modding/getting_started/extraction_modding/</loc>
          <lastmod>2024-02-11</lastmod>
          <changefreq>daily</changefreq>
