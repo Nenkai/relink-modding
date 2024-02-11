@@ -61,7 +61,7 @@ Using the Blender exported JSON as a reference, update the JSON in the flatc dir
 Back in the command line, run the following command:
 
 ``` markdown title="Command"
-flatc --binary MInfo_ModelInfo.fbs -- <path to minfo json>
+flatc --binary MInfo_ModelInfo.fbs <path to minfo json>
 ```
 
 This will create a .bin file with the same name as your minfo. Change its file extension to .minfo, and copy it to your mod directory. 
