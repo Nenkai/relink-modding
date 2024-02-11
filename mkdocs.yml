@@ -5,7 +5,7 @@ site_url: https://nenkai.github.io/relink-modding/
 repo_url: https://github.com/Nenkai/relink-modding
 repo_name: nenkai/relink-modding
 
-copyright: Copyright &copy; 2024 Nenkai
+copyright: Copyright &copy; 2024 Nenkai - Not affiliated with Cygames.
 
 theme:
   name: material

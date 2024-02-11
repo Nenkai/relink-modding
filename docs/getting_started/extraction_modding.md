@@ -77,6 +77,10 @@ It will take some time to extract.
     GBFRDataTools.exe add-external-files -i <path to data.i> 
     ```
 
+    !!! note
+
+        If you are editing or adding files, you must re-run the command! You may also need to restore your original `data.i` if you've removed a file that was previously registed and wish to restore it.
+
 If you have successfully gotten your mod to work, congratulations!
 
 ---
