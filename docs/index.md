@@ -17,7 +17,7 @@ hide:
 
     [:octicons-arrow-right-24: Getting started](getting_started/extraction_modding.md)
 
-    [:octicons-arrow-right-24: Mod manager](getting_started/mod_manager.md)
+    [:octicons-arrow-switch-16: Mod manager](getting_started/mod_manager.md)
 
 -   :material-book-alphabet:{ .lg .middle } __Modding Resources__
 

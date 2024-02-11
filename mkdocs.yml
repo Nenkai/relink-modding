@@ -62,12 +62,17 @@ theme:
 nav:
   - Main Page: index.md
   - Getting Started: 
-    - Extraction/Modding: getting_started/extraction_modding.md
+    - Extraction: getting_started/extraction_modding.md
+    - Mod Manager: getting_started/mod_manager.md
+
   - Resources / Files:
     - Asset Paths: resources/asset_paths.md
     - File Extensions: resources/file_extensions.md
     - Entity Prefixes: resources/entity_prefixes.md
     - Model IDs: resources/model_ids.md
+    - Formats:
+        .minfo - Model Info: resources/formats/minfo.md
+
   - Models:
     - Model Importing: models/importing.md 
     - Model Exporting: models/exporting.md 

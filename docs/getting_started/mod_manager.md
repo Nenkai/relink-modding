@@ -1,5 +1,5 @@
 ---
-icon: material/import
+icon: octicons/arrow-switch-16
 ---
 
 # Mod Manager
@@ -14,7 +14,7 @@ Read the [Quick Start Guide](https://reloaded-project.github.io/Reloaded-II/Quic
 
 ## Granblue Fantasy Relink Mod Manager
 
-[Download the Granblue Fantasy Relink Mod Manager](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases/). Extract the mod into Reloaded-II\Mods.
+[Download the Granblue Fantasy Relink Mod Manager](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases/). Extract the mod into `Reloaded-II\Mods`.
 
 ---
 
@@ -23,7 +23,7 @@ Read the [Quick Start Guide](https://reloaded-project.github.io/Reloaded-II/Quic
 All asset mods for Relink require the following configuration in order to be handled:
 
 * Set the Granblue Fantasy Relink Mod Manager as a dependency.
-* Assets must be contained within GBFR\data. For example, a mod for model\pl\pl0101\pl0101.minfo must be located at (Mod Directory)\GBFR\data\model\pl\pl0101\pl0101.minfo.
+* Assets must be contained within GBFR\data. For example, a mod for `model\pl\pl0101\pl0101.minfo` must be located at `(Mod Directory)\GBFR\data\model\pl\pl0101\pl0101.minfo`.
 
 !!! tip
     
