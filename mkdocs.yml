@@ -78,6 +78,7 @@ nav:
     - Model Exporting: models/exporting.md
 
   - Textures:
+    - UI Textures (.wtb): textures/textures.md
     - Granite Textures (.gtp/gts): textures/granite.md
 
   - Contributing: contributing.md

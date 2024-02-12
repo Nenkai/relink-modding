@@ -50,7 +50,7 @@ hide:
 
     Custom Textures, Texture Extraction, etc.
 
-    :material-texture: Extracting/Creating Textures (TODO)
+    [:material-texture: Extracting/Creating Textures](textures/textures.md)
 
     [:simple-dask: Extracting Granite Textures](textures/granite.md)
 
