@@ -6,6 +6,10 @@ icon: octicons/arrow-switch-16
 
 The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manager mod is the primary way to manage mods for GBFR. It quickly handles what would normally be a multi-step process with GBFRDataTools for all managed mods.
 
+!!! warning
+
+    The Mod Manager is currently incompatible with other hooking utilities such as **SpecialK**.
+
 ## Reloaded II
 
 [From the latest Reloaded II release](https://github.com/Reloaded-Project/Reloaded-II/releases/), either download Release.zip and extract, or download Setup.exe and run.
