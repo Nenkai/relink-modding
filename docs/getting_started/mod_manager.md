@@ -14,7 +14,7 @@ Read the [Quick Start Guide](https://reloaded-project.github.io/Reloaded-II/Quic
 
 ## Granblue Fantasy Relink Mod Manager
 
-[Download the Granblue Fantasy Relink Mod Manager](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases/). Extract the mod into `Reloaded-II\Mods`.
+:material-arrow-right: [Download the Granblue Fantasy Relink Mod Manager](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases/). Extract the mod into `Reloaded-II\Mods`.
 
 ---
 
@@ -25,6 +25,6 @@ First, follow the [Reloaded II Creating Mods tutorial](https://reloaded-project.
 In addition, all asset mods for Relink require the following setup:
 
 * Set the Granblue Fantasy Relink Mod Manager as a dependency. Reloaded II will prompt you to set mod dependencies when creating the mod.
-* Assets must be contained within GBFR\data. For example, a mod for model\pl\pl0101\pl0101.minfo must be located at (Mod Directory)\GBFR\data\model\pl\pl0101\pl0101.minfo.
+* Assets must be contained within `GBFR\data`. For example, a mod for `model\pl\pl0101\pl0101.minfo` must be located at `(Mod Directory)\GBFR\data\model\pl\pl0101\pl0101.minfo.`
 
-An example mod can be found [here](resources/gbfrelink.recolor.bluehair.zip).
+:material-download: An example mod can be found [here](gbfrelink.recolor.bluehair.zip).
