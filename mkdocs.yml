@@ -5,7 +5,7 @@ site_url: https://nenkai.github.io/relink-modding/
 repo_url: https://github.com/Nenkai/relink-modding
 repo_name: nenkai/relink-modding
 
-copyright: Copyright &copy; 2024 Nenkai
+copyright: Copyright &copy; 2024 Nenkai - Not affiliated with Cygames.
 
 theme:
   name: material
@@ -62,16 +62,26 @@ theme:
 nav:
   - Main Page: index.md
   - Getting Started: 
-    - Extraction/Modding: getting_started/extraction_modding.md
+    - Extraction: getting_started/extraction_modding.md
+    - Mod Manager: getting_started/mod_manager.md
+
   - Resources / Files:
     - Asset Paths: resources/asset_paths.md
     - File Extensions: resources/file_extensions.md
     - Entity Prefixes: resources/entity_prefixes.md
     - Model IDs: resources/model_ids.md
+    - Formats:
+        .minfo - Model Info: resources/formats/minfo.md
+
   - Models:
     - Model Importing: models/importing.md 
-    - Model Exporting: models/exporting.md 
+    - Model Exporting: models/exporting.md
 
+  - Textures:
+    - UI Textures (.wtb): textures/textures.md
+    - Granite Textures (.gtp/gts): textures/granite.md
+
+  - Contributing: contributing.md
 
 markdown_extensions:
   - toc:

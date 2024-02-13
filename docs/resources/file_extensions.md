@@ -10,7 +10,7 @@ icon: material/file-question-outline
 | `.bnk`    | Wwise Bank                 | [Wwiser](https://github.com/bnnm/wwiser)  |
 | `.bxm`    | Binary XML                 | [Nier CLI](https://github.com/ArthurHeitmann/nier_cli/releases) | [Nier CLI](https://github.com/ArthurHeitmann/nier_cli/releases) |
 | `.evtb`   | Event Timeline Data - FlatBuffer |                |
-| `.gtp/gts`| [Granite](https://unity.com/products/granite-sdk) Streamed Texture | N/A | N/A |
+| `.gtp/gts`| [Granite](https://unity.com/products/granite-sdk) Streamed Texture | [GraniteTextureReader](https://github.com/Nenkai/GraniteTextureReader) | N/A |
 | `.msg`    | [MessagePack](https://msgpack.org/index.html)  | [MsgPack2Json](https://github.com/WistfulHopes/MsgPack2Json) | [MsgPack2Json](https://github.com/WistfulHopes/MsgPack2Json)
 | `.minfo`  | [Model Info - FlatBuffer](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MInfo_ModelInfo.fbs)   | [Flatbuffers](https://github.com/google/flatbuffers/releases/)
 | `.mmat`   | [Model Material - FlatBuffer](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MMat_ModelMaterial.fbs) | [Flatbuffers](https://github.com/google/flatbuffers/releases/)

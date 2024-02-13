@@ -17,7 +17,7 @@ hide:
 
     [:octicons-arrow-right-24: Getting started](getting_started/extraction_modding.md)
 
-    [:octicons-arrow-right-24: Mod manager](getting_started/mod_manager.md)
+    [:octicons-arrow-switch-16: Mod manager](getting_started/mod_manager.md)
 
 -   :material-book-alphabet:{ .lg .middle } __Modding Resources__
 
@@ -44,6 +44,16 @@ hide:
 
     [:material-application-export: Exporting **from** Blender](models/exporting.md)
 
+-   :material-texture-box:{ .lg .middle } __Texture Extraction/Modding__
+
+    ---
+
+    Custom Textures, Texture Extraction, etc.
+
+    [:material-texture: Extracting/Creating Textures](textures/textures.md)
+
+    [:simple-dask: Extracting Granite Textures](textures/granite.md)
+
 -   :simple-discord:{ .lg .middle } __Discord__
 
     ---
@@ -52,7 +62,7 @@ hide:
 
     [![Relink Modding Community Discord](https://discordapp.com/api/guilds/1203608338344976434/widget.png?style=banner2&raw=true)](https://discord.gg/gbsG4CDsru)
 
--   :material-heart:{ .lg .middle } __Support__
+-   :material-heart:{ .lg .middle } __Support / Contributing__
 
     ---
 
@@ -61,4 +71,6 @@ hide:
     [:simple-kofi: Nenkai](https://ko-fi.com/nenkai)
 
     [:material-patreon: Ryn](https://www.patreon.com/WistfulHopes)
+
+    [:material-book-plus: Improving the site](contributing.md)
 </div>

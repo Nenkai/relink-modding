@@ -36,9 +36,9 @@ In Blender:
 In Blender:
 
 * In File :material-arrow-right: Export :material-arrow-right: Granblue Fantasy Relink .minfo
-* Select the .minfo file of the edited model.
+* Select the `.minfo` file of the edited model.
 
-This will create a new .mmesh file and a .json file. Copy the .mmesh file into every LOD folder (model\lod0, model\lod1, etc).
+This will create a new `.mmesh` file and a `.json` file. Copy the `.mmesh` file into every LOD folder (`model\lod0`, `model\lod1`, etc).
 
 ## Editing the MInfo
 
@@ -52,16 +52,16 @@ flatc --json MInfo_ModelInfo.fbs -- <path to minfo file> --raw-binary
 
 This will create a new JSON file in the Flatbuffers directory. 
 
-Using the exported JSON as a reference, update the .minfo JSON as follows:
+Using the Blender exported JSON as a reference, update the JSON in the flatc directory as follows:
 
 * For each entry in LODInfos:
-    * Replace MeshBuffers, Chunks, VertCount, PolyCountX3, and BufferTypes with the ones in the exported JSON.
-* In SubMeshes, add any new submeshes to the submesh list by copying an existing submesh and replacing the name.
+    * Replace `MeshBuffers`, `Chunks`, `VertCount`, `PolyCountX3`, and `BufferTypes` with the ones in the exported JSON.
+* In `SubMeshes`, add any new submeshes to the submesh list by copying an existing submesh and replacing the name.
 
 Back in the command line, run the following command:
 
 ``` markdown title="Command"
-flatc --binary MInfo_ModelInfo.fbs -- <path to minfo json>
+flatc --binary MInfo_ModelInfo.fbs <path to minfo json>
 ```
 
 This will create a .bin file with the same name as your minfo. Change its file extension to .minfo, and copy it to your mod directory. 

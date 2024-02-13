@@ -46,34 +46,44 @@ It will take some time to extract.
 
 ### :material-folder-plus: Modding
 
-With the files now extracted, let's go over *modding*.
+??? abstract "Method 1: Using Mod Manager"
 
-!!! warning
+    :material-arrow-right: Refer to the [Mod Manager Page](mod_manager.md).
 
-    It is important that you create a backup of `data.i` first. If you do not have one, you can verify game files integrity on Steam.
+??? abstract "Method 2: Modding Manually"
+
+    !!! warning
+
+        It is important that you create a backup of `data.i` first. If you do not have one, you can verify game files integrity on Steam.
 
 
-To add or update contents, simply add them to the `data` folder. **You should preserve the same paths.**
+    To add or update contents, simply add them to the `data` folder. **You should preserve the same paths.**
 
-!!! example
+    !!! example
 
-    If you want to mod `system/table/ability.tbl`, drop it to the `data` folder as such:
-    ```{ .sh .no-copy }
-    .
-    ├─ data/ # Always preserve game paths
-    │  └─ system/
-    │     └─ table/
-    │        └─ ability.tbl
-    │
-    ...
+        If you want to mod `system/table/ability.tbl`, drop it to the `data` folder as such:
+        ```{ .sh .no-copy }
+        .
+        ├─ data/ # Always preserve game paths
+        │  └─ system/
+        │     └─ table/
+        │        └─ ability.tbl
+        │
+        ...
+        ```
+
+    Then run the following command:
+    ``` markdown title="Command"
+    GBFRDataTools.exe add-external-files -i <path to data.i> 
     ```
 
-Then run the following command:
-``` markdown title="Command"
-GBFRDataTools.exe add-external-files -i <path to data.i> 
-```
+    !!! note
 
-Your modded file should now be inside the game. Congratulations! You can proceed to the [File Locations](file_locations.md) page.
+        If you are editing or adding files, you must re-run the command! You may also need to restore your original `data.i` if you've removed a file that was previously registed and wish to restore it.
+
+If you have successfully gotten your mod to work, congratulations!
+
+---
 
 ??? abstract "Inner Workings"
 

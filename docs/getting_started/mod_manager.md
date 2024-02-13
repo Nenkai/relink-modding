@@ -1,5 +1,5 @@
 ---
-icon: material/import
+icon: octicons/arrow-switch-16
 ---
 
 # Mod Manager
@@ -14,7 +14,7 @@ Read the [Quick Start Guide](https://reloaded-project.github.io/Reloaded-II/Quic
 
 ## Granblue Fantasy Relink Mod Manager
 
-[Download the Granblue Fantasy Relink Mod Manager](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases/). Extract the mod into Reloaded-II\Mods.
+[Download the Granblue Fantasy Relink Mod Manager](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases/). Extract the mod into `Reloaded-II\Mods`.
 
 ---
 
