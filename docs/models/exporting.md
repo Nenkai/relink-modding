@@ -26,20 +26,17 @@ In Blender:
 [Model Info - FlatBuffer](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MInfo_ModelInfo.fbs) is also required to edit .minfo files. Download the file and place it in the same folder as FlatBuffers.
 
 [Model Info - Converter](https://gist.github.com/AlphaSatanOmega/fa6fe4160cae91f8037b01534ddc32c1) is also required. Download the file as a zip, extract and place the `MInfo_Converter.py` in the same folder as FlatBuffers. To run, requires any version of [Python 3](https://www.python.org/downloads/) installed.
+
 ---
 
 ## Exporting
 
-!!! tip
-
-    Currently, the Blender exporter can only be used with existing .minfo files.
-
 In Blender:
 
-* In File :material-arrow-right: Export :material-arrow-right: Granblue Fantasy Relink .minfo
-* Select the `.minfo` file of the edited model.
+* In File :material-arrow-right: Export :material-arrow-right: Granblue Fantasy Relink .mmesh
+* Choose the path to export the mesh to.
 
-This will create a new `.mmesh` file and a `.json` file. Copy the `.mmesh` file into every LOD folder (`model_streaming\lod0`, `model_streaming\lod1`, etc).
+This will create a new `.mmesh` file, a `.skeleton` file, and a `.json` file. Copy the `.mmesh` file into every LOD folder (`model_streaming\lod0`, `model_streaming\lod1`, etc). If you have modified the skeleton, copy it to the .minfo directory.
 
 ## Converting the MInfo
 Now take both the `.json` file exported from Blender, and the original model's `.minfo` and drag both of them onto the `MInfo_Converter.py` in the FlatBuffers folder. 
@@ -71,7 +68,8 @@ Take this converted `.minfo` and place it into the corresponding `model/<model p
     * For each entry in LODInfos:
         * Replace `MeshBuffers`, `Chunks`, `VertCount`, `PolyCountX3`, and `BufferTypes` with the ones in the exported JSON.
     * In `SubMeshes`, add any new submeshes to the submesh list by duplicating an existing submesh in the flatc `.json` in the `Submeshes` list, and simply replacing the name.
-    
+    * Replace `BonesToWeightIndices` with the one in the exported JSON. 
+
     Back in the command line, run the following command:
     
     ``` markdown title="Command"
