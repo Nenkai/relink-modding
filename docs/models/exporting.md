@@ -26,6 +26,7 @@ In Blender:
 [Model Info - FlatBuffer](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MInfo_ModelInfo.fbs) is also required to edit .minfo files. Download the file and place it in the same folder as FlatBuffers.
 
 [Model Info - Converter](https://gist.github.com/AlphaSatanOmega/fa6fe4160cae91f8037b01534ddc32c1) is also required. Download the file as a zip, extract and place the `MInfo_Converter.py` in the same folder as FlatBuffers. To run, requires any version of [Python 3](https://www.python.org/downloads/) installed.
+
 ---
 
 ## Exporting
