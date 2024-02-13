@@ -880,15 +880,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#model-info-converter-is-also-required-download-the-file-as-a-zip-extract-and-place-the-minfo_converterpy-in-the-same-folder-as-flatbuffers-to-run-requires-any-version-of-python-3-installed" class="md-nav__link">
-    <span class="md-ellipsis">
-      Model Info - Converter is also required. Download the file as a zip, extract and place the MInfo_Converter.py in the same folder as FlatBuffers. To run, requires any version of Python 3 installed.
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#exporting" class="md-nav__link">
     <span class="md-ellipsis">
       Exporting
@@ -1086,18 +1077,15 @@
 <h2 id="flatbuffers">Flatbuffers<a class="headerlink" href="#flatbuffers" title="Permanent link">&para;</a></h2>
 <p><a href="https://github.com/google/flatbuffers/releases/">Flatbuffers</a> is required to edit .minfo files. Download the latest binary for your operating system (e.g. Windows.flatc.binary.zip) and extract it anywhere.</p>
 <p><a href="https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MInfo_ModelInfo.fbs">Model Info - FlatBuffer</a> is also required to edit .minfo files. Download the file and place it in the same folder as FlatBuffers.</p>
-<h2 id="model-info-converter-is-also-required-download-the-file-as-a-zip-extract-and-place-the-minfo_converterpy-in-the-same-folder-as-flatbuffers-to-run-requires-any-version-of-python-3-installed"><a href="https://gist.github.com/AlphaSatanOmega/fa6fe4160cae91f8037b01534ddc32c1">Model Info - Converter</a> is also required. Download the file as a zip, extract and place the <code>MInfo_Converter.py</code> in the same folder as FlatBuffers. To run, requires any version of <a href="https://www.python.org/downloads/">Python 3</a> installed.<a class="headerlink" href="#model-info-converter-is-also-required-download-the-file-as-a-zip-extract-and-place-the-minfo_converterpy-in-the-same-folder-as-flatbuffers-to-run-requires-any-version-of-python-3-installed" title="Permanent link">&para;</a></h2>
+<p><a href="https://gist.github.com/AlphaSatanOmega/fa6fe4160cae91f8037b01534ddc32c1">Model Info - Converter</a> is also required. Download the file as a zip, extract and place the <code>MInfo_Converter.py</code> in the same folder as FlatBuffers. To run, requires any version of <a href="https://www.python.org/downloads/">Python 3</a> installed.</p>
+<hr />
 <h2 id="exporting">Exporting<a class="headerlink" href="#exporting" title="Permanent link">&para;</a></h2>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Currently, the Blender exporter can only be used with existing .minfo files.</p>
-</div>
 <p>In Blender:</p>
 <ul>
-<li>In File <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Export <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Granblue Fantasy Relink .minfo</li>
-<li>Select the <code>.minfo</code> file of the edited model.</li>
+<li>In File <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Export <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Granblue Fantasy Relink .mmesh</li>
+<li>Choose the path to export the mesh to.</li>
 </ul>
-<p>This will create a new <code>.mmesh</code> file and a <code>.json</code> file. Copy the <code>.mmesh</code> file into every LOD folder (<code>model_streaming\lod0</code>, <code>model_streaming\lod1</code>, etc).</p>
+<p>This will create a new <code>.mmesh</code> file, a <code>.skeleton</code> file, and a <code>.json</code> file. Copy the <code>.mmesh</code> file into every LOD folder (<code>model_streaming\lod0</code>, <code>model_streaming\lod1</code>, etc). If you have modified the skeleton, copy it to the .minfo directory.</p>
 <h2 id="converting-the-minfo">Converting the MInfo<a class="headerlink" href="#converting-the-minfo" title="Permanent link">&para;</a></h2>
 <p>Now take both the <code>.json</code> file exported from Blender, and the original model's <code>.minfo</code> and drag both of them onto the <code>MInfo_Converter.py</code> in the FlatBuffers folder. </p>
 <p>This will automatically create a converted <code>.minfo</code> witth all the mesh info from the blender <code>.json</code> and place it in a folder called "<code>_flatc_conversion</code>" next to the Blender export. The edited <code>.json</code> is also placed there for debugging purposes.</p>
@@ -1119,6 +1107,7 @@
 </ul>
 </li>
 <li>In <code>SubMeshes</code>, add any new submeshes to the submesh list by duplicating an existing submesh in the flatc <code>.json</code> in the <code>Submeshes</code> list, and simply replacing the name.</li>
+<li>Replace <code>BonesToWeightIndices</code> with the one in the exported JSON. </li>
 </ul>
 <p>Back in the command line, run the following command:</p>
 <div class="highlight"><span class="filename">Command</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>flatc --binary MInfo_ModelInfo.fbs &lt;path to minfo json&gt;
@@ -1175,14 +1164,14 @@
     
     <nav>
       
-        <a href="https://github.com/AlphaSatanOmega" class="md-author" title="@AlphaSatanOmega">
-          
-          <img src="https://avatars.githubusercontent.com/u/44583573?v=4&size=72" alt="AlphaSatanOmega">
-        </a>
-      
         <a href="https://github.com/WistfulHopes" class="md-author" title="@WistfulHopes">
           
           <img src="https://avatars.githubusercontent.com/u/9942055?v=4&size=72" alt="WistfulHopes">
+        </a>
+      
+        <a href="https://github.com/AlphaSatanOmega" class="md-author" title="@AlphaSatanOmega">
+          
+          <img src="https://avatars.githubusercontent.com/u/44583573?v=4&size=72" alt="AlphaSatanOmega">
         </a>
       
         <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">
