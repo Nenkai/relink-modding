@@ -28,7 +28,8 @@ icon: material/identifier
 1600 -- Zeta
 1700 -- Vaseraga
 1800 -- Cagliostro
-1900 -- ID
+1900 -- Id
+2000 -- Id (Transformation)
 ```
 
 ## NPC (np)
