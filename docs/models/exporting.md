@@ -29,16 +29,12 @@ In Blender:
 
 ## Exporting
 
-!!! tip
-
-    Currently, the Blender exporter can only be used with existing .minfo files.
-
 In Blender:
 
-* In File :material-arrow-right: Export :material-arrow-right: Granblue Fantasy Relink .minfo
-* Select the `.minfo` file of the edited model.
+* In File :material-arrow-right: Export :material-arrow-right: Granblue Fantasy Relink .mmesh
+* Choose the path to export the mesh to.
 
-This will create a new `.mmesh` file and a `.json` file. Copy the `.mmesh` file into every LOD folder (`model\lod0`, `model\lod1`, etc).
+This will create a new `.mmesh` file, a `.skeleton` file, and a `.json` file. Copy the `.mmesh` file into every LOD folder (`model_streaming\lod0`, `model_streaming\lod1`, etc). If you have modified the skeleton, copy it to the .minfo directory.
 
 ## Editing the MInfo
 
@@ -57,6 +53,7 @@ Using the Blender exported JSON as a reference, update the JSON in the flatc dir
 * For each entry in LODInfos:
     * Replace `MeshBuffers`, `Chunks`, `VertCount`, `PolyCountX3`, and `BufferTypes` with the ones in the exported JSON.
 * In `SubMeshes`, add any new submeshes to the submesh list by copying an existing submesh and replacing the name.
+* Replace `BonesToWeightIndices` with the one in the exported JSON. 
 
 Back in the command line, run the following command:
 
