@@ -888,24 +888,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#converting-the-minfo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Converting the MInfo
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manually-editing-the-minfo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Manually Editing the MInfo
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1075,45 +1057,23 @@
 <li>Make sure to tick <code>Granblue Fantasy Relink Mesh Exporter</code>.</li>
 </ul>
 <h2 id="flatbuffers">Flatbuffers<a class="headerlink" href="#flatbuffers" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/google/flatbuffers/releases/">Flatbuffers</a> is required to edit .minfo files. Download the latest binary for your operating system (e.g. Windows.flatc.binary.zip) and extract it anywhere.</p>
-<p><a href="https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MInfo_ModelInfo.fbs">Model Info - FlatBuffer</a> is also required to edit .minfo files. Download the file and place it in the same folder as FlatBuffers.</p>
-<p><a href="https://gist.github.com/AlphaSatanOmega/fa6fe4160cae91f8037b01534ddc32c1">Model Info - Converter</a> is also required. Download the file as a zip, extract and place the <code>MInfo_Converter.py</code> in the same folder as FlatBuffers. To run, requires any version of <a href="https://www.python.org/downloads/">Python 3</a> installed.</p>
+<ul>
+<li><a href="https://github.com/google/flatbuffers/releases/">Flatbuffers</a> is required for exporting models. Download the latest binary for your operating system (e.g. Windows.flatc.binary.zip) and extract it anywhere.</li>
+<li>Once extracted, in the Blender Add-On Preferences window and expand the exporter add-on. At the bottom put in the path to the FlatBuffers <code>flatc.exe</code>.</li>
+</ul>
 <hr />
 <h2 id="exporting">Exporting<a class="headerlink" href="#exporting" title="Permanent link">&para;</a></h2>
 <p>In Blender:</p>
 <ul>
 <li>In File <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Export <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Granblue Fantasy Relink .mmesh</li>
-<li>Choose the path to export the mesh to.</li>
-</ul>
-<p>This will create a new <code>.mmesh</code> file, a <code>.skeleton</code> file, and a <code>.json</code> file. Copy the <code>.mmesh</code> file into every LOD folder (<code>model_streaming\lod0</code>, <code>model_streaming\lod1</code>, etc). If you have modified the skeleton, copy it to the .minfo directory.</p>
-<h2 id="converting-the-minfo">Converting the MInfo<a class="headerlink" href="#converting-the-minfo" title="Permanent link">&para;</a></h2>
-<p>Now take both the <code>.json</code> file exported from Blender, and the original model's <code>.minfo</code> and drag both of them onto the <code>MInfo_Converter.py</code> in the FlatBuffers folder. </p>
-<p>This will automatically create a converted <code>.minfo</code> witth all the mesh info from the blender <code>.json</code> and place it in a folder called "<code>_flatc_conversion</code>" next to the Blender export. The edited <code>.json</code> is also placed there for debugging purposes.</p>
-<p>Take this converted <code>.minfo</code> and place it into the corresponding <code>model/&lt;model prefix&gt;/&lt;model name&gt;</code> folder (i.e. <code>model/pl/pl1400/</code>).</p>
-<hr />
-<details class="abstract">
-<summary>Manual .minfo Editing</summary>
-<p><em>NOTE: This section only goes into detail as to how to manually go about editing the MInfo and is completely optional</em>.</p>
-<h2 id="manually-editing-the-minfo">Manually Editing the MInfo<a class="headerlink" href="#manually-editing-the-minfo" title="Permanent link">&para;</a></h2>
-<p>Flatbuffers is a <em>command-line program</em> that you need to run under the command prompt (<code>cmd</code> or Windows Terminal on Windows).</p>
-<p>In the command line, run the following command:</p>
-<div class="highlight"><span class="filename">Command</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>flatc --json MInfo_ModelInfo.fbs -- &lt;path to minfo file&gt; --raw-binary
-</code></pre></div>
-<p>This will create a new JSON file in the Flatbuffers directory. </p>
-<p>Using the Blender exported JSON as a reference, update the JSON in the flatc directory as follows:</p>
-<ul>
-<li>For each entry in LODInfos:<ul>
-<li>Replace <code>MeshBuffers</code>, <code>Chunks</code>, <code>VertCount</code>, <code>PolyCountX3</code>, and <code>BufferTypes</code> with the ones in the exported JSON.</li>
+<li>Choose the path to export the mesh to. Make sure you have a copy of the original model's <code>.minfo</code> in this folder.<ul>
+<li>Do not have the original <code>.skeleton</code> or <code>.mmesh</code> in this folder, they will be overwritten.</li>
 </ul>
 </li>
-<li>In <code>SubMeshes</code>, add any new submeshes to the submesh list by duplicating an existing submesh in the flatc <code>.json</code> in the <code>Submeshes</code> list, and simply replacing the name.</li>
-<li>Replace <code>BonesToWeightIndices</code> with the one in the exported JSON. </li>
+<li>The exported model will be placed in a new folder where you exported to called "_Exported_MInfo".</li>
 </ul>
-<p>Back in the command line, run the following command:</p>
-<div class="highlight"><span class="filename">Command</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>flatc --binary MInfo_ModelInfo.fbs &lt;path to minfo json&gt;
-</code></pre></div>
-<p>This will create a .bin file with the same name as your minfo. Change its file extension to .minfo, and copy it to your mod directory. </p>
-</details>
+<p>This export will create a new set of <code>.minfo</code>, <code>.mmesh</code>, and <code>.skeleton</code> files, as well as a <code>.json</code> file. The <code>.json</code> file is only for debugging purposes.
+To put the model into the game's files, copy the <code>.mmesh</code> file into every LOD folder (<code>model_streaming\lod0</code>, <code>model_streaming\lod1</code>, etc). Also copy the exported <code>.minfo</code> into the corresponding model's folder (<code>model\&lt;model type&gt;\&lt;model name&gt;</code>). If you have modified the model's skeleton, copy it to the model's folder too.</p>
 
 
 
@@ -1136,7 +1096,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 13, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 16, 2024</span>
   </span>
 
     
@@ -1164,14 +1124,14 @@
     
     <nav>
       
-        <a href="https://github.com/WistfulHopes" class="md-author" title="@WistfulHopes">
-          
-          <img src="https://avatars.githubusercontent.com/u/9942055?v=4&size=72" alt="WistfulHopes">
-        </a>
-      
         <a href="https://github.com/AlphaSatanOmega" class="md-author" title="@AlphaSatanOmega">
           
           <img src="https://avatars.githubusercontent.com/u/44583573?v=4&size=72" alt="AlphaSatanOmega">
+        </a>
+      
+        <a href="https://github.com/WistfulHopes" class="md-author" title="@WistfulHopes">
+          
+          <img src="https://avatars.githubusercontent.com/u/9942055?v=4&size=72" alt="WistfulHopes">
         </a>
       
         <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">
