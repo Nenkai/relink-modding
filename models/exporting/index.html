@@ -888,6 +888,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#to-check-for-errors-in-the-export-you-can-re-import-the-exported-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      To check for errors in the export you can re-import the exported file.
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="To check for errors in the export you can re-import the exported file.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#issues-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Issues &amp; Fixes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#old-issues-that-should-now-auto-fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Old issues that should now Auto fix
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1045,7 +1087,7 @@
 <h1 id="model-exporting"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 12h9.8l-2.5-2.5 1.4-1.4 4.9 4.9-4.9 4.9-1.4-1.4 2.5-2.5H9v-2m12 5.4V20H3V6h18v2.6l2 2V4c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2v-4.6l-2 2Z"/></svg></span> Model Exporting<a class="headerlink" href="#model-exporting" title="Permanent link">&para;</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Exporting requires Blender knowledge and command line usage.</p>
+<p>Exporting requires basic knowledge of how to use Blender.</p>
 </div>
 <h2 id="blender-plugin">Blender Plugin<a class="headerlink" href="#blender-plugin" title="Permanent link">&para;</a></h2>
 <p><a href="https://github.com/WistfulHopes/GBFRBlenderImporter/releases">GBFRBlenderExporter</a> is required for model exports. Download the latest release of the <strong><em>Exporter</em></strong>, not the <strong><em>Importer</em></strong>.</p>
@@ -1074,6 +1116,50 @@
 </ul>
 <p>This export will create a new set of <code>.minfo</code>, <code>.mmesh</code>, and <code>.skeleton</code> files, as well as a <code>.json</code> file. The <code>.json</code> file is only for debugging purposes.
 To put the model into the game's files, copy the <code>.mmesh</code> file into every LOD folder (<code>model_streaming\lod0</code>, <code>model_streaming\lod1</code>, etc). Also copy the exported <code>.minfo</code> into the corresponding model's folder (<code>model\&lt;model type&gt;\&lt;model name&gt;</code>). If you have modified the model's skeleton, copy it to the model's folder too.</p>
+<details class="abstract">
+<summary>Known Export Issues, Requirements, and Fixes</summary>
+<h2 id="to-check-for-errors-in-the-export-you-can-re-import-the-exported-file">To check for errors in the export you can re-import the exported file.<a class="headerlink" href="#to-check-for-errors-in-the-export-you-can-re-import-the-exported-file" title="Permanent link">&para;</a></h2>
+<h3 id="issues-fixes">Issues &amp; Fixes<a class="headerlink" href="#issues-fixes" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Model's Geometry Explodes:<ul>
+<li>There is currently an issue with the exporter that if you edit all of the faces of the model in some way (merging verts by distance), that the mesh will explode.</li>
+<li>If you're doing significant edits, you need to keep at least 1 face of every material of the original mesh intact and untouched. You can just store these faces scaled down inside the model.</li>
+</ul>
+</li>
+<li>Only 1 mesh is allowed on the exported model, so join all meshes together by selecting them all and Pressing <code>CTRL+J</code>.</li>
+<li>Parts of the model are invisible in game:<ul>
+<li>You must keep the original order of Materials in the Materials tab. Compare it to when you first imported the model and sort accordingly.</li>
+</ul>
+</li>
+<li>Parts of the model are transparent in game:
+    Your mesh's normals are there are inverted, flip / recalculate your normals for affected areas.</li>
+<li>UVs look weird/distorted:<ul>
+<li>Due to an Exporter issue, you must split the geometry along all outer Edges of the UV islands. Best way to do this is select the outer edges of the UV islands, mark them as seams, then in the 3D view select all the seams and Split by selected.</li>
+</ul>
+</li>
+</ul>
+<h3 id="old-issues-that-should-now-auto-fix">Old issues that should now Auto fix<a class="headerlink" href="#old-issues-that-should-now-auto-fix" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Model is rotated 90 degrees forward:<ul>
+<li>Exported All Transforms for the model and Armature must be applied before export. Select all objects and press <code>CTRL+A &gt; All Transforms</code> to do this.<ul>
+<li>This is automatically applied to the mesh before export</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Parts of the mesh are stretching and not really following the bones:<ul>
+<li>You need to limit your total Vertex Group weights to <code>3</code>, then <code>Normalize All</code> your weights your weights.<ul>
+<li>This is automatically applied by the exporter on export. If it didn't work, parts of your mesh are missing weights, you can't have any geometry with 0 weight.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="other">Other<a class="headerlink" href="#other" title="Permanent link">&para;</a></h3>
+<ul>
+<li>You can add bones to the armatures, but there is no guaruntee they will animate properly.</li>
+</ul>
+</details>
 
 
 
