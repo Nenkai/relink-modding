@@ -27,4 +27,3 @@ GraniteTextureReader.exe extract-all -t <path to gts> -l <layer number>
 !!! warning
     
     * :material-arrow-right: Make sure to go through all 3 numbered folders.
-    * :material-arrow-right: `4k/gts/1` does not extract with correct names starting `pl1100`, it is a known issue with no known fix so far. Use `2k` instead.
