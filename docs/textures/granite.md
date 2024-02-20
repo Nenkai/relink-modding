@@ -18,12 +18,16 @@ GraniteTextureReader.exe extract-all -t <path to gts> -l <layer number>
 ```
 
 * Replace `<path to gts>` with the actual path to the `.gts` file
-* Replace `-l` with a layer number. The layer number is the type of content that you want to extract, such as:
+* Replace `<layer number>` with a layer number. The layer number is the type of content that you want to extract, such as:
     * `-1` - All layers, **use this by default to extract everything**.
     * `0` - Albedo, regular model textures
     * `1` - Normal maps
     * `2/3` - RGB maps
 
-!!! warning
-    
-    * :material-arrow-right: Make sure to go through all 3 numbered folders.
+!!! note
+
+    You should be going through all three folders to extract all texture contents, but if you only need specific content; each GTS subfolder represents *mostly* a different kind of content:
+
+    * `0/0.gts` - World Textures, Some Effects, Some Weapons
+    * `1/1.gts` - NPC/Character & Faces, Effects
+    * `2/2.gts` - Eye/Iris
