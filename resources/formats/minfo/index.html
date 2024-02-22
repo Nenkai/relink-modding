@@ -16,7 +16,7 @@
         <link rel="prev" href="../../model_ids/">
       
       
-        <link rel="next" href="../../../models/importing/">
+        <link rel="next" href="../mmat/">
       
       
       <link rel="icon" href="../../../images/favicon.png">
@@ -776,9 +776,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#lodinfo" class="md-nav__link">
+  <a href="#streamlod" class="md-nav__link">
     <span class="md-ellipsis">
-      LODInfo
+      StreamLOD
     </span>
   </a>
   
@@ -829,15 +829,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#unk_a11" class="md-nav__link">
-    <span class="md-ellipsis">
-      Unk_A11
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -847,6 +838,103 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mmat/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 14H6c-2.2 0-4 1.8-4 4s1.8 4 4 4h14c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2M6 20c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2m.3-8L13 5.3c.8-.8 2-.8 2.8 0l2.8 2.8c.8.8.8 2 0 2.8l-.9 1.1H6.3M2 13.5V4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2v1.5l-8 8Z"/></svg>
+  
+  <span class="md-ellipsis">
+    .mmat - Material Info
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Reverse-Engineering
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Reverse-Engineering
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../re/hashes/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.368 1.01a.75.75 0 0 1 .623.859L6.57 4.5h3.98l.46-2.868a.75.75 0 0 1 1.48.237L12.07 4.5h2.18a.75.75 0 0 1 0 1.5h-2.42l-.64 4h2.56a.75.75 0 0 1 0 1.5h-2.8l-.46 2.869a.75.75 0 0 1-1.48-.237l.42-2.632H5.45l-.46 2.869a.75.75 0 0 1-1.48-.237l.42-2.632H1.75a.75.75 0 0 1 0-1.5h2.42l.64-4H2.25a.75.75 0 0 1 0-1.5h2.8l.46-2.868a.75.75 0 0 1 .858-.622ZM9.67 10l.64-4H6.33l-.64 4Z"/></svg>
+  
+  <span class="md-ellipsis">
+    Hashes
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1116,169 +1204,169 @@
 </thead>
 <tbody>
 <tr>
-<td>Magic/Date</td>
+<td>magic</td>
 <td>uint</td>
 <td>Should be <code>20230729</code>, <strong>explicitly checked</strong>. Might correspond to a date, 2023/07/09.</td>
 </tr>
 <tr>
-<td>LODInfos</td>
-<td><a href="#lodinfo">LodInfo</a>[]</td>
+<td>lods</td>
+<td><a href="#streamlod">StreamLOD</a>[]</td>
 <td>Parameters for each lod. Each index corresponds to a <code>data/model_streaming/lod{number}</code> entry.</td>
 </tr>
 <tr>
 <td>ShadowLODInfos</td>
-<td><a href="#lodinfo">LodInfo</a>[]</td>
+<td><a href="#streamlod">StreamLOD</a>[]</td>
 <td>Parameters for each shadow lod. Each index corresponds to a <code>data/model_streaming/shadowlod{number}</code> entry.</td>
 </tr>
 <tr>
-<td>A4</td>
+<td>a4</td>
 <td>float</td>
 <td>Unknown. May be related to LOD distance.</td>
 </tr>
 <tr>
-<td>SubMeshes</td>
+<td>sub_meshes</td>
 <td><a href="#submeshinfo">SubMeshInfo</a>[]</td>
 <td>List of submeshes. Addressed by lod infos.</td>
 </tr>
 <tr>
-<td>Materials</td>
+<td>materials</td>
 <td><a href="#materialinfo">MaterialInfo</a>[]</td>
 <td>List of materials used.</td>
 </tr>
 <tr>
-<td>BonesToWeightIndices</td>
+<td>bones_to_weight_indices</td>
 <td>ushort[]</td>
 <td>An array that matches bone indices to weight indices. Any bones not in this list are non-deform.</td>
 </tr>
 <tr>
-<td>DeformBoneBoundaryBox</td>
+<td>deform_bone_boundary_box</td>
 <td>BBox</td>
 <td>Appears to be a boundary box for every deform bone. Not sure what the purpose of this is.</td>
 </tr>
 <tr>
-<td>A9</td>
+<td>vec4_9</td>
 <td>Vec4</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A10</td>
+<td>a10</td>
 <td><a href="#Unk_A10">Unk_A10</a></td>
 <td>Unknown. Used very rarely in bgXXXX files</td>
 </tr>
 <tr>
-<td>A11</td>
-<td><a href="#unk_a11">Unk_A11</a></td>
+<td>vec3_11</td>
+<td>Vec3</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A12</td>
+<td>float12</td>
 <td>float</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A13</td>
+<td>float13</td>
 <td>float</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A14</td>
+<td>float14</td>
 <td>float</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A15</td>
+<td>float15</td>
 <td>float</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A16</td>
+<td>float16</td>
 <td>float</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A17</td>
+<td>float17</td>
 <td>float</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A18</td>
+<td>float18</td>
 <td>float</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A19</td>
+<td>float19</td>
 <td>float</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A20</td>
+<td>float20</td>
 <td>float</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A21</td>
+<td>byte21</td>
 <td>byte</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A22</td>
+<td>byte22</td>
 <td>byte</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A23</td>
-<td>byte</td>
+<td>bool23</td>
+<td>bool</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A24</td>
-<td>byte</td>
+<td>bool24</td>
+<td>bool</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A25</td>
-<td>byte</td>
+<td>bool25</td>
+<td>bool</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A26</td>
-<td>byte</td>
+<td>bool26</td>
+<td>bool</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A27</td>
-<td>byte</td>
+<td>bool27</td>
+<td>bool</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A28</td>
-<td>byte</td>
+<td>bool28</td>
+<td>bool</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A29</td>
-<td>byte</td>
+<td>bool29</td>
+<td>bool</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A30</td>
-<td>byte</td>
+<td>bool30</td>
+<td>bool</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A31</td>
-<td>byte</td>
+<td>bool31</td>
+<td>bool</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A32</td>
-<td>byte</td>
+<td>bool32</td>
+<td>bool</td>
 <td>Unknown.</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h3 id="lodinfo">LODInfo<a class="headerlink" href="#lodinfo" title="Permanent link">&para;</a></h3>
+<h3 id="streamlod">StreamLOD<a class="headerlink" href="#streamlod" title="Permanent link">&para;</a></h3>
 <p>Contains information on how to read a specific .mmesh, depending on LOD.</p>
 <p>Anything polygon related are in terms of polygons times the number of vertices per polygon.  As all models are made of tris, these can be thought of as polygon index times 3.</p>
 <table>
@@ -1291,32 +1379,32 @@
 </thead>
 <tbody>
 <tr>
-<td>MeshBuffer</td>
+<td>mesh_buffers</td>
 <td><a href="#meshbufferlocator">MeshBufferLocator</a></td>
 <td>Location of each mesh buffer.</td>
 </tr>
 <tr>
-<td>Chunks</td>
+<td>chunks</td>
 <td><a href="#lodchunk">LodChunk</a>[]</td>
 <td>Parameters for each lod. Each index corresponds to a <code>data/model_streaming/lod{number}</code> entry.</td>
 </tr>
 <tr>
-<td>VertCount</td>
+<td>vertex_count</td>
 <td>uint</td>
 <td>Total of vertices for this lod mesh.</td>
 </tr>
 <tr>
-<td>PolyCountX3</td>
+<td>poly_count_x3</td>
 <td>uint</td>
 <td>The number of polygons (times 3) in the entire .mmesh.</td>
 </tr>
 <tr>
-<td>BufferTypes</td>
+<td>buffer_types</td>
 <td>byte</td>
 <td>Bitflags determining what mesh buffers are contained in the LOD. 1 = Mesh data (vertex then indices), 2 = Vertex Weight Indices, 8 = Vertex Weights</td>
 </tr>
 <tr>
-<td>A6</td>
+<td>a6</td>
 <td>byte</td>
 <td>Unknown.</td>
 </tr>
@@ -1335,7 +1423,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Offset</td>
+<td>offset</td>
 <td>uint64</td>
 <td>Offset of the buffer within <code>.mmesh</code>.</td>
 </tr>
@@ -1358,32 +1446,32 @@
 </thead>
 <tbody>
 <tr>
-<td>Offset</td>
+<td>offset</td>
 <td>uint</td>
 <td>Beginning polygon index (times 3) for the chunk.</td>
 </tr>
 <tr>
-<td>Count</td>
+<td>count</td>
 <td>uint</td>
 <td>Number of polygons (times 3) in the chunk.</td>
 </tr>
 <tr>
-<td>SubMeshID</td>
+<td>sub_mesh_id</td>
 <td>byte</td>
 <td>The index of the submesh the chunk belongs to.</td>
 </tr>
 <tr>
-<td>MaterialID</td>
+<td>material_id</td>
 <td>byte</td>
 <td>The index of the material the chunk belongs to.</td>
 </tr>
 <tr>
-<td>A5</td>
+<td>a5</td>
 <td>byte</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A6</td>
+<td>a6</td>
 <td>byte</td>
 <td>Unknown.</td>
 </tr>
@@ -1402,14 +1490,14 @@
 </thead>
 <tbody>
 <tr>
-<td>Name</td>
+<td>name</td>
 <td>string</td>
 <td>Name of the sub mesh.</td>
 </tr>
 <tr>
+<td>bbox</td>
 <td>BoundaryBox</td>
-<td>BBox</td>
-<td>A boundary box for the submesh.</td>
+<td>Boundary box for the sub mesh.</td>
 </tr>
 </tbody>
 </table>
@@ -1426,12 +1514,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Hash</td>
+<td>unique_name_hash</td>
 <td>XXHash32Custom(str)</td>
 <td>Unknown String hash. May need to be unique. Also referenced in a few master.evtb files.</td>
 </tr>
 <tr>
-<td>A2</td>
+<td>unk_flags</td>
 <td>byte</td>
 <td>Unknown, likely bitflags.</td>
 </tr>
@@ -1449,51 +1537,23 @@
 </thead>
 <tbody>
 <tr>
-<td>A1</td>
+<td>unk_id</td>
 <td>XXHash32Custom(str)</td>
 <td>Unknown String hash. Not always used.</td>
 </tr>
 <tr>
-<td>A2</td>
+<td>a2</td>
 <td>float</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A3</td>
+<td>a3</td>
 <td>byte</td>
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>A4</td>
+<td>a4</td>
 <td>byte</td>
-<td>Unknown.</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="unk_a11">Unk_A11<a class="headerlink" href="#unk_a11" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Field Name</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A1</td>
-<td>int</td>
-<td>Unknown.</td>
-</tr>
-<tr>
-<td>A2</td>
-<td>Vec3 (?)</td>
-<td>Unknown.</td>
-</tr>
-<tr>
-<td>A3</td>
-<td>Vec3 (?)</td>
 <td>Unknown.</td>
 </tr>
 </tbody>
@@ -1520,7 +1580,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 11, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 22, 2024</span>
   </span>
 
     
@@ -1607,13 +1667,13 @@
         
         
           
-          <a href="../../../models/importing/" class="md-footer__link md-footer__link--next" aria-label="Next: Model Importing">
+          <a href="../mmat/" class="md-footer__link md-footer__link--next" aria-label="Next: .mmat - Material Info">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Model Importing
+                .mmat - Material Info
               </div>
             </div>
             <div class="md-footer__button md-icon">
