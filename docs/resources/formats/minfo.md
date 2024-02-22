@@ -15,42 +15,42 @@ This file is a [FlatBuffer](https://flatbuffers.dev/) file.
 
 | Field Name            | Type           | Description                                        |
 |-----------------------|----------------|----------------------------------------------------|
-| Magic/Date            | uint           | Should be `20230729`, **explicitly checked**. Might correspond to a date, 2023/07/09. |
-| LODInfos              | [LodInfo](#lodinfo)[]      | Parameters for each lod. Each index corresponds to a `data/model_streaming/lod{number}` entry.
-| ShadowLODInfos        | [LodInfo](#lodinfo)[]      | Parameters for each shadow lod. Each index corresponds to a `data/model_streaming/shadowlod{number}` entry.
-| A4                    | float          | Unknown. May be related to LOD distance.
-| SubMeshes             | [SubMeshInfo](#submeshinfo)[]  | List of submeshes. Addressed by lod infos.
-| Materials             | [MaterialInfo](#materialinfo)[] | List of materials used.
-| BonesToWeightIndices  | ushort[]       | An array that matches bone indices to weight indices. Any bones not in this list are non-deform.
-| DeformBoneBoundaryBox | BBox           | Appears to be a boundary box for every deform bone. Not sure what the purpose of this is.
-| A9                    | Vec4           | Unknown.
-| A10                   | [Unk_A10](#Unk_A10)        | Unknown. Used very rarely in bgXXXX files
-| A11                   | [Unk_A11](#unk_a11)        | Unknown.
-| A12                   | float          | Unknown.
-| A13                   | float          | Unknown.
-| A14                   | float          | Unknown.
-| A15                   | float          | Unknown.
-| A16                   | float          | Unknown.
-| A17                   | float          | Unknown.
-| A18                   | float          | Unknown.
-| A19                   | float          | Unknown.
-| A20                   | float          | Unknown.
-| A21                   | byte           | Unknown.
-| A22                   | byte           | Unknown.
-| A23                   | byte           | Unknown.
-| A24                   | byte           | Unknown.
-| A25                   | byte           | Unknown.
-| A26                   | byte           | Unknown.
-| A27                   | byte           | Unknown.
-| A28                   | byte           | Unknown.
-| A29                   | byte           | Unknown.
-| A30                   | byte           | Unknown.
-| A31                   | byte           | Unknown.
-| A32                   | byte           | Unknown.
+| magic                 | uint           | Should be `20230729`, **explicitly checked**. Might correspond to a date, 2023/07/09. |
+| lods                  | [StreamLOD](#streamlod)[]      | Parameters for each lod. Each index corresponds to a `data/model_streaming/lod{number}` entry.
+| ShadowLODInfos        | [StreamLOD](#streamlod)[]      | Parameters for each shadow lod. Each index corresponds to a `data/model_streaming/shadowlod{number}` entry.
+| a4                    | float          | Unknown. May be related to LOD distance.
+| sub_meshes            | [SubMeshInfo](#submeshinfo)[]  | List of submeshes. Addressed by lod infos.
+| materials             | [MaterialInfo](#materialinfo)[] | List of materials used.
+| bones_to_weight_indices | ushort[]       | An array that matches bone indices to weight indices. Any bones not in this list are non-deform.
+| deform_bone_boundary_box | BBox           | Appears to be a boundary box for every deform bone. Not sure what the purpose of this is.
+| vec4_9                | Vec4           | Unknown.
+| a10                   | [Unk_A10](#Unk_A10)        | Unknown. Used very rarely in bgXXXX files
+| vec3_11               | Vec3           | Unknown.
+| float12               | float          | Unknown.
+| float13               | float          | Unknown.
+| float14               | float          | Unknown.
+| float15               | float          | Unknown.
+| float16               | float          | Unknown.
+| float17               | float          | Unknown.
+| float18               | float          | Unknown.
+| float19               | float          | Unknown.
+| float20               | float          | Unknown.
+| byte21                | byte           | Unknown.
+| byte22                | byte           | Unknown.
+| bool23                | bool           | Unknown.
+| bool24                | bool           | Unknown.
+| bool25                | bool           | Unknown.
+| bool26                | bool           | Unknown.
+| bool27                | bool           | Unknown.
+| bool28                | bool           | Unknown.
+| bool29                | bool           | Unknown.
+| bool30                | bool           | Unknown.
+| bool31                | bool           | Unknown.
+| bool32                | bool           | Unknown.
 
 ---
 
-### LODInfo
+### StreamLOD
 
 Contains information on how to read a specific .mmesh, depending on LOD.
 
@@ -58,12 +58,12 @@ Anything polygon related are in terms of polygons times the number of vertices p
 
 | Field Name            | Type              | Description                                        |
 |-----------------------|-------------------|----------------------------------------------------|
-| MeshBuffer            | [MeshBufferLocator](#meshbufferlocator) | Location of each mesh buffer.                      |
-| Chunks                | [LodChunk](#lodchunk)[]        | Parameters for each lod. Each index corresponds to a `data/model_streaming/lod{number}` entry.
-| VertCount             | uint              | Total of vertices for this lod mesh.
-| PolyCountX3           | uint              | The number of polygons (times 3) in the entire .mmesh.
-| BufferTypes           | byte              | Bitflags determining what mesh buffers are contained in the LOD. 1 = Mesh data (vertex then indices), 2 = Vertex Weight Indices, 8 = Vertex Weights
-| A6                    | byte              | Unknown.
+| mesh_buffers          | [MeshBufferLocator](#meshbufferlocator) | Location of each mesh buffer.                      |
+| chunks                | [LodChunk](#lodchunk)[]        | Parameters for each lod. Each index corresponds to a `data/model_streaming/lod{number}` entry.
+| vertex_count          | uint              | Total of vertices for this lod mesh.
+| poly_count_x3         | uint              | The number of polygons (times 3) in the entire .mmesh.
+| buffer_types          | byte              | Bitflags determining what mesh buffers are contained in the LOD. 1 = Mesh data (vertex then indices), 2 = Vertex Weight Indices, 8 = Vertex Weights
+| a6                    | byte              | Unknown.
 
 ---
 
@@ -73,7 +73,7 @@ A `.mmesh` is broken into different "buffers".
 
 | Field Name            | Type              | Description                                        |
 |-----------------------|-------------------|----------------------------------------------------|
-| Offset                | uint64            | Offset of the buffer within `.mmesh`.              |
+| offset                | uint64            | Offset of the buffer within `.mmesh`.              |
 | BoundaryBox           | BBox              | Size of the buffer within `.mmesh`.
 
 ---
@@ -82,12 +82,12 @@ A `.mmesh` is broken into different "buffers".
 
 | Field Name            | Type              | Description                                        |
 |-----------------------|-------------------|----------------------------------------------------|
-| Offset                | uint              | Beginning polygon index (times 3) for the chunk.   |
-| Count                 | uint              | Number of polygons (times 3) in the chunk.
-| SubMeshID             | byte              | The index of the submesh the chunk belongs to.
-| MaterialID            | byte              | The index of the material the chunk belongs to.
-| A5                    | byte           | Unknown.
-| A6                    | byte           | Unknown.
+| offset                | uint              | Beginning polygon index (times 3) for the chunk.   |
+| count                 | uint              | Number of polygons (times 3) in the chunk.
+| sub_mesh_id           | byte              | The index of the submesh the chunk belongs to.
+| material_id           | byte              | The index of the material the chunk belongs to.
+| a5                    | byte           | Unknown.
+| a6                    | byte           | Unknown.
 
 ---
 
@@ -97,8 +97,8 @@ All .minfos are comprised of one or more submeshes. These submeshes can be toggl
 
 | Field Name            | Type              | Description                                        |
 |-----------------------|-------------------|----------------------------------------------------|
-| Name                  | string            | Name of the sub mesh.                      |
-| BoundaryBox           | BBox              | A boundary box for the submesh.
+| name                  | string            | Name of the sub mesh.                      |
+| bbox                  | BoundaryBox       | Boundary box for the sub mesh.                     |
 
 ---
 
@@ -108,8 +108,8 @@ Contains all material slots.
 
 | Field Name            | Type              | Description                                        |
 |-----------------------|-------------------|----------------------------------------------------|
-| Hash                  | XXHash32Custom(str) | Unknown String hash. May need to be unique. Also referenced in a few master.evtb files.            |
-| A2                    | byte              | Unknown, likely bitflags.
+| unique_name_hash      | XXHash32Custom(str) | Unknown String hash. May need to be unique. Also referenced in a few master.evtb files.            |
+| unk_flags             | byte              | Unknown, likely bitflags.
 
 ---
 
@@ -117,17 +117,8 @@ Contains all material slots.
 
 | Field Name            | Type              | Description                                        |
 |-----------------------|-------------------|----------------------------------------------------|
-| A1                    | XXHash32Custom(str) | Unknown String hash. Not always used.            |
-| A2                    | float             | Unknown.
-| A3                    | byte             | Unknown.
-| A4                    | byte             | Unknown.
+| unk_id                | XXHash32Custom(str) | Unknown String hash. Not always used.            |
+| a2                    | float             | Unknown.
+| a3                    | byte             | Unknown.
+| a4                    | byte             | Unknown.
 
----
-
-### Unk_A11
-
-| Field Name            | Type              | Description                                        |
-|-----------------------|-------------------|----------------------------------------------------|
-| A1                    | int               | Unknown.                                           |
-| A2                    | Vec3 (?)          | Unknown.
-| A3                    | Vec3 (?)          | Unknown.

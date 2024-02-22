@@ -17,6 +17,10 @@ If you want to extract textures, run the following command:
 GraniteTextureReader.exe extract-all -t <path to gts> -l <layer number>
 ```
 
+!!! warning
+
+    `-l` is a L, not a i/1.
+
 * Replace `<path to gts>` with the actual path to the `.gts` file
 * Replace `<layer number>` with a layer number. The layer number is the type of content that you want to extract, such as:
     * `-1` - All layers, **use this by default to extract everything**.
