@@ -18,7 +18,7 @@ Read the [Quick Start Guide](https://reloaded-project.github.io/Reloaded-II/Quic
 
 ## Granblue Fantasy Relink Mod Manager
 
-:material-arrow-right: [Download the Granblue Fantasy Relink Mod Manager](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases/). Extract the mod into `Reloaded-II\Mods`.
+:material-arrow-right: [Download the Granblue Fantasy Relink Mod Manager](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases/tag/v1.0.1). Extract the mod into `Reloaded-II\Mods`.
 
 ---
 
