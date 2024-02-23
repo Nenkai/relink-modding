@@ -75,6 +75,7 @@ nav:
         .mmat - Material Info: resources/formats/mmat.md
     - Reverse-Engineering:
         Hashes: resources/re/hashes.md
+        Obj IDs: resources/re/obj_id.md
       
   - Models:
     - Model Importing: models/importing.md 
