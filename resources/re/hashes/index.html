@@ -13,14 +13,14 @@
         <link rel="canonical" href="https://nenkai.github.io/relink-modding/resources/re/hashes/">
       
       
-        <link rel="prev" href="../../formats/mmat/">
+        <link rel="prev" href="../../formats/objread/">
       
       
         <link rel="next" href="../obj_id/">
       
       
       <link rel="icon" href="../../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.10">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.11">
     
     
       
@@ -753,6 +753,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formats/objread/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    .objread - Obj Read
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -868,6 +889,21 @@
       Algorithm
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Algorithm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tester" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tester
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1165,6 +1201,19 @@
 <h2 id="algorithm">Algorithm<a class="headerlink" href="#algorithm" title="Permanent link">&para;</a></h2>
 <p>The algorithm is XXHash32 with some odd twist.</p>
 <p>C# code for it can be found <a href="https://github.com/Nenkai/GBFRDataTools/blob/master/GBFRDataTools.Hashing/XXHash32Custom.cs">here</a>.</p>
+<h4 id="tester">Tester<a class="headerlink" href="#tester" title="Permanent link">&para;</a></h4>
+<div>
+    <input
+        class="md-input"
+        placeholder="Input string here..."
+        id="hash-str" name="hash-str"
+        required min="0" maxlength="64" size="20"
+        style="width: 500px;"
+    />
+    <span></span>
+    <label name="hash-value" id="hash-value">N/A</label>
+</div>
+
 <hr />
 <h2 id="hash-list">Hash List<a class="headerlink" href="#hash-list" title="Permanent link">&para;</a></h2>
 <p>You can grab a zipped hash list <a href="../hashlist.7z">here</a>.</p>
@@ -1175,6 +1224,123 @@
 <li>Hashes for most strings gathered from the executable (1.0.3) with <code>strings2</code></li>
 <li>Hashes for most strings gathered from NierAutomata.exe with <code>strings2</code></li>
 </ul>
+<script>
+document.getElementById("hash-str").addEventListener("input", (event) => {
+  var str = document.getElementById("hash-str").value;
+  if (str.length == 0)
+  {
+    document.getElementById("hash-value").innerHTML = "N/A";
+    return;
+  }
+
+  var hash = XXHash32Custom(document.getElementById("hash-str").value);
+  hash >>>= 0; // Convert to unsigned
+  document.getElementById("hash-value").innerHTML = hash.toString(16).toUpperCase();
+});
+
+var PRIME32_1 = 0x9e3779b1;
+var PRIME32_2 = 0x85EBCA77;
+var PRIME32_3 = 0xC2B2AE3D;
+var PRIME32_4 = 0x27D4EB2F;
+var PRIME32_5 = 0x165667B1;
+
+function XXHash32Custom(str)
+{
+    var array = asciiToUint8Array(str);
+    var inputLength = array.length;
+
+    var h32 = 0x178A54A4;
+    if (str.length >= 16)
+    {
+        var v1 = 0x2557311B;
+        var v2 = 0x871FB76A;
+        var v3 = 0x0133ECF3;
+        var v4 = 0x62FC7342;
+
+        do
+        {
+            v1 = XXH32_round(v1, getInt32(array));
+            v2 = XXH32_round(v2, getInt32(array.subarray(4)));
+            v3 = XXH32_round(v3, getInt32(array.subarray(8)));
+            v4 = XXH32_round(v4, getInt32(array.subarray(12)));
+
+            array = array.subarray(16);
+        }
+        while (array.length > 16);
+
+        h32 = XXH32_rotl(v1, 1)
+            + XXH32_rotl(v2, 7)
+            + XXH32_rotl(v3, 12)
+            + XXH32_rotl(v4, 18);
+    }
+
+    h32 += inputLength;
+
+    while (array.length >= 4)
+    {
+        h32 = Math.imul(XXH32_rotl(h32 + Math.imul(getInt32(array), PRIME32_3), 17), PRIME32_4);
+        array = array.subarray(4);
+    }
+
+    while (array.length > 0)
+    {
+        h32 = Math.imul(XXH32_rotl(h32 + Math.imul(array[0], PRIME32_5), 11), PRIME32_1);
+        array = array.subarray(1);
+    }
+
+    h32 ^= h32 >>> 15;
+    h32 = Math.imul(h32, PRIME32_2);
+    h32 ^= h32 >>> 13;
+    h32 = Math.imul(h32, PRIME32_3);
+    h32 ^= h32 >>> 16;
+
+    return h32;
+}
+
+function XXH32_round(seed, inputVal)
+{
+    return Math.imul(XXH32_rotl(seed + Math.imul(inputVal, PRIME32_2), 13), PRIME32_1);
+}
+
+function getInt32(uint8Arr)
+{
+    var val = uint8Arr[0] | (uint8Arr[1] << 8) | (uint8Arr[2] << 16) | (uint8Arr[3] << 24);
+    return val;
+}
+
+function XXH32_rotl(x, r)
+{
+    return x << r | x >>> 32 - r;
+}
+
+//// JS Utils
+function asciiToUint8Array(str){
+  var chars = [];
+  for (var i = 0; i < str.length; ++i){
+    chars.push(str.charCodeAt(i));
+  }
+  return new Uint8Array(chars);
+}
+
+function convert(Uint8Arr) {
+    var length = Uint8Arr.length;
+
+    let buffer = Buffer.from(Uint8Arr);
+    var result = buffer.readUIntBE(0, length);
+
+    return result;
+}
+
+function decimalToHexString(number)
+{
+  if (number < 0)
+  {
+    number = 0xFFFFFFFF + number + 1;
+  }
+
+  return number.toString(16).toUpperCase();
+}
+</script>
 
 
 
@@ -1197,7 +1363,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 22, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 24, 2024</span>
   </span>
 
     
@@ -1267,7 +1433,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../formats/mmat/" class="md-footer__link md-footer__link--prev" aria-label="Previous: .mmat - Material Info">
+          <a href="../../formats/objread/" class="md-footer__link md-footer__link--prev" aria-label="Previous: .objread - Obj Read">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1277,7 +1443,7 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                .mmat - Material Info
+                .objread - Obj Read
               </div>
             </div>
           </a>

@@ -2,82 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://nenkai.github.io/relink-modding/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/contributing/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/getting_started/extraction_modding/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/getting_started/mod_manager/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/models/exporting/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/models/importing/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/asset_paths/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/entity_prefixes/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/file_extensions/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/model_ids/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/formats/minfo/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/formats/mmat/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nenkai.github.io/relink-modding/resources/formats/objread/</loc>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/re/hashes/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/re/obj_id/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/textures/granite/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/textures/textures/</loc>
-         <lastmod>2024-02-23</lastmod>
+         <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
