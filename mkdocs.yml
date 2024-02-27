@@ -70,6 +70,8 @@ nav:
     - File Extensions: resources/file_extensions.md
     - Entity Prefixes: resources/entity_prefixes.md
     - Model IDs: resources/model_ids.md
+    - Sigil/Gem IDs: resources/sigil_gem_ids.md
+    - Quest IDs: resources/quest_ids.md
     - Formats:
         .minfo - Model Info: resources/formats/minfo.md
         .mmat - Material Info: resources/formats/mmat.md
@@ -127,6 +129,7 @@ plugins:
   - search:
       lang: en
   - glightbox
+  - table-reader
       
 extra:
   social:

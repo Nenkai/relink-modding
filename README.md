@@ -8,8 +8,7 @@ Dependencies are mkdocs-material among other extensions.
 
 Python 3 is required.
 ```
-pip install mkdocs-material
-pip install mkdocs-git-committers-plugin-2
+pip install mkdocs-material mkdocs-git-committers-plugin-2 mkdocs-table-reader-plugin
 
 // Windows
 pip install pipwin 

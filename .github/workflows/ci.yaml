@@ -22,5 +22,5 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin pillow cairosvg mkdocs-glightbox mkdocs-git-committers-plugin-2
+      - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin pillow cairosvg mkdocs-glightbox mkdocs-git-committers-plugin-2 mkdocs-table-reader-plugin
       - run: mkdocs gh-deploy --force
