@@ -11163,14 +11163,8 @@ First Clear Rewards:
 
 🎁 Chest
 * Lot #1 (Total Weight: 2000)
-    NOTE: This lot has 80% chance of being excluded from the lot selection
-    list when the chest is rolled, 1/5 of showing up.
-
-    This also means that if it does roll to appear, another 1/5 has 
-    to be accounted for for this lot to be chosen.
-
-    This rounds up to 1/25 (4%) for a chance to get any weapon, 
-    where any weapon already obtained will be removed from this list.
+    NOTE: This lot has 80% chance of being excluded from the lot selection (aka 1/5 of showing up)
+    Another 1/5 is applied (although unclear how), Rounding to 1/25 or 5% chance of getting any weapon.
     ----
     - Seven-Star Sword (Seven-Star Sword, Celestial) (PL0000) (5% - 100)
     - Seven-Star Sword (Seven-Star Sword, Celestial) (PL1000) (5% - 100)
