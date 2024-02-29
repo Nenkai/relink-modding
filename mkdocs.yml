@@ -72,6 +72,7 @@ nav:
     - Model IDs: resources/model_ids.md
     - Sigil/Gem IDs: resources/sigil_gem_ids.md
     - Quest IDs: resources/quest_ids.md
+    - Quest Drop Rates: resources/quest_drop_rates.md
     - Formats:
         .minfo - Model Info: resources/formats/minfo.md
         .mmat - Material Info: resources/formats/mmat.md
