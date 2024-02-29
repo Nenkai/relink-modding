@@ -6,12 +6,12 @@ icon: material/help-box
 
     * If you are using this anywhere, give proper credits to Nenkai
     * Refer to [Quest Drop Rates](quest_drop_rates.md) for Curio Tier drop rates.
-    * Group selected depends on **Quest Progress**.
-        * Group #1 = Any from game start to Wings of Antiquity (`00404101`)
-        * Group #2 = Any from Wings of Antiquity (`00404101`) to `10A002`
-        * Group #3 = Any from `10A002` to `10A031`
-        * Group #4 = Any from `10A031` to The Final Report (`407101`)
-        * Group #5 = Any from The Final Report (`407101`)
+    * Group selected depends on **current quest progress**.
+        * Group #1 = Before Very Hard unlocked
+        * Group #2 = Very Hard unlocked
+        * Group #3 = Extreme unlocked
+        * Group #4 = Maniac unlocked
+        * Group #5 = Proud unlocked
     
 If you need to find a specific item, ++ctrl+f++ and search by name.
 
