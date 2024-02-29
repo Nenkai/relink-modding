@@ -36,6 +36,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://nenkai.github.io/relink-modding/resources/curio_loot_rates/</loc>
+         <lastmod>2024-02-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://nenkai.github.io/relink-modding/resources/entity_prefixes/</loc>
          <lastmod>2024-02-29</lastmod>
          <changefreq>daily</changefreq>
