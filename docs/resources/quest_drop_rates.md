@@ -10,8 +10,9 @@ icon: material/treasure-chest
     * Proud difficulty is a 100% chance of curio drop.
     * Curio drops start on Hard difficulty.
     * The other curios don't actually have names. The 'T' naming should be used instead (Tier)
+    * **Weapon drop rate is not completely understood yet.**
 
-If you need to find a specific mission, ++ctrl+f++ and search by quest name.
+If you need to find a specific quest, ++ctrl+f++ and search by quest name.
 
 ## Bash the Goblin Hordes (401310)
 
@@ -11162,7 +11163,7 @@ First Clear Rewards:
     - x1 Curio (T4) (3% - 300)
 
 🎁 Chest
-* Lot #1 (Total Weight: 2000) - Note: 5% is not combined for this table - 5% is the chance for getting any weapon
+* Lot #1 (Total Weight: 2000) - Lot has 80% chance to be excluded, 20% (1/5) to appear
     - Seven-Star Sword (Seven-Star Sword, Celestial) (PL0000) (5% - 100)
     - Seven-Star Sword (Seven-Star Sword, Celestial) (PL1000) (5% - 100)
     - Blutgang (Blutgang, Blade of Refuge) (5% - 100)

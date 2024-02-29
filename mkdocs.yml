@@ -20,7 +20,6 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
-    - toc.integrate
     - toc.follow
     - search.suggest
     - search.highlight
@@ -73,6 +72,7 @@ nav:
     - Sigil/Gem IDs: resources/sigil_gem_ids.md
     - Quest IDs: resources/quest_ids.md
     - Quest Drop Rates: resources/quest_drop_rates.md
+    - Curio Loot Rates: resources/curio_loot_rates.md
     - Formats:
         .minfo - Model Info: resources/formats/minfo.md
         .mmat - Material Info: resources/formats/mmat.md
