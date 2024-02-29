@@ -10,7 +10,6 @@ icon: material/treasure-chest
     * Proud difficulty is a 100% chance of curio drop.
     * Curio drops start on Hard difficulty.
     * The other curios don't actually have names. The 'T' naming should be used instead (Tier)
-    * **Weapon drop rate is not completely understood yet.**
 
 If you need to find a specific quest, ++ctrl+f++ and search by quest name.
 
@@ -11163,7 +11162,16 @@ First Clear Rewards:
     - x1 Curio (T4) (3% - 300)
 
 🎁 Chest
-* Lot #1 (Total Weight: 2000) - Lot has 80% chance to be excluded, 20% (1/5) to appear
+* Lot #1 (Total Weight: 2000)
+    NOTE: This lot has 80% chance of being excluded from the lot selection
+    list when the chest is rolled, 1/5 of showing up.
+
+    This also means that if it does roll to appear, another 1/5 has 
+    to be accounted for for this lot to be chosen.
+
+    This rounds up to 1/25 (4%) for a chance to get any weapon, 
+    where any weapon already obtained will be removed from this list.
+    ----
     - Seven-Star Sword (Seven-Star Sword, Celestial) (PL0000) (5% - 100)
     - Seven-Star Sword (Seven-Star Sword, Celestial) (PL1000) (5% - 100)
     - Blutgang (Blutgang, Blade of Refuge) (5% - 100)
