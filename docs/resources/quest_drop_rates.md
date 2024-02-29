@@ -10,6 +10,7 @@ icon: material/treasure-chest
     * Some curio drops appears to be locked until Proud difficulty is reached.
     * Proud difficulty is a 100% chance of curio drop.
     * Curio drops start on Hard difficulty.
+    * The other curios don't actually have names. The 'T' naming should be used instead (Tier)
 
 ## Bash the Goblin Hordes (401310)
 
@@ -1079,10 +1080,10 @@ Clear Rewards:
     - x3 Damaged Tail Fin (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 20000)
-    - x1 Curio (1) (30% - 6000)
-    - x1 Curio (2) (13.5% - 2700)
-    - x1 Curio (3) (5% - 1000)
-    - x1 Curio (4) (1.5% - 300)
+    - x1 Curio (T1) (30% - 6000)
+    - x1 Curio (T2) (13.5% - 2700)
+    - x1 Curio (T3) (5% - 1000)
+    - x1 Curio (T4) (1.5% - 300)
     - Nothing (50% - 10000)
 
 1 Star (B Rank):
@@ -1139,10 +1140,10 @@ Clear Rewards:
     - x3 Whorlshroom (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 20000)
-    - x1 Curio (1) (30% - 6000)
-    - x1 Curio (2) (13.5% - 2700)
-    - x1 Curio (3) (5% - 1000)
-    - x1 Curio (4) (1.5% - 300)
+    - x1 Curio (T1) (30% - 6000)
+    - x1 Curio (T2) (13.5% - 2700)
+    - x1 Curio (T3) (5% - 1000)
+    - x1 Curio (T4) (1.5% - 300)
     - Nothing (50% - 10000)
 
 1 Star (B Rank):
@@ -1200,10 +1201,10 @@ Clear Rewards:
     - x3 Whorlshroom (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 20000)
-    - x1 Curio (1) (30% - 6000)
-    - x1 Curio (2) (13.5% - 2700)
-    - x1 Curio (3) (5% - 1000)
-    - x1 Curio (4) (1.5% - 300)
+    - x1 Curio (T1) (30% - 6000)
+    - x1 Curio (T2) (13.5% - 2700)
+    - x1 Curio (T3) (5% - 1000)
+    - x1 Curio (T4) (1.5% - 300)
     - Nothing (50% - 10000)
 
 1 Star (B Rank):
@@ -1258,10 +1259,10 @@ Clear Rewards:
     - x3 Whorlshroom (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 20000)
-    - x1 Curio (1) (30% - 6000)
-    - x1 Curio (2) (13.5% - 2700)
-    - x1 Curio (3) (5% - 1000)
-    - x1 Curio (4) (1.5% - 300)
+    - x1 Curio (T1) (30% - 6000)
+    - x1 Curio (T2) (13.5% - 2700)
+    - x1 Curio (T3) (5% - 1000)
+    - x1 Curio (T4) (1.5% - 300)
     - Nothing (50% - 10000)
 
 1 Star (B Rank):
@@ -1316,10 +1317,10 @@ Clear Rewards:
     - x3 Red-Hot Cactus (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 20000)
-    - x1 Curio (1) (30% - 6000)
-    - x1 Curio (2) (13.5% - 2700)
-    - x1 Curio (3) (5% - 1000)
-    - x1 Curio (4) (1.5% - 300)
+    - x1 Curio (T1) (30% - 6000)
+    - x1 Curio (T2) (13.5% - 2700)
+    - x1 Curio (T3) (5% - 1000)
+    - x1 Curio (T4) (1.5% - 300)
     - Nothing (50% - 10000)
 
 1 Star (B Rank):
@@ -1383,10 +1384,10 @@ Clear Rewards:
     - x8 Red-Hot Cactus (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 20000)
-    - x1 Curio (1) (30% - 6000)
-    - x1 Curio (2) (13.5% - 2700)
-    - x1 Curio (3) (5% - 1000)
-    - x1 Curio (4) (1.5% - 300)
+    - x1 Curio (T1) (30% - 6000)
+    - x1 Curio (T2) (13.5% - 2700)
+    - x1 Curio (T3) (5% - 1000)
+    - x1 Curio (T4) (1.5% - 300)
     - Nothing (50% - 10000)
 
 1 Star (B Rank):
@@ -1442,10 +1443,10 @@ Clear Rewards:
     - x3 Snow Pillow (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 20000)
-    - x1 Curio (1) (30% - 6000)
-    - x1 Curio (2) (13.5% - 2700)
-    - x1 Curio (3) (5% - 1000)
-    - x1 Curio (4) (1.5% - 300)
+    - x1 Curio (T1) (30% - 6000)
+    - x1 Curio (T2) (13.5% - 2700)
+    - x1 Curio (T3) (5% - 1000)
+    - x1 Curio (T4) (1.5% - 300)
     - Nothing (50% - 10000)
 
 1 Star (B Rank):
@@ -1503,10 +1504,10 @@ Clear Rewards:
     - x3 Whorlshroom (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 20000)
-    - x1 Curio (1) (30% - 6000)
-    - x1 Curio (2) (13.5% - 2700)
-    - x1 Curio (3) (5% - 1000)
-    - x1 Curio (4) (1.5% - 300)
+    - x1 Curio (T1) (30% - 6000)
+    - x1 Curio (T2) (13.5% - 2700)
+    - x1 Curio (T3) (5% - 1000)
+    - x1 Curio (T4) (1.5% - 300)
     - Nothing (50% - 10000)
 
 1 Star (B Rank):
@@ -1562,10 +1563,10 @@ Clear Rewards:
     - x3 Salamander Egg (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 20000)
-    - x1 Curio (1) (30% - 6000)
-    - x1 Curio (2) (13.5% - 2700)
-    - x1 Curio (3) (5% - 1000)
-    - x1 Curio (4) (1.5% - 300)
+    - x1 Curio (T1) (30% - 6000)
+    - x1 Curio (T2) (13.5% - 2700)
+    - x1 Curio (T3) (5% - 1000)
+    - x1 Curio (T4) (1.5% - 300)
     - Nothing (50% - 10000)
 
 1 Star (B Rank):
@@ -1623,10 +1624,10 @@ Clear Rewards:
     - x3 Dark Liquid (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 20000)
-    - x1 Curio (1) (30% - 6000)
-    - x1 Curio (2) (13.5% - 2700)
-    - x1 Curio (3) (5% - 1000)
-    - x1 Curio (4) (1.5% - 300)
+    - x1 Curio (T1) (30% - 6000)
+    - x1 Curio (T2) (13.5% - 2700)
+    - x1 Curio (T3) (5% - 1000)
+    - x1 Curio (T4) (1.5% - 300)
     - Nothing (50% - 10000)
 
 1 Star (B Rank):
@@ -1688,10 +1689,10 @@ Clear Rewards:
     - x5 Rafale Coin (30% - 3000)
     - x7 Rafale Coin (10% - 1000)
 * Lot #5 (Total Weight: 16666)
-    - x1 Curio (1) (36% - 6000)
-    - x1 Curio (2) (16.2% - 2700)
-    - x1 Curio (3) (6% - 1000)
-    - x1 Curio (4) (1.8% - 300)
+    - x1 Curio (T1) (36% - 6000)
+    - x1 Curio (T2) (16.2% - 2700)
+    - x1 Curio (T3) (6% - 1000)
+    - x1 Curio (T4) (1.8% - 300)
     - Nothing (40% - 6666)
 
 1 Star (B Rank):
@@ -1744,10 +1745,10 @@ Clear Rewards:
     - x3 Machine Unit (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #4 (Total Weight: 16666)
-    - x1 Curio (1) (36% - 6000)
-    - x1 Curio (2) (16.2% - 2700)
-    - x1 Curio (3) (6% - 1000)
-    - x1 Curio (4) (1.8% - 300)
+    - x1 Curio (T1) (36% - 6000)
+    - x1 Curio (T2) (16.2% - 2700)
+    - x1 Curio (T3) (6% - 1000)
+    - x1 Curio (T4) (1.8% - 300)
     - Nothing (40% - 6666)
 
 1 Star (B Rank):
@@ -1807,10 +1808,10 @@ Clear Rewards:
     - x5 Rafale Coin (30% - 3000)
     - x7 Rafale Coin (10% - 1000)
 * Lot #5 (Total Weight: 16666)
-    - x1 Curio (1) (36% - 6000)
-    - x1 Curio (2) (16.2% - 2700)
-    - x1 Curio (3) (6% - 1000)
-    - x1 Curio (4) (1.8% - 300)
+    - x1 Curio (T1) (36% - 6000)
+    - x1 Curio (T2) (16.2% - 2700)
+    - x1 Curio (T3) (6% - 1000)
+    - x1 Curio (T4) (1.8% - 300)
     - Nothing (40% - 6666)
 
 1 Star (B Rank):
@@ -1866,10 +1867,10 @@ Clear Rewards:
     - x3 Vermillion Powder (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #4 (Total Weight: 16666)
-    - x1 Curio (1) (36% - 6000)
-    - x1 Curio (2) (16.2% - 2700)
-    - x1 Curio (3) (6% - 1000)
-    - x1 Curio (4) (1.8% - 300)
+    - x1 Curio (T1) (36% - 6000)
+    - x1 Curio (T2) (16.2% - 2700)
+    - x1 Curio (T3) (6% - 1000)
+    - x1 Curio (T4) (1.8% - 300)
     - Nothing (40% - 6666)
 
 1 Star (B Rank):
@@ -1932,10 +1933,10 @@ Clear Rewards:
     - Blight Resistance III (24% - 4000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 16666)
-    - x1 Curio (1) (36% - 6000)
-    - x1 Curio (2) (16.2% - 2700)
-    - x1 Curio (3) (6% - 1000)
-    - x1 Curio (4) (1.8% - 300)
+    - x1 Curio (T1) (36% - 6000)
+    - x1 Curio (T2) (16.2% - 2700)
+    - x1 Curio (T3) (6% - 1000)
+    - x1 Curio (T4) (1.8% - 300)
     - Nothing (40% - 6666)
 
 1 Star (B Rank):
@@ -1997,10 +1998,10 @@ Clear Rewards:
     - x5 Rafale Coin (30% - 3000)
     - x7 Rafale Coin (10% - 1000)
 * Lot #5 (Total Weight: 16666)
-    - x1 Curio (1) (36% - 6000)
-    - x1 Curio (2) (16.2% - 2700)
-    - x1 Curio (3) (6% - 1000)
-    - x1 Curio (4) (1.8% - 300)
+    - x1 Curio (T1) (36% - 6000)
+    - x1 Curio (T2) (16.2% - 2700)
+    - x1 Curio (T3) (6% - 1000)
+    - x1 Curio (T4) (1.8% - 300)
     - Nothing (40% - 6666)
 
 1 Star (B Rank):
@@ -2063,10 +2064,10 @@ Clear Rewards:
     - x5 Rafale Coin (30% - 3000)
     - x7 Rafale Coin (10% - 1000)
 * Lot #5 (Total Weight: 16666)
-    - x1 Curio (1) (36% - 6000)
-    - x1 Curio (2) (16.2% - 2700)
-    - x1 Curio (3) (6% - 1000)
-    - x1 Curio (4) (1.8% - 300)
+    - x1 Curio (T1) (36% - 6000)
+    - x1 Curio (T2) (16.2% - 2700)
+    - x1 Curio (T3) (6% - 1000)
+    - x1 Curio (T4) (1.8% - 300)
     - Nothing (40% - 6666)
 
 1 Star (B Rank):
@@ -2130,10 +2131,10 @@ Clear Rewards:
     - x5 Rafale Coin (30% - 3000)
     - x7 Rafale Coin (10% - 1000)
 * Lot #5 (Total Weight: 16666)
-    - x1 Curio (1) (36% - 6000)
-    - x1 Curio (2) (16.2% - 2700)
-    - x1 Curio (3) (6% - 1000)
-    - x1 Curio (4) (1.8% - 300)
+    - x1 Curio (T1) (36% - 6000)
+    - x1 Curio (T2) (16.2% - 2700)
+    - x1 Curio (T3) (6% - 1000)
+    - x1 Curio (T4) (1.8% - 300)
     - Nothing (40% - 6666)
 
 1 Star (B Rank):
@@ -2197,10 +2198,10 @@ Clear Rewards:
     - x5 Rafale Coin (30% - 3000)
     - x7 Rafale Coin (10% - 1000)
 * Lot #5 (Total Weight: 16666)
-    - x1 Curio (1) (36% - 6000)
-    - x1 Curio (2) (16.2% - 2700)
-    - x1 Curio (3) (6% - 1000)
-    - x1 Curio (4) (1.8% - 300)
+    - x1 Curio (T1) (36% - 6000)
+    - x1 Curio (T2) (16.2% - 2700)
+    - x1 Curio (T3) (6% - 1000)
+    - x1 Curio (T4) (1.8% - 300)
     - Nothing (40% - 6666)
 
 1 Star (B Rank):
@@ -2260,10 +2261,10 @@ Clear Rewards:
     - x3 Tempestone (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -2320,10 +2321,10 @@ Clear Rewards:
     - x3 Machine Unit (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -2381,10 +2382,10 @@ Clear Rewards:
     - x3 Vermillion Powder (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -2441,10 +2442,10 @@ Clear Rewards:
     - x3 Disast Ore (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -2502,10 +2503,10 @@ Clear Rewards:
     - x3 Frosted Flower (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -2567,10 +2568,10 @@ Clear Rewards:
     - x3 Frosted Flower (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -2632,10 +2633,10 @@ Clear Rewards:
     - x3 Patalena Glass (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -2695,10 +2696,10 @@ Clear Rewards:
     - x3 Fornax Stone (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -2758,10 +2759,10 @@ Clear Rewards:
     - x3 Vermillion Powder (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -2820,10 +2821,10 @@ Clear Rewards:
     - x3 Vermillion Powder (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -2881,10 +2882,10 @@ Clear Rewards:
     - x3 Fornax Stone (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -2942,10 +2943,10 @@ Clear Rewards:
     - x3 Tempestone (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -3003,10 +3004,10 @@ Clear Rewards:
     - x3 Frosted Flower (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -3066,10 +3067,10 @@ Clear Rewards:
     - x3 Tempestone (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -3130,10 +3131,10 @@ Clear Rewards:
     - x3 Disast Ore (12% - 2000)
     - Nothing (40% - 6666)
 * Lot #5 (Total Weight: 14285)
-    - x1 Curio (1) (42% - 6000)
-    - x1 Curio (2) (18.9% - 2700)
-    - x1 Curio (3) (7% - 1000)
-    - x1 Curio (4) (2.1% - 300)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
     - Nothing (30% - 4285)
 
 1 Star (B Rank):
@@ -3196,10 +3197,10 @@ Clear Rewards:
     - Potion Hoarder V (5.93% - 667)
     - Nothing (20% - 2250)
 * Lot #4 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -3259,10 +3260,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -3322,10 +3323,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -3385,10 +3386,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -3448,10 +3449,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -3511,10 +3512,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -3574,10 +3575,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -3637,10 +3638,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -3700,10 +3701,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -3763,10 +3764,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -3826,10 +3827,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -3889,10 +3890,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -3951,10 +3952,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4014,10 +4015,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4077,10 +4078,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4140,10 +4141,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4205,10 +4206,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4270,10 +4271,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4341,10 +4342,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4404,10 +4405,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4467,10 +4468,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4530,10 +4531,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4593,10 +4594,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4657,10 +4658,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4721,10 +4722,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4785,10 +4786,10 @@ Clear Rewards:
 * Lot #4 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #5 (Total Weight: 12500)
-    - x1 Curio (1) (48% - 6000)
-    - x1 Curio (2) (21.6% - 2700)
-    - x1 Curio (3) (8% - 1000)
-    - x1 Curio (4) (2.4% - 300)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
     - Nothing (20% - 2500)
 
 1 Star (B Rank):
@@ -4844,10 +4845,10 @@ Clear Rewards:
 * Lot #3 (Total Weight: 10000)
     - x15 Rafale Coin (100% - 10000)
 * Lot #4 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -4910,10 +4911,10 @@ Clear Rewards:
     - x6 Phondam Sulfur (35% - 3500)
     - x7 Phondam Sulfur (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -4978,10 +4979,10 @@ Clear Rewards:
     - x6 Electromagnetic Sand (35% - 3500)
     - x7 Electromagnetic Sand (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5045,10 +5046,10 @@ Clear Rewards:
     - x6 Valley Bloom (35% - 3500)
     - x7 Valley Bloom (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5106,10 +5107,10 @@ Clear Rewards:
     - x6 Eternal Snowflake (35% - 3500)
     - x7 Eternal Snowflake (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5173,10 +5174,10 @@ Clear Rewards:
     - x6 Eternal Snowflake (35% - 3500)
     - x7 Eternal Snowflake (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5245,10 +5246,10 @@ Clear Rewards:
     - x6 Electromagnetic Sand (35% - 3500)
     - x7 Electromagnetic Sand (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5314,10 +5315,10 @@ Clear Rewards:
     - x6 Phondam Sulfur (35% - 3500)
     - x7 Phondam Sulfur (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5380,10 +5381,10 @@ Clear Rewards:
     - x6 Eternal Snowflake (35% - 3500)
     - x7 Eternal Snowflake (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5448,10 +5449,10 @@ Clear Rewards:
     - x6 Valley Bloom (35% - 3500)
     - x7 Valley Bloom (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5525,10 +5526,10 @@ Clear Rewards:
     - x6 Phondam Sulfur (35% - 3500)
     - x7 Phondam Sulfur (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5598,10 +5599,10 @@ Clear Rewards:
     - x6 Eternal Snowflake (35% - 3500)
     - x7 Eternal Snowflake (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5671,10 +5672,10 @@ Clear Rewards:
     - x6 Bloomsword Hilt (35% - 3500)
     - x7 Bloomsword Hilt (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5742,10 +5743,10 @@ Clear Rewards:
     - x6 Valley Bloom (35% - 3500)
     - x7 Valley Bloom (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5814,10 +5815,10 @@ Clear Rewards:
     - x6 Astral Matter (35% - 3500)
     - x7 Astral Matter (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5884,10 +5885,10 @@ Clear Rewards:
     - x6 Astral Matter (35% - 3500)
     - x7 Astral Matter (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -5951,10 +5952,10 @@ Clear Rewards:
     - x6 Astral Matter (35% - 3500)
     - x7 Astral Matter (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -6019,10 +6020,10 @@ Clear Rewards:
     - x6 Astral Matter (35% - 3500)
     - x7 Astral Matter (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -6092,10 +6093,10 @@ Clear Rewards:
     - x6 High-Grade Scrap (35% - 3500)
     - x7 High-Grade Scrap (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -6164,10 +6165,10 @@ Clear Rewards:
     - x6 Electromagnetic Sand (35% - 3500)
     - x7 Electromagnetic Sand (25% - 2500)
 * Lot #5 (Total Weight: 10000)
-    - x1 Curio (1) (60% - 6000)
-    - x1 Curio (2) (27% - 2700)
-    - x1 Curio (3) (10% - 1000)
-    - x1 Curio (4) (3% - 300)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 1 Star (B Rank):
 * Lot #1 (Total Weight: 10000)
@@ -6202,4 +6203,3 @@ Clear Rewards:
 ```
 
 ----
-
