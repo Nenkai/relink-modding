@@ -7,6 +7,9 @@ icon: material/treasure-chest
     * If you are using this anywhere, give proper credits to Nenkai
     * Chest drops are not included yet, will be shortly.
     * Same goes for curio items.
+    * Some curio drops appears to be locked until Proud difficulty is reached.
+    * Proud difficulty is a 100% chance of curio drop.
+    * Curio drops start on Hard difficulty.
 
 ## Bash the Goblin Hordes (401310)
 
