@@ -13,7 +13,9 @@ icon: material/treasure-chest
 
 If you need to find a specific quest, ++ctrl+f++ and search by quest name.
 
-## Bash the Goblin Hordes (401310)
+## Easy
+
+### Bash the Goblin Hordes (401310)
 
 ```
 First Clear Rewards:
@@ -60,7 +62,7 @@ First Clear Rewards:
 
 ----
 
-## Worried about Papa (401303)
+### Worried about Papa (401303)
 
 ```
 First Clear Rewards:
@@ -134,7 +136,7 @@ First Clear Rewards:
 
 ----
 
-## Protect Our Woods (401315)
+### Protect Our Woods (401315)
 
 ```
 First Clear Rewards:
@@ -181,7 +183,7 @@ First Clear Rewards:
 
 ----
 
-## Fort Fumigation (401305)
+### Fort Fumigation (401305)
 
 ```
 First Clear Rewards:
@@ -225,7 +227,7 @@ First Clear Rewards:
 
 ----
 
-## Defeat-*wheeze*-Goblin Boss (401306)
+### Defeat-*wheeze*-Goblin Boss (401306)
 
 ```
 First Clear Rewards:
@@ -300,7 +302,7 @@ First Clear Rewards:
 
 ----
 
-## Tomorrow's Prayers (401316)
+### Tomorrow's Prayers (401316)
 
 ```
 First Clear Rewards:
@@ -343,7 +345,7 @@ First Clear Rewards:
 
 ----
 
-## Make Our Skies Safe Again (401301)
+### Make Our Skies Safe Again (401301)
 
 ```
 First Clear Rewards:
@@ -390,7 +392,7 @@ First Clear Rewards:
 
 ----
 
-## Guard Our Hometown (401311)
+### Guard Our Hometown (401311)
 
 ```
 First Clear Rewards:
@@ -437,7 +439,9 @@ First Clear Rewards:
 
 ----
 
-## Eye Have a Problem (402315)
+## Normal
+
+### Eye Have a Problem (402315)
 
 ```
 First Clear Rewards:
@@ -523,7 +527,7 @@ First Clear Rewards:
 
 ----
 
-## Spare the Rod, Spoil the Valley (402314)
+### Spare the Rod, Spoil the Valley (402314)
 
 ```
 First Clear Rewards:
@@ -578,7 +582,7 @@ First Clear Rewards:
 
 ----
 
-## Only You Can Prevent Forest Flyers (402316)
+### Only You Can Prevent Forest Flyers (402316)
 
 ```
 First Clear Rewards:
@@ -662,7 +666,7 @@ First Clear Rewards:
 
 ----
 
-## Saga Grande: The Beginning (402313)
+### Saga Grande: The Beginning (402313)
 
 ```
 First Clear Rewards:
@@ -757,7 +761,7 @@ First Clear Rewards:
 
 ----
 
-## Rilla Done Did It (402301)
+### Rilla Done Did It (402301)
 
 ```
 First Clear Rewards:
@@ -808,7 +812,7 @@ First Clear Rewards:
 
 ----
 
-## Golemology 101: Desert Golems (402302)
+### Golemology 101: Desert Golems (402302)
 
 ```
 First Clear Rewards:
@@ -896,7 +900,7 @@ First Clear Rewards:
 
 ----
 
-## Dagger Really Done Did It (402310)
+### Dagger Really Done Did It (402310)
 
 ```
 First Clear Rewards:
@@ -951,7 +955,7 @@ First Clear Rewards:
 
 ----
 
-## Sweep the Volcano (402308)
+### Sweep the Volcano (402308)
 
 ```
 First Clear Rewards:
@@ -1006,7 +1010,7 @@ First Clear Rewards:
 
 ----
 
-## On the Front Lines (402304)
+### On the Front Lines (402304)
 
 ```
 First Clear Rewards:
@@ -1056,7 +1060,7 @@ First Clear Rewards:
 
 ----
 
-## I See a Bloody Vision (402306)
+### I See a Bloody Vision (402306)
 
 ```
 First Clear Rewards:
@@ -1140,7 +1144,7 @@ First Clear Rewards:
 
 ----
 
-## The Saga Continues: Ice (402312)
+### The Saga Continues: Ice (402312)
 
 ```
 First Clear Rewards:
@@ -1237,7 +1241,7 @@ First Clear Rewards:
 
 ----
 
-## The Saga Continues: Fire (402309)
+### The Saga Continues: Fire (402309)
 
 ```
 First Clear Rewards:
@@ -1335,7 +1339,9 @@ First Clear Rewards:
 
 ----
 
-## Rule the Skies (403301)
+## Hard
+
+### Rule the Skies (403301)
 
 ```
 First Clear Rewards:
@@ -1396,7 +1402,7 @@ First Clear Rewards:
 
 ----
 
-## Unthinning the Troops (403303)
+### Unthinning the Troops (403303)
 
 ```
 First Clear Rewards:
@@ -1456,7 +1462,7 @@ First Clear Rewards:
 
 ----
 
-## The Juice of Jealousy (403302)
+### The Juice of Jealousy (403302)
 
 ```
 First Clear Rewards:
@@ -1517,7 +1523,7 @@ First Clear Rewards:
 
 ----
 
-## Delts of Our Lives (403201)
+### Delts of Our Lives (403201)
 
 ```
 First Clear Rewards:
@@ -1626,7 +1632,7 @@ First Clear Rewards:
 
 ----
 
-## Protect the Rep (403307)
+### Protect the Rep (403307)
 
 ```
 First Clear Rewards:
@@ -1731,7 +1737,7 @@ First Clear Rewards:
 
 ----
 
-## Collector's Digest (403308)
+### Collector's Digest (403308)
 
 ```
 First Clear Rewards:
@@ -1798,7 +1804,7 @@ First Clear Rewards:
 
 ----
 
-## Hide and Chic (403202)
+### Hide and Chic (403202)
 
 ```
 First Clear Rewards:
@@ -1902,7 +1908,7 @@ First Clear Rewards:
 
 ----
 
-## Drumsticks au Griffin (403312)
+### Drumsticks au Griffin (403312)
 
 ```
 First Clear Rewards:
@@ -2010,7 +2016,7 @@ First Clear Rewards:
 
 ----
 
-## I See a Flaming Vision (403311)
+### I See a Flaming Vision (403311)
 
 ```
 First Clear Rewards:
@@ -2069,7 +2075,7 @@ First Clear Rewards:
 
 ----
 
-## Looming Tower, Leering Eye (403309)
+### Looming Tower, Leering Eye (403309)
 
 ```
 First Clear Rewards:
@@ -2179,7 +2185,9 @@ First Clear Rewards:
 
 ----
 
-## Wings of Antiquity (404101)
+## Very Hard
+
+### Wings of Antiquity (404101)
 
 ```
 First Clear Rewards:
@@ -2298,7 +2306,7 @@ First Clear Rewards:
 
 ----
 
-## Seeds of Trouble (404315)
+### Seeds of Trouble (404315)
 
 ```
 First Clear Rewards:
@@ -2354,7 +2362,7 @@ First Clear Rewards:
 
 ----
 
-## A Bone to Peak (404316)
+### A Bone to Peak (404316)
 
 ```
 First Clear Rewards:
@@ -2471,7 +2479,7 @@ First Clear Rewards:
 
 ----
 
-## Absolutely No Trespassers! (404317)
+### Absolutely No Trespassers! (404317)
 
 ```
 First Clear Rewards:
@@ -2533,7 +2541,7 @@ First Clear Rewards:
 
 ----
 
-## Dark Refrain (404204)
+### Dark Refrain (404204)
 
 ```
 First Clear Rewards:
@@ -2599,7 +2607,7 @@ First Clear Rewards:
 
 ----
 
-## Golemology 102: Volcanic Golems (404313)
+### Golemology 102: Volcanic Golems (404313)
 
 ```
 First Clear Rewards:
@@ -2726,7 +2734,7 @@ First Clear Rewards:
 
 ----
 
-## No One Likes Leftovers (404309)
+### No One Likes Leftovers (404309)
 
 ```
 First Clear Rewards:
@@ -2851,7 +2859,7 @@ First Clear Rewards:
 
 ----
 
-## The Next Hot Topic (404311)
+### The Next Hot Topic (404311)
 
 ```
 First Clear Rewards:
@@ -2974,7 +2982,7 @@ First Clear Rewards:
 
 ----
 
-## I See a Deathly Vision (404310)
+### I See a Deathly Vision (404310)
 
 ```
 First Clear Rewards:
@@ -3094,7 +3102,9 @@ First Clear Rewards:
 
 ----
 
-## License to Thrill (405101)
+## Extreme
+
+### License to Thrill (405101)
 
 ```
 First Clear Rewards:
@@ -3230,7 +3240,7 @@ First Clear Rewards:
 
 ----
 
-## Assault Formation! (405309)
+### Assault Formation! (405309)
 
 ```
 First Clear Rewards:
@@ -3289,7 +3299,7 @@ First Clear Rewards:
 
 ----
 
-## Great Goblins of Fire (405310)
+### Great Goblins of Fire (405310)
 
 ```
 First Clear Rewards:
@@ -3349,7 +3359,7 @@ First Clear Rewards:
 
 ----
 
-## Shedding Light on the Pillar (405311)
+### Shedding Light on the Pillar (405311)
 
 ```
 First Clear Rewards:
@@ -3409,7 +3419,7 @@ First Clear Rewards:
 
 ----
 
-## Saga Illustrated: The Beginning (405201)
+### Saga Illustrated: The Beginning (405201)
 
 ```
 First Clear Rewards:
@@ -3549,7 +3559,7 @@ First Clear Rewards:
 
 ----
 
-## General Investigation: Gallanza (405206)
+### General Investigation: Gallanza (405206)
 
 ```
 First Clear Rewards:
@@ -3706,7 +3716,7 @@ First Clear Rewards:
 
 ----
 
-## General Investigation: Maglielle (405207)
+### General Investigation: Maglielle (405207)
 
 ```
 First Clear Rewards:
@@ -3855,7 +3865,7 @@ First Clear Rewards:
 
 ----
 
-## Learning from the Past (405202)
+### Learning from the Past (405202)
 
 ```
 First Clear Rewards:
@@ -3981,7 +3991,7 @@ First Clear Rewards:
 
 ----
 
-## Saga Illustrated: Inferno (405203)
+### Saga Illustrated: Inferno (405203)
 
 ```
 First Clear Rewards:
@@ -4125,7 +4135,7 @@ First Clear Rewards:
 
 ----
 
-## Wings of Conflagration (405302)
+### Wings of Conflagration (405302)
 
 ```
 First Clear Rewards:
@@ -4270,7 +4280,7 @@ First Clear Rewards:
 
 ----
 
-## Wings of Upheaval (405303)
+### Wings of Upheaval (405303)
 
 ```
 First Clear Rewards:
@@ -4417,7 +4427,7 @@ First Clear Rewards:
 
 ----
 
-## Wings of the Storm (405304)
+### Wings of the Storm (405304)
 
 ```
 First Clear Rewards:
@@ -4564,7 +4574,7 @@ First Clear Rewards:
 
 ----
 
-## Wings of Rime (405305)
+### Wings of Rime (405305)
 
 ```
 First Clear Rewards:
@@ -4701,7 +4711,7 @@ First Clear Rewards:
 
 ----
 
-## General Investigation: Id (405208)
+### General Investigation: Id (405208)
 
 ```
 First Clear Rewards:
@@ -4854,7 +4864,7 @@ First Clear Rewards:
 
 ----
 
-## To Know the Unknowable (405205)
+### To Know the Unknowable (405205)
 
 ```
 First Clear Rewards:
@@ -5003,7 +5013,7 @@ First Clear Rewards:
 
 ----
 
-## Slimepede (406361)
+### Slimepede (406361)
 
 ```
 First Clear Rewards:
@@ -5072,7 +5082,7 @@ First Clear Rewards:
 
 ----
 
-## Golemology 103: Forest Golems (406355)
+### Golemology 103: Forest Golems (406355)
 
 ```
 First Clear Rewards:
@@ -5227,7 +5237,7 @@ First Clear Rewards:
 
 ----
 
-## A New Breed (406356)
+### A New Breed (406356)
 
 ```
 First Clear Rewards:
@@ -5368,7 +5378,7 @@ First Clear Rewards:
 
 ----
 
-## Death, Taxes, and Goblins (406357)
+### Death, Taxes, and Goblins (406357)
 
 ```
 First Clear Rewards:
@@ -5513,7 +5523,7 @@ First Clear Rewards:
 
 ----
 
-## Icy Eye on the Holy Prize (406358)
+### Icy Eye on the Holy Prize (406358)
 
 ```
 First Clear Rewards:
@@ -5660,7 +5670,7 @@ First Clear Rewards:
 
 ----
 
-## Armor Is Best Served Cold (406365)
+### Armor Is Best Served Cold (406365)
 
 ```
 First Clear Rewards:
@@ -5797,7 +5807,7 @@ First Clear Rewards:
 
 ----
 
-## A Heated Rivalry (406366)
+### A Heated Rivalry (406366)
 
 ```
 First Clear Rewards:
@@ -5942,7 +5952,7 @@ First Clear Rewards:
 
 ----
 
-## Rumble in the Desert (406359)
+### Rumble in the Desert (406359)
 
 ```
 First Clear Rewards:
@@ -6081,7 +6091,7 @@ First Clear Rewards:
 
 ----
 
-## Hope in the Machine (406325)
+### Hope in the Machine (406325)
 
 ```
 First Clear Rewards:
@@ -6229,7 +6239,7 @@ First Clear Rewards:
 
 ----
 
-## I See a Grim Vision (406360)
+### I See a Grim Vision (406360)
 
 ```
 First Clear Rewards:
@@ -6370,7 +6380,7 @@ First Clear Rewards:
 
 ----
 
-## Throw a Smith a Bone (406364)
+### Throw a Smith a Bone (406364)
 
 ```
 First Clear Rewards:
@@ -6505,7 +6515,7 @@ First Clear Rewards:
 
 ----
 
-## Hallowed Be Thy Ground (406327)
+### Hallowed Be Thy Ground (406327)
 
 ```
 First Clear Rewards:
@@ -6565,7 +6575,7 @@ First Clear Rewards:
 
 ----
 
-## Revenge of the Hordes (406324)
+### Revenge of the Hordes (406324)
 
 ```
 First Clear Rewards:
@@ -6706,7 +6716,9 @@ First Clear Rewards:
 
 ----
 
-## Roost and Reign (406351)
+## Maniac
+
+### Roost and Reign (406351)
 
 ```
 First Clear Rewards:
@@ -6843,7 +6855,7 @@ First Clear Rewards:
 
 ----
 
-## Serenity Upon the Mount (406354)
+### Serenity Upon the Mount (406354)
 
 ```
 First Clear Rewards:
@@ -6986,7 +6998,7 @@ First Clear Rewards:
 
 ----
 
-## Boss Done Wants It Did (406352)
+### Boss Done Wants It Did (406352)
 
 ```
 First Clear Rewards:
@@ -7139,7 +7151,7 @@ First Clear Rewards:
 
 ----
 
-## Know Your Enemy (406353)
+### Know Your Enemy (406353)
 
 ```
 First Clear Rewards:
@@ -7286,7 +7298,7 @@ First Clear Rewards:
 
 ----
 
-## I See a Chromatic Vision (406323)
+### I See a Chromatic Vision (406323)
 
 ```
 First Clear Rewards:
@@ -7425,7 +7437,7 @@ First Clear Rewards:
 
 ----
 
-## The Saga Continues: Wind (406331)
+### The Saga Continues: Wind (406331)
 
 ```
 First Clear Rewards:
@@ -7563,7 +7575,7 @@ First Clear Rewards:
 
 ----
 
-## Saga Illustrated: Crystal (406332)
+### Saga Illustrated: Crystal (406332)
 
 ```
 First Clear Rewards:
@@ -7701,7 +7713,7 @@ First Clear Rewards:
 
 ----
 
-## Id Bears Repeating (406337)
+### Id Bears Repeating (406337)
 
 ```
 First Clear Rewards:
@@ -7847,7 +7859,7 @@ First Clear Rewards:
 
 ----
 
-## The Saga Continues: Silver (406334)
+### The Saga Continues: Silver (406334)
 
 ```
 First Clear Rewards:
@@ -7999,7 +8011,7 @@ First Clear Rewards:
 
 ----
 
-## Saga Illustrated: Veil (406335)
+### Saga Illustrated: Veil (406335)
 
 ```
 First Clear Rewards:
@@ -8143,7 +8155,7 @@ First Clear Rewards:
 
 ----
 
-## The Saga Continues: Earth (406330)
+### The Saga Continues: Earth (406330)
 
 ```
 First Clear Rewards:
@@ -8270,7 +8282,7 @@ First Clear Rewards:
 
 ----
 
-## Saga Illustrated: Hellfire (406333)
+### Saga Illustrated: Hellfire (406333)
 
 ```
 First Clear Rewards:
@@ -8413,7 +8425,7 @@ First Clear Rewards:
 
 ----
 
-## Saga Grande: Happily Ever After (406338)
+### Saga Grande: Happily Ever After (406338)
 
 ```
 First Clear Rewards:
@@ -8556,7 +8568,9 @@ First Clear Rewards:
 
 ----
 
-## The Final Report (407101)
+## Proud
+
+### The Final Report (407101)
 
 ```
 First Clear Rewards:
@@ -8704,7 +8718,7 @@ First Clear Rewards:
 
 ----
 
-## Blazing Trial (407301)
+### Blazing Trial (407301)
 
 ```
 First Clear Rewards:
@@ -8842,7 +8856,7 @@ First Clear Rewards:
 
 ----
 
-## Grounded Trial (407302)
+### Grounded Trial (407302)
 
 ```
 First Clear Rewards:
@@ -8992,7 +9006,7 @@ First Clear Rewards:
 
 ----
 
-## Stormy Trial (407303)
+### Stormy Trial (407303)
 
 ```
 First Clear Rewards:
@@ -9139,7 +9153,7 @@ First Clear Rewards:
 
 ----
 
-## Frigid Trial (407304)
+### Frigid Trial (407304)
 
 ```
 First Clear Rewards:
@@ -9268,7 +9282,7 @@ First Clear Rewards:
 
 ----
 
-## Worst Vacation Ever (407305)
+### Worst Vacation Ever (407305)
 
 ```
 First Clear Rewards:
@@ -9406,7 +9420,7 @@ First Clear Rewards:
 
 ----
 
-## Trade Barriers (407306)
+### Trade Barriers (407306)
 
 ```
 First Clear Rewards:
@@ -9553,7 +9567,7 @@ First Clear Rewards:
 
 ----
 
-## Melting Pot of Hostility (407307)
+### Melting Pot of Hostility (407307)
 
 ```
 First Clear Rewards:
@@ -9693,7 +9707,7 @@ First Clear Rewards:
 
 ----
 
-## Banquet of Ice and Corpses (407308)
+### Banquet of Ice and Corpses (407308)
 
 ```
 First Clear Rewards:
@@ -9822,7 +9836,7 @@ First Clear Rewards:
 
 ----
 
-## For a Freer Folca (407309)
+### For a Freer Folca (407309)
 
 ```
 First Clear Rewards:
@@ -9957,7 +9971,7 @@ First Clear Rewards:
 
 ----
 
-## A Quest of Fire and Earth (407310)
+### A Quest of Fire and Earth (407310)
 
 ```
 First Clear Rewards:
@@ -10137,7 +10151,7 @@ First Clear Rewards:
 
 ----
 
-## A Quest of Frost and Storm (407311)
+### A Quest of Frost and Storm (407311)
 
 ```
 First Clear Rewards:
@@ -10299,7 +10313,7 @@ First Clear Rewards:
 
 ----
 
-## The Wolf and the Veil (407312)
+### The Wolf and the Veil (407312)
 
 ```
 First Clear Rewards:
@@ -10460,7 +10474,7 @@ First Clear Rewards:
 
 ----
 
-## Thunderbolts and Lightning (407316)
+### Thunderbolts and Lightning (407316)
 
 ```
 First Clear Rewards:
@@ -10594,7 +10608,7 @@ First Clear Rewards:
 
 ----
 
-## Into the Abyss (407317)
+### Into the Abyss (407317)
 
 ```
 First Clear Rewards:
@@ -10743,7 +10757,7 @@ First Clear Rewards:
 
 ----
 
-## Calamity Incarnate (407313)
+### Calamity Incarnate (407313)
 
 ```
 First Clear Rewards:
@@ -10874,7 +10888,7 @@ First Clear Rewards:
 
 ----
 
-## As Fierce as the Silver Wolf (407314)
+### As Fierce as the Silver Wolf (407314)
 
 ```
 First Clear Rewards:
@@ -10996,7 +11010,7 @@ First Clear Rewards:
 
 ----
 
-## Memories of Fire (407315)
+### Memories of Fire (407315)
 
 ```
 First Clear Rewards:
@@ -11121,7 +11135,7 @@ First Clear Rewards:
 
 ----
 
-## The Tale of Bahamut's Rage (407318)
+### The Tale of Bahamut's Rage (407318)
 
 ```
 First Clear Rewards:
@@ -11304,7 +11318,7 @@ First Clear Rewards:
 
 ----
 
-## The Automagod Strikes Back (407319)
+### The Automagod Strikes Back (407319)
 
 ```
 First Clear Rewards:
