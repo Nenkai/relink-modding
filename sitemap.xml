@@ -71,6 +71,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://nenkai.github.io/relink-modding/resources/trait_skill_ids/</loc>
+         <lastmod>2024-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://nenkai.github.io/relink-modding/resources/formats/minfo/</loc>
          <lastmod>2024-03-01</lastmod>
          <changefreq>daily</changefreq>
