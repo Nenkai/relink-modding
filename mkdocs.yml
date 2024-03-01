@@ -81,6 +81,7 @@ nav:
     - Reverse-Engineering:
         Hashes: resources/re/hashes.md
         Obj IDs: resources/re/obj_id.md
+        User Attributes: resources/re/user_attributes.md
       
   - Models:
     - Model Importing: models/importing.md 
