@@ -1,5 +1,5 @@
 ---
-icon: simple/rubygems
+icon: material/shield-plus
 ---
 
 # Trait/Skill IDs
