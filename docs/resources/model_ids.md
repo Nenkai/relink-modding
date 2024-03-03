@@ -6,6 +6,11 @@ icon: material/identifier
 
 ## Player (pl)
 
+!!! tip
+
+    Sometimes this can include unreleased characters. Please credit the site for re-use.
+
+
 ```
 0000 -- Gran (Rebel)
 0001 -- Gran (original)
@@ -30,6 +35,9 @@ icon: material/identifier
 1800 -- Cagliostro
 1900 -- Id
 2000 -- Id (Transformation)
+2100 -- Sandalphon (1.3.0)
+2200 -- Seofon (1.2.0)
+2300 -- Tweyen (1.2.0)
 ```
 
 ---
@@ -42,6 +50,7 @@ icon: material/identifier
 0200 -- Sierokarte
 0300 -- Rolan
 0400 -- Historiath
+0500 -- Lilith
 0600 -- Zathba
 0700 -- Man
 0702 -- Old Man
