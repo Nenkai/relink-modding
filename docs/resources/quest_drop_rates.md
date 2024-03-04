@@ -5013,6 +5013,8 @@ First Clear Rewards:
 
 ----
 
+## Maniac
+
 ### Slimepede (406361)
 
 ```
@@ -6715,8 +6717,6 @@ First Clear Rewards:
 ```
 
 ----
-
-## Maniac
 
 ### Roost and Reign (406351)
 
