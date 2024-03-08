@@ -8,6 +8,14 @@ The table files `.tbl`, located under `system/table` holds most of the data for 
 
 In order to make it easier for editing, it is recommended to first convert them to [SQLite](https://en.wikipedia.org/wiki/SQLite) for easier manipulation.
 
+!!! danger
+
+    Do **NOT** use this online. Likewise, do **NOT** use this to create and publish cheat related mods, such as skill edits. 
+
+    Table research and edits should be reserved to adding or adjusting content. Using mods with table edits has a **high** potential for breakage. If you are publishing a mod with table edits, only include the table files you've edited in your mod, **not ALL the tables**. 
+
+    **Mention which tables you have edited when publishing your mod**. Otherwise multiple mods may conflict if they edit the same table.
+
 ---
 
 ## Converting to SQLite
@@ -29,6 +37,11 @@ You can then preview them using any SQLite database editor, such as [SQLiteStudi
 ---
 
 ## Converting back to .tbl
+
+!!! note
+    
+    Make sure you've read the danger notice above.
+
 
 ``` markdown title="Command"
 GBFRDataTools.exe tbl-to-sqlite -i <path to SQLite file> -o <path of output table folder>
