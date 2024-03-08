@@ -12,7 +12,7 @@ In order to make it easier for editing, it is recommended to first convert them 
 
     Do **NOT** use this online. Likewise, do **NOT** use this to create and publish cheat related mods, such as skill edits. 
 
-    Table research and edits should be reserved to adding or adjusting content. Using mods with table edits has a **high** potential for breakage. If you are publishing a mod with table edits, only include the table files you've edited in your mod, **not ALL the tables**. 
+    Table research and edits should be reserved to adding or adjusting content. Using mods with table edits has a **high** potential for breakage if used online. If you are publishing a mod with table edits, only include the table files you've edited in your mod, **not ALL the tables**. 
 
     **Mention which tables you have edited when publishing your mod**. Otherwise multiple mods may conflict if they edit the same table.
 
