@@ -1508,6 +1508,12 @@
 <h1 id="table-database">Table Database<a class="headerlink" href="#table-database" title="Permanent link">&para;</a></h1>
 <p>The table files <code>.tbl</code>, located under <code>system/table</code> holds most of the data for the game. Items, abilities, gems (sigils), and a lot more. </p>
 <p>In order to make it easier for editing, it is recommended to first convert them to <a href="https://en.wikipedia.org/wiki/SQLite">SQLite</a> for easier manipulation.</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Do <strong>NOT</strong> use this online. Likewise, do <strong>NOT</strong> use this to create and publish cheat related mods, such as skill edits. </p>
+<p>Table research and edits should be reserved to adding or adjusting content. Using mods with table edits has a <strong>high</strong> potential for breakage. If you are publishing a mod with table edits, only include the table files you've edited in your mod, <strong>not ALL the tables</strong>. </p>
+<p><strong>Mention which tables you have edited when publishing your mod</strong>. Otherwise multiple mods may conflict if they edit the same table.</p>
+</div>
 <hr />
 <h2 id="converting-to-sqlite">Converting to SQLite<a class="headerlink" href="#converting-to-sqlite" title="Permanent link">&para;</a></h2>
 <p>To convert them to SQLite, you can use <a href="https://github.com/Nenkai/GBFRDataTools">GBFRDataTools</a> &gt;1.2.0 which you should already have.</p>
@@ -1523,6 +1529,10 @@
 </div>
 <hr />
 <h2 id="converting-back-to-tbl">Converting back to .tbl<a class="headerlink" href="#converting-back-to-tbl" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Make sure you've read the danger notice above.</p>
+</div>
 <div class="highlight"><span class="filename">Command</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>GBFRDataTools.exe tbl-to-sqlite -i &lt;path to SQLite file&gt; -o &lt;path of output table folder&gt;
 </code></pre></div>
 <hr />
