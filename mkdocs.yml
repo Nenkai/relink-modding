@@ -68,15 +68,18 @@ nav:
     - Asset Paths: resources/asset_paths.md
     - File Extensions: resources/file_extensions.md
     - Entity Prefixes: resources/entity_prefixes.md
-    - Model IDs: resources/model_ids.md
-    - Sigil/Gem IDs: resources/sigil_gem_ids.md
-    - Trait/Skill IDs: resources/trait_skill_ids.md
-    - Quest IDs: resources/quest_ids.md
 
-    - Drop Rates:
+    - IDs:
+      - Model IDs: resources/model_ids.md
+      - Sigil/Gem IDs: resources/sigil_gem_ids.md
+      - Trait/Skill IDs: resources/trait_skill_ids.md
+      - Quest IDs: resources/quest_ids.md
+
+    - Rates/Tables:
       - Quest Drop Rates: resources/quest_drop_rates.md
       - Curio Loot Rates: resources/curio_loot_rates.md
-    
+      - Weapon Materials: resources/weapon_materials.md
+
     - Formats:
         .minfo - Model Info: resources/formats/minfo.md
         .mmat - Material Info: resources/formats/mmat.md
