@@ -10,15 +10,26 @@ The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manage
 
     The Mod Manager is currently incompatible with other hooking utilities such as **SpecialK**.
 
-## Reloaded II
+## Setting up Reloaded II
 
-[From the latest Reloaded II release](https://github.com/Reloaded-Project/Reloaded-II/releases/), either download Release.zip and extract, or download Setup.exe and run.
+* [From the latest Reloaded II release](https://github.com/Reloaded-Project/Reloaded-II/releases/), either download `Release.zip` and extract, or download `Setup.exe` and run.
+* Locate `granblue_fantasy_relink.exe` and register it in Reloaded II by clicking on the + icon on the left side.
+* Download the [Granblue Fantasy Relink Mod Loader](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases) and extract it in Reloaded II's folder under the `Mods` folder. It should be looking like this:
 
-Read the [Quick Start Guide](https://reloaded-project.github.io/Reloaded-II/QuickStart/) to set up Reloaded II for Granblue Fantasy Relink and to learn how to install mods.
+<figure markdown>
+  ![image](mod_manager_mods.png)
+  *Make sure to extract `gbfrelink.utility.manager` into its own folder.*
+</figure>
 
-## Granblue Fantasy Relink Mod Manager
+---
 
-:material-arrow-right: [Download the Granblue Fantasy Relink Mod Manager](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases/tag/v1.0.1). Extract the mod into `Reloaded-II\Mods`.
+## Installing Mods
+
+When installing mods, simply extract them into the `Mods` folder aswell.
+
+!!! tip
+
+    For more information if needed, refer to the Reloaded II [Quick Start Guide](https://reloaded-project.github.io/Reloaded-II/QuickStart/).
 
 ---
 
