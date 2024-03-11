@@ -14,9 +14,10 @@ Last fetched from `1.0.5`.
 
 !!! tip
 
-    This is the raw table for the weapon materials. Refer to the button below for a simpler spreadsheet!
+    This is the raw table for the weapon materials. Refer to the button below for simpler spreadsheets!
 
-    [Material Spreadsheet :octicons-link-external-16:](https://docs.google.com/spreadsheets/d/1L4R8QKcIjJ01le0WSFt3R_tlgGEu_RzOUL1DnZbo51E/edit#gid=1071614656){ .md-button }
+    [Uncap Material Spreadsheet :octicons-link-external-16:](https://docs.google.com/spreadsheets/d/1L4R8QKcIjJ01le0WSFt3R_tlgGEu_RzOUL1DnZbo51E/edit#gid=1071614656){ .md-button }
+    [Awakening Material Spreadsheet :octicons-link-external-16:](https://docs.google.com/spreadsheets/d/1FMzy7R6OelSCL2jw3JNbdIKMoHUEfGM8s0xRNAJvbUw/edit?usp=sharing){ .md-button }
 
 ## Gran (PL0000)
 ### Traveller's Sword
