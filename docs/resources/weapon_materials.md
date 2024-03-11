@@ -12,6 +12,12 @@ List is interpolated from the following [tables](../tables/table_database.md):
 
 Last fetched from `1.0.5`.
 
+!!! tip
+
+    This is the raw table for the weapon materials. Refer to the button below for a simpler spreadsheet!
+
+    [Material Spreadsheet :octicons-link-external-16:](https://docs.google.com/spreadsheets/d/1L4R8QKcIjJ01le0WSFt3R_tlgGEu_RzOUL1DnZbo51E/edit#gid=1071614656){ .md-button }
+
 ## Gran (PL0000)
 ### Traveller's Sword
 :material-key: Key: `WEP_PL0000_01`
