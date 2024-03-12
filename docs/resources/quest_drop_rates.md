@@ -11870,3 +11870,4 @@ First Clear Rewards:
     - Nothing (50% - 10000)
 * Lot #4 (Total Weight: 10000)
     - x25 Knickknack Voucher (100% - 10000)
+```
