@@ -11476,9 +11476,7 @@ First Clear Rewards:
 
 ----
 
-----
-
-## 407320 (407320)
+### 407320 (407320)
 
 ```
 First Clear Rewards:
@@ -11678,7 +11676,7 @@ First Clear Rewards:
 
 ----
 
-## 407321 (407321)
+### 407321 (407321)
 
 ```
 First Clear Rewards:
