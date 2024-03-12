@@ -11476,13 +11476,13 @@ First Clear Rewards:
 
 ----
 
-### 407320 (407320)
+## The Final Vision (407320)
 
 ```
 First Clear Rewards:
 - x1 Silver Centrum
-- x1 ITEM_18_0001
-- x1 ITEM_18_0000
+- x1 Tears of the Apocalypse
+- x1 Dark Residue
 - x1 Gold Badge Ticket
 
 [Clear Rewards]
@@ -11516,13 +11516,13 @@ First Clear Rewards:
     - x1 Azurite's Splendor (10% - 1000)
 * Lot #2 (Total Weight: 10000)
     - x1 Copper Spellbook (45% - 4500)
-    - x3 ITEM_18_0000 (30% - 3000)
-    - x5 ITEM_18_0000 (20% - 2000)
-    - x7 ITEM_18_0000 (5% - 500)
+    - x3 Dark Residue (30% - 3000)
+    - x5 Dark Residue (20% - 2000)
+    - x7 Dark Residue (5% - 500)
 * Lot #3 (Total Weight: 12500)
     - x1 Silver Spellbook (56% - 7000)
-    - x1 ITEM_18_0001 (16% - 2000)
-    - x2 ITEM_18_0001 (8% - 1000)
+    - x1 Tears of the Apocalypse (16% - 2000)
+    - x2 Tears of the Apocalypse (8% - 1000)
     - Nothing (20% - 2500)
 * Lot #4 (Total Weight: 20000)
     - x1 Copper Spellbook (17.5% - 3500)
@@ -11664,10 +11664,10 @@ First Clear Rewards:
     - x1 Silver Centrum (20% - 10000)
     - Nothing (80% - 40000)
 * Lot #2 (Total Weight: 100000)
-    - x1 ITEM_18_0001 (10% - 10000)
+    - x1 Tears of the Apocalypse (10% - 10000)
     - Nothing (90% - 90000)
 * Lot #3 (Total Weight: 20000)
-    - x1 ITEM_18_0000 (50% - 10000)
+    - x1 Dark Residue (50% - 10000)
     - Nothing (50% - 10000)
 * Lot #4 (Total Weight: 10000)
     - x25 Knickknack Voucher (100% - 10000)
@@ -11676,13 +11676,13 @@ First Clear Rewards:
 
 ----
 
-### 407321 (407321)
+## The Final Vision (2?) (407321)
 
 ```
 First Clear Rewards:
 - x1 Silver Centrum
-- x1 ITEM_18_0001
-- x1 ITEM_18_0000
+- x1 Tears of the Apocalypse
+- x1 Dark Residue
 - x1 Gold Badge Ticket
 
 [Clear Rewards]
@@ -11716,13 +11716,13 @@ First Clear Rewards:
     - x1 Azurite's Splendor (10% - 1000)
 * Lot #2 (Total Weight: 10000)
     - x1 Copper Spellbook (45% - 4500)
-    - x3 ITEM_18_0000 (30% - 3000)
-    - x5 ITEM_18_0000 (20% - 2000)
-    - x7 ITEM_18_0000 (5% - 500)
+    - x3 Dark Residue (30% - 3000)
+    - x5 Dark Residue (20% - 2000)
+    - x7 Dark Residue (5% - 500)
 * Lot #3 (Total Weight: 12500)
     - x1 Silver Spellbook (56% - 7000)
-    - x1 ITEM_18_0001 (16% - 2000)
-    - x2 ITEM_18_0001 (8% - 1000)
+    - x1 Tears of the Apocalypse (16% - 2000)
+    - x2 Tears of the Apocalypse (8% - 1000)
     - Nothing (20% - 2500)
 * Lot #4 (Total Weight: 20000)
     - x1 Copper Spellbook (17.5% - 3500)
@@ -11863,11 +11863,12 @@ First Clear Rewards:
     - x1 Silver Centrum (20% - 10000)
     - Nothing (80% - 40000)
 * Lot #2 (Total Weight: 100000)
-    - x1 ITEM_18_0001 (10% - 10000)
+    - x1 Tears of the Apocalypse (10% - 10000)
     - Nothing (90% - 90000)
 * Lot #3 (Total Weight: 20000)
-    - x1 ITEM_18_0000 (50% - 10000)
+    - x1 Dark Residue (50% - 10000)
     - Nothing (50% - 10000)
 * Lot #4 (Total Weight: 10000)
     - x25 Knickknack Voucher (100% - 10000)
+
 ```
