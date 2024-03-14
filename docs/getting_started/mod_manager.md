@@ -1,7 +1,7 @@
 ---
 icon: octicons/arrow-switch-16
 ---
-
+    
 # Mod Manager
 
 The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manager mod is the primary way to manage mods for GBFR. It quickly handles what would normally be a multi-step process with GBFRDataTools for all managed mods.
@@ -30,6 +30,20 @@ When installing mods, simply extract them into the `Mods` folder aswell.
 !!! tip
 
     For more information if needed, refer to the Reloaded II [Quick Start Guide](https://reloaded-project.github.io/Reloaded-II/QuickStart/).
+
+---
+
+## Game Updates
+
+To update to a newer game version properly:
+
+* Rename `orig_data.i` in the game's folder to `data.i`. Otherwise Steam delta patching may attempt to patch a modded `data.i`, leading in an invalid file.
+* Remove any tools/patch files you may have installed in the game's folder such as: 
+    * `scripts` folder
+    * `.asi` files 
+    * `winmm.dll`
+
+If that does not work, verify game files integrity.
 
 ---
 
