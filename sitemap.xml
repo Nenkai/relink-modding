@@ -51,6 +51,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://nenkai.github.io/relink-modding/resources/item_ids/</loc>
+         <lastmod>2024-03-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://nenkai.github.io/relink-modding/resources/model_ids/</loc>
          <lastmod>2024-03-18</lastmod>
          <changefreq>daily</changefreq>
