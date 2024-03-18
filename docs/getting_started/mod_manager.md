@@ -57,3 +57,16 @@ In addition, all asset mods for Relink require the following setup:
 * Assets must be contained within `GBFR\data`. For example, a mod for `model\pl\pl0101\pl0101.minfo` must be located at `(Mod Directory)\GBFR\data\model\pl\pl0101\pl0101.minfo.`
 
 :material-download: An example mod can be found [here](gbfrelink.recolor.bluehair.zip).
+
+---
+
+## Publishing Mods & Guidelines
+
+[Nexus Mods](https://www.nexusmods.com/granbluefantasyrelink) is the primary website to publish mods.
+
+Before you publish a mod, ensure that you've mentioned the following:
+
+* Which **version** this mod was tested for.
+* If this mod contains **[table edits](../tables/table_database.md)**, in that case the mod is likely to break in future updates.
+* If this mod cotnains UI **texture edits** (any texture that are [spritesheets](https://en.wikipedia.org/wiki/Texture_atlas)), in that case the mod is likely to break in future updates.
+* If you've made an UI mod, make sure that you've made both `fhd` and non-fhd versions - if you've only edited textures from the `fhd` folder, users using resolutions above 2k (1920x1080) will be using textures from the non-fhd folder and **not be able to see your texture mods**.
