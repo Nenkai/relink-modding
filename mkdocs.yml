@@ -11,6 +11,7 @@ theme:
   name: material
   logo: images/logo.png
   favicon: images/favicon.png
+  custom_dir: overrides/
 
   features:
     - navigation.tabs
