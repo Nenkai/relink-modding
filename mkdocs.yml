@@ -60,11 +60,16 @@ theme:
 
 nav:
   - Main Page: index.md
-  - Getting Started: 
-    - Extraction: getting_started/extraction_modding.md
-    - Mod Manager: getting_started/mod_manager.md
+  - Modding Tutorials: 
+    - Installing Mods: modding/installing_mods.md
+    - Creating Mods: modding/creating_mods.md
 
-  - Resources / Files:
+  - Modder Tutorials:
+    - Extracting Files: extraction/file_extraction.md
+    - Extracting Textures: extraction/texture_extraction.md
+    - Creating Textures: extraction/texture_creation.md
+
+  - Modder Resources/Info:
     - Asset Paths: resources/asset_paths.md
     - File Extensions: resources/file_extensions.md
     - Entity Prefixes: resources/entity_prefixes.md
@@ -90,13 +95,9 @@ nav:
         Obj IDs: resources/re/obj_id.md
         User Attributes: resources/re/user_attributes.md
       
-  - Models:
+  - Blender:
     - Model Importing: models/importing.md 
     - Model Exporting: models/exporting.md
-
-  - Textures:
-    - UI Textures (.wtb): textures/textures.md
-    - Granite Textures (.gtp/gts): textures/granite.md
 
   - Tables:
     - Table Database: tables/table_database.md

@@ -7,19 +7,35 @@ hide:
 
 # Granblue Fantasy: Relink Modding
 
+Welcome to the world of GBFR Modding! Here you can learn all about modding the game.
+
+---
+
 <div class="grid cards" markdown>
 
--   :material-export:{ .lg .middle } __Extracting Files__
+-   :octicons-stack-16:{ .lg .middle } __Modding Tutorials__
+
+    ---
+
+    Tutorials for installing and creating mods
+
+    [:material-folder-download: Installing Mods](modding/installing_mods.md)
+
+    [:material-folder-plus: Creating Mods](modding/creating_mods.md)
+
+-   :material-wrench:{ .lg .middle } __Tutorials for Modders__
 
     ---
 
     Learn how to Extract and Mod GBFR files!
 
-    [:octicons-arrow-right-24: Getting started](getting_started/extraction_modding.md)
+    [:material-folder-move: Extracting Files](extraction/file_extraction.md)
 
-    [:octicons-arrow-switch-16: Mod manager](getting_started/mod_manager.md)
+    [:material-image-move: Extracting Textures](extraction/texture_extraction.md)
 
--   :material-book-alphabet:{ .lg .middle } __Modding Resources__
+    [:material-image-plus: Creating Textures](extraction/texture_creation.md)
+
+-   :material-book-alphabet:{ .lg .middle } __Resources & Info for Modders__
 
     ---
 
@@ -33,26 +49,31 @@ hide:
 
     [:material-identifier: Model IDs](resources/model_ids.md)
 
-
--   :simple-blender:{ .lg .middle } __Importing/Exporting Models__
+-   :simple-blender:{ .lg .middle } __Blender__
 
     ---
 
     Learn how to import models, or create & export new game models
 
-    [:material-application-import: Importing **to** Blender](models/importing.md)
+    [:material-application-import: Importing **into** Blender](models/importing.md)
 
     [:material-application-export: Exporting **from** Blender](models/exporting.md)
 
--   :material-texture-box:{ .lg .middle } __Texture Extraction/Modding__
+-   :material-tools:{ .lg .middle } __Tool Links__
 
     ---
 
-    Custom Textures, Texture Extraction, etc.
+    Links to the various tools
 
-    [:material-texture: Extracting/Creating Textures](textures/textures.md)
+    [GBFR Mod Manager](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases)
 
-    [:simple-dask: Extracting Granite Textures](textures/granite.md)
+    [GBFRDataTools](https://github.com/Nenkai/GBFRDataTools/releases)
+    
+    [GraniteTextureReader](https://github.com/Nenkai/GraniteTextureReader/releases)
+
+    [:simple-blender: GBFR Blender Tools](https://github.com/WistfulHopes/GBFRBlenderTools)
+
+    [GBFR File Name Logger](https://github.com/WistfulHopes/GBFRBlenderTools/releases)
 
 -   :simple-discord:{ .lg .middle } __Discord__
 
