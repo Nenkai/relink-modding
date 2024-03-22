@@ -73,7 +73,7 @@ Welcome to the world of GBFR Modding! Here you can learn all about modding the g
 
     [:simple-blender: GBFR Blender Tools](https://github.com/WistfulHopes/GBFRBlenderTools)
 
-    [GBFR File Name Logger](https://github.com/WistfulHopes/GBFRBlenderTools/releases)
+    [GBFR File Name Logger](https://github.com/WistfulHopes/gbfrelink.utility.filenamelogger/releases)
 
 -   :simple-discord:{ .lg .middle } __Discord__
 
