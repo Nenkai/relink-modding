@@ -23,7 +23,7 @@ In order to make it easier for editing, it is recommended to first convert them 
 To convert them to SQLite, you can use [GBFRDataTools](https://github.com/Nenkai/GBFRDataTools) >1.2.0 which you should already have.
 
 ``` markdown title="Command"
-GBFRDataTools.exe tbl-to-sqlite -i <path to table folder> -o <output SQLite file>
+GBFRDataTools.exe tbl-to-sqlite -i <path to table folder> -o <output SQLite file> -v <game version i.e 1.1.1>
 ```
 
 You can then preview them using any SQLite database editor, such as [SQLiteStudio](https://sqlitestudio.pl/)
@@ -44,7 +44,7 @@ You can then preview them using any SQLite database editor, such as [SQLiteStudi
 
 
 ``` markdown title="Command"
-GBFRDataTools.exe tbl-to-sqlite -i <path to SQLite file> -o <path of output table folder>
+GBFRDataTools.exe sqlite-to-tbl -i <path to SQLite file> -o <path of output table folder> -v <game version i.e 1.1.1>
 ```
 
 ---
