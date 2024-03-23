@@ -584,6 +584,39 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#mod-loader-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mod Loader Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mod Loader Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#minfo-spoofing" class="md-nav__link">
+    <span class="md-ellipsis">
+      .minfo Spoofing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#automatic-json-msg" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automatic .json -&gt; .msg
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#creating-mods-for-manual-installation" class="md-nav__link">
     <span class="md-ellipsis">
       Creating Mods for Manual Installation
@@ -1582,6 +1615,39 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#mod-loader-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mod Loader Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mod Loader Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#minfo-spoofing" class="md-nav__link">
+    <span class="md-ellipsis">
+      .minfo Spoofing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#automatic-json-msg" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automatic .json -&gt; .msg
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#creating-mods-for-manual-installation" class="md-nav__link">
     <span class="md-ellipsis">
       Creating Mods for Manual Installation
@@ -1643,6 +1709,15 @@
 </div>
 <p>If you have successfully gotten your mod to work, congratulations!</p>
 <hr />
+<h2 id="mod-loader-features">Mod Loader Features<a class="headerlink" href="#mod-loader-features" title="Permanent link">&para;</a></h2>
+<p>The mod loader comes with a few features that you can leverage to make mods easier to build or compatible across versions.</p>
+<h3 id="minfo-spoofing"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 21v-2h8v2H8m0-4v-2h8v2H8m0-4v-2h8v2H8m11-4H5l7-7 7 7Z"/></svg></span> <code>.minfo</code> Spoofing<a class="headerlink" href="#minfo-spoofing" title="Permanent link">&para;</a></h3>
+<p>Sometimes the <a href="../../resources/formats/minfo/">Model Info</a> (<code>.minfo</code>) format is changed and a <em>version date</em> is changed across all <code>.minfo</code> files. This version is explicitly checked to at least be of a certain date. </p>
+<p>Since <code>.minfo</code> files are <a href="https://flatbuffers.dev/">FlatBuffers</a> files, it is normally fine to just upgrade this version as is. The mod loader will silently upgrade any files if needed.</p>
+<h3 id="automatic-json-msg"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6m-1 1.5L18.5 9H13m-4.07 3.22H16v7.07l-2.12-2.12L11.05 20l-2.83-2.83 2.83-2.82"/></svg></span> Automatic <code>.json</code> -&gt; <code>.msg</code><a class="headerlink" href="#automatic-json-msg" title="Permanent link">&para;</a></h3>
+<p>As of 1.0.5, any <code>.json</code> files converted from message pack <code>.msg</code> files can be automatically processed by the mod loader and converted back to <code>.msg</code>. </p>
+<p>You only have to deal with editing the <code>.json</code> file.</p>
+<hr />
 <h2 id="creating-mods-for-manual-installation">Creating Mods for Manual Installation<a class="headerlink" href="#creating-mods-for-manual-installation" title="Permanent link">&para;</a></h2>
 <p>Refer to <a href="../installing_mods/#modding-manually">Modding Manually</a> on the Installing Mods page.</p>
 <hr />
@@ -1651,6 +1726,7 @@
 <p>Before you publish a mod, ensure that you've mentioned the following:</p>
 <ul>
 <li>Which <strong>version</strong> this mod was tested for.</li>
+<li>The <strong>version</strong> of the mod loader (Granblue Fantasy Relink Mod Manager) this mod requires.</li>
 <li>If this mod contains <strong><a href="../../tables/table_database/">table edits</a></strong>, in that case the mod is likely to break in future updates.</li>
 <li>If this mod cotnains UI <strong>texture edits</strong> (any texture that are <a href="https://en.wikipedia.org/wiki/Texture_atlas">spritesheets</a>), in that case the mod is likely to break in future updates.</li>
 <li>If you've made an UI mod, make sure that you've made both <code>fhd</code> and non-fhd versions - if you've only edited textures from the <code>fhd</code> folder, users using resolutions above 2k (1920x1080) will be using textures from the non-fhd folder and <strong>not be able to see your texture mods</strong>.</li>
@@ -1677,7 +1753,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 21, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 23, 2024</span>
   </span>
 
     
@@ -1704,6 +1780,11 @@
 
     
     <nav>
+      
+        <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">
+          
+          <img src="https://avatars.githubusercontent.com/u/13786175?v=4&size=72" alt="Nenkai">
+        </a>
       
         <a href="https://github.com/AlphaSatanOmega" class="md-author" title="@AlphaSatanOmega">
           
