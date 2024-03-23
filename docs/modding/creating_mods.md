@@ -24,6 +24,24 @@ If you have successfully gotten your mod to work, congratulations!
 
 ---
 
+## Mod Loader Features
+
+The mod loader comes with a few features that you can leverage to make mods easier to build or compatible across versions.
+
+### :material-transfer-up: `.minfo` Spoofing
+
+Sometimes the [Model Info](../resources/formats/minfo.md) (`.minfo`) format is changed and a *version date* is changed across all `.minfo` files. This version is explicitly checked to at least be of a certain date. 
+
+Since `.minfo` files are [FlatBuffers](https://flatbuffers.dev/) files, it is normally fine to just upgrade this version as is. The mod loader will silently upgrade any files if needed.
+
+### :material-file-export: Automatic `.json` -> `.msg`
+
+As of 1.0.5, any `.json` files converted from message pack `.msg` files can be automatically processed by the mod loader and converted back to `.msg`. 
+
+You only have to deal with editing the `.json` file.
+
+---
+
 ## Creating Mods for Manual Installation
 
 Refer to [Modding Manually](./installing_mods.md#modding-manually) on the Installing Mods page.
@@ -37,6 +55,7 @@ Refer to [Modding Manually](./installing_mods.md#modding-manually) on the Instal
 Before you publish a mod, ensure that you've mentioned the following:
 
 * Which **version** this mod was tested for.
+* The **version** of the mod loader (Granblue Fantasy Relink Mod Manager) this mod requires.
 * If this mod contains **[table edits](../tables/table_database.md)**, in that case the mod is likely to break in future updates.
 * If this mod cotnains UI **texture edits** (any texture that are [spritesheets](https://en.wikipedia.org/wiki/Texture_atlas)), in that case the mod is likely to break in future updates.
 * If you've made an UI mod, make sure that you've made both `fhd` and non-fhd versions - if you've only edited textures from the `fhd` folder, users using resolutions above 2k (1920x1080) will be using textures from the non-fhd folder and **not be able to see your texture mods**.
