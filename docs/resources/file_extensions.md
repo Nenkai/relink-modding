@@ -12,7 +12,7 @@ icon: material/file-question-outline
 | `.evtb`   | Event Timeline Data - FlatBuffer |                |
 | `.gtp/gts`| [Granite](https://unity.com/products/granite-sdk) Streamed Texture | [GraniteTextureReader](https://github.com/Nenkai/GraniteTextureReader) | N/A |
 | `.layout2`| [Map Layout 2 - FlatBuffer](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/Layout2_LayoutBin.fbs) | [Flatbuffers](https://github.com/google/flatbuffers/releases/)
-| `.msg`    | [MessagePack](https://msgpack.org/index.html)  | [MsgPack2Json](https://github.com/WistfulHopes/MsgPack2Json) | [MsgPack2Json](https://github.com/WistfulHopes/MsgPack2Json)
+| `.msg`    | [MessagePack](https://msgpack.org/index.html)  | [MsgPack2Json](https://github.com/Nenkai/MsgPack2Json) | [MsgPack2Json](https://github.com/Nenkai/MsgPack2Json)
 | `.minfo`  | [Model Info - FlatBuffer](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MInfo_ModelInfo.fbs) | [Flatbuffers](https://github.com/google/flatbuffers/releases/)
 | `.mmat`   | [Model Material - FlatBuffer](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MMat_ModelMaterial.fbs) | [Flatbuffers](https://github.com/google/flatbuffers/releases/)
 | `.mmesh`  | Model Mesh Buffer          | [GBFRBlenderImporter](https://github.com/WistfulHopes/GBFRBlenderImporter/releases) | 
