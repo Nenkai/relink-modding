@@ -2,7 +2,7 @@
 icon: material/help-box
 ---
 
-:material-lightbulb: Data Version: `1.0.5`
+:material-lightbulb: Data Version: `1.1.x`
 
 !!! note
 
@@ -16,6 +16,11 @@ icon: material/help-box
         * Group #5 = Proud
     
 If you need to find a specific item, ++ctrl+f++ and search by name.
+
+??? tip "Changelog"
+
+    * 1.0 :material-arrow-right: 1.1: No changes.
+
 
 ## Curio (T1)
 
