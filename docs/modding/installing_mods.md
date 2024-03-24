@@ -2,20 +2,20 @@
 icon: material/folder-download
 ---
 
-# <u>Mod Manager</u>
+# Mod Manager
 
 The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manager mod is the primary way to manage mods for GBFR. It quickly handles what would normally be a multi-step process with GBFRDataTools for all managed mods.
 
 ---
 
-## <u>Requirements</u>
+## Requirements
 
 * [Reloaded-II Mod Manager](https://github.com/Reloaded-Project/Reloaded-II/releases)
 * [gbfrelink.utility.manager](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases)
 
 ---
 
-## <u>Setting up Reloaded-II</u>
+## Setting up Reloaded-II
 
 1. Download Reloaded-II's `Release.zip`, or `Setup.exe`.
 2. Extract `Release.zip` to its own folder or run the `Setup.exe` and install it.
@@ -35,7 +35,7 @@ The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manage
 
 ---
 
-## <u>Installing Mods</u>
+## Installing Mods
 
 1. Download a mod. You can find mods on sites like Nexus Mods and GameBanana.
 2. Extract the `gbfrelink.utility.manager.zip` and any of your mod .zips into the `Mods` folder using the `Extract Here` option. **DO NOT USE EXTRACT `Extract to ...`**
@@ -47,7 +47,9 @@ The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manage
 4. Press `Launch Application` to launch the game and install the mods.
     * If you'd like to just launch the game with mods from steam, follow the instructions in the next section.
 
-### <u>Making Reloaded-II Compatable with SpecialK and GBFRelinkFix</u>
+---
+
+### Compatibility with SpecialK and GBFRelinkFix
 
 Some programs/mods that directly inject into the game, like SpecialK or GBFRelinkFix, will be incompatible with Reloaded-II's default setup. Thankfully, this is easy to remedy.
 
@@ -64,15 +66,16 @@ You can now either launch the game through Reloaded-II or Steam.
 
 ---
 
-## <u>Video Tutorial - Mod Installation</u>
+### Video Tutorial - Mod Installation
 
 <video controls>
     <source src="../GBFR Reloaded-II and Mod Installation Guide.mp4" type="video/mp4">
 </video>
 
+
 ---
 
-## <u>Game Updates</u>
+## Game Updates
 
 !!! Warning
     ***Do this before Downloading the game update through steam!***
@@ -89,7 +92,17 @@ If that does not work, or you already downloaded the game update, delete the `da
 
 ---
 
-## <u>Modding Manually</u>
+## Alternative Mod Managers
+
+We cannot ensure that these will remain compatible with the Reloaded II Mod Manager.
+
+* [Relink-Mod-Manager](https://github.com/Zetas-Workshop/Relink-Mod-Manager) 
+    * [Wiki](https://github.com/Zetas-Workshop/Relink-Mod-Manager/wiki)
+    * [Compatibility with Reloaded II Mods](https://github.com/Zetas-Workshop/Relink-Mod-Manager/wiki/Importing-Reloaded-II-Mod-Packs)
+
+---
+
+## Modding Manually
 
 !!! warning
 
