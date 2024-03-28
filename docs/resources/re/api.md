@@ -1,3 +1,7 @@
+---
+icon: material/api
+---
+
 # API
 
 The game reaches to some very basic API when booting up the game.
