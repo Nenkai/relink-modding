@@ -95,6 +95,7 @@ nav:
         Hashes: resources/re/hashes.md
         Obj IDs: resources/re/obj_id.md
         User Attributes: resources/re/user_attributes.md
+        API: resources/re/api.md
       
   - Blender:
     - Model Importing: models/importing.md 
