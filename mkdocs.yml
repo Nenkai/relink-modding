@@ -85,6 +85,7 @@ nav:
     - Rates/Tables:
       - Quest Drop Rates: resources/quest_drop_rates.md
       - Curio Loot Rates: resources/curio_loot_rates.md
+      - Gacha (Transmute) Rates: resources/gacha_rates.md
       - Weapon Materials: resources/weapon_materials.md
 
     - Formats:
