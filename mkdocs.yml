@@ -76,16 +76,16 @@ nav:
     - Entity Prefixes: resources/entity_prefixes.md
 
     - IDs:
-      - Model IDs: resources/model_ids.md
       - Item IDs: resources/item_ids.md
+      - Model IDs: resources/model_ids.md
+      - Quest IDs: resources/quest_ids.md
       - Sigil/Gem IDs: resources/sigil_gem_ids.md
       - Trait/Skill IDs: resources/trait_skill_ids.md
-      - Quest IDs: resources/quest_ids.md
 
     - Rates/Tables:
-      - Item Junk (Curio) Rates: resources/curio_loot_rates.md
       - Enemy Parts Rates: resources/enemy_break_part_rates.md
       - Gacha (Transmute) Rates: resources/gacha_rates.md
+      - Item Junk (Curio) Rates: resources/curio_loot_rates.md
       - Quest Drop Rates: resources/quest_drop_rates.md
       - Weapon Materials: resources/weapon_materials.md
 
@@ -94,10 +94,10 @@ nav:
         .mmat - Material Info: resources/formats/mmat.md
         .objread - Obj Read: resources/formats/objread.md
     - Reverse-Engineering:
+        API: resources/re/api.md
         Hashes: resources/re/hashes.md
         Obj IDs: resources/re/obj_id.md
         User Attributes: resources/re/user_attributes.md
-        API: resources/re/api.md
       
   - Blender:
     - Model Importing: models/importing.md 
