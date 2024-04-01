@@ -83,9 +83,10 @@ nav:
       - Quest IDs: resources/quest_ids.md
 
     - Rates/Tables:
-      - Quest Drop Rates: resources/quest_drop_rates.md
-      - Curio Loot Rates: resources/curio_loot_rates.md
+      - Item Junk (Curio) Rates: resources/curio_loot_rates.md
+      - Enemy Parts Rates: resources/enemy_break_part_rates.md
       - Gacha (Transmute) Rates: resources/gacha_rates.md
+      - Quest Drop Rates: resources/quest_drop_rates.md
       - Weapon Materials: resources/weapon_materials.md
 
     - Formats:
