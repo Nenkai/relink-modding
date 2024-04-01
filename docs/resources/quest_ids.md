@@ -8,8 +8,12 @@ icon: material/sword-cross
 
 List is interpolated using `system/table/text/text_stage.msg`
 
-* `2xxxx` = Side Quest
-* `3xxxx` = Fate Episode
-* `4xxxx` = Quest Counter
+* `1xxxxx` = Main Quest
+* `2xxxxx` = Side Quest
+* `3xxxxx` = Fate Episode
+* `4xxxxx` = Quest Counter
+* `5xxxxx` = Towns/Lobbies
+* `6xxxxx` = Dummy
+* `7xxxxx` = Misc
 
 {{ read_csv('quest_id.csv') }}
