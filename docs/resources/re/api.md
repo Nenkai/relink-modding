@@ -33,13 +33,32 @@ Setup through [`ISteamHTTP::SetHTTPRequestHeaderValue`](https://partner.steamgam
 
 Mandatory.
 
-`relink/1.1.1 (STEAM) language/1 region/0 platform/3"`
+`{}/{}.{}.{} ({}) language/{} region/{} platform/{}"`
+
+* `{1}` - Game
+    * Always `relink`
+* `{2/3/4}` - Version
+    * Version from [User Attributes](user_attributes.md), so `major.minor.patch`
+* `{5}` - Platform String
+    * `STEAM`
+    * `PLAYSTATION_4`
+    * `PLAYSTATION_5`
+* `{6}` - Language Value
+    * `1` = en
+* `{7}` - Region Value
+* `{8}` - Platform Value
+    * 1 = PS4
+    * 2 = PS5
+    * 3 = STEAM
+
+!!! example
+    `relink/1.1.1 (STEAM) language/1 region/0 platform/3"`
 
 #### "Signature"
 
 Mandatory.
 
-Key: `9xcleSD8efksogsz`
+Key: `9xcleSD8efksogsz` (Steam), `id83dfsSlvg2Lo` (PS4)
 
 input: Current timestamp ms i.e 1711640120000 to string
 

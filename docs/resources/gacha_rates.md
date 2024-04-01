@@ -503,7 +503,7 @@ icon: material/slot-machine
 ## Level 3 Transmutation (Total Weight: 10000)
 - Gem (Sigil) Chance: **80%**
 - Stone Chance: **20%**
-- Unlock Requirement: **Manic Unlocked**
+- Unlock Requirement: **Maniac Unlocked**
 
 ### :simple-rubygems: Gem/Sigils
 #### Gem Group #1 (40.00%, weight 4000)
