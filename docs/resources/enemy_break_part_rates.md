@@ -10,14 +10,13 @@ icon: material/bone-off
     * This file __**only contains weight tables**__, refer to below note.
     * **`[R]` means reward rank.** It depends per quest. Any item that doesn't match the rank are NOT in the pool. `-1` is always included. Therefore percentages are not included here, refer to [Quest IDs](quest_ids.md) in the future for reward ranks.
     * It is unclear what the flag is for, only used for Tayu'itar
-    * Body Part indices are for the most part not known as to which actual body part they refer to - needs testing
     
 If you need to find a specific enemy, ++ctrl+f++ and search by enemy name.
 
 ## Quakadile (EM0500)
 ### Part Group #1
 UnkFlag/Id: 0
-#### Body Part 1
+#### Body Part 1 (Right Arm)
 ```
   - [R-1] Rumbling Orb (10000)
   - [R0] Earth Shard (10000)
@@ -28,7 +27,7 @@ UnkFlag/Id: 0
   - [R11] Earth Shard (10000)
 ```
 
-#### Body Part 2
+#### Body Part 2 (Left Arm)
 ```
   - [R-1] Landbeast Plate (10000)
   - [R0] Earth Shard (8000)
@@ -44,7 +43,7 @@ UnkFlag/Id: 0
 
 ### Part Group #2
 UnkFlag/Id: 0
-#### Body Part 0
+#### Body Part 0 (Horn/Head)
 ```
   - [R-1] Landbeast Horn (8000)
   - [R-1] Mirage Munition (2000)
@@ -65,7 +64,7 @@ UnkFlag/Id: 0
 ## Blizzadile (EM0501)
 ### Part Group #1
 UnkFlag/Id: 0
-#### Body Part 1
+#### Body Part 1 (Right Arm)
 ```
   - [R2] Water Shard (7000)
   - [R2] Water Orb (3000)
@@ -75,7 +74,7 @@ UnkFlag/Id: 0
   - [R17] Water Orb (3000)
 ```
 
-#### Body Part 2
+#### Body Part 2 (Left Arm)
 ```
   - [R2] Water Orb (6000)
   - [R2] Frostbeast Plate (4000)
@@ -88,7 +87,7 @@ UnkFlag/Id: 0
 
 ### Part Group #2
 UnkFlag/Id: 0
-#### Body Part 0
+#### Body Part 0 (Horn/Head)
 ```
   - [R2] Water Orb (9000)
   - [R2] Frostbeast Horn (1000)
@@ -105,7 +104,7 @@ UnkFlag/Id: 0
 ## Infernadile (EM0502)
 ### Part Group #1
 UnkFlag/Id: 0
-#### Body Part 1
+#### Body Part 1 (Right Arm)
 ```
   - [R3] Fire Shard (7000)
   - [R3] Fire Orb (3000)
@@ -114,7 +113,7 @@ UnkFlag/Id: 0
   - [R16] Fire Shard (10000)
 ```
 
-#### Body Part 2
+#### Body Part 2 (Left Arm)
 ```
   - [R3] Fire Orb (6000)
   - [R3] Flamebeast Plate (4000)
@@ -127,7 +126,7 @@ UnkFlag/Id: 0
 
 ### Part Group #2
 UnkFlag/Id: 0
-#### Body Part 0
+#### Body Part 0 (Horn/Head)
 ```
   - [R3] Fire Orb (9000)
   - [R3] Flamebeast Horn (1000)
@@ -144,7 +143,7 @@ UnkFlag/Id: 0
 ## Tayu'itar (EM1900)
 ### Part Group #1
 UnkFlag/Id: 0
-#### Body Part 0
+#### Body Part 0 (MK1 Head)
 ```
   - [R-1] Tayu'itar Head Unit (5000)
   - [R-1] Shining Orb (3000)
@@ -164,7 +163,7 @@ UnkFlag/Id: 0
 
 ### Part Group #2
 UnkFlag/Id: 1
-#### Body Part 0
+#### Body Part 0 (MK2 Head)
 ```
   - [R5] Ukhar Core (7500)
   - [R5] Mirage Munition (2500)
@@ -190,7 +189,7 @@ UnkFlag/Id: 0
 ## Vrazarek Firewyrm (EM1801)
 ### Part Group #1
 UnkFlag/Id: 0
-#### Body Part 0
+#### Body Part 0 (Head)
 ```
   - [R4] Crimson Horn (8000)
   - [R4] Dragon Scale (2000)
@@ -202,7 +201,7 @@ UnkFlag/Id: 0
 ## Wilinus Icewyrm (EM1802)
 ### Part Group #1
 UnkFlag/Id: 0
-#### Body Part 0
+#### Body Part 0 (Head)
 ```
   - [R4] Frozen Horn (8000)
   - [R4] Dragon Scale (2000)
@@ -214,7 +213,7 @@ UnkFlag/Id: 0
 ## Corvell Earthwyrm (EM1803)
 ### Part Group #1
 UnkFlag/Id: 0
-#### Body Part 0
+#### Body Part 0 (Head)
 ```
   - [R4] Terra Horn (8000)
   - [R4] Dragon Scale (2000)
@@ -226,7 +225,7 @@ UnkFlag/Id: 0
 ## Elusious Windwyrm (EM1804)
 ### Part Group #1
 UnkFlag/Id: 0
-#### Body Part 0
+#### Body Part 0 (Head)
 ```
   - [R4] Typhoon Horn (8000)
   - [R4] Dragon Scale (2000)
@@ -238,7 +237,7 @@ UnkFlag/Id: 0
 ## Radis Whitewyrm (EM1805)
 ### Part Group #1
 UnkFlag/Id: 0
-#### Body Part 0
+#### Body Part 0 (Head)
 ```
   - [R6] Bright Horn (10000)
 ```
@@ -248,7 +247,7 @@ UnkFlag/Id: 0
 ## Ancient Dragon (EM1806)
 ### Part Group #1
 UnkFlag/Id: 0
-#### Body Part 0
+#### Body Part 0 (Head)
 ```
   - [R6] Abyssal Horn (10000)
 ```
@@ -258,14 +257,14 @@ UnkFlag/Id: 0
 ## Angra Mainyu (EM7500)
 ### Part Group #1
 UnkFlag/Id: 0
-#### Body Part 0
+#### Body Part 0 (Head - Left Horn)
 ```
   - [R5] Dark Orb (6000)
   - [R5] Flawless Prism (3000)
   - [R5] Calamity Corkscrew (1000)
 ```
 
-#### Body Part 1
+#### Body Part 1 (Head - Right Horn)
 ```
   - [R5] Rainbow Prism (6000)
   - [R5] Dark Orb (2500)
@@ -274,7 +273,7 @@ UnkFlag/Id: 0
 
 ### Part Group #2
 UnkFlag/Id: 0
-#### Body Part 2
+#### Body Part 2 (Head - Left Horn)
 ```
   - [R-1] Abysm Orb (9700)
   - [R-1] Calamity Corkscrew (300)
@@ -284,7 +283,7 @@ UnkFlag/Id: 0
   - [R14] Dark Shard (10000)
 ```
 
-#### Body Part 3
+#### Body Part 3 (Head - Right Horn)
 ```
   - [R-1] Abysm Orb (6300)
   - [R-1] Mirage Munition (3000)
@@ -300,7 +299,7 @@ UnkFlag/Id: 0
 
 ### Part Group #3
 UnkFlag/Id: 0
-#### Body Part 4
+#### Body Part 4 (Head - Left Braid)
 ```
   - [R-1] Mirage Munition (5000)
   - [R-1] Abysm Orb (3000)
@@ -315,7 +314,7 @@ UnkFlag/Id: 0
   - [R14] Dark Shard (10000)
 ```
 
-#### Body Part 5
+#### Body Part 5 (Head - Right Braid)
 ```
   - [R-1] Calamity Corkscrew (7000)
   - [R-1] Mirage Munition (3000)
