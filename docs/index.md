@@ -23,6 +23,8 @@ Welcome to the world of GBFR Modding! Here you can learn all about modding the g
 
     [:material-folder-plus: Creating Mods](modding/creating_mods.md)
 
+    [:material-medal-outline: Recommended Mods/Tools](modding/recommended_mods_tools.md)
+
 -   :material-wrench:{ .lg .middle } __Tutorials for Modders__
 
     ---
