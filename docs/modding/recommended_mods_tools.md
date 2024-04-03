@@ -17,6 +17,9 @@ When applicable, make sure to support the authors!
 * [Mute Sierokarte and Parrot](https://www.nexusmods.com/granbluefantasyrelink/mods/52) by *SixTrillionOwls*
 * [Disable TAA/Bloom/Motion Blur/DoF & More](https://www.nexusmods.com/granbluefantasyrelink/mods/17) by *happihora*
 
+!!! tip
+    More mods can be found on [Nexus Mods](https://www.nexusmods.com/granbluefantasyrelink)!
+
 ## Tools
 
 * [Freecam/Hud Toggle/Freeze/FOV (IGCS)](https://github.com/ghostinthecamera/IGCS-GITC/releases/tag/GBFR_v2.11) by *ghostinthecamera & Skall*
