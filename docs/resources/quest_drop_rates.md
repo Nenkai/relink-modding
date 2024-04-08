@@ -2,7 +2,7 @@
 icon: material/treasure-chest
 ---
 
-:material-lightbulb: Data Version: `1.1.x`
+:material-lightbulb: Data Version: `1.1.4`
 
 !!! note ":material-note: Notes/Observations"
 
@@ -18,7 +18,7 @@ If you need to find a specific quest, ++ctrl+f++ and search by quest name.
 ??? abstract ":material-update: Change List"
 
     * [1.0 :material-arrow-right: 1.1](change_lists/quest_rate_v1.0_v1.1.htm)
-
+    * [1.1.3 :material-arrow-right: 1.1.4](change_lists/quest_rate_v1.1_v1.1.4.htm)
 
 ## Easy
 
@@ -11483,7 +11483,7 @@ First Clear Rewards:
 
 ----
 
-### The Final Vision (407320)
+## The Final Vision (407320)
 
 ```
 First Clear Rewards:
@@ -11526,14 +11526,12 @@ First Clear Rewards:
     - x4 Dark Residue (30% - 3000)
     - x6 Dark Residue (20% - 2000)
     - x8 Dark Residue (10% - 1000)
-* Lot #3 (Total Weight: 12500)
-    - x1 Copper Spellbook (41.6% - 5200)
-    - x1 Tears of the Apocalypse (25.6% - 3200)
-    - x2 Tears of the Apocalypse (12% - 1500)
-    - x3 Tears of the Apocalypse (0.8% - 100)
-    - Nothing (20% - 2500)
+* Lot #3 (Total Weight: 10000)
+    - x1 Tears of the Apocalypse (60% - 6000)
+    - x2 Tears of the Apocalypse (35% - 3500)
+    - x3 Tears of the Apocalypse (5% - 500)
 * Lot #4 (Total Weight: 20000)
-    - x1 Copper Spellbook (20% - 4000)
+    - x1 Silver Centrum (20% - 4000)
     - x1 Silver Spellbook (12.5% - 2500)
     - x1 Gold Spellbook (7.5% - 1500)
     - x1 Ambrosia (5% - 1000)
@@ -11559,7 +11557,7 @@ First Clear Rewards:
 * Lot #3 (Total Weight: 10000)
     - x3 Dark Residue (50% - 5000)
     - x5 Dark Residue (30% - 3000)
-    - x1 Silver Centrum (20% - 2000)
+    - x1 Dark Residue (20% - 2000)
 * Lot #4 (Total Weight: 12500)
     - x1 Dread Wrightstone (ITEM_25_0012) (20% - 2500)
     - x1 Vitality Wrightstone (ITEM_26_0012) (20% - 2500)
@@ -11670,23 +11668,22 @@ First Clear Rewards:
     - x10 Rainbow Prism (60% - 6000)
 
 [5 ★★★★★ (S++ Rank)]
-* Lot #1 (Total Weight: 33333)
-    - x1 Silver Centrum (30% - 10000)
-    - Nothing (70% - 23333)
-* Lot #2 (Total Weight: 50000)
-    - x1 Tears of the Apocalypse (20% - 10000)
-    - Nothing (80% - 40000)
-* Lot #3 (Total Weight: 20000)
-    - x2 Dark Residue (50% - 10000)
-    - Nothing (50% - 10000)
-* Lot #4 (Total Weight: 10000)
+* Lot #1 (Total Weight: 12500)
+    - x1 Tears of the Apocalypse (68% - 8500)
+    - x2 Tears of the Apocalypse (12% - 1500)
+    - Nothing (20% - 2500)
+* Lot #2 (Total Weight: 12500)
+    - x2 Dark Residue (64% - 8000)
+    - x1 Dark Residue (16% - 2000)
+    - Nothing (20% - 2500)
+* Lot #3 (Total Weight: 10000)
     - x25 Knickknack Voucher (100% - 10000)
 
 ```
 
 ----
 
-### The Final Vision (2?) (407321)
+## The Final Vision (2?) (407321)
 
 ```
 First Clear Rewards:
@@ -11729,14 +11726,12 @@ First Clear Rewards:
     - x4 Dark Residue (30% - 3000)
     - x6 Dark Residue (20% - 2000)
     - x8 Dark Residue (10% - 1000)
-* Lot #3 (Total Weight: 12500)
-    - x1 Copper Spellbook (41.6% - 5200)
-    - x1 Tears of the Apocalypse (25.6% - 3200)
-    - x2 Tears of the Apocalypse (12% - 1500)
-    - x3 Tears of the Apocalypse (0.8% - 100)
-    - Nothing (20% - 2500)
+* Lot #3 (Total Weight: 10000)
+    - x1 Tears of the Apocalypse (60% - 6000)
+    - x2 Tears of the Apocalypse (35% - 3500)
+    - x3 Tears of the Apocalypse (5% - 500)
 * Lot #4 (Total Weight: 20000)
-    - x1 Copper Spellbook (20% - 4000)
+    - x1 Silver Centrum (20% - 4000)
     - x1 Silver Spellbook (12.5% - 2500)
     - x1 Gold Spellbook (7.5% - 1500)
     - x1 Ambrosia (5% - 1000)
@@ -11762,7 +11757,7 @@ First Clear Rewards:
 * Lot #3 (Total Weight: 10000)
     - x3 Dark Residue (50% - 5000)
     - x5 Dark Residue (30% - 3000)
-    - x1 Silver Centrum (20% - 2000)
+    - x1 Dark Residue (20% - 2000)
 * Lot #4 (Total Weight: 10000)
     - x1 Dread Wrightstone (ITEM_25_0012) (20% - 2000)
     - x1 Vitality Wrightstone (ITEM_26_0012) (20% - 2000)
@@ -11873,16 +11868,15 @@ First Clear Rewards:
     - x10 Rainbow Prism (60% - 6000)
 
 [5 ★★★★★ (S++ Rank)]
-* Lot #1 (Total Weight: 33333)
-    - x1 Silver Centrum (30% - 10000)
-    - Nothing (70% - 23333)
-* Lot #2 (Total Weight: 50000)
-    - x1 Tears of the Apocalypse (20% - 10000)
-    - Nothing (80% - 40000)
-* Lot #3 (Total Weight: 20000)
-    - x2 Dark Residue (50% - 10000)
-    - Nothing (50% - 10000)
-* Lot #4 (Total Weight: 10000)
+* Lot #1 (Total Weight: 12500)
+    - x1 Tears of the Apocalypse (68% - 8500)
+    - x2 Tears of the Apocalypse (12% - 1500)
+    - Nothing (20% - 2500)
+* Lot #2 (Total Weight: 12500)
+    - x2 Dark Residue (64% - 8000)
+    - x1 Dark Residue (16% - 2000)
+    - Nothing (20% - 2500)
+* Lot #3 (Total Weight: 10000)
     - x25 Knickknack Voucher (100% - 10000)
 
 ```
