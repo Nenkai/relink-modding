@@ -94,7 +94,7 @@ If that does not work, or you already downloaded the game update, delete the `da
 
 ## Alternative Mod Managers
 
-We cannot ensure that these will remain compatible with the Reloaded II Mod Manager.
+We cannot ensure that these will remain compatible with the Reloaded II Mod Manager. It is *always recommended* to use the Reloaded II Mod Manager to ensure to get the latest fixes if and when game updates could break certain mods.
 
 * [Relink-Mod-Manager](https://github.com/Zetas-Workshop/Relink-Mod-Manager) 
     * [Wiki](https://github.com/Zetas-Workshop/Relink-Mod-Manager/wiki)
