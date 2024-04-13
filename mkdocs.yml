@@ -65,6 +65,7 @@ nav:
     - Installing Mods: modding/installing_mods.md
     - Creating Mods: modding/creating_mods.md
     - Recommended Mods/Tools: modding/recommended_mods_tools.md
+    - Mod Manager API: modding/mod_manager_api.md
 
   - Modder Tutorials:
     - Extracting Files: extraction/file_extraction.md
