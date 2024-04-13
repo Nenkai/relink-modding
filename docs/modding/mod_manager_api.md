@@ -27,7 +27,7 @@ In your mod's constructor, grab a reference to `IDataManager`:
 
 ```csharp
 // Fetch IDataManager to manipulate game data
-_modLoader.GetController<IReloadedHooks>()?.TryGetTarget(out IDataManager dataManager!);
+_modLoader.GetController<IDataManager>()?.TryGetTarget(out IDataManager dataManager!);
 
 // Checks if a game file exists (archive file, non-external)
 const string TEXT_EN_PATH = "system/table/text/en/text.msg";
