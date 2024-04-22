@@ -1,0 +1,489 @@
+{
+    "created_at": 1713568392000,
+    "uid": "9f6537e83e7605b3f04d4d1a3ce423a0593b4843ba26d645cadf3b462fda1d01",
+    "region": "Japan",
+    "type": "Quest",
+    "data": {
+      "always_play_log": {
+        "display_language": 1,
+        "total_play_time": 11452,
+        "archive_release_count": 57,
+        "continuous_play_time": 3,
+        "current_section_id": "223",
+        "continuous_play_hash": 334944553,
+        "current_quest_rank": 6,
+        "little_snipper_count": 22,
+        "smith_info": {
+          "weapon_level_up_count": 98,
+          "weapon_create_count": 16,
+          "weapon_limit_up_count": 78,
+          "weapon_mirage_use_count": 495,
+          "geen_level_up_count": 138,
+          "pendulum_use_count": 10
+        },
+        "open_achievement_info": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        "side_quest_clear_num": 89,
+        "open_character_info": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        "open_fate_episode_info": [0, 0, 0, 0, 0, 11, 0, 11, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "ui_access_info": {
+          "equipment": 434,
+          "party": 239,
+          "character_enhancement": 302,
+          "ability": 249,
+          "item": 134,
+          "player_setting": 47,
+          "side_quest": 291,
+          "system": 165,
+          "lyria_note_story": 13,
+          "lyria_note_picture_book": 19,
+          "lyria_note_archive": 32,
+          "lyria_note_wordlist": 17,
+          "lyria_note_tips": 5,
+          "lyria_note_bgm": 7,
+          "lyria_note_achievement": 33
+        },
+        "clear_speed_run_list": [
+          {
+            "id": "RW_CHASE_CHEST_1ST_1_1",
+            "section_id": "40"
+          },
+          {
+            "id": "RW_CHASE_CHEST_1ST_1_2",
+            "section_id": "40"
+          },
+          {
+            "id": "RW_CHASE_CHEST_1ST_3_1",
+            "section_id": "60"
+          },
+          {
+            "id": "RW_CHASE_CHEST_3ST_1_1",
+            "section_id": "100"
+          },
+          {
+            "id": "RW_CHASE_CHEST_3ST_1_2",
+            "section_id": "100"
+          },
+          {
+            "id": "RW_CHASE_CHEST_4ST_1_1",
+            "section_id": "120"
+          },
+          {
+            "id": "RW_CHASE_CHEST_5ST_1_1",
+            "section_id": "140"
+          },
+          {
+            "id": "RW_CHASE_CHEST_7ST_1_1",
+            "section_id": "180"
+          },
+          {
+            "id": "RW_CHASE_CHEST_7ST_1_2",
+            "section_id": "180"
+          },
+          {
+            "id": "RW_CHASE_CHEST_9ST_1_1",
+            "section_id": "220"
+          }
+        ],
+        "clear_enemy_sealing_stone_list": [
+          {
+            "id": "RW_CHASE_BOSS_1ST_1_5",
+            "section_id": "60"
+          },
+          {
+            "id": "RW_CHASE_BOSS_4ST_1_4",
+            "section_id": "120"
+          },
+          {
+            "id": "RW_CHASE_BOSS_4ST_1_5",
+            "section_id": "120"
+          }
+        ],
+        "awaken_weapon_info": [
+          {
+            "weapon_id": 2454305226,
+            "awaken_count": 0
+          },
+          {
+            "weapon_id": 1601509895,
+            "awaken_count": 6
+          },
+          {
+            "weapon_id": 714228600,
+            "awaken_count": 0
+          },
+          {
+            "weapon_id": 869275872,
+            "awaken_count": 10
+          },
+          {
+            "weapon_id": 2566441534,
+            "awaken_count": 1
+          },
+          {
+            "weapon_id": 2674332736,
+            "awaken_count": 10
+          },
+          {
+            "weapon_id": 37037396,
+            "awaken_count": 0
+          },
+          {
+            "weapon_id": 881800348,
+            "awaken_count": 6
+          }
+        ],
+        "shop_info": {
+          "treasure_trade_count": 171,
+          "geen_trade_count": 1740,
+          "awaken_weapon_upgrade_count": 33,
+          "dalia_trade_count_gold": 1,
+          "dalia_trade_count_silver": 0,
+          "ticket_trade_pendulum": 2,
+          "ticket_trade_treasure": 33,
+          "ticket_trade_geen": 25
+        }
+      },
+      "quest_end_log": {
+        "assist_type": "Manual",
+        "quest_id": "401303",
+        "is_disconnect": false,
+        "quest_rank": "Easy",
+        "quest_result": "Clear",
+        "is_first_clear": false,
+        "defeat_enemy_list": [
+          {
+            "enemy_id": 3507728971,
+            "count": 1,
+            "is_boss": true
+          }
+        ],
+        "quest_clear_rank": "S++",
+        "quest_clear_time": 1,
+        "sub_mission_clear_info": [true, true, true],
+        "use_potion_info": {
+          "cure_potion_count": 0,
+          "revive_potion_count": 0,
+          "mega_potion_count": 0,
+          "all_potion_count": 0
+        },
+        "action_info": {
+          "link_attack_count": 0,
+          "link_time_count": 0,
+          "use_ability_count": 0,
+          "chain_burst_count_full": 0,
+          "use_special_arts_count": 0,
+          "chain_burst_count_2": 0,
+          "chain_burst_count_3": 0
+        },
+        "matching_info": {
+          "quest_id": "401303",
+          "matching_type": "Normal",
+          "use_shuffle_quest": false,
+          "last_network_error_code": 0,
+          "steam_matching_filter_info": {
+            "quest_difficulty": 0,
+            "target": 0,
+            "is_create_room": false,
+            "play_style": 0,
+            "use_spoiler_setting": false
+          },
+          "matching_result": true,
+          "matching_wait_time": 0
+        },
+        "host_player_karma": -1,
+        "party_info": [
+          {
+            "equip_weapon": {
+              "weapon_id": 2674332736,
+              "level": 150,
+              "awaken_count": 10,
+              "pendulum_info": {
+                "pendulum_id": 752853394,
+                "skill_ids": [2373493147, 3536380170, 801700863]
+              }
+            },
+            "character_id": "PL1000",
+            "control_type": "PC",
+            "dying_num": 0,
+            "level": 100,
+            "evaluation_point": 10824,
+            "ap_tree_info": {
+              "attack_tree_rate": 100,
+              "defense_tree_rate": 100,
+              "weapon_tree_rate": 100,
+              "limit_bonus_try_count": 0,
+              "limit_bonus_skill_ids": [1136089117, 1386350517, 1170626407, 2622837811]
+            },
+            "dying_enemy_list": [],
+            "equip_ability_list": [605951890, 3404651101, 1754351166, 1895714294],
+            "equip_geen_list": [
+              {
+                "geen_id": 3044168306,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [3859444572, 612907763]
+              },
+              {
+                "geen_id": 1144547182,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [1552297491, 3696775008]
+              },
+              {
+                "geen_id": 1144547182,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [1552297491, 3696775008]
+              },
+              {
+                "geen_id": 1423501828,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [3696775008, 2335962636]
+              },
+              {
+                "geen_id": 1423501828,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [3696775008, 831329001]
+              },
+              {
+                "geen_id": 490771525,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [2829260347, 3697311093]
+              },
+              {
+                "geen_id": 3896853593,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [801700863, 99806428]
+              },
+              {
+                "geen_id": 1119554588,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [1470847760]
+              },
+              {
+                "geen_id": 1119554588,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [1470847760]
+              },
+              {
+                "geen_id": 1119554588,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [1470847760]
+              },
+              {
+                "geen_id": 1167971010,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [2373493147, 801700863]
+              },
+              {
+                "geen_id": 3666949793,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [1280871463]
+              }
+            ]
+          },
+          {
+            "equip_weapon": {
+              "weapon_id": 1601509895,
+              "level": 150,
+              "awaken_count": 6,
+              "pendulum_info": {
+                "pendulum_id": 1756474947,
+                "skill_ids": [2373493147, 2366080407, 831329001]
+              }
+            },
+            "character_id": "PL0500",
+            "control_type": "NPC",
+            "dying_num": 0,
+            "level": 100,
+            "evaluation_point": 111848,
+            "ap_tree_info": {
+              "attack_tree_rate": 100,
+              "defense_tree_rate": 100,
+              "weapon_tree_rate": 66,
+              "limit_bonus_try_count": 0,
+              "limit_bonus_skill_ids": [3297926103, 1136089117, 1246497085, 1756598296]
+            },
+            "dying_enemy_list": [],
+            "equip_ability_list": [1999610325, 3041693924, 782349275, 1022691671],
+            "equip_geen_list": [
+              {
+                "geen_id": 1423501828,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [3696775008, 99806428]
+              },
+              {
+                "geen_id": 1423501828,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [3696775008, 99806428]
+              },
+              {
+                "geen_id": 3896853593,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [801700863, 612907763]
+              },
+              {
+                "geen_id": 3666949793,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [1280871463]
+              },
+              {
+                "geen_id": 196723080,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [2373493147, 178391110]
+              },
+              {
+                "geen_id": 196723080,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [2373493147, 1612199723]
+              }
+            ]
+          },
+          {
+            "equip_weapon": {
+              "weapon_id": 881800348,
+              "level": 150,
+              "awaken_count": 6,
+              "pendulum_info": {
+                "pendulum_id": 752853394,
+                "skill_ids": [2373493147, 1327117955, 1619384869]
+              }
+            },
+            "character_id": "PL1600",
+            "control_type": "NPC",
+            "dying_num": 0,
+            "level": 100,
+            "evaluation_point": 10824,
+            "ap_tree_info": {
+              "attack_tree_rate": 100,
+              "defense_tree_rate": 100,
+              "weapon_tree_rate": 100,
+              "limit_bonus_try_count": 0,
+              "limit_bonus_skill_ids": [1136089117, 1170626407, 1418892681, 3297926103]
+            },
+            "dying_enemy_list": [],
+            "equip_ability_list": [2537767594, 719518365, 2352774620, 2514750994],
+            "equip_geen_list": [
+              {
+                "geen_id": 3075219579,
+                "level": 15,
+                "rarity": "Legend",
+                "skill_ids": [1858052470, 2373493147]
+              },
+              {
+                "geen_id": 3896853593,
+                "level": 11,
+                "rarity": "Legend",
+                "skill_ids": [801700863, 2515794566]
+              },
+              {
+                "geen_id": 2761097132,
+                "level": 11,
+                "rarity": "Legend",
+                "skill_ids": [1911626395, 3868870292]
+              },
+              {
+                "geen_id": 319097004,
+                "level": 11,
+                "rarity": "Legend",
+                "skill_ids": [2812567336, 3053428691]
+              }
+            ]
+          },
+          {
+            "equip_weapon": {
+              "weapon_id": 3189484003,
+              "level": 125,
+              "awaken_count": 0,
+              "pendulum_info": {
+                "pendulum_id": 0,
+                "skill_ids": []
+              }
+            },
+            "character_id": "PL0400",
+            "control_type": "NPC",
+            "dying_num": 0,
+            "level": 100,
+            "evaluation_point": 10824,
+            "ap_tree_info": {
+              "attack_tree_rate": 100,
+              "defense_tree_rate": 100,
+              "weapon_tree_rate": 11,
+              "limit_bonus_try_count": 0,
+              "limit_bonus_skill_ids": [1246497085, 2593636425, 1170626407, 3297926103]
+            },
+            "dying_enemy_list": [],
+            "equip_ability_list": [3020737948, 537289675, 1688650020, 850698606],
+            "equip_geen_list": [
+              {
+                "geen_id": 3048357634,
+                "level": 11,
+                "rarity": "Legend",
+                "skill_ids": [4084396182, 801700863]
+              },
+              {
+                "geen_id": 2810538530,
+                "level": 11,
+                "rarity": "Legend",
+                "skill_ids": [2373493147]
+              },
+              {
+                "geen_id": 2031986925,
+                "level": 11,
+                "rarity": "Legend",
+                "skill_ids": [3468099822, 1274208657]
+              },
+              {
+                "geen_id": 2136857113,
+                "level": 7,
+                "rarity": "Epic",
+                "skill_ids": [3468099822, 3277525275]
+              },
+              {
+                "geen_id": 1423501828,
+                "level": 11,
+                "rarity": "Legend",
+                "skill_ids": [3696775008, 2475281414]
+              },
+              {
+                "geen_id": 3813127523,
+                "level": 11,
+                "rarity": "Legend",
+                "skill_ids": [3231160855]
+              },
+              {
+                "geen_id": 3317116134,
+                "level": 7,
+                "rarity": "Epic",
+                "skill_ids": [3231160855, 4216792705]
+              },
+              {
+                "geen_id": 3317116134,
+                "level": 7,
+                "rarity": "Epic",
+                "skill_ids": [3231160855, 3484714882]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "platform": "Steam",
+    "build": "master",
+    "version": "1.1.1.16"
+  }
