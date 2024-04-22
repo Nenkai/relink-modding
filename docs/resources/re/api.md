@@ -114,7 +114,7 @@ Url is `https://main-playlog-relink.granbluefantasy.jp/playlog/`
 
     ```csharp
     string key = "kdu7JfwdKDu3";
-    string str = "STEAM:" + id;
+    string str = "STEAM:" + id; // id is SteamID64
     for (int i = 0; i < 17; i++)
        str = HMACSHA256ToStr(str, key); // HMACSHA256 str + convert to hex string (lowercase)
     ```
