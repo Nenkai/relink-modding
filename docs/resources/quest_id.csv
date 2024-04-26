@@ -1,17 +1,14 @@
 Quest/Stage Id,Name
-100000,Prologue
-100000,Prologue - Game Intro
-100001,Chapter 1 - Forest & Quakadile Fight
-100002,Prologue - "Repressed Memory"
-100003,Chapter 1 - "Our Lives Are Linked"
-100005,Prologue - "Ruffled Wings"
-100006,Prologue - Bahamut Fight
-101000,Chapter 1 - Folka
-101001,Chapter 2 - Skyboat Cutscene + Island
-101002,Chapter 2 - Zeghard Fortress (Arena)
-101003,Chapter 3 - Tampeal Mines
-101F00,Chapter 2 - Skyboat Travel
-105002_05,Fight off Avia's forces
+32132,32132
+32134,32134
+32137,32137
+117344,117344
+132173,132173
+153803,153803
+177249,177249
+406367,406367
+407321,The Final Vision (2?)
+431113,431113
 200000,A Lingering Regret
 200001,Save the Crustaceans
 200002,Miracle Mushrooms
@@ -23,33 +20,6 @@ Quest/Stage Id,Name
 200104,Long Time No Fix
 200200,Memories on Ice
 200201,Vulnerable Nights
-200400,The Gourmet Way
-200401,Fresh Material
-201002,A Curious Charm
-201005,Propeller Problems
-201006,Support Our Troops
-201007,On the Tip of My Chip
-201102,En-Raptored
-202002,Hands-On Research
-202005,Forget Me Not
-202006,Everything in Moderation
-202007,Collecting Godstones
-202010,Cleansing the Dead
-203006,Securing the Homestead
-203007,Stuffed Stocks
-203011,Sculpting Fire
-203111,Sculpting Ice
-203211,Sculpting Earth
-203311,Sculpting Wind
-204005,An Eyeful
-204006,Glory Days
-204007,Help Your Fellow Farer
-204011,Dubious Literature
-204012,Oddly Specific Request
-204013,Avenge the Dead
-204106,Futureproof Trading
-204107,Presentproof Investing
-204113,Frozen Menace
 210220,The Forbidden Spirit
 210221,Icey Interior
 210223,To Whirl Again
@@ -57,17 +27,24 @@ Quest/Stage Id,Name
 210227,Family Reporting
 210228,Wolves at the Door
 210229,Aid from Afar
+200400,The Gourmet Way
+200401,Fresh Material
 210420,Bug Hunt
 210421,A Barrold of My Own
 210423,Red-Hot Seller
 210425,Out of Serpentine Spite
 210427,Violent Requiem
 210428,Wrath of the Sword Veil
+201002,A Curious Charm
+201005,Propeller Problems
+201006,Support Our Troops
+201007,On the Tip of My Chip
 211021,"Eye for an Eye, Quake for a Dile"
 211023,Loathsome Wings
 211025,Smith Smarter
 211027,Cooling Bones
 211030,Magimorphosis
+201102,En-Raptored
 211121,Sensitive Technology
 211123,Soul in the Machine
 211125,Goopy Research
@@ -76,6 +53,11 @@ Quest/Stage Id,Name
 211330,Classroom Science
 211430,Expecting the Expected
 211530,Windy Memories
+202002,Hands-On Research
+202005,Forget Me Not
+202006,Everything in Moderation
+202007,Collecting Godstones
+202010,Cleansing the Dead
 212021,First Step is the Hardest
 212024,"Wreck, Reduce, Recycle"
 212026,Iced Water Supplies
@@ -86,7 +68,9 @@ Quest/Stage Id,Name
 212330,Mother Water
 212430,From the Soil
 212530,As the Wind Blows
-212630,Squishy Lies the Crown
+203006,Securing the Homestead
+203007,Stuffed Stocks
+203011,Sculpting Fire
 213021,"Try, Try Again"
 213022,Strong as Hell
 213024,A Vision of Gates
@@ -94,6 +78,15 @@ Quest/Stage Id,Name
 213032,A Vision of Sequestration
 213033,A Vision of Fortification
 213034,A Vision of Dread
+203111,Sculpting Ice
+203211,Sculpting Earth
+203311,Sculpting Wind
+204005,An Eyeful
+204006,Glory Days
+204007,Help Your Fellow Farer
+204011,Dubious Literature
+204012,Oddly Specific Request
+204013,Avenge the Dead
 214024,Degoop the Farm
 214026,An Eye for Business
 214027,Dynamic Design
@@ -101,13 +94,15 @@ Quest/Stage Id,Name
 214033,Symbol of the Hordes
 214034,Regret and Repentance
 214035,In Defense of the City
+204106,Futureproof Trading
+204107,Presentproof Investing
+204113,Frozen Menace
 214130,To Illuminate All Creation
 214135,Arts Long Lost
 214230,Voids Beyond
 214330,"Absolute, Absolute Zero"
 214430,Earth's Bounty
 214530,Shifting Winds
-214630,Slime After Slime
 290002,Save the Crustaceans Part Deux
 290003,Save the Crustaceans the Third
 290004,Save the Crustaceans Reloaded
@@ -122,6 +117,8 @@ Quest/Stage Id,Name
 290013,Save the Crustaceans Infinity
 290014,Save the Crustaceans Rises
 290015,Save the Crustaceans Finale
+212630,Squishy Lies the Crown
+214630,Slime After Slime
 300000,I've Got Your Back
 300002,Family Is Everything
 300003,"Down, but Not Out"
@@ -200,6 +197,9 @@ Quest/Stage Id,Name
 404316,A Bone to Peak
 404317,Absolutely No Trespassers!
 405101,License to Thrill
+405309,Assault Formation!
+405310,Great Goblins of Fire
+405311,Shedding Light on the Pillar
 405201,Saga Illustrated: The Beginning
 405202,Learning from the Past
 405203,Saga Illustrated: Inferno
@@ -211,9 +211,7 @@ Quest/Stage Id,Name
 405303,Wings of Upheaval
 405304,Wings of the Storm
 405305,Wings of Rime
-405309,Assault Formation!
-405310,Great Goblins of Fire
-405311,Shedding Light on the Pillar
+405308,Gulp... So These Are the Rumored Monsters
 406101,Back to the Fated Land
 406323,I See a Chromatic Vision
 406324,Revenge of the Hordes
@@ -238,9 +236,9 @@ Quest/Stage Id,Name
 406359,Rumble in the Desert
 406360,I See a Grim Vision
 406361,Slimepede
-406364,Throw a Smith a Bone
 406365,Armor Is Best Served Cold
 406366,A Heated Rivalry
+406364,Throw a Smith a Bone
 407101,The Final Report
 407301,Blazing Trial
 407302,Grounded Trial
@@ -262,13 +260,8 @@ Quest/Stage Id,Name
 407318,The Tale of Bahamut's Rage
 407319,The Automagod Strikes Back
 407320,The Final Vision
-407321,The Final Vision (2?)
-500A00,Folka (endgame)
-501003,Seedhollow (endgame)
-5F0001,Grandcypher (endgame)
-601000,Practice
-602000,Score Attack
-603000,Time Attack
-710000,Days of Our Zegagrande - "The Automagod Strikes Back"
-710001,Days of Our Zegagrande - "The Final Vision"
-720018,Lyria's Story/Empty?
+407322,Lock Horns
+407323,407323
+407324,407324
+407325,407325
+105002_05,Fight off Avia's forces

@@ -5018,6 +5018,70 @@ First Clear Rewards:
 
 ```
 
+## Gulp... So These Are the Rumored Monsters (405308)
+
+```
+First Clear Rewards:
+- x1 Revenant Medallion
+- GEEN_166_03
+
+[Clear Rewards]
+* Lot #1 (Total Weight: 10000)
+    - x3 Flawed Prism (55% - 5500)
+    - x1 Flawless Prism (40% - 4000)
+    - x2 Flawless Prism (5% - 500)
+* Lot #2 (Total Weight: 10000)
+    - x12 Rafale Coin (100% - 10000)
+* Lot #3 (Total Weight: 10000)
+    - x3 Salamander Egg (50% - 5000)
+    - x4 Salamander Egg (30% - 3000)
+    - x5 Salamander Egg (20% - 2000)
+* Lot #4 (Total Weight: 16666)
+    - x1 Vermillion Powder (30% - 5000)
+    - x2 Vermillion Powder (18% - 3000)
+    - x3 Vermillion Powder (12% - 2000)
+    - Nothing (40% - 6666)
+* Lot #5 (Total Weight: 14285)
+    - x1 Curio (T1) (42% - 6000)
+    - x1 Curio (T2) (18.9% - 2700)
+    - x1 Curio (T3) (7% - 1000)
+    - x1 Curio (T4) (2.1% - 300)
+    - Nothing (30% - 4285)
+
+[1 ★☆☆☆☆ (B Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Supreme Merit (100% - 10000)
+
+[2 ★★☆☆☆ (A Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Supreme Merit (100% - 10000)
+
+[3 ★★★☆☆ (S Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x10 Fortitude Crystal (M) (70% - 7000)
+    - x4 Fortitude Crystal (L) (30% - 3000)
+* Lot #2 (Total Weight: 10000)
+    - x1 Supreme Merit (100% - 10000)
+
+[4 ★★★★☆ (S+ Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x2 Fortitude Crystal (L) (100% - 10000)
+
+[5 ★★★★★ (S++ Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x2 Fortitude Crystal (L) (100% - 10000)
+* Lot #2 (Total Weight: 14285)
+    - x1 Revenant Medallion (35% - 5000)
+    - x2 Revenant Medallion (21% - 3000)
+    - x3 Revenant Medallion (14% - 2000)
+    - Nothing (30% - 4285)
+* Lot #3 (Total Weight: 33333)
+    - x1 Knickknack Voucher (24% - 8000)
+    - x2 Knickknack Voucher (6% - 2000)
+    - Nothing (70% - 23333)
+
+```
+
 ----
 
 ## Maniac
@@ -8575,6 +8639,151 @@ First Clear Rewards:
 
 ----
 
+## 406367 (406367)
+
+```
+First Clear Rewards:
+- x1 Supreme Weapon Essence
+
+[Clear Rewards]
+* Lot #1 (Total Weight: 10000)
+    - x2 Quality Refinium (70% - 7000)
+    - x1 Exceptional Refinium (30% - 3000)
+* Lot #2 (Total Weight: 10000)
+    - x4 Vermillion Powder (50% - 5000)
+    - x5 Vermillion Powder (30% - 3000)
+    - x6 Vermillion Powder (20% - 2000)
+* Lot #3 (Total Weight: 16666)
+    - x2 Phondam Sulfur (36% - 6000)
+    - x3 Phondam Sulfur (18% - 3000)
+    - x4 Phondam Sulfur (6% - 1000)
+    - Nothing (40% - 6666)
+* Lot #4 (Total Weight: 10000)
+    - x15 Rafale Coin (100% - 10000)
+* Lot #5 (Total Weight: 12500)
+    - x1 Curio (T1) (48% - 6000)
+    - x1 Curio (T2) (21.6% - 2700)
+    - x1 Curio (T3) (8% - 1000)
+    - x1 Curio (T4) (2.4% - 300)
+    - Nothing (20% - 2500)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x3 Crown of Lament (30% - 3000)
+    - x2 Wing of Portent (50% - 5000)
+    - x1 Wing of Portent (20% - 2000)
+* Lot #2 (Total Weight: 20000)
+    - x2 Revenant Medallion (40% - 8000)
+    - x1 Supreme Weapon Essence (10% - 2000)
+    - Nothing (50% - 10000)
+* Lot #3 (Total Weight: 13333)
+    - x1 Dread Wrightstone (ITEM_25_0000) (13.13% - 1750)
+    - x1 Vitality Wrightstone (ITEM_26_0000) (13.13% - 1750)
+    - x1 Fortification Wrightstone (ITEM_27_0000) (13.13% - 1750)
+    - x1 Sequestration Wrightstone (ITEM_28_0000) (13.13% - 1750)
+    - x1 Dread Wrightstone (ITEM_25_0001) (3.75% - 500)
+    - x1 Vitality Wrightstone (ITEM_26_0001) (3.75% - 500)
+    - x1 Fortification Wrightstone (ITEM_27_0001) (3.75% - 500)
+    - x1 Sequestration Wrightstone (ITEM_28_0001) (3.75% - 500)
+    - x1 Dread Wrightstone (ITEM_25_0010) (1.88% - 250)
+    - x1 Vitality Wrightstone (ITEM_26_0010) (1.88% - 250)
+    - x1 Fortification Wrightstone (ITEM_27_0010) (1.88% - 250)
+    - x1 Sequestration Wrightstone (ITEM_28_0010) (1.88% - 250)
+    - Nothing (25% - 3333)
+* Lot #4 (Total Weight: 50000)
+    - x1 Silver Centrum (6% - 3000)
+    - x1 Mirage Munition (14% - 7000)
+    - Nothing (80% - 40000)
+
+[1 ★☆☆☆☆ (B Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Legendary Merit (100% - 10000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x1 Rancorous Lance (100% - 10000)
+* Lot #2 (Total Weight: 11739)
+    - Tyranny V (10.71% - 1257)
+    - Life on the Line V (10.72% - 1258)
+    - Combo Booster V (10.71% - 1257)
+    - Combo Finisher V (10.71% - 1257)
+    - Cascade V (10.71% - 1257)
+    - Attack Down Resistance V (10.71% - 1257)
+    - Damage Cap V (10.72% - 1258)
+    - Tyranny V+ (3.07% - 360)
+    - Life on the Line V+ (2.04% - 240)
+    - Combo Booster V+ (2.04% - 240)
+    - Combo Finisher V+ (2.04% - 240)
+    - Damage Cap V+ (2.04% - 240)
+    - Nothing (13.78% - 1618)
+* Lot #3 (Total Weight: 12549)
+    - Tyranny V (10.02% - 1257)
+    - Life on the Line V (10.02% - 1258)
+    - Combo Booster V (10.02% - 1257)
+    - Combo Finisher V (10.02% - 1257)
+    - Cascade V (10.02% - 1257)
+    - Attack Down Resistance V (10.02% - 1257)
+    - Damage Cap V (10.02% - 1258)
+    - Tyranny V+ (2.87% - 360)
+    - Life on the Line V+ (1.91% - 240)
+    - Combo Booster V+ (1.91% - 240)
+    - Combo Finisher V+ (1.91% - 240)
+    - Damage Cap V+ (1.91% - 240)
+    - Nothing (19.35% - 2428)
+* Lot #4 (Total Weight: 20000)
+    - x1 Revenant Medallion (25% - 5000)
+    - x2 Revenant Medallion (15% - 3000)
+    - x1 Supreme Weapon Essence (10% - 2000)
+    - Nothing (50% - 10000)
+
+[2 ★★☆☆☆ (A Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Rancorous Lance (90% - 9000)
+    - x1 Crown of Lament (10% - 1000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x2 Quality Refinium (50% - 5000)
+    - x3 Quality Refinium (30% - 3000)
+    - x1 Exceptional Refinium (20% - 2000)
+
+[3 ★★★☆☆ (S Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Crown of Lament (60% - 6000)
+    - x1 Wing of Portent (40% - 4000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x12 Dark Orb (60% - 6000)
+    - x15 Dark Orb (30% - 3000)
+    - x3 Dark Orb (10% - 1000)
+
+[4 ★★★★☆ (S+ Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Supreme Weapon Essence (3% - 300)
+    - x1 Revenant Medallion (97% - 9700)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x2 Phondam Sulfur (40% - 4000)
+    - x3 Phondam Sulfur (30% - 3000)
+    - x3 Vermillion Powder (20% - 2000)
+    - x4 Vermillion Powder (10% - 1000)
+
+[5 ★★★★★ (S++ Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Supreme Weapon Essence (10% - 1000)
+    - x1 Revenant Medallion (90% - 9000)
+* Lot #2 (Total Weight: 20000)
+    - x1 Knickknack Voucher (30% - 6000)
+    - x2 Knickknack Voucher (15% - 3000)
+    - x3 Knickknack Voucher (5% - 1000)
+    - Nothing (50% - 10000)
+
+```
+
+---
+
 ## Proud
 
 ### The Final Report (407101)
@@ -11683,32 +11892,16 @@ First Clear Rewards:
 
 ----
 
-## The Final Vision (2?) (407321)
+### The Final Vision (2?) (407321)
 
 ```
 First Clear Rewards:
-- x1 Silver Centrum
-- x1 Tears of the Apocalypse
-- x1 Dark Residue
-- x1 Gold Badge Ticket
+- x3 ITEM_18_0002
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
-    - x3 Rainbow Prism (70% - 7000)
-    - x5 Rainbow Prism (30% - 3000)
-* Lot #2 (Total Weight: 23750)
-    - Damage Cap V+ (7.89% - 1875)
-    - Linked Together V+ (7.89% - 1875)
-    - Improved Dodge+ (5.26% - 1250)
-    - Nimble Defense V+ (5.26% - 1250)
-    - Improved Guard V+ (5.26% - 1250)
-    - Guard Payback V+ (5.26% - 1250)
-    - Steel Nerves V+ (5.26% - 1250)
-    - Aegis V+ (7.89% - 1875)
-    - Nothing (50% - 11875)
-* Lot #3 (Total Weight: 10000)
-    - x5 Mirage Munition (100% - 10000)
-* Lot #4 (Total Weight: 10000)
+    - x10 Knickknack Voucher (100% - 10000)
+* Lot #2 (Total Weight: 10000)
     - x1 Curio (T1) (60% - 6000)
     - x1 Curio (T2) (27% - 2700)
     - x1 Curio (T3) (10% - 1000)
@@ -11716,294 +11909,19 @@ First Clear Rewards:
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x1 Silver Spellbook (40% - 4000)
-    - x1 Gold Spellbook (20% - 2000)
-    - x1 Ambrosia (15% - 1500)
-    - x1 Damascus Ingot (10% - 1000)
-    - x1 Azurite's Splendor (15% - 1500)
+    - x2 ITEM_18_0002 (100% - 10000)
 * Lot #2 (Total Weight: 10000)
-    - x3 Dark Residue (40% - 4000)
-    - x4 Dark Residue (30% - 3000)
-    - x6 Dark Residue (20% - 2000)
-    - x8 Dark Residue (10% - 1000)
+    - x1 Gold Spellbook (40% - 4000)
+    - x1 Ambrosia (30% - 3000)
+    - x1 Damascus Ingot (20% - 2000)
+    - x1 Azurite's Splendor (10% - 1000)
 * Lot #3 (Total Weight: 10000)
-    - x1 Tears of the Apocalypse (60% - 6000)
-    - x2 Tears of the Apocalypse (35% - 3500)
-    - x3 Tears of the Apocalypse (5% - 500)
-* Lot #4 (Total Weight: 20000)
-    - x1 Silver Centrum (20% - 4000)
-    - x1 Silver Spellbook (12.5% - 2500)
-    - x1 Gold Spellbook (7.5% - 1500)
-    - x1 Ambrosia (5% - 1000)
-    - x1 Damascus Ingot (5% - 1000)
-    - Nothing (50% - 10000)
-
-[1 ★☆☆☆☆ (B Rank)]
-* Lot #1 (Total Weight: 10000)
-    - x2 Legendary Merit (100% - 10000)
-
-🎁 Chest
-* Lot #1 (Total Weight: 10000)
-    - x1 Dread Wrightstone (ITEM_25_0012) (25% - 2500)
-    - x1 Vitality Wrightstone (ITEM_26_0012) (25% - 2500)
-    - x1 Fortification Wrightstone (ITEM_27_0012) (25% - 2500)
-    - x1 Sequestration Wrightstone (ITEM_28_0012) (25% - 2500)
-* Lot #2 (Total Weight: 10000)
-    - x1 Dread Wrightstone (ITEM_25_0012) (20% - 2000)
-    - x1 Vitality Wrightstone (ITEM_26_0012) (20% - 2000)
-    - x1 Fortification Wrightstone (ITEM_27_0012) (20% - 2000)
-    - x1 Sequestration Wrightstone (ITEM_28_0012) (20% - 2000)
-    - x1 Silver Centrum (20% - 2000)
-* Lot #3 (Total Weight: 10000)
-    - x3 Dark Residue (50% - 5000)
-    - x5 Dark Residue (30% - 3000)
-    - x1 Dark Residue (20% - 2000)
+    - x2 Tears of the Apocalypse (70% - 7000)
+    - x4 Tears of the Apocalypse (20% - 2000)
+    - x6 Tears of the Apocalypse (10% - 1000)
 * Lot #4 (Total Weight: 10000)
-    - x1 Dread Wrightstone (ITEM_25_0012) (20% - 2000)
-    - x1 Vitality Wrightstone (ITEM_26_0012) (20% - 2000)
-    - x1 Fortification Wrightstone (ITEM_27_0012) (20% - 2000)
-    - x1 Sequestration Wrightstone (ITEM_28_0012) (20% - 2000)
-    - x1 Silver Centrum (20% - 2000)
-
-[2 ★★☆☆☆ (A Rank)]
-* Lot #1 (Total Weight: 10000)
-    - x2 Legendary Merit (100% - 10000)
-
-🎁 Chest
-* Lot #1 (Total Weight: 10376)
-    - Damage Cap V (6.75% - 700)
-    - Autorevive V (6.75% - 700)
-    - Uplift V (6.75% - 700)
-    - Linked Together V (6.75% - 700)
-    - Improved Dodge (6.75% - 700)
-    - Nimble Defense V (6.75% - 700)
-    - Improved Guard V (6.75% - 700)
-    - Guard Payback V (6.75% - 700)
-    - Steel Nerves V (6.75% - 700)
-    - Aegis V (6.75% - 700)
-    - Damage Cap V+ (5.43% - 563)
-    - Linked Together V+ (5.43% - 563)
-    - Improved Dodge+ (3.61% - 375)
-    - Nimble Defense V+ (3.61% - 375)
-    - Improved Guard V+ (3.61% - 375)
-    - Guard Payback V+ (3.61% - 375)
-    - Steel Nerves V+ (3.61% - 375)
-    - Aegis V+ (3.61% - 375)
-* Lot #2 (Total Weight: 10376)
-    - Damage Cap V (6.75% - 700)
-    - Autorevive V (6.75% - 700)
-    - Uplift V (6.75% - 700)
-    - Linked Together V (6.75% - 700)
-    - Improved Dodge (6.75% - 700)
-    - Nimble Defense V (6.75% - 700)
-    - Improved Guard V (6.75% - 700)
-    - Guard Payback V (6.75% - 700)
-    - Steel Nerves V (6.75% - 700)
-    - Aegis V (6.75% - 700)
-    - Damage Cap V+ (5.43% - 563)
-    - Linked Together V+ (5.43% - 563)
-    - Improved Dodge+ (3.61% - 375)
-    - Nimble Defense V+ (3.61% - 375)
-    - Improved Guard V+ (3.61% - 375)
-    - Guard Payback V+ (3.61% - 375)
-    - Steel Nerves V+ (3.61% - 375)
-    - Aegis V+ (3.61% - 375)
-* Lot #3 (Total Weight: 23750)
-    - Damage Cap V+ (7.89% - 1875)
-    - Linked Together V+ (7.89% - 1875)
-    - Improved Dodge+ (5.26% - 1250)
-    - Nimble Defense V+ (5.26% - 1250)
-    - Improved Guard V+ (5.26% - 1250)
-    - Guard Payback V+ (5.26% - 1250)
-    - Steel Nerves V+ (5.26% - 1250)
-    - Aegis V+ (7.89% - 1875)
-    - Nothing (50% - 11875)
-
-[3 ★★★☆☆ (S Rank)]
-* Lot #1 (Total Weight: 10000)
-    - x3 Rainbow Prism (60% - 6000)
-    - x5 Flawless Prism (40% - 4000)
-* Lot #2 (Total Weight: 10000)
-    - x2 Legendary Merit (100% - 10000)
-
-🎁 Chest
-* Lot #1 (Total Weight: 10000)
-    - x5 Inferno Orb (16.6% - 1660)
-    - x5 Frost Orb (16.6% - 1660)
-    - x5 Rumbling Orb (16.6% - 1660)
-    - x5 Cyclone Orb (16.6% - 1660)
-    - x5 Shining Orb (16.6% - 1660)
-    - x5 Abysm Orb (17% - 1700)
-* Lot #2 (Total Weight: 10000)
-    - x5 Inferno Orb (16.6% - 1660)
-    - x5 Frost Orb (16.6% - 1660)
-    - x5 Rumbling Orb (16.6% - 1660)
-    - x5 Cyclone Orb (16.6% - 1660)
-    - x5 Shining Orb (16.6% - 1660)
-    - x5 Abysm Orb (17% - 1700)
-* Lot #3 (Total Weight: 10000)
-    - x5 Inferno Orb (16.6% - 1660)
-    - x5 Frost Orb (16.6% - 1660)
-    - x5 Rumbling Orb (16.6% - 1660)
-    - x5 Cyclone Orb (16.6% - 1660)
-    - x5 Shining Orb (16.6% - 1660)
-    - x5 Abysm Orb (17% - 1700)
-
-[4 ★★★★☆ (S+ Rank)]
-* Lot #1 (Total Weight: 10000)
-    - x15 Knickknack Voucher (100% - 10000)
-* Lot #2 (Total Weight: 10000)
-    - x1 Dark Residue (80% - 8000)
-    - x2 Dark Residue (20% - 2000)
-
-🎁 Chest
-* Lot #1 (Total Weight: 10000)
-    - x10 Knickknack Voucher (40% - 4000)
-    - x6 Astral Matter (60% - 6000)
-* Lot #2 (Total Weight: 10000)
-    - x10 Knickknack Voucher (40% - 4000)
-    - x10 Fortitude Crystal (L) (60% - 6000)
-* Lot #3 (Total Weight: 10000)
-    - x10 Knickknack Voucher (40% - 4000)
-    - x10 Rainbow Prism (60% - 6000)
-
-[5 ★★★★★ (S++ Rank)]
-* Lot #1 (Total Weight: 12500)
-    - x1 Tears of the Apocalypse (68% - 8500)
-    - x2 Tears of the Apocalypse (12% - 1500)
-    - Nothing (20% - 2500)
-* Lot #2 (Total Weight: 12500)
-    - x2 Dark Residue (64% - 8000)
-    - x1 Dark Residue (16% - 2000)
-    - Nothing (20% - 2500)
-* Lot #3 (Total Weight: 10000)
-    - x25 Knickknack Voucher (100% - 10000)
-
-```
-
-## Other/Unknown
-
-### 405308 (405308)
-
-```
-First Clear Rewards:
-- x1 ITEM_14_0050
-- GEEN_166_03
-
-[Clear Rewards]
-* Lot #1 (Total Weight: 10000)
-    - x3 Flawed Prism (55% - 5500)
-    - x1 Flawless Prism (40% - 4000)
-    - x2 Flawless Prism (5% - 500)
-* Lot #2 (Total Weight: 10000)
-    - x12 Rafale Coin (100% - 10000)
-* Lot #3 (Total Weight: 10000)
-    - x3 Salamander Egg (50% - 5000)
-    - x4 Salamander Egg (30% - 3000)
-    - x5 Salamander Egg (20% - 2000)
-* Lot #4 (Total Weight: 16666)
-    - x1 Vermillion Powder (30% - 5000)
-    - x2 Vermillion Powder (18% - 3000)
-    - x3 Vermillion Powder (12% - 2000)
-    - Nothing (40% - 6666)
-* Lot #5 (Total Weight: 14285)
-    - x1 Curio (T1) (42% - 6000)
-    - x1 Curio (T2) (18.9% - 2700)
-    - x1 Curio (T3) (7% - 1000)
-    - x1 Curio (T4) (2.1% - 300)
-    - Nothing (30% - 4285)
-
-[1 ★☆☆☆☆ (B Rank)]
-* Lot #1 (Total Weight: 10000)
-    - x1 Supreme Merit (100% - 10000)
-
-[2 ★★☆☆☆ (A Rank)]
-* Lot #1 (Total Weight: 10000)
-    - x1 Supreme Merit (100% - 10000)
-
-[3 ★★★☆☆ (S Rank)]
-* Lot #1 (Total Weight: 10000)
-    - x6 Fortitude Crystal (M) (70% - 7000)
-    - x1 Fortitude Crystal (L) (30% - 3000)
-* Lot #2 (Total Weight: 10000)
-    - x1 Supreme Merit (100% - 10000)
-
-[4 ★★★★☆ (S+ Rank)]
-* Lot #1 (Total Weight: 10000)
-    - x1 Fortitude Crystal (L) (100% - 10000)
-
-[5 ★★★★★ (S++ Rank)]
-* Lot #1 (Total Weight: 10000)
-    - x1 Fortitude Crystal (L) (100% - 10000)
-* Lot #2 (Total Weight: 14285)
-    - x1 ITEM_14_0050 (35% - 5000)
-    - x2 ITEM_14_0050 (21% - 3000)
-    - x3 ITEM_14_0050 (14% - 2000)
-    - Nothing (30% - 4285)
-* Lot #3 (Total Weight: 33333)
-    - x1 Knickknack Voucher (24% - 8000)
-    - x2 Knickknack Voucher (6% - 2000)
-    - Nothing (70% - 23333)
-
-```
-
-----
-
-### 406367 (406367)
-
-```
-First Clear Rewards:
-- x1 ITEM_14_0051
-
-[Clear Rewards]
-* Lot #1 (Total Weight: 10000)
-    - x2 Quality Refinium (70% - 7000)
-    - x1 Exceptional Refinium (30% - 3000)
-* Lot #2 (Total Weight: 10000)
-    - x4 Vermillion Powder (50% - 5000)
-    - x5 Vermillion Powder (30% - 3000)
-    - x6 Vermillion Powder (20% - 2000)
-* Lot #3 (Total Weight: 16666)
-    - x2 Phondam Sulfur (36% - 6000)
-    - x3 Phondam Sulfur (18% - 3000)
-    - x4 Phondam Sulfur (6% - 1000)
-    - Nothing (40% - 6666)
-* Lot #4 (Total Weight: 10000)
-    - x15 Rafale Coin (100% - 10000)
-* Lot #5 (Total Weight: 12500)
-    - x1 Curio (T1) (48% - 6000)
-    - x1 Curio (T2) (21.6% - 2700)
-    - x1 Curio (T3) (8% - 1000)
-    - x1 Curio (T4) (2.4% - 300)
-    - Nothing (20% - 2500)
-
-🎁 Chest
-* Lot #1 (Total Weight: 10000)
-    - x3 ITEM_32_0042 (30% - 3000)
-    - x2 ITEM_32_0041 (50% - 5000)
-    - x1 ITEM_32_0041 (20% - 2000)
-* Lot #2 (Total Weight: 20000)
-    - x2 ITEM_14_0050 (40% - 8000)
-    - x1 ITEM_14_0051 (10% - 2000)
-    - Nothing (50% - 10000)
-* Lot #3 (Total Weight: 13333)
-    - x1 Dread Wrightstone (13.13% - 1750)
-    - x1 Vitality Wrightstone (13.13% - 1750)
-    - x1 Fortification Wrightstone (13.13% - 1750)
-    - x1 Sequestration Wrightstone (13.13% - 1750)
-    - x1 Dread Wrightstone (3.75% - 500)
-    - x1 Vitality Wrightstone (3.75% - 500)
-    - x1 Fortification Wrightstone (3.75% - 500)
-    - x1 Sequestration Wrightstone (3.75% - 500)
-    - x1 Dread Wrightstone (ITEM_25_0010) (1.88% - 250)
-    - x1 Vitality Wrightstone (ITEM_26_0010) (1.88% - 250)
-    - x1 Fortification Wrightstone (ITEM_27_0010) (1.88% - 250)
-    - x1 Sequestration Wrightstone (ITEM_28_0010) (1.88% - 250)
-    - Nothing (25% - 3333)
-* Lot #4 (Total Weight: 50000)
-    - x1 Silver Centrum (6% - 3000)
-    - x1 Mirage Munition (14% - 7000)
-    - Nothing (80% - 40000)
+    - x1 Ambrosia (50% - 5000)
+    - x1 Damascus Ingot (50% - 5000)
 
 [1 ★☆☆☆☆ (B Rank)]
 * Lot #1 (Total Weight: 10000)
@@ -12011,83 +11929,438 @@ First Clear Rewards:
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x1 ITEM_32_0043 (100% - 10000)
-* Lot #2 (Total Weight: 11739)
-    - Tyranny V (10.71% - 1257)
-    - Life on the Line V (10.72% - 1258)
-    - Combo Booster V (10.71% - 1257)
-    - Combo Finisher V (10.71% - 1257)
-    - Cascade V (10.71% - 1257)
-    - Attack Down Resistance V (10.71% - 1257)
-    - Damage Cap V (10.72% - 1258)
-    - Tyranny V+ (3.07% - 360)
-    - Life on the Line V+ (2.04% - 240)
-    - Combo Booster V+ (2.04% - 240)
-    - Combo Finisher V+ (2.04% - 240)
-    - Damage Cap V+ (2.04% - 240)
-    - Nothing (13.78% - 1618)
-* Lot #3 (Total Weight: 12549)
-    - Tyranny V (10.02% - 1257)
-    - Life on the Line V (10.02% - 1258)
-    - Combo Booster V (10.02% - 1257)
-    - Combo Finisher V (10.02% - 1257)
-    - Cascade V (10.02% - 1257)
-    - Attack Down Resistance V (10.02% - 1257)
-    - Damage Cap V (10.02% - 1258)
-    - Tyranny V+ (2.87% - 360)
-    - Life on the Line V+ (1.91% - 240)
-    - Combo Booster V+ (1.91% - 240)
-    - Combo Finisher V+ (1.91% - 240)
-    - Damage Cap V+ (1.91% - 240)
-    - Nothing (19.35% - 2428)
+    - x1 Tears of the Apocalypse (70% - 7000)
+    - x2 Tears of the Apocalypse (20% - 2000)
+    - x3 Tears of the Apocalypse (10% - 1000)
+* Lot #2 (Total Weight: 10000)
+    - x15 Dark Residue (50% - 5000)
+    - x17 Dark Residue (30% - 3000)
+    - x20 Dark Residue (20% - 2000)
+
+[2 ★★☆☆☆ (A Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Dark Residue (100% - 10000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x10 Dark Residue (50% - 5000)
+    - x12 Dark Residue (30% - 3000)
+    - x17 Dark Residue (20% - 2000)
+* Lot #2 (Total Weight: 10000)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
+
+[3 ★★★☆☆ (S Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x2 Dark Residue (70% - 7000)
+    - x3 Dark Residue (30% - 3000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x30 Knickknack Voucher (100% - 10000)
+
+[4 ★★★★☆ (S+ Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Tears of the Apocalypse (100% - 10000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x10 Knickknack Voucher (100% - 10000)
+
+[5 ★★★★★ (S++ Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x2 Tears of the Apocalypse (70% - 7000)
+    - x3 Tears of the Apocalypse (30% - 3000)
+* Lot #2 (Total Weight: 10000)
+    - x30 Knickknack Voucher (100% - 10000)
+
+```
+
+----
+
+### Lock Horns (407322)
+
+```
+First Clear Rewards:
+- x1 Supreme Weapon Essence
+
+[Clear Rewards]
+* Lot #1 (Total Weight: 10000)
+    - x3 Rainbow Prism (70% - 7000)
+    - x5 Rainbow Prism (30% - 3000)
+* Lot #2 (Total Weight: 11388)
+    - Tyranny V (11.29% - 1286)
+    - Life on the Line V (16.94% - 1929)
+    - Combo Booster V (11.29% - 1286)
+    - Combo Finisher V (11.29% - 1286)
+    - Cascade V (11.29% - 1286)
+    - Attack Down Resistance V (11.29% - 1286)
+    - Damage Cap V (16.94% - 1929)
+    - Tyranny V+ (2.63% - 300)
+    - Life on the Line V+ (1.76% - 200)
+    - Combo Booster V+ (1.76% - 200)
+    - Combo Finisher V+ (1.76% - 200)
+    - Damage Cap V+ (1.76% - 200)
+* Lot #3 (Total Weight: 10000)
+    - x3 Mirage Munition (100% - 10000)
+* Lot #4 (Total Weight: 10000)
+    - x5 Phondam Sulfur (40% - 4000)
+    - x6 Phondam Sulfur (35% - 3500)
+    - x7 Phondam Sulfur (25% - 2500)
+* Lot #5 (Total Weight: 10000)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x3 Wing of Portent (30% - 3000)
+    - x2 Wing of Portent (50% - 5000)
+    - x1 Crown of Lament (20% - 2000)
+* Lot #2 (Total Weight: 10000)
+    - x4 Revenant Medallion (77% - 7700)
+    - x6 Revenant Medallion (20% - 2000)
+    - x1 Supreme Weapon Essence (3% - 300)
+* Lot #3 (Total Weight: 10000)
+    - x1 Dread Wrightstone (ITEM_25_0012) (21.75% - 2175)
+    - x1 Vitality Wrightstone (ITEM_26_0012) (21.75% - 2175)
+    - x1 Fortification Wrightstone (ITEM_27_0012) (21.75% - 2175)
+    - x1 Sequestration Wrightstone (ITEM_28_0012) (21.75% - 2175)
+    - x3 Revenant Medallion (10% - 1000)
+    - x1 Azurite's Splendor (3% - 300)
+* Lot #4 (Total Weight: 9998)
+    - Stronghold V (2.46% - 246)
+    - Power Hungry V (2.46% - 246)
+    - Path to Mastery V (2.46% - 246)
+    - Supplementary Damage V (2.46% - 246)
+    - Less Is More V (2.46% - 246)
+    - Head Start V (2.46% - 246)
+    - War Elemental (2.46% - 246)
+    - Untouchable (2.46% - 246)
+    - Berserker V (2.46% - 246)
+    - Potent Greens (2.46% - 246)
+    - Roll of the Die (2.46% - 246)
+    - Glass Cannon V (2.46% - 246)
+    - Flight over Fight (2.46% - 246)
+    - Stronghold V+ (0.8% - 80)
+    - Power Hungry V+ (0.8% - 80)
+    - Supplementary Damage V+ (0.8% - 80)
+    - Less Is More V+ (0.8% - 80)
+    - Head Start V+ (0.8% - 80)
+    - Untouchable+ (0.8% - 80)
+    - Berserker V+ (0.8% - 80)
+    - Roll of the Die+ (0.8% - 80)
+    - Glass Cannon V+ (0.8% - 80)
+    - Flight over Fight+ (0.8% - 80)
+    - Nothing (60.01% - 6000)
+
+[1 ★☆☆☆☆ (B Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x2 Legendary Merit (100% - 10000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x3 Mirage Munition (42% - 4200)
+    - x5 Mirage Munition (20% - 2000)
+    - x1 Silver Centrum (38% - 3800)
+* Lot #2 (Total Weight: 11356)
+    - Tyranny V (10.38% - 1179)
+    - Life on the Line V (15.57% - 1768)
+    - Combo Booster V (10.38% - 1179)
+    - Combo Finisher V (10.38% - 1179)
+    - Cascade V (10.38% - 1179)
+    - Attack Down Resistance V (10.38% - 1179)
+    - Damage Cap V (15.57% - 1768)
+    - Tyranny V+ (4.62% - 525)
+    - Life on the Line V+ (3.08% - 350)
+    - Combo Booster V+ (3.08% - 350)
+    - Combo Finisher V+ (3.08% - 350)
+    - Damage Cap V+ (3.08% - 350)
+* Lot #3 (Total Weight: 33333)
+    - x1 Rancorous Lance (30% - 10000)
+    - Nothing (70% - 23333)
 * Lot #4 (Total Weight: 20000)
-    - x1 ITEM_14_0050 (25% - 5000)
-    - x2 ITEM_14_0050 (15% - 3000)
-    - x1 ITEM_14_0051 (10% - 2000)
+    - x3 Revenant Medallion (30% - 6000)
+    - x5 Revenant Medallion (16.5% - 3300)
+    - x1 Supreme Weapon Essence (3.5% - 700)
     - Nothing (50% - 10000)
 
 [2 ★★☆☆☆ (A Rank)]
 * Lot #1 (Total Weight: 10000)
-    - x1 ITEM_32_0043 (90% - 9000)
-    - x1 ITEM_32_0042 (10% - 1000)
+    - x1 Death Nail (90% - 9000)
+    - x1 Wing of Portent (10% - 1000)
+* Lot #2 (Total Weight: 10000)
+    - x2 Legendary Merit (100% - 10000)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x2 Quality Refinium (50% - 5000)
-    - x3 Quality Refinium (30% - 3000)
-    - x1 Exceptional Refinium (20% - 2000)
+    - x5 Death Nail (100% - 10000)
+* Lot #2 (Total Weight: 10000)
+    - x3 Exceptional Refinium (100% - 10000)
+* Lot #3 (Total Weight: 13172)
+    - Tyranny V (8.95% - 1179)
+    - Life on the Line V (13.42% - 1768)
+    - Combo Booster V (8.95% - 1179)
+    - Combo Finisher V (8.95% - 1179)
+    - Cascade V (8.95% - 1179)
+    - Attack Down Resistance V (8.95% - 1179)
+    - Damage Cap V (13.42% - 1768)
+    - Tyranny V+ (3.99% - 525)
+    - Life on the Line V+ (2.66% - 350)
+    - Combo Booster V+ (2.66% - 350)
+    - Combo Finisher V+ (2.66% - 350)
+    - Damage Cap V+ (2.66% - 350)
+    - Nothing (13.79% - 1816)
+* Lot #4 (Total Weight: 10000)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
 
 [3 ★★★☆☆ (S Rank)]
 * Lot #1 (Total Weight: 10000)
-    - x1 ITEM_32_0042 (60% - 6000)
-    - x1 ITEM_32_0041 (40% - 4000)
+    - x1 Wing of Portent (60% - 6000)
+    - x1 Crown of Lament (40% - 4000)
+* Lot #2 (Total Weight: 10000)
+    - x2 Legendary Merit (100% - 10000)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x12 Dark Orb (60% - 6000)
-    - x15 Dark Orb (30% - 3000)
-    - x3 Dark Orb (10% - 1000)
+    - x5 Abysm Orb (60% - 6000)
+    - x7 Abysm Orb (30% - 3000)
+    - x8 Abysm Orb (10% - 1000)
 
 [4 ★★★★☆ (S+ Rank)]
 * Lot #1 (Total Weight: 10000)
-    - x1 ITEM_14_0051 (3% - 300)
-    - x1 ITEM_14_0050 (97% - 9700)
+    - x1 Supreme Weapon Essence (3% - 300)
+    - x1 Revenant Medallion (97% - 9700)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x2 Phondam Sulfur (40% - 4000)
-    - x3 Phondam Sulfur (30% - 3000)
-    - x3 Vermillion Powder (20% - 2000)
-    - x4 Vermillion Powder (10% - 1000)
+    - x5 Phondam Sulfur (50% - 5000)
+    - x6 Phondam Sulfur (30% - 3000)
+    - x7 Phondam Sulfur (20% - 2000)
 
 [5 ★★★★★ (S++ Rank)]
 * Lot #1 (Total Weight: 10000)
-    - x1 ITEM_14_0051 (10% - 1000)
-    - x1 ITEM_14_0050 (90% - 9000)
-* Lot #2 (Total Weight: 20000)
-    - x1 Knickknack Voucher (30% - 6000)
-    - x2 Knickknack Voucher (15% - 3000)
-    - x3 Knickknack Voucher (5% - 1000)
-    - Nothing (50% - 10000)
+    - x1 Supreme Weapon Essence (7% - 700)
+    - x4 Revenant Medallion (80% - 8000)
+    - x3 Revenant Medallion (13% - 1300)
+* Lot #2 (Total Weight: 10000)
+    - x15 Knickknack Voucher (50% - 5000)
+    - x17 Knickknack Voucher (30% - 3000)
+    - x20 Knickknack Voucher (20% - 2000)
 
+```
+
+----
+
+### 407323 (407323)
+
+```
+First Clear Rewards:
+- x1 Azurite's Splendor
+
+[Clear Rewards]
+* Lot #1 (Total Weight: 1000000)
+    - x10 Knickknack Voucher (100% - 1000000)
+* Lot #2 (Total Weight: 10000)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x3 Demigod Feather (70% - 7000)
+    - x5 Demigod Feather (30% - 3000)
+* Lot #2 (Total Weight: 10000)
+    - x1 Ambrosia (100% - 10000)
+
+[1 ★☆☆☆☆ (B Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Legendary Merit (100% - 10000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x7 Heliotrope Urn (60% - 6000)
+    - x10 Heliotrope Urn (40% - 4000)
+* Lot #2 (Total Weight: 10000)
+    - x1 Gold Spellbook (100% - 10000)
+* Lot #3 (Total Weight: 8750)
+    - GEEN_233_24 (28.57% - 2500)
+    - GEEN_234_24 (28.57% - 2500)
+    - GEEN_235_24 (42.86% - 3750)
+
+[2 ★★☆☆☆ (A Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Heliotrope Urn (60% - 6000)
+    - x3 Heliotrope Urn (40% - 4000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
+
+[3 ★★★☆☆ (S Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x3 Heliotrope Urn (70% - 7000)
+    - x5 Heliotrope Urn (30% - 3000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x30 Knickknack Voucher (100% - 10000)
+
+[4 ★★★★☆ (S+ Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Demigod Feather (60% - 6000)
+    - x2 Demigod Feather (30% - 3000)
+    - x3 Demigod Feather (10% - 1000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x10 Knickknack Voucher (100% - 10000)
+
+[5 ★★★★★ (S++ Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x30 Knickknack Voucher (100% - 10000)
+
+```
+
+----
+
+### 407324 (407324)
+
+```
+First Clear Rewards:
+- x100 Knickknack Voucher
+
+[Clear Rewards]
+* Lot #1 (Total Weight: 1000000)
+    - x10 Knickknack Voucher (100% - 1000000)
+* Lot #2 (Total Weight: 10000)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x1 Ambrosia (100% - 10000)
+* Lot #2 (Total Weight: 10000)
+    - x1 Gold Spellbook (100% - 10000)
+
+[1 ★☆☆☆☆ (B Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Legendary Merit (100% - 10000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 8750)
+    - GEEN_233_24 (28.57% - 2500)
+    - GEEN_234_24 (42.86% - 3750)
+    - GEEN_235_24 (28.57% - 2500)
+
+[2 ★★☆☆☆ (A Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Silver Centrum (70% - 7000)
+    - x3 Silver Centrum (30% - 3000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
+
+[3 ★★★☆☆ (S Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x10 Knickknack Voucher (100% - 10000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x30 Knickknack Voucher (100% - 10000)
+
+[4 ★★★★☆ (S+ Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x30 Knickknack Voucher (100% - 10000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x10 Knickknack Voucher (100% - 10000)
+
+[5 ★★★★★ (S++ Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x50 Knickknack Voucher (100% - 10000)
+
+```
+
+----
+
+### 407325 (407325)
+
+```
+First Clear Rewards:
+- x100 Knickknack Voucher
+
+[Clear Rewards]
+* Lot #1 (Total Weight: 1000000)
+    - x10 Knickknack Voucher (100% - 1000000)
+* Lot #2 (Total Weight: 10000)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x1 Damascus Ingot (100% - 10000)
+* Lot #2 (Total Weight: 10000)
+    - x1 Azurite's Splendor (100% - 10000)
+
+[1 ★☆☆☆☆ (B Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Legendary Merit (100% - 10000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 8750)
+    - GEEN_233_24 (42.86% - 3750)
+    - GEEN_234_24 (28.57% - 2500)
+    - GEEN_235_24 (28.57% - 2500)
+
+[2 ★★☆☆☆ (A Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x1 Silver Centrum (70% - 7000)
+    - x3 Silver Centrum (30% - 3000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x1 Curio (T1) (60% - 6000)
+    - x1 Curio (T2) (27% - 2700)
+    - x1 Curio (T3) (10% - 1000)
+    - x1 Curio (T4) (3% - 300)
+
+[3 ★★★☆☆ (S Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x10 Knickknack Voucher (100% - 10000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x30 Knickknack Voucher (100% - 10000)
+
+[4 ★★★★☆ (S+ Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x30 Knickknack Voucher (100% - 10000)
+
+🎁 Chest
+* Lot #1 (Total Weight: 10000)
+    - x10 Knickknack Voucher (100% - 10000)
+
+[5 ★★★★★ (S++ Rank)]
+* Lot #1 (Total Weight: 10000)
+    - x50 Knickknack Voucher (100% - 10000)
 ```
