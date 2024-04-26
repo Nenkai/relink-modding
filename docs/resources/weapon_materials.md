@@ -10,7 +10,7 @@ List is interpolated from the following [tables](../tables/table_database.md):
 * `item_tier_map`
 * `item_material_list`
 
-Last fetched from `1.0.5`.
+Last fetched from `1.2.x`.
 
 !!! tip
 
@@ -9503,81 +9503,97 @@ x5 Legendary Merit
 [Awakening Levels]
 - Tier1 (Cost: 100000)
 x5 Exceptional Refinium
-x3 Landbeast Horn
+x5 Ancient Hollowpoint
 x2 Furycane Omega Anima
 x1 Vitality Hoof
+x3 Death Nail
 x1 Silver Centrum
 x10 Legendary Merit
 
 - Tier2 (Cost: 105000)
 x5 Exceptional Refinium
-x3 Broken Savage Sword
+x5 Firewyrm's Jewel
 x2 Gallanza Anamnesis
 x1 Silver Wolf Clovis
+x5 Death Nail
 x1 Silver Centrum
 x10 Legendary Merit
 
 - Tier3 (Cost: 110000)
 x5 Exceptional Refinium
-x3 Chilling Demon Eye
+x5 Icewyrm's Jewel
 x2 Managarmr Omega Anima
 x1 Sequestered Mane
+x7 Death Nail
 x1 Silver Centrum
 x10 Legendary Merit
 
 - Tier4 (Cost: 115000)
 x5 Exceptional Refinium
-x3 Giant Beak
+x5 Earthwyrm's Jewel
 x2 Maglielle Anamnesis
 x1 Cutthroat Fang
+x2 Wing of Portent
 x2 Silver Centrum
 x10 Legendary Merit
 
 - Tier5 (Cost: 120000)
 x5 Exceptional Refinium
-x3 Crowning Parapet
+x5 Windwyrm's Jewel
 x2 Excavallion Omega Anima
 x1 Fortified Hearth
+x3 Wing of Portent
+x1 Rancorous Lance
 x2 Silver Centrum
 x10 Legendary Merit
 
 - Tier6 (Cost: 125000)
 x5 Exceptional Refinium
-x3 Flamebeast Horn
+x3 Whitewyrm's Jewel
 x2 Vulkan Bolla Omega Anima
 x1 Dreaded Tail
+x5 Wing of Portent
+x1 Rancorous Lance
 x2 Silver Centrum
 x10 Legendary Merit
 
 - Tier7 (Cost: 130000)
 x5 Exceptional Refinium
-x3 Ether Battery
+x3 Blackwyrm's Jewel
 x2 Id Anamnesis
 x1 Destrudo
+x1 Crown of Lament
+x2 Rancorous Lance
 x3 Silver Centrum
 x10 Legendary Merit
 
 - Tier8 (Cost: 135000)
 x5 Exceptional Refinium
-x3 Searing War Axe
-x2 Angra Mainyu Omega Anima
+x2 Lunary Cell
 x1 Calamitous Hand
+x3 Calamity Corkscrew
+x2 Crown of Lament
+x3 Rancorous Lance
 x3 Silver Centrum
 x10 Legendary Merit
 
 - Tier9 (Cost: 140000)
 x5 Exceptional Refinium
-x3 Frosty War Axe
-x1 Calamitous Hand
-x3 Calamity Corkscrew
+x2 Horn of Bahamut
+x3 Heliotrope Urn
+x1 Demigod Feather
+x3 Crown of Lament
+x4 Rancorous Lance
 x3 Silver Centrum
 x10 Legendary Merit
 
 - Tier10 (Cost: 150000)
 x5 Exceptional Refinium
-x3 Frostbeast Horn
-x3 Heliotrope Urn
-x1 Demigod Feather
+x5 ITEM_18_0002
+x10 Death Nail
+x7 Wing of Portent
+x4 Crown of Lament
+x5 Rancorous Lance
 x5 Silver Centrum
 x10 Legendary Merit
 
@@ -9586,7 +9602,7 @@ x10 Legendary Merit
 ----
 
 ## Seofon (PL2200)
-### WEP_PL2200_01
+### Sette di Spade
 :material-key: Key: `WEP_PL2200_01`
 ```
 [Uncap Tiers]
@@ -9670,7 +9686,7 @@ x5 Legendary Merit
 
 ----
 
-### WEP_PL2200_03
+### Gateway-Star Sword (Gateway-Star Sword, Seven Winks)
 :material-key: Key: `WEP_PL2200_03`
 ```
 [Uncap Tiers]
@@ -9842,97 +9858,97 @@ x5 Legendary Merit
 [Awakening Levels]
 - Tier1 (Cost: 100000)
 x5 Exceptional Refinium
-x3 Landbeast Horn
+x5 Ancient Hollowpoint
 x2 Furycane Omega Anima
 x1 Vitality Hoof
-x3 ITEM_32_0043
+x3 Death Nail
 x1 Silver Centrum
 x10 Legendary Merit
 
 - Tier2 (Cost: 105000)
 x5 Exceptional Refinium
-x3 Broken Savage Sword
+x5 Firewyrm's Jewel
 x2 Gallanza Anamnesis
 x1 Silver Wolf Clovis
-x5 ITEM_32_0043
+x5 Death Nail
 x1 Silver Centrum
 x10 Legendary Merit
 
 - Tier3 (Cost: 110000)
 x5 Exceptional Refinium
-x3 Chilling Demon Eye
+x5 Icewyrm's Jewel
 x2 Managarmr Omega Anima
 x1 Sequestered Mane
-x7 ITEM_32_0043
+x7 Death Nail
 x1 Silver Centrum
 x10 Legendary Merit
 
 - Tier4 (Cost: 115000)
 x5 Exceptional Refinium
-x3 Giant Beak
+x5 Earthwyrm's Jewel
 x2 Maglielle Anamnesis
 x1 Cutthroat Fang
-x2 ITEM_32_0042
+x2 Wing of Portent
 x2 Silver Centrum
 x10 Legendary Merit
 
 - Tier5 (Cost: 120000)
 x5 Exceptional Refinium
-x3 Crowning Parapet
+x5 Windwyrm's Jewel
 x2 Excavallion Omega Anima
 x1 Fortified Hearth
-x3 ITEM_32_0042
-x1 ITEM_32_0040
+x3 Wing of Portent
+x1 Rancorous Lance
 x2 Silver Centrum
 x10 Legendary Merit
 
 - Tier6 (Cost: 125000)
 x5 Exceptional Refinium
-x3 Flamebeast Horn
+x3 Whitewyrm's Jewel
 x2 Vulkan Bolla Omega Anima
 x1 Dreaded Tail
-x5 ITEM_32_0042
-x1 ITEM_32_0040
+x5 Wing of Portent
+x1 Rancorous Lance
 x2 Silver Centrum
 x10 Legendary Merit
 
 - Tier7 (Cost: 130000)
 x5 Exceptional Refinium
-x3 Ether Battery
+x3 Blackwyrm's Jewel
 x2 Id Anamnesis
 x1 Destrudo
-x1 ITEM_32_0041
-x2 ITEM_32_0040
+x1 Crown of Lament
+x2 Rancorous Lance
 x3 Silver Centrum
 x10 Legendary Merit
 
 - Tier8 (Cost: 135000)
 x5 Exceptional Refinium
-x3 Searing War Axe
+x2 Lunary Cell
 x1 Calamitous Hand
 x3 Calamity Corkscrew
-x2 ITEM_32_0041
-x3 ITEM_32_0040
+x2 Crown of Lament
+x3 Rancorous Lance
 x3 Silver Centrum
 x10 Legendary Merit
 
 - Tier9 (Cost: 140000)
 x5 Exceptional Refinium
-x3 Frosty War Axe
+x2 Horn of Bahamut
 x3 Heliotrope Urn
 x1 Demigod Feather
-x3 ITEM_32_0041
-x4 ITEM_32_0040
+x3 Crown of Lament
+x4 Rancorous Lance
 x3 Silver Centrum
 x10 Legendary Merit
 
 - Tier10 (Cost: 150000)
 x5 Exceptional Refinium
-x3 Frostbeast Horn
-x10 ITEM_32_0043
-x7 ITEM_32_0042
-x4 ITEM_32_0041
-x5 ITEM_32_0040
+x3 Supreme Weapon Essence
+x10 Death Nail
+x7 Wing of Portent
+x4 Crown of Lament
+x5 Rancorous Lance
 x5 Silver Centrum
 x10 Legendary Merit
 
@@ -9941,7 +9957,7 @@ x10 Legendary Merit
 ----
 
 ## Tweyen (PL2300)
-### WEP_PL2300_01
+### Bow of Dismissal
 :material-key: Key: `WEP_PL2300_01`
 ```
 [Uncap Tiers]
@@ -10025,7 +10041,7 @@ x5 Legendary Merit
 
 ----
 
-### WEP_PL2300_03
+### Desolation-Crown Bow (Desolation-Crown Bow, Two Feuds)
 :material-key: Key: `WEP_PL2300_03`
 ```
 [Uncap Tiers]
@@ -10197,97 +10213,97 @@ x5 Legendary Merit
 [Awakening Levels]
 - Tier1 (Cost: 100000)
 x5 Exceptional Refinium
-x3 Landbeast Horn
+x5 Ancient Hollowpoint
 x2 Furycane Omega Anima
 x1 Vitality Hoof
-x3 ITEM_32_0043
+x3 Death Nail
 x1 Silver Centrum
 x10 Legendary Merit
 
 - Tier2 (Cost: 105000)
 x5 Exceptional Refinium
-x3 Broken Savage Sword
+x5 Firewyrm's Jewel
 x2 Gallanza Anamnesis
 x1 Silver Wolf Clovis
-x5 ITEM_32_0043
+x5 Death Nail
 x1 Silver Centrum
 x10 Legendary Merit
 
 - Tier3 (Cost: 110000)
 x5 Exceptional Refinium
-x3 Chilling Demon Eye
+x5 Icewyrm's Jewel
 x2 Managarmr Omega Anima
 x1 Sequestered Mane
-x7 ITEM_32_0043
+x7 Death Nail
 x1 Silver Centrum
 x10 Legendary Merit
 
 - Tier4 (Cost: 115000)
 x5 Exceptional Refinium
-x3 Giant Beak
+x5 Earthwyrm's Jewel
 x2 Maglielle Anamnesis
 x1 Cutthroat Fang
-x2 ITEM_32_0042
+x2 Wing of Portent
 x2 Silver Centrum
 x10 Legendary Merit
 
 - Tier5 (Cost: 120000)
 x5 Exceptional Refinium
-x3 Crowning Parapet
+x5 Windwyrm's Jewel
 x2 Excavallion Omega Anima
 x1 Fortified Hearth
-x3 ITEM_32_0042
-x1 ITEM_32_0040
+x3 Wing of Portent
+x1 Rancorous Lance
 x2 Silver Centrum
 x10 Legendary Merit
 
 - Tier6 (Cost: 125000)
 x5 Exceptional Refinium
-x3 Flamebeast Horn
+x3 Whitewyrm's Jewel
 x2 Vulkan Bolla Omega Anima
 x1 Dreaded Tail
-x5 ITEM_32_0042
-x1 ITEM_32_0040
+x5 Wing of Portent
+x1 Rancorous Lance
 x2 Silver Centrum
 x10 Legendary Merit
 
 - Tier7 (Cost: 130000)
 x5 Exceptional Refinium
-x3 Ether Battery
+x3 Blackwyrm's Jewel
 x2 Id Anamnesis
 x1 Destrudo
-x1 ITEM_32_0041
-x2 ITEM_32_0040
+x1 Crown of Lament
+x2 Rancorous Lance
 x3 Silver Centrum
 x10 Legendary Merit
 
 - Tier8 (Cost: 135000)
 x5 Exceptional Refinium
-x3 Searing War Axe
+x2 Lunary Cell
 x1 Calamitous Hand
 x3 Calamity Corkscrew
-x2 ITEM_32_0041
-x3 ITEM_32_0040
+x2 Crown of Lament
+x3 Rancorous Lance
 x3 Silver Centrum
 x10 Legendary Merit
 
 - Tier9 (Cost: 140000)
 x5 Exceptional Refinium
-x3 Frosty War Axe
+x2 Horn of Bahamut
 x3 Heliotrope Urn
 x1 Demigod Feather
-x3 ITEM_32_0041
-x4 ITEM_32_0040
+x3 Crown of Lament
+x4 Rancorous Lance
 x3 Silver Centrum
 x10 Legendary Merit
 
 - Tier10 (Cost: 150000)
 x5 Exceptional Refinium
-x3 Frostbeast Horn
-x10 ITEM_32_0043
-x7 ITEM_32_0042
-x4 ITEM_32_0041
-x5 ITEM_32_0040
+x3 Supreme Weapon Essence
+x10 Death Nail
+x7 Wing of Portent
+x4 Crown of Lament
+x5 Rancorous Lance
 x5 Silver Centrum
 x10 Legendary Merit
 
@@ -10512,4 +10528,3 @@ x5 Legendary Merit
 ```
 
 ----
-
