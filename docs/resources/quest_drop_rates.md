@@ -5018,7 +5018,7 @@ First Clear Rewards:
 
 ```
 
-## Gulp... So These Are the Rumored Monsters (405308)
+### Gulp... So These Are the Rumored Monsters (405308)
 
 ```
 First Clear Rewards:
@@ -8639,7 +8639,7 @@ First Clear Rewards:
 
 ----
 
-## 406367 (406367)
+### 406367 (406367)
 
 ```
 First Clear Rewards:
@@ -11692,7 +11692,7 @@ First Clear Rewards:
 
 ----
 
-## The Final Vision (407320)
+### The Final Vision (407320)
 
 ```
 First Clear Rewards:
