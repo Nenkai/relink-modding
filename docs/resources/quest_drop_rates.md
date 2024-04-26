@@ -20,7 +20,7 @@ If you need to find a specific quest, ++ctrl+f++ and search by quest name.
 
     * [1.0 :material-arrow-right: 1.1](change_lists/quest_rate_v1.0_v1.1.htm)
     * [1.1.3 :material-arrow-right: 1.1.4](change_lists/quest_rate_v1.1_v1.1.4.htm)
-    * [1.1.4 :material-arrow-right: 1.2.4](change_lists/quest_rate_v1.1.4_v1.2.1.htm)
+    * [1.1.4 :material-arrow-right: 1.2.1](change_lists/quest_rate_v1.1.4_v1.2.1.htm)
 
 ## Easy
 
