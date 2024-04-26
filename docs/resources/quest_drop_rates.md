@@ -2,7 +2,7 @@
 icon: material/treasure-chest
 ---
 
-:material-lightbulb: Data Version: `1.1.4`
+:material-lightbulb: Data Version: `1.2.1`
 
 !!! note ":material-note: Notes/Observations"
 
@@ -11,6 +11,7 @@ icon: material/treasure-chest
     * Proud difficulty is a 100% chance of curio drop.
     * Curio drops start on Hard difficulty.
     * The other curios don't actually have names. The 'T' naming should be used instead (Tier)
+    * There may be unreleased quests.
 
 
 If you need to find a specific quest, ++ctrl+f++ and search by quest name.
@@ -19,6 +20,7 @@ If you need to find a specific quest, ++ctrl+f++ and search by quest name.
 
     * [1.0 :material-arrow-right: 1.1](change_lists/quest_rate_v1.0_v1.1.htm)
     * [1.1.3 :material-arrow-right: 1.1.4](change_lists/quest_rate_v1.1_v1.1.4.htm)
+    * [1.1.4 :material-arrow-right: 1.2.4](change_lists/quest_rate_v1.1.4_v1.2.1.htm)
 
 ## Easy
 
