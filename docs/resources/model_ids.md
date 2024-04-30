@@ -101,6 +101,7 @@ icon: material/identifier
 0604 -- King Goldslime
 0605 -- Prismatic Slime
 0701 -- Cyaegha/Silent Watcher
+0705 -- Ahriman
 0706 -- Nazarbonju/Eternal Gaze
 0800 -- Flame Gyre
 0801 -- Aqua Gyre
@@ -126,6 +127,7 @@ icon: material/identifier
 1303 -- Droita Balsam/Torpedo Balsam
 1500 -- Rock Golem
 1600 -- Griffin/Wraithwing/Goblin Eater/Obsidian Raptor
+1700 -- Behemoth
 1800 -- Ancient Dragon/Frumious Bandersnatch/Ferocious Garamud
 1801 -- Vrazarek Firewyrm
 1802 -- Wilinus Icewyrm

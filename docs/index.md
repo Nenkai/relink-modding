@@ -43,7 +43,7 @@ Welcome to the world of GBFR Modding! Here you can learn all about modding the g
 
     All the resources for your needs can be found here
 
-    [:octicons-rel-file-path-16: Asset Paths](resources/asset_paths.md)
+    [:octicons-rel-file-path-16: File Tree/Asset Paths](resources/asset_paths.md)
 
     [:material-book-alphabet: Entity Prefixes](resources/entity_prefixes.md)
 

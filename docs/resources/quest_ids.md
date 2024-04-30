@@ -4,7 +4,7 @@ icon: material/sword-cross
 
 # Quest IDs
 
-:material-lightbulb: Data Version: `1.1.x`
+:material-lightbulb: Data Version: `1.2.x`
 
 List is interpolated using `system/table/text/text_stage.msg`
 

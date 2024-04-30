@@ -2,7 +2,7 @@
 icon: material/help-box
 ---
 
-:material-lightbulb: Data Version: `1.1.x`
+:material-lightbulb: Data Version: `1.2.x`
 
 !!! note
 
