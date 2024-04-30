@@ -117,40 +117,58 @@ SKILL_114_00,Fearless Drive,CD030268
 SKILL_114_01,Fearless Spirit,A38510E2
 SKILL_115_00,Guardian's Conviction,3BFED918
 SKILL_115_01,Guardian's Honor,F8496336
+SKILL_115_02,Guardian's Warpath,9AFDFA9E
 SKILL_116_00,Helmsman's Navigation,151E4674
 SKILL_116_01,Helmsman's Tenacity,A374FDF0
+SKILL_116_02,Helmsman's Warpath,D76F4D24
 SKILL_117_00,Mage's Aspiration,B48EEF48
 SKILL_117_01,Mage's Savvy,11AAE5F5
+SKILL_117_02,Mage's Warpath,C00163B3
 SKILL_118_00,Veteran's Insight,AA83F548
 SKILL_118_01,Veteran's Vision,921B6B0C
+SKILL_118_02,Veteran's Warpath,0E42BE1B
 SKILL_119_00,Rose's Blooming,23D0F67F
 SKILL_119_01,Rose's Profusion,C2A4C7A9
+SKILL_119_02,Rose's Warpath,8519AD4A
 SKILL_120_00,Phantasm's Concord,D908223D
 SKILL_120_01,Phantasm's Harmony,7351D602
+SKILL_120_02,Phantasm's Warpath,A339D642
 SKILL_121_00,White Dragon's Oath,8CDF9382
 SKILL_121_01,White Dragon's Glory,D1012D8C
+SKILL_121_02,White Dragon's Warpath,6316CBEB
 SKILL_122_00,Hero's Creed,2E65A774
 SKILL_122_01,Hero's Will,16EFF868
+SKILL_122_02,Hero's Warpath,D8f66C1C
 SKILL_123_00,Lord's Procession,E60A735C
 SKILL_123_01,Lord's Ambition,6FF05223
+SKILL_123_02,Lord's Warpath,BA504607
 SKILL_124_00,Dragonslayer's Dominance,86CBCDC4
 SKILL_124_01,Dragonslayer's Ingenuity,05FA4599
+SKILL_124_02,Dragonslayer's Warpath,C7D379F1
 SKILL_125_00,Holy Knight's Luster,9A9DC170
 SKILL_125_01,Holy Knight's Grandeur,522E2388
+SKILL_125_02,Holy Knight's Warpath,B85202BC
 SKILL_126_00,Swordmaster's Prowess,0CD6C625
 SKILL_126_01,Swordmaster's Art,A3B49220
+SKILL_126_02,Swordmaster's Warpath,DAEFBB27
 SKILL_127_00,Butterfly's Grace,29B07BEB
 SKILL_127_01,Butterfly's Valor,A63B89CD
+SKILL_127_02,Butterfly's Warpath,FDD1AD24
 SKILL_128_00,Eternal Rage's Mettle,5463232F
 SKILL_128_01,Eternal Rage's Ethos,451D814C
+SKILL_128_02,Eternal Rage's Warpath,0F026CF0
 SKILL_129_00,Founder's Strategy,EC3CF174
 SKILL_129_01,Founder's Truth,AF513A9D
+SKILL_129_02,Founder's Warpath,E6B92E34
 SKILL_130_00,Versalis Foundation,93A2093C
 SKILL_130_01,Versalis Ignition,7AD0C010
+SKILL_130_02,Versalis Heart,B064A634
 SKILL_131_00,Crimson's Clout,6EBFA176
 SKILL_131_01,Crimson's Flight,F1D5DBD0
+SKILL_131_02,Crimson's Warpath,4F135217
 SKILL_132_00,Ebony's Presence,7440E869
 SKILL_132_01,Ebony's Poise,CD124165
+SKILL_132_02,Ebony's Warpath,d8f66c1c
 SKILL_133_00,Fortifying Vigor,0FBA47E8
 SKILL_134_00,Instilling Vigor,A4D6B880
 SKILL_135_00,Gilding Vigor,CDEB73F6
@@ -178,3 +196,14 @@ SKILL_159_00,Flight over Fight,EC1C6779
 SKILL_160_00,Alpha,DBE1D775
 SKILL_161_00,Beta,8D2ADB6E
 SKILL_162_00,Gamma,5C862E13
+SKILL_164_00,Crabmiration,D3B8C21F
+SKILL_166_00,Greater Aegis,48A95B8D
+SKILL_167_00,Auto Potion,F71F8997
+SKILL_170_00,Spirit Edge's Rally,77C809F5
+SKILL_170_01,Spirit Edge's Fury,9230E3F5
+SKILL_170_02,Spirit Edge's Warpath,7B4FC47A
+SKILL_170_03,Seven-Star Boundary,EF05EC4D
+SKILL_171_00,Dark Huntress's Volley,E85FF8E0
+SKILL_171_01,Dark Huntress's Surge,8572B8AF
+SKILL_171_02,Dark Huntress's Warpath,81B293D9
+SKILL_171_03,Two-Crown Boundary,281214AB
