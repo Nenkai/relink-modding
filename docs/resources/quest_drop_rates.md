@@ -32,9 +32,9 @@ First Clear Rewards:
 - Rupie Tycoon I
 
 [Sub Missions Rewards]
-Don't enter critical condition more than 2 time(s): - x3 Fortitude Shard
-Defeat 2 foe(s) with thrown objects: - x1 Fortitude Crystal (S)
-Clear within 2 minute(s): - x5 Fortitude Crystal (S)
+Don't enter critical condition more than 2 time(s): x3 Fortitude Shard
+Defeat 2 foe(s) with thrown objects: x1 Fortitude Crystal (S)
+Clear within 2 minute(s): x5 Fortitude Crystal (S)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -85,9 +85,9 @@ First Clear Rewards:
 - x1 Landbeast Claw
 
 [Sub Missions Rewards]
-Clear within 3 minute(s): - x5 Rafale Coin
-Don't enter critical condition more than 2 time(s): - x3 Landbeast Claw
-Clear within 1 minute(s): - x1 Landbeast Plate
+Clear within 3 minute(s): x5 Rafale Coin
+Don't enter critical condition more than 2 time(s): x3 Landbeast Claw
+Clear within 1 minute(s): x1 Landbeast Plate
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -163,9 +163,9 @@ First Clear Rewards:
 - x10 Fortitude Shard
 
 [Sub Missions Rewards]
-Don't enter critical condition more than 3 time(s): - x3 Fortitude Shard
-Defeat 3 foe(s) with thrown objects: - x1 Fortitude Crystal (S)
-Clear within 2 minute(s): - x5 Fortitude Crystal (S)
+Don't enter critical condition more than 3 time(s): x3 Fortitude Shard
+Defeat 3 foe(s) with thrown objects: x1 Fortitude Crystal (S)
+Clear within 2 minute(s): x5 Fortitude Crystal (S)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -214,9 +214,9 @@ First Clear Rewards:
 - Fast Learner I
 
 [Sub Missions Rewards]
-Defeat 50 foes: - x1 Glitterstone (S)
-Don't enter critical condition more than 2 time(s): - x1 Glitterstone (S)
-Defeat {enemy} ×7: - x1 Glitterstone (L)
+Defeat 50 foes: x1 Glitterstone (S)
+Don't enter critical condition more than 2 time(s): x1 Glitterstone (S)
+Defeat {enemy} ×7: x1 Glitterstone (L)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -264,9 +264,9 @@ First Clear Rewards:
 - Improved Guard I
 
 [Sub Missions Rewards]
-Clear within 3 minute(s): - x5 Rafale Coin
-Don't enter critical condition more than 3 time(s): - x3 Chieftain's Braid
-Clear within 1 minute(s): - x1 Greatshield Fragment
+Clear within 3 minute(s): x5 Rafale Coin
+Don't enter critical condition more than 3 time(s): x3 Chieftain's Braid
+Clear within 1 minute(s): x1 Greatshield Fragment
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -343,9 +343,9 @@ First Clear Rewards:
 - Health I
 
 [Sub Missions Rewards]
-Hallowed Ground survives with at least 65% HP: - x3 Fortitude Shard
-Defeat 3 foe(s) with thrown objects: - x1 Fortitude Crystal (S)
-Defeat {enemy} ×4: - x5 Fortitude Crystal (S)
+Hallowed Ground survives with at least 65% HP: x3 Fortitude Shard
+Defeat 3 foe(s) with thrown objects: x1 Fortitude Crystal (S)
+Defeat {enemy} ×4: x5 Fortitude Crystal (S)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -392,9 +392,9 @@ First Clear Rewards:
 - Critical Hit Rate I
 
 [Sub Missions Rewards]
-Don't enter critical condition more than 3 time(s): - x3 Fortitude Shard
-Defeat 120 foes with an ether cannon: - x1 Fortitude Crystal (S)
-Clear within 3 minute(s): - x5 Fortitude Crystal (S)
+Don't enter critical condition more than 3 time(s): x3 Fortitude Shard
+Defeat 120 foes with an ether cannon: x1 Fortitude Crystal (S)
+Clear within 3 minute(s): x5 Fortitude Crystal (S)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -444,9 +444,9 @@ First Clear Rewards:
 - Potion Hoarder I
 
 [Sub Missions Rewards]
-Clear within 4 minute(s): - x3 Fortitude Shard
-Don't enter critical condition more than 2 time(s): - x1 Fortitude Crystal (S)
-Clear within 2 minute(s): - x5 Fortitude Crystal (S)
+Clear within 4 minute(s): x3 Fortitude Shard
+Don't enter critical condition more than 2 time(s): x1 Fortitude Crystal (S)
+Clear within 2 minute(s): x5 Fortitude Crystal (S)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -499,9 +499,9 @@ First Clear Rewards:
 - x1 Standard Refinium
 
 [Sub Missions Rewards]
-Clear within 3 minute(s): - x10 Rafale Coin
-Don't enter critical condition more than 2 time(s): - x3 Bizarre Wing
-Don't get inflicted with {status} more than 3 time(s): - x1 Bizarre Ice Spine
+Clear within 3 minute(s): x10 Rafale Coin
+Don't enter critical condition more than 2 time(s): x3 Bizarre Wing
+Don't get inflicted with {status} more than 3 time(s): x1 Bizarre Ice Spine
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -589,9 +589,9 @@ First Clear Rewards:
 - Low Profile II
 
 [Sub Missions Rewards]
-Defeat {enemy} ×15: - x1 Glitterstone (S)
-Defeat 4 foe(s) with thrown objects: - x1 Glitterstone (S)
-Defeat {enemy} ×8: - x1 Glitterstone (L)
+Defeat {enemy} ×15: x1 Glitterstone (S)
+Defeat 4 foe(s) with thrown objects: x1 Glitterstone (S)
+Defeat {enemy} ×8: x1 Glitterstone (L)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -649,9 +649,9 @@ First Clear Rewards:
 - Exploiter II
 
 [Sub Missions Rewards]
-Clear within 5 minute(s): - x10 Rafale Coin
-Don't enter critical condition more than 2 time(s): - x3 Griffin Feather
-Clear within 2 minute(s): - x1 Griffin Talon
+Clear within 5 minute(s): x10 Rafale Coin
+Don't enter critical condition more than 2 time(s): x3 Griffin Feather
+Clear within 2 minute(s): x1 Griffin Talon
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -740,9 +740,9 @@ First Clear Rewards:
 - x1 Vitality Wrightstone (ITEM_26_9999)
 
 [Sub Missions Rewards]
-Clear within 4 minute(s): - x1 Prism Chip
-Don't enter critical condition more than 2 time(s): - x5 Prism Chip
-Clear within 2 minute(s): - x2 Flawed Prism
+Clear within 4 minute(s): x1 Prism Chip
+Don't enter critical condition more than 2 time(s): x5 Prism Chip
+Clear within 2 minute(s): x2 Flawed Prism
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -838,9 +838,9 @@ First Clear Rewards:
 - Attack Power II
 
 [Sub Missions Rewards]
-Defeat 50 foes: - x1 Glitterstone (S)
-Defeat 4 foe(s) with thrown objects: - x1 Glitterstone (S)
-Defeat {enemy} ×7: - x1 Glitterstone (L)
+Defeat 50 foes: x1 Glitterstone (S)
+Defeat 4 foe(s) with thrown objects: x1 Glitterstone (S)
+Defeat {enemy} ×7: x1 Glitterstone (L)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -894,9 +894,9 @@ First Clear Rewards:
 - x2 Standard Refinium
 
 [Sub Missions Rewards]
-Clear within 4 minute(s): - x10 Rafale Coin
-Don't enter critical condition more than 2 time(s): - x3 Golem Finger
-Clear within 1 minute(s): - x1 Golem Rockjaw
+Clear within 4 minute(s): x10 Rafale Coin
+Don't enter critical condition more than 2 time(s): x3 Golem Finger
+Clear within 1 minute(s): x1 Golem Rockjaw
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -987,9 +987,9 @@ First Clear Rewards:
 - Regen II
 
 [Sub Missions Rewards]
-Don't enter critical condition more than 2 time(s): - x5 Fortitude Shard
-Clear within 5 minute(s): - x2 Fortitude Crystal (S)
-Don't get inflicted with {status} more than 2 time(s): - x7 Fortitude Crystal (S)
+Don't enter critical condition more than 2 time(s): x5 Fortitude Shard
+Clear within 5 minute(s): x2 Fortitude Crystal (S)
+Don't get inflicted with {status} more than 2 time(s): x7 Fortitude Crystal (S)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -1047,9 +1047,9 @@ First Clear Rewards:
 - Provoke II
 
 [Sub Missions Rewards]
-Don't enter critical condition more than 2 time(s): - x5 Fortitude Shard
-Defeat 3 foe(s) with thrown objects: - x2 Fortitude Crystal (S)
-Clear within 6 minute(s): - x7 Fortitude Crystal (S)
+Don't enter critical condition more than 2 time(s): x5 Fortitude Shard
+Defeat 3 foe(s) with thrown objects: x2 Fortitude Crystal (S)
+Clear within 6 minute(s): x7 Fortitude Crystal (S)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -1107,9 +1107,9 @@ First Clear Rewards:
 - Linked Together II
 
 [Sub Missions Rewards]
-Barricade survives with at least 75% HP: - x5 Fortitude Shard
-Don't enter critical condition more than 2 time(s): - x2 Fortitude Crystal (S)
-Defeat {enemy} ×1: - x7 Fortitude Crystal (S)
+Barricade survives with at least 75% HP: x5 Fortitude Shard
+Don't enter critical condition more than 2 time(s): x2 Fortitude Crystal (S)
+Defeat {enemy} ×1: x7 Fortitude Crystal (S)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -1162,9 +1162,9 @@ First Clear Rewards:
 - x2 Quality Refinium
 
 [Sub Missions Rewards]
-Clear within 4 minute(s): - x10 Rafale Coin
-Don't enter critical condition more than 2 time(s): - x3 Purgatory Bone
-Clear within 2 minute(s): - x1 Purgatory Armguard
+Clear within 4 minute(s): x10 Rafale Coin
+Don't enter critical condition more than 2 time(s): x3 Purgatory Bone
+Clear within 2 minute(s): x1 Purgatory Armguard
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -1252,9 +1252,9 @@ First Clear Rewards:
 - x1 Sequestration Wrightstone (ITEM_28_9999)
 
 [Sub Missions Rewards]
-Clear within 4 minute(s): - x1 Prism Chip
-Don't enter critical condition more than 2 time(s): - x5 Prism Chip
-Clear within 2 minute(s): - x2 Flawed Prism
+Clear within 4 minute(s): x1 Prism Chip
+Don't enter critical condition more than 2 time(s): x5 Prism Chip
+Clear within 2 minute(s): x2 Flawed Prism
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -1354,9 +1354,9 @@ First Clear Rewards:
 - x1 Dread Wrightstone (ITEM_25_9999)
 
 [Sub Missions Rewards]
-Clear within 6 minute(s): - x1 Prism Chip
-Don't enter critical condition more than 2 time(s): - x5 Prism Chip
-Clear within 3 minute(s): - x2 Flawed Prism
+Clear within 6 minute(s): x1 Prism Chip
+Don't enter critical condition more than 2 time(s): x5 Prism Chip
+Clear within 3 minute(s): x2 Flawed Prism
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -1458,9 +1458,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Don't enter critical condition more than 4 time(s): - x5 Fortitude Crystal (S)
-Defeat 60 foes with an ether cannon: - x2 Fortitude Crystal (M)
-Clear within 3 minute(s): - x5 Fortitude Crystal (M)
+Don't enter critical condition more than 4 time(s): x5 Fortitude Crystal (S)
+Defeat 60 foes with an ether cannon: x2 Fortitude Crystal (M)
+Clear within 3 minute(s): x5 Fortitude Crystal (M)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -1523,9 +1523,9 @@ First Clear Rewards:
 - x3 Fortitude Crystal (M)
 
 [Sub Missions Rewards]
-Don't enter critical condition more than 2 time(s): - x5 Fortitude Crystal (S)
-Defeat 2 foe(s) with thrown objects: - x2 Fortitude Crystal (M)
-Clear within 3 minute(s): - x5 Fortitude Crystal (M)
+Don't enter critical condition more than 2 time(s): x5 Fortitude Crystal (S)
+Defeat 2 foe(s) with thrown objects: x2 Fortitude Crystal (M)
+Clear within 3 minute(s): x5 Fortitude Crystal (M)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -1589,9 +1589,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Defeat 35 foes: - x1 Glitterstone (L)
-Don't get inflicted with {status} more than 5 time(s): - x1 Glitterstone (L)
-Defeat {enemy} ×4: - x1 Glittercrystal
+Defeat 35 foes: x1 Glitterstone (L)
+Don't get inflicted with {status} more than 5 time(s): x1 Glitterstone (L)
+Defeat {enemy} ×4: x1 Glittercrystal
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -1654,9 +1654,9 @@ First Clear Rewards:
 - Health III
 
 [Sub Missions Rewards]
-Clear within 8 minute(s): - x3 Chieftain's Braid
-Don't enter critical condition more than 2 time(s): - x1 Greatshield Fragment
-Clear within 4 minute(s): - x1 Broken Savage Sword
+Clear within 8 minute(s): x3 Chieftain's Braid
+Don't enter critical condition more than 2 time(s): x1 Greatshield Fragment
+Clear within 4 minute(s): x1 Broken Savage Sword
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -1768,9 +1768,9 @@ First Clear Rewards:
 - Stun Power III
 
 [Sub Missions Rewards]
-Clear within 8 minute(s): - x3 Landbeast Claw
-Don't enter critical condition more than 2 time(s): - x1 Landbeast Plate
-Clear within 4 minute(s): - x1 Landbeast Horn
+Clear within 8 minute(s): x3 Landbeast Claw
+Don't enter critical condition more than 2 time(s): x1 Landbeast Plate
+Clear within 4 minute(s): x1 Landbeast Horn
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -1879,9 +1879,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Collect 50 Vallion coins: - x1 Glitterstone (L)
-Defeat {enemy} ×2: - x1 Glitterstone (L)
-Collect 150 Vallion coins: - x1 Glittercrystal
+Collect 50 Vallion coins: x1 Glitterstone (L)
+Defeat {enemy} ×2: x1 Glitterstone (L)
+Collect 150 Vallion coins: x1 Glittercrystal
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -1951,9 +1951,9 @@ First Clear Rewards:
 - Attack Power III
 
 [Sub Missions Rewards]
-Clear within 6 minute(s): - x3 Frostbeast Claw
-Don't get inflicted with {status} more than 3 time(s): - x1 Frostbeast Plate
-Don't enter critical condition more than 2 time(s): - x1 Frostbeast Horn
+Clear within 6 minute(s): x3 Frostbeast Claw
+Don't get inflicted with {status} more than 3 time(s): x1 Frostbeast Plate
+Don't enter critical condition more than 2 time(s): x1 Frostbeast Horn
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -2060,9 +2060,9 @@ First Clear Rewards:
 - Exploiter III
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x3 Griffin Feather
-Don't enter critical condition more than 2 time(s): - x1 Griffin Talon
-Clear within 5 minute(s): - x1 Giant Beak
+Clear within 10 minute(s): x3 Griffin Feather
+Don't enter critical condition more than 2 time(s): x1 Griffin Talon
+Clear within 5 minute(s): x1 Giant Beak
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -2173,9 +2173,9 @@ First Clear Rewards:
 - x1 Fortitude Crystal (M)
 
 [Sub Missions Rewards]
-Hallowed Ground survives with at least 50% HP: - x5 Fortitude Crystal (S)
-Defeat 8 foe(s) with thrown objects: - x2 Fortitude Crystal (M)
-Defeat {enemy} ×4: - x5 Fortitude Crystal (M)
+Hallowed Ground survives with at least 50% HP: x5 Fortitude Crystal (S)
+Defeat 8 foe(s) with thrown objects: x2 Fortitude Crystal (M)
+Defeat {enemy} ×4: x5 Fortitude Crystal (M)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -2237,9 +2237,9 @@ First Clear Rewards:
 - Critical Hit Rate III
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x3 Bizarre Wing
-Don't enter critical condition more than 2 time(s): - x1 Bizarre Ice Spine
-Clear within 5 minute(s): - x1 Chilling Demon Eye
+Clear within 10 minute(s): x3 Bizarre Wing
+Don't enter critical condition more than 2 time(s): x1 Bizarre Ice Spine
+Clear within 5 minute(s): x1 Chilling Demon Eye
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -2356,9 +2356,9 @@ First Clear Rewards:
 - x3 Copper Spellbook
 
 [Sub Missions Rewards]
-Clear within 8 minute(s): - x2 Dragon Scale
-Don't enter critical condition more than 2 time(s): - x1 Dragon Wing
-Clear within 4 minute(s): - x1 Ancient Hollowpoint
+Clear within 8 minute(s): x2 Dragon Scale
+Don't enter critical condition more than 2 time(s): x1 Dragon Wing
+Clear within 4 minute(s): x1 Ancient Hollowpoint
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -2477,9 +2477,9 @@ First Clear Rewards:
 - x1 Glitterstone (L)
 
 [Sub Missions Rewards]
-Defeat 10 foe(s) with thrown objects: - x1 Glitterstone (L)
-Defeat 20 foe(s) with thrown objects: - x1 Glitterstone (L)
-Defeat 50 foes: - x1 Glittercrystal
+Defeat 10 foe(s) with thrown objects: x1 Glitterstone (L)
+Defeat 20 foe(s) with thrown objects: x1 Glitterstone (L)
+Defeat 50 foes: x1 Glittercrystal
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 1000000)
@@ -2539,9 +2539,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 8 minute(s): - x3 Bleak Bone
-Don't enter critical condition more than 2 time(s): - x1 Bleak Armguard
-Clear within 4 minute(s): - x1 Frosty War Axe
+Clear within 8 minute(s): x3 Bleak Bone
+Don't enter critical condition more than 2 time(s): x1 Bleak Armguard
+Clear within 4 minute(s): x1 Frosty War Axe
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -2661,9 +2661,9 @@ First Clear Rewards:
 - Nimble Onslaught III
 
 [Sub Missions Rewards]
-Defeat 5 foe(s) with thrown objects: - x7 Fortitude Crystal (S)
-Don't enter critical condition more than 2 time(s): - x4 Fortitude Crystal (M)
-Clear within 4 minute(s): - x1 Fortitude Crystal (L)
+Defeat 5 foe(s) with thrown objects: x7 Fortitude Crystal (S)
+Don't enter critical condition more than 2 time(s): x4 Fortitude Crystal (M)
+Clear within 4 minute(s): x1 Fortitude Crystal (L)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -2728,9 +2728,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Don't enter critical condition more than 2 time(s): - x1 Glitterstone (L)
-Defeat 70 foes via Dimension Warp: - x1 Glitterstone (L)
-Don't get inflicted with {status} more than 5 time(s): - x1 Glittercrystal
+Don't enter critical condition more than 2 time(s): x1 Glitterstone (L)
+Defeat 70 foes via Dimension Warp: x1 Glitterstone (L)
+Don't get inflicted with {status} more than 5 time(s): x1 Glittercrystal
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -2798,9 +2798,9 @@ First Clear Rewards:
 - Aegis III
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x3 Golem Finger
-Don't enter critical condition more than 2 time(s): - x1 Golem Rockjaw
-Clear within 5 minute(s): - x1 Crowning Parapet
+Clear within 10 minute(s): x3 Golem Finger
+Don't enter critical condition more than 2 time(s): x1 Golem Rockjaw
+Clear within 5 minute(s): x1 Crowning Parapet
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -2931,9 +2931,9 @@ First Clear Rewards:
 - Overdrive Assassin III
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x3 Mythril Wheel
-Don't enter critical condition more than 2 time(s): - x1 Condemnation Saw
-Clear within 5 minute(s): - x1 Ether Battery
+Clear within 10 minute(s): x3 Mythril Wheel
+Don't enter critical condition more than 2 time(s): x1 Condemnation Saw
+Clear within 5 minute(s): x1 Ether Battery
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -3062,9 +3062,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x3 Flamebeast Claw
-Don't enter critical condition more than 2 time(s): - x1 Flamebeast Plate
-Clear within 5 minute(s): - x1 Flamebeast Horn
+Clear within 10 minute(s): x3 Flamebeast Claw
+Don't enter critical condition more than 2 time(s): x1 Flamebeast Plate
+Clear within 5 minute(s): x1 Flamebeast Horn
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -3190,9 +3190,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x3 Purgatory Bone
-Don't enter critical condition more than 2 time(s): - x1 Purgatory Armguard
-Clear within 5 minute(s): - x1 Searing War Axe
+Clear within 10 minute(s): x3 Purgatory Bone
+Don't enter critical condition more than 2 time(s): x1 Purgatory Armguard
+Clear within 5 minute(s): x1 Searing War Axe
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -3316,9 +3316,9 @@ First Clear Rewards:
 - x1 Vitality Wrightstone (ITEM_26_1000)
 
 [Sub Missions Rewards]
-Clear within 7 minute(s): - x10 Flawless Prism
-Use Skybound Arts at least 2 times: - x1 Furycane Anima
-Destroy 8 destructible part(s): - x1 Furycane Omega Anima
+Clear within 7 minute(s): x10 Flawless Prism
+Use Skybound Arts at least 2 times: x1 Furycane Anima
+Destroy 8 destructible part(s): x1 Furycane Omega Anima
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -3456,9 +3456,9 @@ First Clear Rewards:
 - x1 Silver Spellbook
 
 [Sub Missions Rewards]
-Defeat 50 foes: - x1 Glittercrystal
-Destroy 5 battleship installations: - x1 Glittercrystal
-Defeat {enemy} ×6: - x1 Glittercrystal Cluster
+Defeat 50 foes: x1 Glittercrystal
+Destroy 5 battleship installations: x1 Glittercrystal
+Defeat {enemy} ×6: x1 Glittercrystal Cluster
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -3520,9 +3520,9 @@ First Clear Rewards:
 - x5 Fortitude Crystal (L)
 
 [Sub Missions Rewards]
-Clear within 7 minute(s): - x10 Fortitude Crystal (M)
-Don't enter critical condition more than 2 time(s): - x2 Fortitude Crystal (L)
-Clear within 4 minute(s): - x5 Fortitude Crystal (L)
+Clear within 7 minute(s): x10 Fortitude Crystal (M)
+Don't enter critical condition more than 2 time(s): x2 Fortitude Crystal (L)
+Clear within 4 minute(s): x5 Fortitude Crystal (L)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -3585,9 +3585,9 @@ First Clear Rewards:
 - x1 Exceptional Refinium
 
 [Sub Missions Rewards]
-Hallowed Ground survives with at least 50% HP: - x10 Fortitude Crystal (M)
-Defeat 4 foe(s) with thrown objects: - x2 Fortitude Crystal (L)
-Defeat {enemy} ×4: - x5 Fortitude Crystal (L)
+Hallowed Ground survives with at least 50% HP: x10 Fortitude Crystal (M)
+Defeat 4 foe(s) with thrown objects: x2 Fortitude Crystal (L)
+Defeat {enemy} ×4: x5 Fortitude Crystal (L)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -3651,9 +3651,9 @@ First Clear Rewards:
 - Attack Power IV
 
 [Sub Missions Rewards]
-Perform at least 7 link attacks: - x10 Flawless Prism
-Clear within 7 minute(s): - x1 Managarmr Anima
-Don't get inflicted with {status} more than 10 time(s): - x1 Managarmr Omega Anima
+Perform at least 7 link attacks: x10 Flawless Prism
+Clear within 7 minute(s): x1 Managarmr Anima
+Don't get inflicted with {status} more than 10 time(s): x1 Managarmr Omega Anima
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -3798,9 +3798,9 @@ First Clear Rewards:
 - x2 Copper Spellbook
 
 [Sub Missions Rewards]
-Use Skybound Arts at least 2 times: - x10 Quality Refinium
-Clear within 7 minute(s): - x1 Alpha Wolf's Valor
-Don't enter critical condition more than 4 time(s): - x1 Gallanza Anamnesis
+Use Skybound Arts at least 2 times: x10 Quality Refinium
+Clear within 7 minute(s): x1 Alpha Wolf's Valor
+Don't enter critical condition more than 4 time(s): x1 Gallanza Anamnesis
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -3960,9 +3960,9 @@ First Clear Rewards:
 - x2 Copper Spellbook
 
 [Sub Missions Rewards]
-Enter link time: - x10 Quality Refinium
-Clear within 7 minute(s): - x1 Bladecaller's Gambit
-Destroy superlative weapons 4 times: - x1 Maglielle Anamnesis
+Enter link time: x10 Quality Refinium
+Clear within 7 minute(s): x1 Bladecaller's Gambit
+Destroy superlative weapons 4 times: x1 Maglielle Anamnesis
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -4112,9 +4112,9 @@ First Clear Rewards:
 - x1 Fortification Wrightstone (ITEM_27_1000)
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x10 Flawless Prism
-Subcores charge the core less than 3 times: - x1 Excavallion Anima
-Use Skybound Arts at least 3 times: - x1 Excavallion Omega Anima
+Clear within 10 minute(s): x10 Flawless Prism
+Subcores charge the core less than 3 times: x1 Excavallion Anima
+Use Skybound Arts at least 3 times: x1 Excavallion Omega Anima
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -4243,9 +4243,9 @@ First Clear Rewards:
 - Quick Charge IV
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x10 Flawless Prism
-Enter link time: - x1 Vulkan Bolla Anima
-Destroy 8 destructible part(s): - x1 Vulkan Bolla Omega Anima
+Clear within 10 minute(s): x10 Flawless Prism
+Enter link time: x1 Vulkan Bolla Anima
+Destroy 8 destructible part(s): x1 Vulkan Bolla Omega Anima
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -4393,9 +4393,9 @@ First Clear Rewards:
 - x1 Fortitude Crystal (L)
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x2 Dragon Wing
-Destroy all destructible parts: - x1 Red Dragon Scale
-Don't enter critical condition more than 4 time(s): - x1 Firewyrm's Jewel
+Clear within 10 minute(s): x2 Dragon Wing
+Destroy all destructible parts: x1 Red Dragon Scale
+Don't enter critical condition more than 4 time(s): x1 Firewyrm's Jewel
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -4543,9 +4543,9 @@ First Clear Rewards:
 - x1 Fortitude Crystal (L)
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x2 Dragon Wing
-Destroy all destructible parts: - x1 Brown Dragon Scale
-Don't enter critical condition more than 4 time(s): - x1 Earthwyrm's Jewel
+Clear within 10 minute(s): x2 Dragon Wing
+Destroy all destructible parts: x1 Brown Dragon Scale
+Don't enter critical condition more than 4 time(s): x1 Earthwyrm's Jewel
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -4695,9 +4695,9 @@ First Clear Rewards:
 - x1 Fortitude Crystal (L)
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x2 Dragon Wing
-Destroy all destructible parts: - x1 Green Dragon Scale
-Don't enter critical condition more than 4 time(s): - x1 Windwyrm's Jewel
+Clear within 10 minute(s): x2 Dragon Wing
+Destroy all destructible parts: x1 Green Dragon Scale
+Don't enter critical condition more than 4 time(s): x1 Windwyrm's Jewel
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -4847,9 +4847,9 @@ First Clear Rewards:
 - x1 Fortitude Crystal (L)
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x2 Dragon Wing
-Destroy all destructible parts: - x1 Blue Dragon Scale
-Don't enter critical condition more than 4 time(s): - x1 Icewyrm's Jewel
+Clear within 10 minute(s): x2 Dragon Wing
+Destroy all destructible parts: x1 Blue Dragon Scale
+Don't enter critical condition more than 4 time(s): x1 Icewyrm's Jewel
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -4989,9 +4989,9 @@ First Clear Rewards:
 - x2 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x10 Quality Refinium
-Trigger a full burst: - x1 Protector's Pride
-Don't enter critical condition more than 2 time(s): - x1 Id Anamnesis
+Clear within 10 minute(s): x10 Quality Refinium
+Trigger a full burst: x1 Protector's Pride
+Don't enter critical condition more than 2 time(s): x1 Id Anamnesis
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -5147,9 +5147,9 @@ First Clear Rewards:
 - x3 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x10 Flawless Prism
-Don't enter critical condition more than 5 time(s): - x1 Angra Mainyu Anima
-Destroy Aka Manah: - x1 Angra Mainyu Omega Anima
+Clear within 10 minute(s): x10 Flawless Prism
+Don't enter critical condition more than 5 time(s): x1 Angra Mainyu Anima
+Destroy Aka Manah: x1 Angra Mainyu Omega Anima
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -5300,9 +5300,9 @@ First Clear Rewards:
 - Greater Aegis IV
 
 [Sub Missions Rewards]
-Defeat {enemy} ×60: - x15 Fortitude Crystal (M)
-Defeat {enemy} ×100: - x1 Revenant Medallion
-Defeat {enemy} ×130: - x30 Knickknack Voucher
+Defeat {enemy} ×60: x15 Fortitude Crystal (M)
+Defeat {enemy} ×100: x1 Revenant Medallion
+Defeat {enemy} ×130: x30 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -5372,9 +5372,9 @@ First Clear Rewards:
 - x1 Silver Spellbook
 
 [Sub Missions Rewards]
-Defeat 20 foes: - x1 Glittercrystal
-Defeat 50 foes: - x1 Glittercrystal Cluster
-Defeat 100 foes: - x10 Knickknack Voucher
+Defeat 20 foes: x1 Glittercrystal
+Defeat 50 foes: x1 Glittercrystal Cluster
+Defeat 100 foes: x10 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -5446,9 +5446,9 @@ First Clear Rewards:
 - Garrison IV
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Golem Rockjaw
-Make a rock golem tumble 2 times: - x2 Golem Rockjaw
-Don't enter critical condition more than 3 time(s): - x2 Crowning Parapet
+Clear within 10 minute(s): x1 Golem Rockjaw
+Make a rock golem tumble 2 times: x2 Golem Rockjaw
+Don't enter critical condition more than 3 time(s): x2 Crowning Parapet
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -5606,9 +5606,9 @@ First Clear Rewards:
 - Nimble Onslaught IV
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Griffin Talon
-Enter link time: - x2 Griffin Talon
-Don't enter critical condition more than 3 time(s): - x2 Giant Beak
+Clear within 10 minute(s): x1 Griffin Talon
+Enter link time: x2 Griffin Talon
+Don't enter critical condition more than 3 time(s): x2 Giant Beak
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -5752,9 +5752,9 @@ First Clear Rewards:
 - Health IV
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Greatshield Fragment
-Enter link time: - x2 Greatshield Fragment
-Don't enter critical condition more than 3 time(s): - x2 Broken Savage Sword
+Clear within 10 minute(s): x1 Greatshield Fragment
+Enter link time: x2 Greatshield Fragment
+Don't enter critical condition more than 3 time(s): x2 Broken Savage Sword
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -5902,9 +5902,9 @@ First Clear Rewards:
 - Skilled Assault IV
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Bizarre Ice Spine
-Topple ice pillars on a boss 3 times: - x2 Bizarre Ice Spine
-Don't enter critical condition more than 3 time(s): - x2 Chilling Demon Eye
+Clear within 10 minute(s): x1 Bizarre Ice Spine
+Topple ice pillars on a boss 3 times: x2 Bizarre Ice Spine
+Don't enter critical condition more than 3 time(s): x2 Chilling Demon Eye
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -6054,9 +6054,9 @@ First Clear Rewards:
 - Aegis IV
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Frostbeast Plate
-Perform at least 10 link attacks: - x2 Frostbeast Plate
-Destroy all destructible parts: - x2 Frostbeast Horn
+Clear within 10 minute(s): x1 Frostbeast Plate
+Perform at least 10 link attacks: x2 Frostbeast Plate
+Destroy all destructible parts: x2 Frostbeast Horn
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -6196,9 +6196,9 @@ First Clear Rewards:
 - Tyranny IV
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Flamebeast Plate
-Perform at least 10 link attacks: - x2 Flamebeast Plate
-Destroy all destructible parts: - x2 Flamebeast Horn
+Clear within 10 minute(s): x1 Flamebeast Plate
+Perform at least 10 link attacks: x2 Flamebeast Plate
+Destroy all destructible parts: x2 Flamebeast Horn
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -6346,9 +6346,9 @@ First Clear Rewards:
 - Stun Power IV
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Landbeast Plate
-Perform at least 10 link attacks: - x2 Landbeast Plate
-Destroy all destructible parts: - x2 Landbeast Horn
+Clear within 10 minute(s): x1 Landbeast Plate
+Perform at least 10 link attacks: x2 Landbeast Plate
+Destroy all destructible parts: x2 Landbeast Horn
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -6490,9 +6490,9 @@ First Clear Rewards:
 - Throw IV
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Condemnation Saw
-Enter link time: - x2 Condemnation Saw
-Destroy the head unit: - x2 Ether Battery
+Clear within 10 minute(s): x1 Condemnation Saw
+Enter link time: x2 Condemnation Saw
+Destroy the head unit: x2 Ether Battery
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -6643,9 +6643,9 @@ First Clear Rewards:
 - Regen IV
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Purgatory Armguard
-Enter link time: - x2 Purgatory Armguard
-Don't enter critical condition more than 3 time(s): - x2 Searing War Axe
+Clear within 10 minute(s): x1 Purgatory Armguard
+Enter link time: x2 Purgatory Armguard
+Don't enter critical condition more than 3 time(s): x2 Searing War Axe
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -6789,9 +6789,9 @@ First Clear Rewards:
 - Drain IV
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Bleak Armguard
-Enter link time: - x2 Bleak Armguard
-Don't enter critical condition more than 3 time(s): - x2 Frosty War Axe
+Clear within 10 minute(s): x1 Bleak Armguard
+Enter link time: x2 Bleak Armguard
+Don't enter critical condition more than 3 time(s): x2 Frosty War Axe
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -6930,9 +6930,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Hallowed Ground survives with at least 60% HP: - x1 Quality Refinium
-Don't enter critical condition more than 5 time(s): - x1 Exceptional Refinium
-Defeat {enemy} ×1: - x2 Exceptional Refinium
+Hallowed Ground survives with at least 60% HP: x1 Quality Refinium
+Don't enter critical condition more than 5 time(s): x1 Exceptional Refinium
+Defeat {enemy} ×1: x2 Exceptional Refinium
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -6995,9 +6995,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Enter link time: - x2 Greatshield Fragment
-Clear within 10 minute(s): - x4 Greatshield Fragment
-Don't enter critical condition more than 5 time(s): - x4 Broken Savage Sword
+Enter link time: x2 Greatshield Fragment
+Clear within 10 minute(s): x4 Greatshield Fragment
+Don't enter critical condition more than 5 time(s): x4 Broken Savage Sword
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -7141,9 +7141,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Enter link time: - x2 Griffin Talon
-Clear within 10 minute(s): - x4 Griffin Talon
-Don't enter critical condition more than 5 time(s): - x4 Giant Beak
+Enter link time: x2 Griffin Talon
+Clear within 10 minute(s): x4 Griffin Talon
+Don't enter critical condition more than 5 time(s): x4 Giant Beak
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -7283,9 +7283,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Enter link time: - x2 Bizarre Ice Spine
-Clear within 10 minute(s): - x4 Bizarre Ice Spine
-Don't enter critical condition more than 5 time(s): - x4 Chilling Demon Eye
+Enter link time: x2 Bizarre Ice Spine
+Clear within 10 minute(s): x4 Bizarre Ice Spine
+Don't enter critical condition more than 5 time(s): x4 Chilling Demon Eye
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -7431,9 +7431,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x2 Golem Rockjaw
-Trigger a full burst at least 2 times: - x4 Golem Rockjaw
-Make a rock golem tumble 3 times: - x4 Crowning Parapet
+Clear within 10 minute(s): x2 Golem Rockjaw
+Trigger a full burst at least 2 times: x4 Golem Rockjaw
+Make a rock golem tumble 3 times: x4 Crowning Parapet
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -7589,9 +7589,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Extension Bracer
-Trigger a full burst at least 2 times: - x2 Swivel Cannon
-Destroy the head unit: - x1 Judgment Prongs
+Clear within 10 minute(s): x1 Extension Bracer
+Trigger a full burst at least 2 times: x2 Swivel Cannon
+Destroy the head unit: x1 Judgment Prongs
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -7741,9 +7741,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 15 minute(s): - x1 Knickknack Voucher
-Don't enter critical condition more than 5 time(s): - x10 Knickknack Voucher
-Destroy all destructible parts: - x30 Knickknack Voucher
+Clear within 15 minute(s): x1 Knickknack Voucher
+Don't enter critical condition more than 5 time(s): x10 Knickknack Voucher
+Destroy all destructible parts: x30 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -7884,9 +7884,9 @@ First Clear Rewards:
 - x1 Vitality Wrightstone (ITEM_26_1002)
 
 [Sub Missions Rewards]
-Enter link time: - x1 Furycane Anima
-Clear within 8 minute(s): - x1 Furycane Omega Anima
-Destroy 10 destructible part(s): - x10 Knickknack Voucher
+Enter link time: x1 Furycane Anima
+Clear within 8 minute(s): x1 Furycane Omega Anima
+Destroy 10 destructible part(s): x10 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -8027,9 +8027,9 @@ First Clear Rewards:
 - x1 Sequestration Wrightstone (ITEM_28_1002)
 
 [Sub Missions Rewards]
-Perform at least 10 link attacks: - x1 Managarmr Anima
-Clear within 8 minute(s): - x1 Managarmr Omega Anima
-Topple an ice pillar on a boss: - x10 Knickknack Voucher
+Perform at least 10 link attacks: x1 Managarmr Anima
+Clear within 8 minute(s): x1 Managarmr Omega Anima
+Topple an ice pillar on a boss: x10 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -8170,9 +8170,9 @@ First Clear Rewards:
 - Damage Cap IV+
 
 [Sub Missions Rewards]
-Enter link time: - x1 Protector's Pride
-Clear within 8 minute(s): - x1 Protector's Pride
-Don't enter critical condition more than 4 time(s): - x1 Id Anamnesis
+Enter link time: x1 Protector's Pride
+Clear within 8 minute(s): x1 Protector's Pride
+Don't enter critical condition more than 4 time(s): x1 Id Anamnesis
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -8321,9 +8321,9 @@ First Clear Rewards:
 - Critical Hit Rate V
 
 [Sub Missions Rewards]
-Perform at least 10 link attacks: - x1 Alpha Wolf's Valor
-Clear within 8 minute(s): - x1 Alpha Wolf's Valor
-Don't enter critical condition more than 4 time(s): - x1 Gallanza Anamnesis
+Perform at least 10 link attacks: x1 Alpha Wolf's Valor
+Clear within 8 minute(s): x1 Alpha Wolf's Valor
+Don't enter critical condition more than 4 time(s): x1 Gallanza Anamnesis
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -8478,9 +8478,9 @@ First Clear Rewards:
 - Exploiter V
 
 [Sub Missions Rewards]
-Destroy superlative weapons 4 times: - x1 Bladecaller's Gambit
-Clear within 8 minute(s): - x1 Bladecaller's Gambit
-Don't enter critical condition more than 4 time(s): - x1 Maglielle Anamnesis
+Destroy superlative weapons 4 times: x1 Bladecaller's Gambit
+Clear within 8 minute(s): x1 Bladecaller's Gambit
+Don't enter critical condition more than 4 time(s): x1 Maglielle Anamnesis
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -8628,9 +8628,9 @@ First Clear Rewards:
 - x1 Fortification Wrightstone (ITEM_27_1002)
 
 [Sub Missions Rewards]
-Subcores charge the core less than 5 times: - x1 Excavallion Anima
-Clear within 8 minute(s): - x1 Excavallion Omega Anima
-Don't enter critical condition more than 4 time(s): - x10 Knickknack Voucher
+Subcores charge the core less than 5 times: x1 Excavallion Anima
+Clear within 8 minute(s): x1 Excavallion Omega Anima
+Don't enter critical condition more than 4 time(s): x10 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -8760,9 +8760,9 @@ First Clear Rewards:
 - x1 Dread Wrightstone (ITEM_25_1002)
 
 [Sub Missions Rewards]
-Enter link time: - x1 Vulkan Bolla Anima
-Clear within 8 minute(s): - x1 Vulkan Bolla Omega Anima
-Destroy 10 destructible part(s): - x10 Knickknack Voucher
+Enter link time: x1 Vulkan Bolla Anima
+Clear within 8 minute(s): x1 Vulkan Bolla Omega Anima
+Destroy 10 destructible part(s): x10 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -8908,9 +8908,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 15 minute(s): - x1 Angra Mainyu Anima
-Trigger a full burst at least 2 times: - x1 Angra Mainyu Omega Anima
-Destroy Aka Manah 2 times: - x20 Knickknack Voucher
+Clear within 15 minute(s): x1 Angra Mainyu Anima
+Trigger a full burst at least 2 times: x1 Angra Mainyu Omega Anima
+Destroy Aka Manah 2 times: x20 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -9204,9 +9204,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 15 minute(s): - x1 Heliotrope Urn
-Trigger a full burst at least 2 times: - x2 Heliotrope Urn
-Don't enter critical condition more than 5 time(s): - x30 Knickknack Voucher
+Clear within 15 minute(s): x1 Heliotrope Urn
+Trigger a full burst at least 2 times: x2 Heliotrope Urn
+Don't enter critical condition more than 5 time(s): x30 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -9356,9 +9356,9 @@ First Clear Rewards:
 - Damage Cap V
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x5 Firewyrm's Jewel
-Destroy all destructible parts: - x1 Crimson Horn
-Don't enter critical condition more than 5 time(s): - x50 Knickknack Voucher
+Clear within 10 minute(s): x5 Firewyrm's Jewel
+Destroy all destructible parts: x1 Crimson Horn
+Don't enter critical condition more than 5 time(s): x50 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -9499,9 +9499,9 @@ First Clear Rewards:
 - Improved Guard V
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x5 Earthwyrm's Jewel
-Destroy all destructible parts: - x1 Terra Horn
-Don't enter critical condition more than 5 time(s): - x50 Knickknack Voucher
+Clear within 10 minute(s): x5 Earthwyrm's Jewel
+Destroy all destructible parts: x1 Terra Horn
+Don't enter critical condition more than 5 time(s): x50 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -9654,9 +9654,9 @@ First Clear Rewards:
 - Improved Dodge
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x5 Windwyrm's Jewel
-Destroy all destructible parts: - x1 Typhoon Horn
-Don't enter critical condition more than 5 time(s): - x50 Knickknack Voucher
+Clear within 10 minute(s): x5 Windwyrm's Jewel
+Destroy all destructible parts: x1 Typhoon Horn
+Don't enter critical condition more than 5 time(s): x50 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -9806,9 +9806,9 @@ First Clear Rewards:
 - Quick Cooldown V
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x5 Icewyrm's Jewel
-Destroy all destructible parts: - x1 Frozen Horn
-Don't enter critical condition more than 5 time(s): - x50 Knickknack Voucher
+Clear within 10 minute(s): x5 Icewyrm's Jewel
+Destroy all destructible parts: x1 Frozen Horn
+Don't enter critical condition more than 5 time(s): x50 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -9940,9 +9940,9 @@ First Clear Rewards:
 - Critical Hit Rate V+
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x10 Fortitude Crystal (L)
-Don't enter critical condition more than 5 time(s): - x2 Chilling Demon Eye
-Use Skybound Arts at least 6 times: - x1 Searing War Axe
+Clear within 10 minute(s): x10 Fortitude Crystal (L)
+Don't enter critical condition more than 5 time(s): x2 Chilling Demon Eye
+Use Skybound Arts at least 6 times: x1 Searing War Axe
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -10083,9 +10083,9 @@ First Clear Rewards:
 - Stun Power V+
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x10 Fortitude Crystal (L)
-Don't enter critical condition more than 5 time(s): - x2 Landbeast Horn
-Use Skybound Arts at least 6 times: - x1 Crowning Parapet
+Clear within 10 minute(s): x10 Fortitude Crystal (L)
+Don't enter critical condition more than 5 time(s): x2 Landbeast Horn
+Use Skybound Arts at least 6 times: x1 Crowning Parapet
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -10235,9 +10235,9 @@ First Clear Rewards:
 - Attack Power V+
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x10 Fortitude Crystal (L)
-Don't enter critical condition more than 5 time(s): - x2 Flamebeast Horn
-Destroy all destructible parts: - x1 Ancient Hollowpoint
+Clear within 10 minute(s): x10 Fortitude Crystal (L)
+Don't enter critical condition more than 5 time(s): x2 Flamebeast Horn
+Destroy all destructible parts: x1 Ancient Hollowpoint
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -10380,9 +10380,9 @@ First Clear Rewards:
 - Linked Together V+
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x10 Fortitude Crystal (L)
-Don't enter critical condition more than 5 time(s): - x2 Frosty War Axe
-Use Skybound Arts at least 6 times: - x1 Frostbeast Horn
+Clear within 10 minute(s): x10 Fortitude Crystal (L)
+Don't enter critical condition more than 5 time(s): x2 Frosty War Axe
+Use Skybound Arts at least 6 times: x1 Frostbeast Horn
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -10514,9 +10514,9 @@ First Clear Rewards:
 - Health V+
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x10 Fortitude Crystal (L)
-Perform at least 15 link attacks: - x2 Giant Beak
-Don't enter critical condition more than 4 time(s): - x1 Broken Savage Sword
+Clear within 10 minute(s): x10 Fortitude Crystal (L)
+Perform at least 15 link attacks: x2 Giant Beak
+Don't enter critical condition more than 4 time(s): x1 Broken Savage Sword
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -10656,9 +10656,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 15 minute(s): - x2 Crimson Horn
-Destroy all destructible parts: - x2 Terra Horn
-Don't enter critical condition more than 5 time(s): - x70 Knickknack Voucher
+Clear within 15 minute(s): x2 Crimson Horn
+Destroy all destructible parts: x2 Terra Horn
+Don't enter critical condition more than 5 time(s): x70 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -10841,9 +10841,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 15 minute(s): - x2 Typhoon Horn
-Destroy all destructible parts: - x2 Frozen Horn
-Don't enter critical condition more than 5 time(s): - x70 Knickknack Voucher
+Clear within 15 minute(s): x2 Typhoon Horn
+Destroy all destructible parts: x2 Frozen Horn
+Don't enter critical condition more than 5 time(s): x70 Knickknack Voucher
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -11006,9 +11006,9 @@ First Clear Rewards:
 - Combo Booster V+
 
 [Sub Missions Rewards]
-Clear within 15 minute(s): - x1 Silver Wolf Clovis
-Clear within 301 minute(s) of defeating the first foe: - x1 Cutthroat Fang
-Don't enter critical condition more than 5 time(s): - x1 Destrudo
+Clear within 15 minute(s): x1 Silver Wolf Clovis
+Clear within 301 minute(s) of defeating the first foe: x1 Cutthroat Fang
+Don't enter critical condition more than 5 time(s): x1 Destrudo
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -11174,9 +11174,9 @@ First Clear Rewards:
 - x10 Fortitude Crystal (L)
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x2 White Dragon Scale
-Destroy all destructible parts: - x1 Whitewyrm's Jewel
-Don't enter critical condition more than 5 time(s): - x1 Bright Horn
+Clear within 10 minute(s): x2 White Dragon Scale
+Destroy all destructible parts: x1 Whitewyrm's Jewel
+Don't enter critical condition more than 5 time(s): x1 Bright Horn
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -11313,9 +11313,9 @@ First Clear Rewards:
 - x10 Fortitude Crystal (L)
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x2 Black Dragon Scale
-Destroy all destructible parts: - x1 Blackwyrm's Jewel
-Don't enter critical condition more than 5 time(s): - x1 Abyssal Horn
+Clear within 10 minute(s): x2 Black Dragon Scale
+Destroy all destructible parts: x1 Blackwyrm's Jewel
+Don't enter critical condition more than 5 time(s): x1 Abyssal Horn
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -11466,9 +11466,9 @@ First Clear Rewards:
 - x1 Vitality Wrightstone (ITEM_26_1003)
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Furycane Nihilla Core
-Use Skybound Arts at least 6 times: - x1 Furycane Nihilla Core
-Don't enter critical condition more than 5 time(s): - x1 Nihilla-Cast Sword
+Clear within 10 minute(s): x1 Furycane Nihilla Core
+Use Skybound Arts at least 6 times: x1 Furycane Nihilla Core
+Don't enter critical condition more than 5 time(s): x1 Nihilla-Cast Sword
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -11602,9 +11602,9 @@ First Clear Rewards:
 - x1 Sequestration Wrightstone (ITEM_28_1003)
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Managarmr Nihilla Core
-Use Skybound Arts at least 6 times: - x1 Managarmr Nihilla Core
-Don't enter critical condition more than 5 time(s): - x1 Nihilla Horn of Disdain
+Clear within 10 minute(s): x1 Managarmr Nihilla Core
+Use Skybound Arts at least 6 times: x1 Managarmr Nihilla Core
+Don't enter critical condition more than 5 time(s): x1 Nihilla Horn of Disdain
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -11729,9 +11729,9 @@ First Clear Rewards:
 - x1 Dread Wrightstone (ITEM_25_1003)
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Vulkan Bolla Nihilla Core
-Use Skybound Arts at least 6 times: - x1 Vulkan Bolla Nihilla Core
-Don't enter critical condition more than 5 time(s): - x1 Nihilla-Fused Dark Plasma
+Clear within 10 minute(s): x1 Vulkan Bolla Nihilla Core
+Use Skybound Arts at least 6 times: x1 Vulkan Bolla Nihilla Core
+Don't enter critical condition more than 5 time(s): x1 Nihilla-Fused Dark Plasma
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -11859,9 +11859,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 15 minute(s): - x1 Reality Thorn
-Don't get hit by Supernova: - x1 Terror Urn
-Negate at least 50 light orb(s) with a cannon: - x1 Divinity Shackle
+Clear within 15 minute(s): x1 Reality Thorn
+Don't get hit by Supernova: x1 Terror Urn
+Negate at least 50 light orb(s) with a cannon: x1 Divinity Shackle
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -12047,9 +12047,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Clear within 15 minute(s): - x1 Mana Circuit
-Trigger a full burst at least 2 times: - x1 Mana Circuit
-Destroy all destructible parts: - x1 Lunary Detector
+Clear within 15 minute(s): x1 Mana Circuit
+Trigger a full burst at least 2 times: x1 Mana Circuit
+Destroy all destructible parts: x1 Lunary Detector
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -12212,9 +12212,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Perform at least 20 link attacks: - x30 Knickknack Voucher
-Overcome the Twelve Labors: - x70 Knickknack Voucher
-Clear within 10 minute(s): - x1 Dark Residue
+Perform at least 20 link attacks: x30 Knickknack Voucher
+Overcome the Twelve Labors: x70 Knickknack Voucher
+Clear within 10 minute(s): x1 Dark Residue
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -12414,9 +12414,9 @@ First Clear Rewards:
 - x3 ITEM_18_0002
 
 [Sub Missions Rewards]
-Side Goal 1: - x1 Silver Centrum
-Side Goal 2: - x1 Azurite's Splendor
-Side Goal 3: - x1 ITEM_18_0002
+Side Goal 1: x1 Silver Centrum
+Side Goal 2: x1 Azurite's Splendor
+Side Goal 3: x1 ITEM_18_0002
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -12507,9 +12507,9 @@ First Clear Rewards:
 - x1 Supreme Weapon Essence
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): - x1 Death Nail
-Perform at least 10 perfect guard(s): - x3 Revenant Medallion
-Don't enter critical condition more than 3 time(s): - x1 Curio (T4)
+Clear within 10 minute(s): x1 Death Nail
+Perform at least 10 perfect guard(s): x3 Revenant Medallion
+Don't enter critical condition more than 3 time(s): x1 Curio (T4)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -12690,9 +12690,9 @@ First Clear Rewards:
 - x1 Azurite's Splendor
 
 [Sub Missions Rewards]
-Side Goal 1: - x5 Heliotrope Urn
-Side Goal 2: - x3 Demigod Feather
-Side Goal 3: - x1 Curio (T4)
+Side Goal 1: x5 Heliotrope Urn
+Side Goal 2: x3 Demigod Feather
+Side Goal 3: x1 Curio (T4)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 1000000)
@@ -12771,9 +12771,9 @@ First Clear Rewards:
 - x100 Knickknack Voucher
 
 [Sub Missions Rewards]
-Side Goal 1: - x10 Knickknack Voucher
-Side Goal 2: - x40 Knickknack Voucher
-Side Goal 3: - x1 Curio (T4)
+Side Goal 1: x10 Knickknack Voucher
+Side Goal 2: x40 Knickknack Voucher
+Side Goal 3: x1 Curio (T4)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 1000000)
@@ -12843,9 +12843,9 @@ First Clear Rewards:
 - x100 Knickknack Voucher
 
 [Sub Missions Rewards]
-Side Goal 1: - x10 Knickknack Voucher
-Side Goal 2: - x40 Knickknack Voucher
-Side Goal 3: - x1 Curio (T4)
+Side Goal 1: x10 Knickknack Voucher
+Side Goal 2: x40 Knickknack Voucher
+Side Goal 3: x1 Curio (T4)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 1000000)
