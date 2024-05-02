@@ -164,6 +164,7 @@ icon: material/identifier
 7600 -- Bahamut Versa
 7603 -- Bahamut Core
 7610 -- Bahamut Versa Omega
+7700 -- Lucilius
 ```
 
 ---
@@ -413,6 +414,19 @@ wp1902 - Susanoo (Susanoo, the Condemner)
 wp1903 - Premium Sword
 wp1904 - Ecke Sachs
 wp1905 - Sword of Bahamut (Primal Sword of Bahamut)
+```
+
+### Seofon
+```
+wp2200 - Sette di Spade
+wp2206 - Gateway-Star Sword, Seven Winks
+wp2290 - Seofon's Avatar
+```
+
+### Tweyen
+```
+wp2300 - Bow of Dismissal
+wp2306 - Desolation-Crown Bow
 ```
 
 ---
