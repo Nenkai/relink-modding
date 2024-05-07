@@ -19,7 +19,7 @@ Texture Folders:
     * `/1/1.gts` - NPC/Character & Faces, Effects
     * `/2/2.gts` - Eye/Iris
 
-    `3.gts`, `4.gts`, and `5.gts` correspond to the same things as `0`, `1`, and `2`, but for any content added after release in updates.
+    For any content added in updates, tile sets are separated by packs of three based on version minor, so v1.1 = `3,4,5`, v1.2 = `6,7,8` and so on.
 
 In order to extract and convert the textures, grab [GraniteTextureReader](https://github.com/Nenkai/GraniteTextureReader/releases).
 
