@@ -1,16 +1,24 @@
 Quest/Stage Id,Name
-100000,Prologue
 100000,Prologue - Game Intro
 100001,Chapter 1 - Forest & Quakadile Fight
-100002,Prologue - "Repressed Memory"
-100003,Chapter 1 - "Our Lives Are Linked"
-100005,Prologue - "Ruffled Wings"
+100002,Prologue - Repressed Memory
+100003,Chapter 1 - Our Lives Are Linked
+100005,Prologue - Ruffled Wings
 100006,Prologue - Bahamut Fight
 101000,Chapter 1 - Folka
-101001,Chapter 2 - Skyboat Cutscene + Island
-101002,Chapter 2 - Zeghard Fortress (Arena)
+101001,Chapter 2 - Skyboat Cutscene + The Hills
+101002,Chapter 2 - Zeghard Fortress
 101003,Chapter 3 - Tampeal Mines
-101F00,Chapter 2 - Skyboat Travel
+101004,Chapter 3 - Furycane Boss Fight
+101005,Chapter 3 - Mysterious Swordman/Id Fight
+101F00,Chapter 2 - Skyboat Travel (Chapter 2 Start)
+102000,Chapter 4 - Initial Cutscene + Folca Church Cutscene
+102002,Chapter 4 - Ship Chase
+102F00,Chapter 4 - Grandcypher (Chapter 4 Start)
+103001,Chapter 5 - Mt. Neigelith
+103F00,Chapter 5 - Grandcypher (Leutagne Airspace)
+104000,Chapter 6 - Seedhollow
+104F00,Chapter 6 - Grandcypher (Route to Seedhollow)
 105002_05,Fight off Avia's forces
 200000,A Lingering Regret
 200001,Save the Crustaceans
@@ -278,6 +286,6 @@ Quest/Stage Id,Name
 601000,Practice
 602000,Score Attack
 603000,Time Attack
-710000,Days of Our Zegagrande - "The Automagod Strikes Back"
-710001,Days of Our Zegagrande - "The Final Vision"
+710000,Days of Our Zegagrande - The Automagod Strikes Back
+710001,Days of Our Zegagrande - The Final Vision
 720018,Lyria's Journal/Empty?
