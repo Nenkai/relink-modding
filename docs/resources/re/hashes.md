@@ -18,6 +18,8 @@ C# code for it can be found [here](https://github.com/Nenkai/GBFRDataTools/blob/
 
 #### Tester
 
+An empty string `""` is always equal to `887AE0B0` / `B0 E0 7A 88`.
+
 <div>
     <input
         class="md-input"

@@ -32,6 +32,59 @@ Make sure you have the [GBFR Blender Tools Add-on](../models/importing.md#instal
 
 ---
 
+### :material-texture: Exporting Textures
+
+By this point you must be wondering how to export textures for the game *without* using granite. This is done by editing the [Material Set](../resources/formats/mmat.md) (`.mmat`) file.
+
+* Get [FlatBuffers / flatc](https://github.com/google/flatbuffers/releases), which you should already have if you already imported models. Extract it.
+* Get the [FlatBuffer MMat schema](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MMat_ModelMaterial.fbs). Schemas are used to tell `flatc` how to read and write the material files.
+* Run the following command to convert the `.mmat` file into a human readable `.json` file:
+
+``` { .yaml .annotate }
+flatc --json --strict-json -- <path_to_fbs_file> --raw-binary <path_to_mmat_file>
+```
+
+!!! tip
+
+    `<path_to_fbs_file>` should be the path to the `.fbs` file and `<path_to_mmat_file>` should be the path to the `.mmat` file.
+
+* You should now have a `.json` file next to the original `.mmat` file. Open it in a text editor (preferably something like [Notepad++](https://notepad-plus-plus.org/downloads/)).
+
+* Scroll down to `granite_params`. **Remove the entire section**. 
+
+??? example
+
+    Section to remove:
+    
+    ```json
+    "granite_params": {
+        "page_file": [
+          "f46ebc1f33247b5ba4448a428b107edcdc0f4b0451f06b3701615823a41c94e9"
+        ],
+        "layer_to_shader_map_name_hash": [
+          "g_AlbedoMap",
+          "g_NormalMap",
+          "g_Mask1",
+          "g_Mask2"
+        ],
+        "unk4": 4,
+        "unk5": 1,
+        "tile_set_number": 1
+    },
+    ```
+
+Now, inside the `texture_maps` section, you will see all the textures associated to each material map. As you've removed the granite section, your textures will need to be put in the following folders (if they aren't already there):
+
+* 4k: `texture/4k/{name}.texture`
+* 2k: `texture/2k/{name}.texture`
+
+These textures files are simply `.wtb` files with a different extension. Follow [this simple guide](../extraction/texture_creation.md) to create `.wtb` files. Change your `.wtb` extension to `.texture` once that's done.
+
+!!! note
+    DDS files are required beforehand.
+
+---
+
 ## :octicons-checklist-16: Exporting Checklist
 
 This list is subject to change as model exporting changes and is more fully understood.

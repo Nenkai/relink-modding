@@ -2,14 +2,14 @@
 icon: material/palette-swatch-variant
 ---
 
-# Material Info - .mmat
+# Model Material Set - .mmat
 
 `.mmat` represents all the materials for a model, it is a set of materials. It describes the textures to use, and the shaders linked to a material.
 
 This file is a [FlatBuffer](https://flatbuffers.dev/) file. 
 
-* [Flatbuffer Schema](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MInfo_ModelInfo.fbs)
-* [010 Editor Template](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MInfo_ModelInfo.bt)
+* [Flatbuffer Schema](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MMat_ModelMaterial.fbs)
+* [010 Editor Template](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MMat_ModelMaterial.bt)
 
 ## Header
 
@@ -94,7 +94,7 @@ This file is a [FlatBuffer](https://flatbuffers.dev/) file.
 
 | Field Name            | Type              | Description                                        |
 |-----------------------|-------------------|----------------------------------------------------|
-| param_hash            | XXHash32Custom(str) | Hashed shader parameter name.                    |
+| param_hash            | XXHash32Custom(str) | Hashed shader parameter name. **NOTE: Structures should be ordered by this.**   |
 | value_or_offset       | uint | Value for the parameter. Note that when the type is `float/Vec2/Vec3/Vec4`, the value becomes an offset to `shader_param_float_data_pool`.
 | value_type            | ShaderParamValueType  | Parameter value type. 
 
@@ -113,7 +113,7 @@ This file is a [FlatBuffer](https://flatbuffers.dev/) file.
 
 | Field Name            | Type              | Description                                        |
 |-----------------------|-------------------|----------------------------------------------------|
-| shader_map_name_hash  | XXHash32Custom(str) | Hashed map name passed to the shader.            |
+| shader_map_name_hash  | XXHash32Custom(str) | Hashed map name passed to the shader. **NOTE: Structures should be ordered by this.**           |
 | texture_name          | string | Texture name. When granite is not in use, this will be mapped to `texture/4k/<name>.texture` or `texture/<name>.texture`.
 
 ---
@@ -126,7 +126,7 @@ This file is a [FlatBuffer](https://flatbuffers.dev/) file.
 | layer_to_shader_map_name_hash | XXHash32Custom(str)[] | Shader map names. Each element will map to one layer in the granite file. For instance if element 0 is the hash of `g_AlbedoMap`, that means that `g_AlbedoMap` is located at layer 0. |
 | unk3                  | byte | Unknown.
 | unk4                  | byte | Unknown.
-| tile_set_number       | byte | Tile set number where the page file is located. Up to 11 is supported, 0-2 is used.
+| tile_set_number       | byte | Tile set number where the page file is located. Up to 11 is supported, 0-2 is used. Reminder - a new minor update always adds 3 new tile sets, so 0-11 for 1.0 through 1.3.
 
 ---
 
@@ -136,7 +136,7 @@ Unknown. This is indexed by `constant_buffer_indices` within materials.
 
 | Field Name            | Type              | Description                                        |
 |-----------------------|-------------------|----------------------------------------------------|
-| buffer                | float[]           | Float buffer.  |
+| buffer                | uint[]            | Float buffer.  |
 | unk_unique_param_name_hash | XXHash32Custom(str) | Unique name hash. |
 
 ## Known Hashes
