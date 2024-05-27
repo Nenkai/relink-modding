@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.22">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.24">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.732c4fb1.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -1613,6 +1613,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Exporting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exporting-textures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exporting Textures
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1816,6 +1831,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Exporting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exporting-textures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exporting Textures
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1921,6 +1951,57 @@
 <p>To check for errors in the export you can re-import the exported file.</p>
 </div>
 <hr />
+<h3 id="exporting-textures"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.29 21h2.83L21 12.12V9.29M19 21c.55 0 1.05-.22 1.41-.59.37-.36.59-.86.59-1.41v-2l-4 4M5 3a2 2 0 0 0-2 2v2l4-4m4.88 0L3 11.88v2.83L14.71 3m4.79.08L3.08 19.5c.09.35.27.66.51.91.25.24.56.42.91.51L20.93 4.5c-.19-.7-.73-1.24-1.43-1.42Z"/></svg></span> Exporting Textures<a class="headerlink" href="#exporting-textures" title="Permanent link">&para;</a></h3>
+<p>By this point you must be wondering how to export textures for the game <em>without</em> using granite. This is done by editing the <a href="../../resources/formats/mmat/">Material Set</a> (<code>.mmat</code>) file.</p>
+<ul>
+<li>Get <a href="https://github.com/google/flatbuffers/releases">FlatBuffers / flatc</a>, which you should already have if you already imported models. Extract it.</li>
+<li>Get the <a href="https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MMat_ModelMaterial.fbs">FlatBuffer MMat schema</a>. Schemas are used to tell <code>flatc</code> how to read and write the material files.</li>
+<li>Run the following command to convert the <code>.mmat</code> file into a human readable <code>.json</code> file:</li>
+</ul>
+<div class="annotate highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="l l-Scalar l-Scalar-Plain">flatc --json --strict-json -- &lt;path_to_fbs_file&gt; --raw-binary &lt;path_to_mmat_file&gt;</span>
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><code>&lt;path_to_fbs_file&gt;</code> should be the path to the <code>.fbs</code> file and <code>&lt;path_to_mmat_file&gt;</code> should be the path to the <code>.mmat</code> file.</p>
+</div>
+<ul>
+<li>
+<p>You should now have a <code>.json</code> file next to the original <code>.mmat</code> file. Open it in a text editor (preferably something like <a href="https://notepad-plus-plus.org/downloads/">Notepad++</a>).</p>
+</li>
+<li>
+<p>Scroll down to <code>granite_params</code>. <strong>Remove the entire section</strong>. </p>
+</li>
+</ul>
+<details class="example">
+<summary>Example</summary>
+<p>Section to remove:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">&quot;granite_params&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="nt">&quot;page_file&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">      </span><span class="s2">&quot;f46ebc1f33247b5ba4448a428b107edcdc0f4b0451f06b3701615823a41c94e9&quot;</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="p">],</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="nt">&quot;layer_to_shader_map_name_hash&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">      </span><span class="s2">&quot;g_AlbedoMap&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">      </span><span class="s2">&quot;g_NormalMap&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">      </span><span class="s2">&quot;g_Mask1&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">      </span><span class="s2">&quot;g_Mask2&quot;</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="p">],</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="nt">&quot;unk4&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="nt">&quot;unk5&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">    </span><span class="nt">&quot;tile_set_number&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="p">},</span>
+</code></pre></div>
+</details>
+<p>Now, inside the <code>texture_maps</code> section, you will see all the textures associated to each material map. As you've removed the granite section, your textures will need to be put in the following folders (if they aren't already there):</p>
+<ul>
+<li>4k: <code>texture/4k/{name}.texture</code></li>
+<li>2k: <code>texture/2k/{name}.texture</code></li>
+</ul>
+<p>These textures files are simply <code>.wtb</code> files with a different extension. Follow <a href="../../extraction/texture_creation/">this simple guide</a> to create <code>.wtb</code> files. Change your <code>.wtb</code> extension to <code>.texture</code> once that's done.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>DDS files are required beforehand.</p>
+</div>
+<hr />
 <h2 id="exporting-checklist"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.5 1.75v11.5c0 .138.112.25.25.25h3.17a.75.75 0 0 1 0 1.5H2.75A1.75 1.75 0 0 1 1 13.25V1.75C1 .784 1.784 0 2.75 0h8.5C12.216 0 13 .784 13 1.75v7.736a.75.75 0 0 1-1.5 0V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13.274 9.537v-.001l-4.557 4.45a.75.75 0 0 1-1.055-.008l-1.943-1.95a.75.75 0 0 1 1.062-1.058l1.419 1.425 4.026-3.932a.75.75 0 1 1 1.048 1.074ZM4.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75Z"/></svg></span> Exporting Checklist<a class="headerlink" href="#exporting-checklist" title="Permanent link">&para;</a></h2>
 <p>This list is subject to change as model exporting changes and is more fully understood.</p>
 <ul>
@@ -1998,7 +2079,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 21, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 26, 2024</span>
   </span>
 
     
@@ -2026,6 +2107,11 @@
     
     <nav>
       
+        <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">
+          
+          <img src="https://avatars.githubusercontent.com/u/13786175?v=4&size=72" alt="Nenkai">
+        </a>
+      
         <a href="https://github.com/AlphaSatanOmega" class="md-author" title="@AlphaSatanOmega">
           
           <img src="https://avatars.githubusercontent.com/u/44583573?v=4&size=72" alt="AlphaSatanOmega">
@@ -2034,11 +2120,6 @@
         <a href="https://github.com/WistfulHopes" class="md-author" title="@WistfulHopes">
           
           <img src="https://avatars.githubusercontent.com/u/9942055?v=4&size=72" alt="WistfulHopes">
-        </a>
-      
-        <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">
-          
-          <img src="https://avatars.githubusercontent.com/u/13786175?v=4&size=72" alt="Nenkai">
         </a>
       
       
@@ -2192,7 +2273,7 @@
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.footer", "navigation.top", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy", "content.action.edit", "content.code.annotate", "header.autohide"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.5cfa9459.min.js"></script>
+      <script src="../../assets/javascripts/bundle.081f42fc.min.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});

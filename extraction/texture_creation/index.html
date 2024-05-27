@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.22">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.24">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.732c4fb1.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -113,7 +113,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#granite-textures" class="md-skip">
+        <a href="#creating-textures" class="md-skip">
           Skip to content
         </a>
       
@@ -1714,11 +1714,12 @@
   
 
 
-<h1 id="granite-textures"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m11.246 9.754 5.848-3.374a.202.202 0 0 0 .1-.175l.002-2.553c0-.324-.133-.645-.392-.841a1 1 0 0 0-1.118-.074l-2.425 1.4-6.436 3.712a1.007 1.007 0 0 0-.504.872l-.003 8.721v2.825c0 .324.132.645.39.842.335.253.766.278 1.12.074l2.363-1.364a.202.202 0 0 0 .101-.175l.003-8.244a1.902 1.902 0 0 1 .951-1.646Zm10.316-4.336a1.005 1.005 0 0 0-.504-.137.997.997 0 0 0-.503.137l-8.86 5.112a1.01 1.01 0 0 0-.505.87l-.003 11.591c0 .364.188.69.503.872a.995.995 0 0 0 1.007 0l8.86-5.112a1.01 1.01 0 0 0 .504-.872l.004-11.59a.997.997 0 0 0-.503-.871ZM6.378 7.074l6.334-3.655a.202.202 0 0 0 .1-.175l.001-2.193c0-.324-.133-.646-.392-.84a1 1 0 0 0-1.118-.075L2.443 5.25a1.007 1.007 0 0 0-.504.872l-.003 11.546c0 .324.133.645.39.842a1 1 0 0 0 1.12.074l1.877-1.082a.202.202 0 0 0 .1-.175l.003-8.605c0-.68.363-1.307.952-1.647z"/></svg></span> Granite Textures<a class="headerlink" href="#granite-textures" title="Permanent link">&para;</a></h1>
-<h1 id="ui-textures"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.29 21h2.83L21 12.12V9.29M19 21c.55 0 1.05-.22 1.41-.59.37-.36.59-.86.59-1.41v-2l-4 4M5 3a2 2 0 0 0-2 2v2l4-4m4.88 0L3 11.88v2.83L14.71 3m4.79.08L3.08 19.5c.09.35.27.66.51.91.25.24.56.42.91.51L20.93 4.5c-.19-.7-.73-1.24-1.43-1.42Z"/></svg></span> UI Textures<a class="headerlink" href="#ui-textures" title="Permanent link">&para;</a></h1>
+<h1 id="creating-textures"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.29 21h2.83L21 12.12V9.29M19 21c.55 0 1.05-.22 1.41-.59.37-.36.59-.86.59-1.41v-2l-4 4M5 3a2 2 0 0 0-2 2v2l4-4m4.88 0L3 11.88v2.83L14.71 3m4.79.08L3.08 19.5c.09.35.27.66.51.91.25.24.56.42.91.51L20.93 4.5c-.19-.7-.73-1.24-1.43-1.42Z"/></svg></span> Creating Textures<a class="headerlink" href="#creating-textures" title="Permanent link">&para;</a></h1>
 <ol>
-<li>To convert UI textures back into <code>.wtb</code>, drag the <code>extracted</code> folder into the <code>Nier CLI</code> executable. <strong>This will overwrite the <code>.wtb</code> file.</strong></li>
-<li>Place the converted <code>.wtb</code> files in the same path as they were extracted from.</li>
+<li>Download <a href="https://github.com/ArthurHeitmann/nier_cli/releases/tag/v1.3.0_mgrr">Nier CLI</a>. This program is used to convert <code>.wtb</code> texture files to a standard viewable image format, or into <code>.wtb</code>.</li>
+<li>Create a new folder named <code>&lt;YOUR_FILE_NAME&gt;.wtb_extracted</code>. <code>&lt;YOUR_FILE_NAME&gt;</code> should be replaced with the output texture file name you want. The <code>.wtb_extracted</code> at the end of the folder is important.</li>
+<li>Create and/or add one or multiple <code>.dds</code> files to the folder.</li>
+<li>Drag the folder into the <code>Nier CLI</code> executable. <strong>This will overwrite any <code>.wtb</code> file if any already exists with the same name.</strong></li>
 </ol>
 
 
@@ -1742,7 +1743,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 21, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 26, 2024</span>
   </span>
 
     
@@ -1769,6 +1770,11 @@
 
     
     <nav>
+      
+        <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">
+          
+          <img src="https://avatars.githubusercontent.com/u/13786175?v=4&size=72" alt="Nenkai">
+        </a>
       
         <a href="https://github.com/AlphaSatanOmega" class="md-author" title="@AlphaSatanOmega">
           
@@ -1926,7 +1932,7 @@
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.footer", "navigation.top", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy", "content.action.edit", "content.code.annotate", "header.autohide"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.5cfa9459.min.js"></script>
+      <script src="../../assets/javascripts/bundle.081f42fc.min.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
