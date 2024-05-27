@@ -34,7 +34,7 @@ Make sure you have the [GBFR Blender Tools Add-on](../models/importing.md#instal
 
 ### :material-texture: Exporting Textures
 
-By this point you must be wondering how to export textures for the game *without* using granite. This is done by editing the [Material Set](../resources/formats/mmat.md) (`.mmat`) file.
+By this point you must be wondering how to export textures for the game *without* using granite. This is done by editing the [Material Set](../resources/formats/mmat.md) (`.mmat`) file, located in `model/<model_prefix>/<model_id>/vars/<number>.mmat` (each number represents a different material variation, used for color packs).
 
 * Get [FlatBuffers / flatc](https://github.com/google/flatbuffers/releases), which you should already have if you already imported models. Extract it.
 * Get the [FlatBuffer MMat schema](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MMat_ModelMaterial.fbs). Schemas are used to tell `flatc` how to read and write the material files.
@@ -49,13 +49,10 @@ flatc --json --strict-json -- <path_to_fbs_file> --raw-binary <path_to_mmat_file
     `<path_to_fbs_file>` should be the path to the `.fbs` file and `<path_to_mmat_file>` should be the path to the `.mmat` file.
 
 * You should now have a `.json` file next to the original `.mmat` file. Open it in a text editor (preferably something like [Notepad++](https://notepad-plus-plus.org/downloads/)).
+* Scroll down to `granite_params`. **Remove the entire section**. This will force the game *not* to use texture streaming and use local files instead.
 
-* Scroll down to `granite_params`. **Remove the entire section**. 
+??? example "Example section to remove"
 
-??? example
-
-    Section to remove:
-    
     ```json
     "granite_params": {
         "page_file": [
@@ -82,6 +79,14 @@ These textures files are simply `.wtb` files with a different extension. Follow 
 
 !!! note
     DDS files are required beforehand.
+
+Finally, to convert your material `.json` file into `.mmat`:
+
+``` { .yaml .annotate }
+flatc -b <path_to_fbs_file> <path_to_json_file>
+```
+
+Rename the newly created `.bin` file extension to `.mmat`.
 
 ---
 
