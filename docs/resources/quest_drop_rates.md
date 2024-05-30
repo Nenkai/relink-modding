@@ -12407,7 +12407,7 @@ Clear within 10 minute(s): x1 Dark Residue
 
 ----
 
-### The Final Vision (2?) (407321)
+### Zero (407321)
 
 ```
 First Clear Rewards:
@@ -12683,7 +12683,7 @@ Don't enter critical condition more than 3 time(s): x1 Curio (T4)
 
 ----
 
-### 407323 (407323)
+### Dark Swordman's Nightmare (407323)
 
 ```
 First Clear Rewards:
@@ -12764,7 +12764,7 @@ Side Goal 3: x1 Curio (T4)
 
 ----
 
-### 407324 (407324)
+### Pageant of Might and Magic (407324)
 
 ```
 First Clear Rewards:
@@ -12836,7 +12836,7 @@ Side Goal 3: x1 Curio (T4)
 
 ----
 
-### 407325 (407325)
+### Zathba's 'Volunteers' (407325)
 
 ```
 First Clear Rewards:
