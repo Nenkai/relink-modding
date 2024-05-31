@@ -2,7 +2,7 @@
 icon: material/treasure-chest
 ---
 
-:material-lightbulb: Data Version: `1.2.1`
+:material-lightbulb: Data Version: `1.3.1`
 
 !!! note ":material-note: Notes/Observations"
 
@@ -21,6 +21,7 @@ If you need to find a specific quest, ++ctrl+f++ and search by quest name.
     * [1.0 :material-arrow-right: 1.1](change_lists/quest_rate_v1.0_v1.1.htm)
     * [1.1.3 :material-arrow-right: 1.1.4](change_lists/quest_rate_v1.1_v1.1.4.htm)
     * [1.1.4 :material-arrow-right: 1.2.1](change_lists/quest_rate_v1.1.4_v1.2.1.htm)
+    * [1.2.1 :material-arrow-right: 1.3.1](change_lists/quest_rate_v1.2.1_v1.3.1.htm)
 
 ## Easy
 
@@ -12212,9 +12213,9 @@ First Clear Rewards:
 - x1 Gold Badge Ticket
 
 [Sub Missions Rewards]
-Perform at least 20 link attacks: x30 Knickknack Voucher
-Overcome the Twelve Labors: x70 Knickknack Voucher
-Clear within 10 minute(s): x1 Dark Residue
+Side Goal 1: - x30 Knickknack Voucher
+Side Goal 2: - x70 Knickknack Voucher
+Side Goal 3: - x1 Dark Residue
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -12246,10 +12247,9 @@ Clear within 10 minute(s): x1 Dark Residue
     - x1 Damascus Ingot (10% - 1000)
     - x1 Azurite's Splendor (15% - 1500)
 * Lot #2 (Total Weight: 10000)
-    - x3 Dark Residue (40% - 4000)
-    - x4 Dark Residue (30% - 3000)
-    - x6 Dark Residue (20% - 2000)
-    - x8 Dark Residue (10% - 1000)
+    - x1 Canaan Whitebloom (67% - 6700)
+    - x2 Canaan Whitebloom (28% - 2800)
+    - x3 Canaan Whitebloom (5% - 500)
 * Lot #3 (Total Weight: 10000)
     - x1 Tears of the Apocalypse (60% - 6000)
     - x2 Tears of the Apocalypse (35% - 3500)
@@ -12342,6 +12342,11 @@ Clear within 10 minute(s): x1 Dark Residue
     - Steel Nerves V+ (5.26% - 1250)
     - Aegis V+ (7.89% - 1875)
     - Nothing (50% - 11875)
+* Lot #4 (Total Weight: 10000)
+    - x3 Dark Residue (40% - 4000)
+    - x4 Dark Residue (30% - 3000)
+    - x6 Dark Residue (20% - 2000)
+    - x8 Dark Residue (10% - 1000)
 
 [3 ★★★☆☆ (S Rank)]
 * Lot #1 (Total Weight: 10000)
@@ -12411,12 +12416,12 @@ Clear within 10 minute(s): x1 Dark Residue
 
 ```
 First Clear Rewards:
-- x3 ITEM_18_0002
+- x3 Canaan Whitebloom
 
 [Sub Missions Rewards]
-Side Goal 1: x1 Silver Centrum
-Side Goal 2: x1 Azurite's Splendor
-Side Goal 3: x1 ITEM_18_0002
+Side Goal 1: - x1 Silver Centrum
+Side Goal 2: - x1 Azurite's Splendor
+Side Goal 3: - x1 Canaan Whitebloom
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -12429,12 +12434,10 @@ Side Goal 3: x1 ITEM_18_0002
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x2 ITEM_18_0002 (100% - 10000)
+    - x2 Canaan Whitebloom (100% - 10000)
 * Lot #2 (Total Weight: 10000)
-    - x1 Gold Spellbook (40% - 4000)
-    - x1 Ambrosia (30% - 3000)
-    - x1 Damascus Ingot (20% - 2000)
-    - x1 Azurite's Splendor (10% - 1000)
+    - x2 Glittercrystal Cluster (50% - 5000)
+    - x2 Silver Centrum (50% - 5000)
 * Lot #3 (Total Weight: 10000)
     - x2 Tears of the Apocalypse (70% - 7000)
     - x4 Tears of the Apocalypse (20% - 2000)
@@ -12445,45 +12448,46 @@ Side Goal 3: x1 ITEM_18_0002
 
 [1 ★☆☆☆☆ (B Rank)]
 * Lot #1 (Total Weight: 10000)
-    - x1 Legendary Merit (100% - 10000)
+    - x2 Legendary Merit (100% - 10000)
 
 🎁 Chest
-* Lot #1 (Total Weight: 10000)
-    - x1 Tears of the Apocalypse (70% - 7000)
-    - x2 Tears of the Apocalypse (20% - 2000)
-    - x3 Tears of the Apocalypse (10% - 1000)
-* Lot #2 (Total Weight: 10000)
-    - x15 Dark Residue (50% - 5000)
-    - x17 Dark Residue (30% - 3000)
-    - x20 Dark Residue (20% - 2000)
+* Lot #1 (Total Weight: 20000)
+    - x1 Tears of the Apocalypse (40% - 8000)
+    - x2 Tears of the Apocalypse (7.5% - 1500)
+    - x3 Tears of the Apocalypse (2.5% - 500)
+    - Nothing (50% - 10000)
+* Lot #2 (Total Weight: 20000)
+    - x1 Curio (T2) (32.5% - 6500)
+    - x1 Curio (T3) (17.5% - 3500)
+    - Nothing (50% - 10000)
+* Lot #3 (Total Weight: 10000)
+    - x7 Dark Residue (70% - 7000)
+    - x10 Dark Residue (30% - 3000)
 
 [2 ★★☆☆☆ (A Rank)]
 * Lot #1 (Total Weight: 10000)
-    - x1 Dark Residue (100% - 10000)
+    - x7 Dark Residue (100% - 10000)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x10 Dark Residue (50% - 5000)
-    - x12 Dark Residue (30% - 3000)
-    - x17 Dark Residue (20% - 2000)
-* Lot #2 (Total Weight: 10000)
-    - x1 Curio (T1) (60% - 6000)
-    - x1 Curio (T2) (27% - 2700)
-    - x1 Curio (T3) (10% - 1000)
-    - x1 Curio (T4) (3% - 300)
+    - x1 Curio (T2) (60% - 6000)
+    - x1 Curio (T3) (30% - 3000)
+    - x1 Curio (T4) (10% - 1000)
 
 [3 ★★★☆☆ (S Rank)]
 * Lot #1 (Total Weight: 10000)
-    - x2 Dark Residue (70% - 7000)
-    - x3 Dark Residue (30% - 3000)
+    - x10 Dark Residue (70% - 7000)
+    - x12 Dark Residue (30% - 3000)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x30 Knickknack Voucher (100% - 10000)
+    - x1 Curio (T2) (80% - 8000)
+    - x1 Curio (T3) (17% - 1700)
+    - x1 Curio (T4) (3% - 300)
 
 [4 ★★★★☆ (S+ Rank)]
 * Lot #1 (Total Weight: 10000)
-    - x1 Tears of the Apocalypse (100% - 10000)
+    - x2 Tears of the Apocalypse (100% - 10000)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
@@ -12507,9 +12511,9 @@ First Clear Rewards:
 - x1 Supreme Weapon Essence
 
 [Sub Missions Rewards]
-Clear within 10 minute(s): x1 Death Nail
-Perform at least 10 perfect guard(s): x3 Revenant Medallion
-Don't enter critical condition more than 3 time(s): x1 Curio (T4)
+Side Goal 1: - x1 Death Nail
+Side Goal 2: - x3 Revenant Medallion
+Side Goal 3: - x1 Curio (T4)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 10000)
@@ -12556,7 +12560,7 @@ Don't enter critical condition more than 3 time(s): x1 Curio (T4)
     - x1 Sequestration Wrightstone (ITEM_28_0012) (21.75% - 2175)
     - x3 Revenant Medallion (10% - 1000)
     - x1 Azurite's Splendor (3% - 300)
-* Lot #4 (Total Weight: 9998)
+* Lot #4 (Total Weight: 10001)
     - Stronghold V (2.46% - 246)
     - Power Hungry V (2.46% - 246)
     - Path to Mastery V (2.46% - 246)
@@ -12570,17 +12574,18 @@ Don't enter critical condition more than 3 time(s): x1 Curio (T4)
     - Roll of the Die (2.46% - 246)
     - Glass Cannon V (2.46% - 246)
     - Flight over Fight (2.46% - 246)
-    - Stronghold V+ (0.8% - 80)
-    - Power Hungry V+ (0.8% - 80)
-    - Supplementary Damage V+ (0.8% - 80)
-    - Less Is More V+ (0.8% - 80)
-    - Head Start V+ (0.8% - 80)
-    - Untouchable+ (0.8% - 80)
-    - Berserker V+ (0.8% - 80)
-    - Roll of the Die+ (0.8% - 80)
-    - Glass Cannon V+ (0.8% - 80)
-    - Flight over Fight+ (0.8% - 80)
-    - Nothing (60.01% - 6000)
+    - Stronghold V+ (0.73% - 73)
+    - Power Hungry V+ (0.73% - 73)
+    - Supplementary Damage V+ (0.73% - 73)
+    - Less Is More V+ (0.73% - 73)
+    - Head Start V+ (0.73% - 73)
+    - Untouchable+ (0.73% - 73)
+    - Berserker V+ (0.73% - 73)
+    - Roll of the Die+ (0.73% - 73)
+    - Glass Cannon V+ (0.73% - 73)
+    - Flight over Fight+ (0.73% - 73)
+    - War Elemental+ (0.73% - 73)
+    - Nothing (59.99% - 6000)
 
 [1 ★☆☆☆☆ (B Rank)]
 * Lot #1 (Total Weight: 10000)
@@ -12690,9 +12695,9 @@ First Clear Rewards:
 - x1 Azurite's Splendor
 
 [Sub Missions Rewards]
-Side Goal 1: x5 Heliotrope Urn
-Side Goal 2: x3 Demigod Feather
-Side Goal 3: x1 Curio (T4)
+Side Goal 1: - x5 Heliotrope Urn
+Side Goal 2: - x3 Demigod Feather
+Side Goal 3: - x1 Curio (T4)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 1000000)
@@ -12708,22 +12713,19 @@ Side Goal 3: x1 Curio (T4)
     - x3 Demigod Feather (70% - 7000)
     - x5 Demigod Feather (30% - 3000)
 * Lot #2 (Total Weight: 10000)
-    - x1 Ambrosia (100% - 10000)
+    - x1 Silver Centrum (100% - 10000)
 
 [1 ★☆☆☆☆ (B Rank)]
 * Lot #1 (Total Weight: 10000)
-    - x1 Legendary Merit (100% - 10000)
+    - x2 Legendary Merit (100% - 10000)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
     - x7 Heliotrope Urn (60% - 6000)
     - x10 Heliotrope Urn (40% - 4000)
 * Lot #2 (Total Weight: 10000)
-    - x1 Gold Spellbook (100% - 10000)
-* Lot #3 (Total Weight: 8750)
-    - GEEN_233_24 (28.57% - 2500)
-    - GEEN_234_24 (28.57% - 2500)
-    - GEEN_235_24 (42.86% - 3750)
+    - x1 Horn of Bahamut (50% - 5000)
+    - x2 Silver Centrum (50% - 5000)
 
 [2 ★★☆☆☆ (A Rank)]
 * Lot #1 (Total Weight: 10000)
@@ -12748,9 +12750,9 @@ Side Goal 3: x1 Curio (T4)
 
 [4 ★★★★☆ (S+ Rank)]
 * Lot #1 (Total Weight: 10000)
-    - x1 Demigod Feather (60% - 6000)
-    - x2 Demigod Feather (30% - 3000)
-    - x3 Demigod Feather (10% - 1000)
+    - x2 Demigod Feather (60% - 6000)
+    - x3 Demigod Feather (30% - 3000)
+    - x15 Demigod Feather (10% - 1000)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
@@ -12771,9 +12773,9 @@ First Clear Rewards:
 - x100 Knickknack Voucher
 
 [Sub Missions Rewards]
-Side Goal 1: x10 Knickknack Voucher
-Side Goal 2: x40 Knickknack Voucher
-Side Goal 3: x1 Curio (T4)
+Side Goal 1: - x10 Knickknack Voucher
+Side Goal 2: - x40 Knickknack Voucher
+Side Goal 3: - x1 Curio (T4)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 1000000)
@@ -12786,19 +12788,24 @@ Side Goal 3: x1 Curio (T4)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x1 Ambrosia (100% - 10000)
+    - x2 Lunary Cell (85% - 8500)
+    - x1 Lunary Cell (15% - 1500)
 * Lot #2 (Total Weight: 10000)
-    - x1 Gold Spellbook (100% - 10000)
+    - x2 Silver Wolf Clovis (85% - 8500)
+    - x1 Silver Wolf Clovis (15% - 1500)
+* Lot #3 (Total Weight: 10000)
+    - x2 Cutthroat Fang (85% - 8500)
+    - x1 Cutthroat Fang (15% - 1500)
 
 [1 ★☆☆☆☆ (B Rank)]
 * Lot #1 (Total Weight: 10000)
-    - x1 Legendary Merit (100% - 10000)
+    - x2 Legendary Merit (100% - 10000)
 
 🎁 Chest
-* Lot #1 (Total Weight: 8750)
-    - GEEN_233_24 (28.57% - 2500)
-    - GEEN_234_24 (42.86% - 3750)
-    - GEEN_235_24 (28.57% - 2500)
+* Lot #1 (Total Weight: 11666)
+    - Berserker Echo+ (28.57% - 3333)
+    - Spartan Echo+ (42.86% - 5000)
+    - Super Ultimate Perfect Dodge+ (28.57% - 3333)
 
 [2 ★★☆☆☆ (A Rank)]
 * Lot #1 (Total Weight: 10000)
@@ -12807,10 +12814,13 @@ Side Goal 3: x1 Curio (T4)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x1 Curio (T1) (60% - 6000)
-    - x1 Curio (T2) (27% - 2700)
-    - x1 Curio (T3) (10% - 1000)
-    - x1 Curio (T4) (3% - 300)
+    - x2 Chronos Core (70% - 7000)
+    - x3 Chronos Core (30% - 3000)
+* Lot #2 (Total Weight: 10000)
+    - x1 Silver Centrum (100% - 10000)
+* Lot #3 (Total Weight: 10000)
+    - x1 Curio (T1) (30% - 3000)
+    - x1 Curio (T2) (70% - 7000)
 
 [3 ★★★☆☆ (S Rank)]
 * Lot #1 (Total Weight: 10000)
@@ -12818,7 +12828,10 @@ Side Goal 3: x1 Curio (T4)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x30 Knickknack Voucher (100% - 10000)
+    - x2 Curio (T1) (60% - 6000)
+    - x2 Curio (T2) (27% - 2700)
+    - x2 Curio (T3) (10% - 1000)
+    - x2 Curio (T4) (3% - 300)
 
 [4 ★★★★☆ (S+ Rank)]
 * Lot #1 (Total Weight: 10000)
@@ -12843,9 +12856,9 @@ First Clear Rewards:
 - x100 Knickknack Voucher
 
 [Sub Missions Rewards]
-Side Goal 1: x10 Knickknack Voucher
-Side Goal 2: x40 Knickknack Voucher
-Side Goal 3: x1 Curio (T4)
+Side Goal 1: - x10 Knickknack Voucher
+Side Goal 2: - x40 Knickknack Voucher
+Side Goal 3: - x1 Curio (T4)
 
 [Clear Rewards]
 * Lot #1 (Total Weight: 1000000)
@@ -12858,19 +12871,24 @@ Side Goal 3: x1 Curio (T4)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x1 Damascus Ingot (100% - 10000)
+    - x2 Tayu'itar Head Unit (85% - 8500)
+    - x3 Tayu'itar Head Unit (15% - 1500)
 * Lot #2 (Total Weight: 10000)
-    - x1 Azurite's Splendor (100% - 10000)
+    - x2 Ukhar Core (85% - 8500)
+    - x3 Ukhar Core (15% - 1500)
+* Lot #3 (Total Weight: 10000)
+    - x2 Rancorous Lance (85% - 8500)
+    - x1 Rancorous Lance (15% - 1500)
 
 [1 ★☆☆☆☆ (B Rank)]
 * Lot #1 (Total Weight: 10000)
-    - x1 Legendary Merit (100% - 10000)
+    - x2 Legendary Merit (100% - 10000)
 
 🎁 Chest
-* Lot #1 (Total Weight: 8750)
-    - GEEN_233_24 (42.86% - 3750)
-    - GEEN_234_24 (28.57% - 2500)
-    - GEEN_235_24 (28.57% - 2500)
+* Lot #1 (Total Weight: 11666)
+    - Berserker Echo+ (42.86% - 5000)
+    - Spartan Echo+ (28.57% - 3333)
+    - Super Ultimate Perfect Dodge+ (28.57% - 3333)
 
 [2 ★★☆☆☆ (A Rank)]
 * Lot #1 (Total Weight: 10000)
@@ -12879,10 +12897,13 @@ Side Goal 3: x1 Curio (T4)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x1 Curio (T1) (60% - 6000)
-    - x1 Curio (T2) (27% - 2700)
-    - x1 Curio (T3) (10% - 1000)
-    - x1 Curio (T4) (3% - 300)
+    - x2 Crown of Lament (70% - 7000)
+    - x3 Crown of Lament (30% - 3000)
+* Lot #2 (Total Weight: 10000)
+    - x12 Revenant Medallion (100% - 10000)
+* Lot #3 (Total Weight: 10000)
+    - x1 Curio (T1) (30% - 3000)
+    - x1 Curio (T2) (70% - 7000)
 
 [3 ★★★☆☆ (S Rank)]
 * Lot #1 (Total Weight: 10000)
@@ -12890,7 +12911,10 @@ Side Goal 3: x1 Curio (T4)
 
 🎁 Chest
 * Lot #1 (Total Weight: 10000)
-    - x30 Knickknack Voucher (100% - 10000)
+    - x2 Curio (T1) (60% - 6000)
+    - x2 Curio (T2) (27% - 2700)
+    - x2 Curio (T3) (10% - 1000)
+    - x2 Curio (T4) (3% - 300)
 
 [4 ★★★★☆ (S+ Rank)]
 * Lot #1 (Total Weight: 10000)
