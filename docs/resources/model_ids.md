@@ -201,11 +201,10 @@ Source: `table/weapon.tbl` & `table/text/en/text.json`
 ```
 wp0000 - Traveller's Sword
 wp0001 - Durandal
-wp0002 - Sword of Eos
-wp0003 - Sword of Eos (Sword of Eos, the Star Key)
-wp0004 - Albacore Blade
-wp0005 - Ultima Sword
-wp0006 - Seven-Star Sword (Seven-Star Sword, Celestial)
+wp0002 - Sword of Eos (Sword of Eos, the Star Key)
+wp0003 - Albacore Blade
+wp0004 - Ultima Sword
+wp0005 - Seven-Star Sword (Seven-Star Sword, Celestial)
 wp0010 - False Sword of the Apocalypse
 wp0100 - Partenza
 ```
