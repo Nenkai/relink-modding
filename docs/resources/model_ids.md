@@ -26,6 +26,8 @@ icon: material/identifier
 0900 -- Vane
 1000 -- Percivale
 1100 -- Siegfried
+1101 -- Siegfried (Open Helmet)
+1102 -- Siegfried (Closed Helmet)
 1200 -- Charlotta
 1300 -- Yodarha
 1400 -- Narmaya
@@ -46,30 +48,40 @@ icon: material/identifier
 
 ```
 0000 -- Lyria
+0001 -- Lyria (Church of Avia)
 0100 -- Vyrn
 0200 -- Sierokarte
 0300 -- Rolan
+0301 -- Rolan (2)
 0400 -- Historiath
 0500 -- Lilith
 0600 -- Zathba
-0700 -- Man
-0702 -- Old Man
+0700 -- Human Man
+0702 -- Human Man (2)
+0800 -- Old Man with Cane
 0900 -- Human Boy
-1000 -- Woman (?)
+1000 -- Human Woman
+1002 -- Human Woman (2)
+1010 -- Human Woman (3)
 1200 -- Erune Man
 1202 -- Dagger
 1300 -- Erune Woman
 1400 -- Harvin Man
 1402 -- Rilla
-1500 -- Woman (?)
+1500 -- Harvin Girl
+1502 -- Harvin Woman
+1510 -- Harvin Girl (2)
 1600 -- Draph Man
 1602 -- Pops
 1700 -- Draph Woman
+1702 -- Draph Woman (2)
+1710 -- Draph Woman (3)
 1800 -- Mellose Acolyte
 1900 -- Seedhollow Soldier
 2000 -- Boy
 2100 -- Girl
 2200 -- Alliance Receptionist
+2201 -- Alliance Receptionist (2)
 ```
 
 ---
@@ -138,6 +150,7 @@ icon: material/identifier
 1900 -- Tayu'itar/Tayu'itar Mk II
 2000 -- Gallanza
 2100 -- Maglielle/Mysterious Swordsman
+2300 -- Id (Dragonform)
 2400 -- Lilith
 2500 -- Pincer
 2600 -- Cobra/Sand Reaper
@@ -152,15 +165,17 @@ icon: material/identifier
 7300 -- Managarmr
 7310 -- Managarmr Nihilla
 7400 -- Excavallion
-7401 -- Talus Reactor
-7404 -- Spinal Core
-7406 -- Atlas Plug/Bolt/Primal Cylinder
-7407 -- Deltoid Reactor/Forearm Reactor
-7408 -- Coxa Reactor
-7409 -- Chest Reactor
+7401 -- Talus Reactor (Excavallion)
+7404 -- Spinal Core (Excavallion)
+7406 -- Atlas Plug/Bolt/Primal Cylinder (Excavallion)
+7407 -- Deltoid Reactor/Forearm Reactor (Excavallion)
+7408 -- Coxa Reactor (Excavallion)
+7409 -- Chest Reactor (Excavallion)
+7410 -- Spinal Core (Excavallion)
 7500 -- Angra Mainyu
 7520 -- Daeva
 7530 -- Aka Manah
+7540 -- Aka Manah (Wires)
 7600 -- Bahamut Versa
 7603 -- Bahamut Core
 7610 -- Bahamut Versa Omega
@@ -444,4 +459,20 @@ wp2306 - Desolation-Crown Bow
 7003 -- Edafos
 7004 -- Anemos
 7300 -- Nereid/Halimede
+```
+
+---
+
+## et
+
+This appears to be misc objects, down to mechanics
+
+!!! warning
+
+    This is TODO
+
+```
+00af - Bird
+cxxx - Bahamut?
+dxxx - Id + Camera Override/Control (3D View), referenced in `story_note_picture_*` & `chara` tables
 ```
