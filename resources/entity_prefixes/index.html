@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.25">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.26">
     
     
       
@@ -221,7 +221,7 @@
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
@@ -1808,27 +1808,26 @@
 <h1 id="entity-prefixes"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.81 2C4.83 2.09 4 3 4 4v16c0 1.05.95 2 2 2h12c1.05 0 2-.95 2-2V4a2 2 0 0 0-2-2h-6v7L9.5 7.5 7 9V2H5.81M12 13h1a1 1 0 0 1 1 1v4h-1v-2h-1v2h-1v-4a1 1 0 0 1 1-1m0 1v1h1v-1h-1m3 1h3v1l-2 3h2v1h-3v-1l2-3h-2v-1Z"/></svg></span> Entity Prefixes<a class="headerlink" href="#entity-prefixes" title="Permanent link">&para;</a></h1>
 <h2 id="models">Models<a class="headerlink" href="#models" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>ba</code> -- Map objects animated</li>
-<li><code>bg</code> -- Map static props</li>
-<li><code>bh</code> -- Map breakable objects (?)</li>
+<li><code>ba</code> -- Room objects animated</li>
+<li><code>bg</code> -- Room static model props, non passthrough &amp; passthrough</li>
+<li><code>bh</code> -- Room objects such as breakables, but also obstacles</li>
 <li><code>ef</code> -- Effects</li>
 <li><code>em</code> -- Enemies</li>
-<li><code>et</code> -- Items (?)</li>
-<li><code>fe</code> -- Enemy Faces/Heads (?)</li>
+<li><code>et</code> -- 3D Model Viewer entities, other misc objects</li>
+<li><code>fe</code> -- Enemy Faces/Heads</li>
 <li><code>fn</code> -- NPC Faces/Heads</li>
 <li><code>fp</code> -- Player Faces/Heads</li>
-<li><code>it</code> -- Some random models (?)</li>
+<li><code>it</code> -- Some random models</li>
 <li><code>np</code> -- NPC Bodies</li>
 <li><code>pl</code> -- Player Bodies</li>
-<li><code>tr</code> -- ???</li>
+<li><code>tr</code> -- Landscape/Scenery Models, such as map walls, cliffs</li>
 <li><code>we</code> -- Enemy Weapons</li>
 <li><code>wn</code> -- NPC Weapons</li>
 <li><code>wp</code> -- Player Weapons</li>
 </ul>
 <h2 id="scripting">Scripting<a class="headerlink" href="#scripting" title="Permanent link">&para;</a></h2>
-<p>ph - scripts &amp; more for global game phases
-quest - side quests
-st - scripting, sound, visual &amp; more data general areas </p>
+<p>ph - Phases, controls what stages to load
+st - Stages aka rooms aka, maps</p>
 
 
 
@@ -1851,7 +1850,7 @@ st - scripting, sound, visual &amp; more data general areas </p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 11, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 7, 2024</span>
   </span>
 
     
@@ -1879,14 +1878,14 @@ st - scripting, sound, visual &amp; more data general areas </p>
     
     <nav>
       
-        <a href="https://github.com/AlphaSatanOmega" class="md-author" title="@AlphaSatanOmega">
-          
-          <img src="https://avatars.githubusercontent.com/u/44583573?v=4&size=72" alt="AlphaSatanOmega">
-        </a>
-      
         <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">
           
           <img src="https://avatars.githubusercontent.com/u/13786175?v=4&size=72" alt="Nenkai">
+        </a>
+      
+        <a href="https://github.com/AlphaSatanOmega" class="md-author" title="@AlphaSatanOmega">
+          
+          <img src="https://avatars.githubusercontent.com/u/44583573?v=4&size=72" alt="AlphaSatanOmega">
         </a>
       
       
@@ -2040,7 +2039,7 @@ st - scripting, sound, visual &amp; more data general areas </p>
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.footer", "navigation.top", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy", "content.action.edit", "content.code.annotate", "header.autohide"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.081f42fc.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
