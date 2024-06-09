@@ -2,7 +2,7 @@
 icon: material/help-box
 ---
 
-:material-lightbulb: Data Version: `1.2.x`
+:material-lightbulb: Data Version: `1.3.x`
 
 !!! note
 
@@ -19,7 +19,7 @@ If you need to find a specific item, ++ctrl+f++ and search by name.
 
 ??? tip "Changelog"
 
-    * 1.0 :material-arrow-right: 1.1: No changes.
+    * 1.0 :material-arrow-right: 1.3: No changes.
 
 
 ## Curio (T1)
