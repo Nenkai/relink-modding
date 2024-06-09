@@ -75,7 +75,7 @@ Now, inside the `texture_maps` section, you will see all the textures associated
 * 4k: `texture/4k/{name}.texture`
 * 2k: `texture/2k/{name}.texture`
 
-These textures files are simply `.wtb` files with a different extension. Follow [this simple guide](../extraction/texture_creation.md) to create `.wtb` files. Change your `.wtb` extension to `.texture` once that's done.
+These textures files are simply `.wtb` files with a different extension. Follow [this simple guide](../tutorials/textures/texture_creation.md) to create `.wtb` files. Change your `.wtb` extension to `.texture` once that's done.
 
 !!! note
     DDS files are required beforehand.

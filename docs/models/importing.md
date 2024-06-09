@@ -33,7 +33,7 @@ icon: material/application-import
 1. **Make sure you have the `.minfo`, `.skeleton`, and `.mmesh` for a model all in the same folder together to be able to import them.**
     
     !!! tip
-        * You can learn how to extract files [here](../extraction/file_extraction.md).
+        * You can learn how to extract files [here](../tutorials/file_extraction.md).
         * Check out [Entity Prefixes](../resources/entity_prefixes.md#models) for a list of model prefixes.
         * Check out [Model IDs](../resources/model_ids.md) to find a certain model's ID.
         * Model heads are split into their own files.
@@ -46,7 +46,7 @@ icon: material/application-import
 
 !!! warning "Textures"
 
-    :material-arrow-right: Refer to the [Model Textures (Granite)](../extraction/texture_extraction.md#model-textures-granite) section on the Texture Extraction page for getting model textures.
+    :material-arrow-right: Refer to the [Model Textures (Granite)](../tutorials/textures/texture_extraction.md#model-textures-granite) section on the Texture Extraction page for getting model textures.
     
     Textures must be manually applied to the model in blender.
 

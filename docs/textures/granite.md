@@ -5,4 +5,4 @@
 
 This page's contents have been moved:
 
-:material-arrow-right: [Extracting Textures](../extraction/texture_extraction.md)
+:material-arrow-right: [Extracting Textures](../tutorials/textures/texture_extraction.md)

@@ -5,6 +5,6 @@
 
 This page's contents have been moved:
 
-:material-arrow-right: [Extracting Files](../extraction/file_extraction.md)
+:material-arrow-right: [Extracting Files](../tutorials/file_extraction.md)
 
 :material-arrow-right: [Installing Mods](../modding/installing_mods.md)

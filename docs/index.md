@@ -31,11 +31,11 @@ Welcome to the world of GBFR Modding! Here you can learn all about modding the g
 
     Learn how to Extract and Mod GBFR files!
 
-    [:material-folder-move: Extracting Files](extraction/file_extraction.md)
+    [:material-folder-move: Extracting Files](tutorials/file_extraction.md)
 
-    [:material-image-move: Extracting Textures](extraction/texture_extraction.md)
+    [:material-image-move: Extracting Textures](tutorials/textures/texture_extraction.md)
 
-    [:material-image-plus: Creating Textures](extraction/texture_creation.md)
+    [:material-image-plus: Creating Textures](tutorials/textures/texture_creation.md)
 
 -   :material-book-alphabet:{ .lg .middle } __Resources & Info for Modders__
 

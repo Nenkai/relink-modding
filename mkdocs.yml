@@ -61,16 +61,21 @@ theme:
 
 nav:
   - Main Page: index.md
-  - Modding Tutorials: 
+  - Installing/Creating Mods: 
     - Installing Mods: modding/installing_mods.md
     - Creating Mods: modding/creating_mods.md
     - Recommended Mods/Tools: modding/recommended_mods_tools.md
     - Mod Manager API: modding/mod_manager_api.md
 
   - Modder Tutorials:
-    - Extracting Files: extraction/file_extraction.md
-    - Extracting Textures: extraction/texture_extraction.md
-    - Creating Textures: extraction/texture_creation.md
+    - Extracting Files: tutorials/file_extraction.md
+
+    - Textures:
+      - Extracting Textures: tutorials/textures/texture_extraction.md
+      - Creating Textures: tutorials/textures/texture_creation.md
+
+    - Audio:
+      - Audio Playback/Conversion: tutorials/audio/audio_extraction.md
 
   - Modder Resources/Info:
     - Asset Paths: resources/asset_paths.md
