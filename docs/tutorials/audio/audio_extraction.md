@@ -9,7 +9,7 @@ Relink uses AudioKinetic's [Wwise](https://www.audiokinetic.com/en/wwise/overvie
 There are two distinct proprietary formats:
 
 * `.bnk` - These contain instructions on how to play audio, but *does not necessarily contain audio by themsleves* (except for `_m` banks). You can most of these in the `data/sound` folder of the game.
-* `.pck` - Contains actual sounds. You can *not* simply extract these and play them. You will need to process them through *Wwiser*, and will specifically be located in the `sound` folder.
+* `.pck` - Contains actual sounds. You can *not* simply and play them. You will need to extract them first, and will specifically be located in the `sound` folder.
 
 ---
 
@@ -27,9 +27,9 @@ Install foobar2000 + plugin, extract the rest in the same folder, make sure to p
 
 ## :material-speaker-play: Playing Audio
 
-You should make a copy of the `data/sound` folder away from the game, and merge the extracted `sound` folder with it so that you have both `.pck` and `.bnk` files.
+You should make a copy of the `data/sound` folder *away from the game* for backup purposes & to centralize all sound assets, so create one and merge the extracted `sound` folder with it so that you have both `.pck` and `.bnk` files.
 
-1. Drag and drop one or more `.pck` files to `extract_pck.bat`. This should create a `wem` folder with `wem` files.
+1. Drag and drop one or more `.pck` files to `extract_pck.bat`. This should create a new folder with `wem` files inside.
 2. Open `wwiser.pyz`. Hit **Load banks** to load `.bnk` files (or **Load dirs** to load ALL `.bnk` in a folder). Load `Init.bnk` before any other banks. Wait until the files have loaded.
 3. Hit **Generate TXTP**. This will create a `txtp` folder with each file containing instruction on how to play every Wwise event.
 4. Drag the folder or individual txtp files to *foobar2000*. 

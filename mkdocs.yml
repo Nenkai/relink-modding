@@ -76,6 +76,7 @@ nav:
 
     - Audio:
       - Audio Playback/Conversion: tutorials/audio/audio_extraction.md
+      - Audio Creation: tutorials/audio/audio_creation.md
 
   - Modder Resources/Info:
     - Asset Paths: resources/asset_paths.md
