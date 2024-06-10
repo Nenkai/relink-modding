@@ -16,7 +16,7 @@
         <link rel="prev" href="../../textures/texture_creation/">
       
       
-        <link rel="next" href="../../../resources/asset_paths/">
+        <link rel="next" href="../audio_creation/">
       
       
       <link rel="icon" href="../../../images/favicon.png">
@@ -910,6 +910,29 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audio_creation/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 9v3h-3v2h3v3h2v-3h3v-2h-3V9h-2M9 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3H9Z"/></svg>
+  
+  <span class="md-ellipsis">
+    Audio Creation
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1988,7 +2011,7 @@
 <p>There are two distinct proprietary formats:</p>
 <ul>
 <li><code>.bnk</code> - These contain instructions on how to play audio, but <em>does not necessarily contain audio by themsleves</em> (except for <code>_m</code> banks). You can most of these in the <code>data/sound</code> folder of the game.</li>
-<li><code>.pck</code> - Contains actual sounds. You can <em>not</em> simply extract these and play them. You will need to process them through <em>Wwiser</em>, and will specifically be located in the <code>sound</code> folder.</li>
+<li><code>.pck</code> - Contains actual sounds. You can <em>not</em> simply and play them. You will need to extract them first, and will specifically be located in the <code>sound</code> folder.</li>
 </ul>
 <hr />
 <h2 id="requirements"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 6h-8l-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2m-5 10H6v-2h9v2m3-4H6v-2h12v2Z"/></svg></span> Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
@@ -2003,9 +2026,9 @@
 </ul>
 <p>Install foobar2000 + plugin, extract the rest in the same folder, make sure to place <code>wwnames.txt</code> next to Wwiser.</p>
 <h2 id="playing-audio"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 15v6l5-3-5-3m-3.72 4.81c-.41.11-.83.19-1.28.19-2.76 0-5-2.24-5-5s2.24-5 5-5c1.89 0 3.5 1.06 4.37 2.61.79-.38 1.69-.61 2.63-.61V4a2 2 0 0 0-2-2H6c-1.11 0-2 .89-2 2v16c0 1.11.89 2 2 2h7.54c-.54-.63-1-1.37-1.26-2.19M11 4c1.11 0 2 .89 2 2s-.89 2-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m2.74 9.78A5.994 5.994 0 0 0 12 17.81c-.31.12-.64.19-1 .19-1.66 0-3-1.34-3-3s1.34-3 3-3c1.22 0 2.27.73 2.74 1.78Z"/></svg></span> Playing Audio<a class="headerlink" href="#playing-audio" title="Permanent link">&para;</a></h2>
-<p>You should make a copy of the <code>data/sound</code> folder away from the game, and merge the extracted <code>sound</code> folder with it so that you have both <code>.pck</code> and <code>.bnk</code> files.</p>
+<p>You should make a copy of the <code>data/sound</code> folder <em>away from the game</em> for backup purposes &amp; to centralize all sound assets, so create one and merge the extracted <code>sound</code> folder with it so that you have both <code>.pck</code> and <code>.bnk</code> files.</p>
 <ol>
-<li>Drag and drop one or more <code>.pck</code> files to <code>extract_pck.bat</code>. This should create a <code>wem</code> folder with <code>wem</code> files.</li>
+<li>Drag and drop one or more <code>.pck</code> files to <code>extract_pck.bat</code>. This should create a new folder with <code>wem</code> files inside.</li>
 <li>Open <code>wwiser.pyz</code>. Hit <strong>Load banks</strong> to load <code>.bnk</code> files (or <strong>Load dirs</strong> to load ALL <code>.bnk</code> in a folder). Load <code>Init.bnk</code> before any other banks. Wait until the files have loaded.</li>
 <li>Hit <strong>Generate TXTP</strong>. This will create a <code>txtp</code> folder with each file containing instruction on how to play every Wwise event.</li>
 <li>Drag the folder or individual txtp files to <em>foobar2000</em>. </li>
@@ -2053,7 +2076,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 9, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 10, 2024</span>
   </span>
 
     
@@ -2140,13 +2163,13 @@
         
         
           
-          <a href="../../../resources/asset_paths/" class="md-footer__link md-footer__link--next" aria-label="Next: Asset Paths">
+          <a href="../audio_creation/" class="md-footer__link md-footer__link--next" aria-label="Next: Audio Creation">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Asset Paths
+                Audio Creation
               </div>
             </div>
             <div class="md-footer__button md-icon">
