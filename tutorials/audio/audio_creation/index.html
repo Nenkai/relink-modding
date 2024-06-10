@@ -1997,6 +1997,7 @@
 <p>You will need <code>.wav</code> files ahead of time.</p>
 <details class="abstract">
 <summary>Easy Method - sound2wem</summary>
+<p><strong>Note:</strong> This method does not support inserting filename markers into <code>.wem</code>s, which is sometimes required for lipsyncing (or animations) to work.</p>
 <p>Get <a href="https://github.com/EternalLeo/sound2wem">sound2wem</a>. Specifically the <code>zSound2wem.cmd</code> file. Put it next to the other utilities such as Wwiser.</p>
 <p>Then simply run the following command:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>zSound2wem.cmd <span class="p">&lt;</span>wav file&gt;
@@ -2008,7 +2009,7 @@
 <p>This part uses Wwise directly in case you need more control over the <code>.wem</code> output.</p>
 <ul>
 <li>On the left side (Project Explorer), Head to <strong>ShareSets</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Conversion Settings <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Default Work Unit <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> <strong>Default   Conversion Settings</strong>.</li>
-<li>Set the first row's <em>Format</em> to <strong>Vorbis</strong>.</li>
+<li>Set the first row's <em>Format</em> to <strong>Vorbis</strong>. Make sure to tick <strong>Insert filename marker</strong>, this is used by the game for animations.</li>
 <li><span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-i">I</kbd></span> to bring up the Audio Importer<ul>
 <li>Alternatively, head to Project Explorer again, Audio <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> Interactive Music Hierarchy, Right-Click &amp; Import Audio Files.</li>
 </ul>
