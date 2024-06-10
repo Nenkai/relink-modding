@@ -29,6 +29,8 @@ You will need `.wav` files ahead of time.
 
 ??? abstract "Easy Method - sound2wem"
 
+    **Note:** This method does not support inserting filename markers into `.wem`s, which is sometimes required for lipsyncing (or animations) to work.
+    
     Get [sound2wem](https://github.com/EternalLeo/sound2wem). Specifically the `zSound2wem.cmd` file. Put it next to the other utilities such as Wwiser.
 
     Then simply run the following command:
@@ -44,7 +46,7 @@ You will need `.wav` files ahead of time.
     This part uses Wwise directly in case you need more control over the `.wem` output.
 
     * On the left side (Project Explorer), Head to **ShareSets** :material-arrow-right: Conversion Settings :material-arrow-right: Default Work Unit :material-arrow-right: **Default   Conversion Settings**.
-    * Set the first row's *Format* to **Vorbis**.
+    * Set the first row's *Format* to **Vorbis**. Make sure to tick **Insert filename marker**, this is used by the game for animations.
     * ++shift+i++ to bring up the Audio Importer
         * Alternatively, head to Project Explorer again, Audio :material-arrow-right: Interactive Music Hierarchy, Right-Click & Import Audio Files.
     * From there, import any audio files.
