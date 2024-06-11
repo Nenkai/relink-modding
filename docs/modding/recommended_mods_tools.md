@@ -20,8 +20,16 @@ When applicable, make sure to support the authors!
 !!! tip
     More mods can be found on [Nexus Mods](https://www.nexusmods.com/granbluefantasyrelink)!
 
-## Tools
+## Relink Tools
 
 * [Freecam/Hud Toggle/Freeze/FOV (IGCS)](https://github.com/ghostinthecamera/IGCS-GITC/releases/tag/GBFR_v2.11) by *ghostinthecamera & Skall*
 * [gbfr-logs](https://github.com/false-spring/gbfr-logs) - Damage/Quest Logger, Parser & Overlay by *false-spring*
 * [GBFRelinkFix - Widescreen Support](https://github.com/Lyall/GBFRelinkFix) by *Lyall*
+
+## Other Useful Tools
+
+* [Notepad++](https://notepad-plus-plus.org/downloads/)
+* [grepWin](https://tools.stefankueng.com/grepWin.html) - Searching for strings inside files
+* [WinMerge](https://winmerge.org/?lang=en) - File diffing
+* [010 Editor](https://www.sweetscape.com/010editor/) - Hex viewer + file previewer (with templates such as the ones available [here](https://github.com/Nenkai/010GameTemplates/tree/main/Cygames/Granblue%20Fantasy%20-%20Relink))
+* [strings2](https://github.com/glmcdona/strings2) - Dumps all strings from specified files or folders

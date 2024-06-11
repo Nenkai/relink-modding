@@ -56,5 +56,40 @@ GBFRDataTools.exe sqlite-to-tbl -i <path to SQLite file> -o <path of output tabl
 * Many of the columns are unknown and may need to be figured out first.
 * **Please contribute!** There are many tables that have yet to be figured out. The headers are located [here](https://github.com/Nenkai/GBFRDataTools/tree/master/GBFRDataTools.Database/Headers) on the repo. Same goes for hashes, if you manage to bruteforce the original string for certain hashes, the list is located [here](https://github.com/Nenkai/GBFRDataTools/blob/master/GBFRDataTools.Database/Data/ids.txt).
 
+### Easy Searching
+
+You might find yourself how to identity where certain ids (or hashes) are used between tables. If you have query knowledge you could add a function that makes it easy to find where certain cells are used.
+
+* In SQLiteStudio, find the "Open SQLite functions editor" window. Press the `+`.
+* Set the function name as `find`, make sure `Type` is Scalar and `Implementation language` is **Tcl**.
+* In `Input arguments`, Press the `+` such as you have one `argument`
+* In `Function implementation code`, insert the following:
+
+```batch
+set value [string map [list "'" "''"] [lindex $argv 0]]
+set results [list]
+
+foreach table [db eval {select name from sqlite_master where type = "table"}] {
+    set table $table
+    set cols [list]
+    foreach {cid colName colType colNN colDef colPk} [db eval "PRAGMA table_info('$table')"] {
+        lappend cols "\[$colName\] = '$value'"
+    }
+    if {[catch {
+        set res [db eval "SELECT rowid FROM \[$table\] WHERE [join $cols { OR }]"]
+        if {[llength $res] > 0} {
+            return "found in table $table in rows with following ROWID: [join $res ,\ ]"
+        }
+    }]} {
+        set res [db eval "SELECT count(*) FROM \[$table\] WHERE [join $cols { OR }]"]
+        if {[lindex $res 0] > 0} {
+           lappend results '$table'
+        }
+    }
+}
+return "[join $results {, }]"
+```
+
+You can now use the SQL Editor/Querier with `SELECT find("<value>")`, which will return where said value is referenced.
 
 

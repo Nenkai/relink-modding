@@ -37,7 +37,7 @@ Welcome to the world of GBFR Modding! Here you can learn all about modding the g
 
     [:material-image-plus: Creating Textures](tutorials/textures/texture_creation.md)
 
-    [:material-file-music: Audio Extraction](tutorials/audio/audio_extraction.md) & [Creation](tutorials/audio/audio_creation/)
+    [:material-file-music: Audio Extraction](tutorials/audio/audio_extraction.md) & [Creation](tutorials/audio/audio_creation.md)
 
 -   :material-book-alphabet:{ .lg .middle } __Resources & Info for Modders__
 
