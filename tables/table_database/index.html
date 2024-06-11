@@ -1834,6 +1834,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Additional Notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#easy-searching" class="md-nav__link">
+    <span class="md-ellipsis">
+      Easy Searching
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1925,6 +1940,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Additional Notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#easy-searching" class="md-nav__link">
+    <span class="md-ellipsis">
+      Easy Searching
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1988,6 +2018,38 @@
 <li>Many of the columns are unknown and may need to be figured out first.</li>
 <li><strong>Please contribute!</strong> There are many tables that have yet to be figured out. The headers are located <a href="https://github.com/Nenkai/GBFRDataTools/tree/master/GBFRDataTools.Database/Headers">here</a> on the repo. Same goes for hashes, if you manage to bruteforce the original string for certain hashes, the list is located <a href="https://github.com/Nenkai/GBFRDataTools/blob/master/GBFRDataTools.Database/Data/ids.txt">here</a>.</li>
 </ul>
+<h3 id="easy-searching">Easy Searching<a class="headerlink" href="#easy-searching" title="Permanent link">&para;</a></h3>
+<p>You might find yourself how to identity where certain ids (or hashes) are used between tables. If you have query knowledge you could add a function that makes it easy to find where certain cells are used.</p>
+<ul>
+<li>In SQLiteStudio, find the "Open SQLite functions editor" window. Press the <code>+</code>.</li>
+<li>Set the function name as <code>find</code>, make sure <code>Type</code> is Scalar and <code>Implementation language</code> is <strong>Tcl</strong>.</li>
+<li>In <code>Input arguments</code>, Press the <code>+</code> such as you have one <code>argument</code></li>
+<li>In <code>Function implementation code</code>, insert the following:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">set</span> <span class="nv">value [string map [list </span><span class="s2">&quot;&#39;&quot;</span> <span class="s2">&quot;&#39;&#39;&quot;</span>] [lindex $argv 0]]
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">set</span> <span class="nv">results [list]</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>foreach table [db eval {select name from sqlite_master where type = <span class="s2">&quot;table&quot;</span>}] {
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    <span class="k">set</span> <span class="nv">table $table</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    <span class="k">set</span> <span class="nv">cols [list]</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    foreach {cid colName colType colNN colDef colPk} [db eval <span class="s2">&quot;PRAGMA table_info(&#39;$table&#39;)&quot;</span>] {
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>        lappend cols <span class="s2">&quot;\[$colName\] = &#39;$value&#39;&quot;</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>    }
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>    <span class="k">if</span> {[catch<span class="err"> {</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>        <span class="k">set</span> <span class="nv">res [db eval </span><span class="s2">&quot;SELECT rowid FROM \[$table\] WHERE [join $cols { OR }]&quot;</span>]
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>        <span class="k">if</span> {[llength<span class="err"> $res] &gt; 0} {</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>            return <span class="s2">&quot;found in table $table in rows with following ROWID: [join $res ,\ ]&quot;</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>        }
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>    }]} {
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>        <span class="k">set</span> <span class="nv">res [db eval </span><span class="s2">&quot;SELECT count(*) FROM \[$table\] WHERE [join $cols { OR }]&quot;</span>]
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>        <span class="k">if</span> {[lindex<span class="err"> $res 0] &gt; 0} {</span>
+<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a>           lappend results &#39;$table&#39;
+<a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a>        }
+<a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a>    }
+<a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a>}
+<a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a>return <span class="s2">&quot;[join $results {, }]&quot;</span>
+</code></pre></div>
+<p>You can now use the SQL Editor/Querier with <code>SELECT find("&lt;value&gt;")</code>, which will return where said value is referenced.</p>
 
 
 
@@ -2010,7 +2072,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 26, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 11, 2024</span>
   </span>
 
     
