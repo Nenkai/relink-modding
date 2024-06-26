@@ -16,6 +16,7 @@ When applicable, make sure to support the authors!
 * [Mute Vyrn/Lyria](https://www.nexusmods.com/granbluefantasyrelink/mods/208) by *happihora*
 * [Mute Sierokarte and Parrot](https://www.nexusmods.com/granbluefantasyrelink/mods/52) by *SixTrillionOwls*
 * [Disable TAA/Bloom/Motion Blur/DoF & More](https://www.nexusmods.com/granbluefantasyrelink/mods/17) by *happihora*
+* [Weapon Customization Tool](https://www.nexusmods.com/granbluefantasyrelink/mods/451) by *Hazelberry* and *Nenkai*
 
 !!! tip
     More mods can be found on [Nexus Mods](https://www.nexusmods.com/granbluefantasyrelink)!
