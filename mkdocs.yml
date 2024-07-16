@@ -97,6 +97,10 @@ nav:
       - Quest Drop Rates: resources/quest_drop_rates.md
       - Weapon Materials: resources/weapon_materials.md
 
+    - Quests/Layouts:
+      - Quest Base Info: resources/quests_layouts/quest_base_info.md
+      - Placement Info: resources/quests_layouts/placement.md
+
     - Formats:
         .minfo - Model Info: resources/formats/minfo.md
         .mmat - Material Info: resources/formats/mmat.md
