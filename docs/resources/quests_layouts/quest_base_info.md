@@ -11,9 +11,9 @@ Quest Base Info files (`quest/{quest_id}/baseinfo.msg`) provides the basic & cri
 
 | Attribute                | Type       | Description                                        |
 |--------------------------|------------|----------------------------------------------------|
-| `category_`              | `int`      | Quest category. 1st hex digit of a quest id, `category_` should be 4 if the quest id is `407320`. Category in general denotes the type of quest.
-| `subCategory_`           | `int`      | Quest sub-category. 3rd hex digit of a quest id, `subCategory_` should be 7 if the quest id is `407320`.
-| `serialNumber_`          | `int`      | Serial Number. Last 3 hex digits of a quest id, `serialNumber_` should be 320 if the quest id is `407320`.
+| `category_`              | `int`      | Quest category. 1st hex digit of a quest id, `category_` should be `4` if the quest id is `407320`. Category in general denotes the type of quest.
+| `subCategory_`           | `int`      | Quest sub-category. 2nd & 3rd hex digit of a quest id, `subCategory_` should be `32` (decimal) if the quest id is `720009`.
+| `serialNumber_`          | `int`      | Serial Number. Last 3 hex digits of a quest id, `serialNumber_` should be `800` (decimal) if the quest id is `407320`.
 | `difficultyHash_`        | `string`   | Difficulty name. Directly controls the difficulty of enemies in general. Maps to  `quest_difficulty` [table](../../tables/table_database.md) (hashed).
 | `lv_`                    | `int`      | Unknown. Seems to affect enemy levels.
 | `time_`                  | `int`      | Quest timer in seconds.
