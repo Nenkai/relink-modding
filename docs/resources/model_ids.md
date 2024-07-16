@@ -430,6 +430,13 @@ wp1904 - Ecke Sachs
 wp1905 - Sword of Bahamut (Primal Sword of Bahamut)
 ```
 
+### Sandalphon
+```
+wp2100 - Apprentice
+wp2106 - World Ender (World Ender, the Fated Edge)
+
+```
+
 ### Seofon
 ```
 wp2200 - Sette di Spade

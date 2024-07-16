@@ -2,7 +2,7 @@
 icon: material/treasure-chest
 ---
 
-:material-lightbulb: Data Version: `1.3.1`
+:material-lightbulb: Data Version: `1.3.x`
 
 !!! note ":material-note: Notes/Observations"
 
