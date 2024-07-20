@@ -76,3 +76,7 @@ For some characters, the weapons will handle their own hitboxes
 For other characters, the weapons are mostly decoration
 
 For *Cagliostro* and *Rosetta*, the Weapon animation assignments are located in the parameter file, where each action will be assigned a weapon animation (or multiple).
+
+---
+
+*Credits: MidnightAugur*

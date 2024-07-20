@@ -108,3 +108,7 @@ This allows the motion to be used multiple times, but have different `AttackRate
     | `28 (268435456)`  | Unknown.
     | `29 (536870912)`  | Unknown.
     | `30 (1073741824)` | Unknown.
+
+---
+
+*Credits: MidnightAugur*
