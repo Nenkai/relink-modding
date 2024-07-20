@@ -97,6 +97,10 @@ nav:
       - Quest Drop Rates: resources/quest_drop_rates.md
       - Weapon Materials: resources/weapon_materials.md
 
+    - Player System:
+      - Actions / Parameters: resources/player/action_parameter.md
+      - Motions: resources/player/motions.md
+
     - Quests/Layouts:
       - Quest Base Info: resources/quests_layouts/quest_base_info.md
       - Placement Info: resources/quests_layouts/placement.md
