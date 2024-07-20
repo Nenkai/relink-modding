@@ -6,7 +6,7 @@ Dependencies are mkdocs-material among other extensions.
 
 ## Setup & Contributing
 
-Python 3.11 is required, NOT ABOVE (pipwin will otherwise not work).
+Python 3 is required.
 ```
 pip install mkdocs-material mkdocs-git-committers-plugin-2 mkdocs-table-reader-plugin mkdocs-git-revision-date-localized-plugin mkdocs-glightbox "mkdocs-material[imaging]"
 ```
