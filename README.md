@@ -6,15 +6,14 @@ Dependencies are mkdocs-material among other extensions.
 
 ## Setup & Contributing
 
-Python 3 is required.
+Python 3.11 is required, NOT ABOVE (pipwin will otherwise not work).
 ```
-pip install mkdocs-material mkdocs-git-committers-plugin-2 mkdocs-table-reader-plugin mkdocs-git-revision-date-localized-plugin mkdocs-glightbox
+pip install mkdocs-material mkdocs-git-committers-plugin-2 mkdocs-table-reader-plugin mkdocs-git-revision-date-localized-plugin mkdocs-glightbox "mkdocs-material[imaging]"
 ```
 
+Cairo (Windows) - Download [MSYS2](https://www.msys2.org/) and run:
 ```
-// Windows
-pip install pipwin 
-pipwin install cairocffi
+pacman -S mingw-w64-ucrt-x86_64-cairo
 ```
 
 ```
