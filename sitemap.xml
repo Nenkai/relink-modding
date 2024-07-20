@@ -131,6 +131,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://nenkai.github.io/relink-modding/resources/player/action_parameter/</loc>
+         <lastmod>2024-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nenkai.github.io/relink-modding/resources/player/motions/</loc>
+         <lastmod>2024-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://nenkai.github.io/relink-modding/resources/quests_layouts/placement/</loc>
          <lastmod>2024-07-20</lastmod>
          <changefreq>daily</changefreq>
