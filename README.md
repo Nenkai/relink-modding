@@ -16,6 +16,7 @@ Cairo (Windows) - Download [MSYS2](https://www.msys2.org/) and run:
 pacman -S mingw-w64-ucrt-x86_64-cairo
 ```
 
+Local host the site:
 ```
 mkdocs serve
 ```
