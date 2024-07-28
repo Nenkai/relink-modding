@@ -57,8 +57,8 @@ This allows the motion to be used multiple times, but have different `AttackRate
     | `15 (32768)`   | Unknown
     | `16 (65536)`   | Unknown
     | `17 (131072)`  | Allows the player to activate Skills
-    | `18 (262144)`   | Perfect Window (does not actually perform the attack, just allows the input)
-    | `19 (524288)`   | Perfect Attack (does not allow input, only calls the action). **`Config` is set to 1.**
+    | `18 (262144)`   | Unknown.
+    | `19 (524288)`   | Unknown.
     | `20 (1048576)`   | Unknown
     | `21 (2097152)`   | Unknown
     | `22 (4194304)`   | Unholster/equip weapon. **`Config` is set to 1**.
@@ -95,8 +95,8 @@ This allows the motion to be used multiple times, but have different `AttackRate
     | `15 (32768)`   | Unknown.
     | `16 (65536)`   | Unknown.
     | `17 (131072)`  | Unknown.
-    | `18 (262144)`   | Unknown.
-    | `19 (524288)`   | Unknown.
+    | `18 (262144)`   | Perfect Window (does not actually perform the attack, just allows the input)
+    | `19 (524288)`   | Perfect Attack (does not allow input, only calls the action). **`Config` is set to 1.**
     | `20 (1048576)`   | Unknown.
     | `21 (2097152)`   | Unknown.
     | `22 (4194304)`   | Allows blocking.
