@@ -16,6 +16,25 @@ icon: material/treasure-chest
 
 If you need to find a specific quest, ++ctrl+f++ and search by quest name.
 
+!!! tip "Best Quests (End Game)"
+
+    * XP/MSP -> **Slimepede**
+    * Fortitude Crystals
+        * **Serenity Upon the Mount** (Maniac, Double Nazar) - Less travel time, friendly to more characters
+        * Roost and Reign (Maniac, Double Griffin)
+        * Gulp... So These Are the Rumored Monsters (Extreme, AFK)
+    * Azurite's Splendor
+        * Pre-Zero: **Slimepede** (Maniac) - 1% chance to spawn prismatic slime per wave, drops 5x Azurites
+        * Zero (Proud)
+    * Flawless Prism -> **License to Thrill** (Extreme, Furycane)
+    * Silver Centrum -> **I See a Grim Vision** (Maniac)
+    * Curios -> **Lock Horns** (Proud, Behemoth)
+    * Damage Cap V+
+        * Pre-Proto Bahamut: Blazing Trial (Proud, Firewyrm)
+        * The Tale of Bahamut's Rage (Proud, Proto-Bahamut)
+    * End Game Sigils (War Elemental, Sup V+ & Others) -> **Lock Horns** (Proud, Behemoth)
+    * Berserker Echo+ -> **Zathba's 'Volunteers'** (Proud)
+
 ??? abstract ":material-update: Change List"
 
     * [1.0 :material-arrow-right: 1.1](change_lists/quest_rate_v1.0_v1.1.htm)
