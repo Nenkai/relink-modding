@@ -6,11 +6,6 @@ icon: material/identifier
 
 ## Player (pl)
 
-!!! tip
-
-    Sometimes this can include unreleased characters. Please credit the site for re-use.
-
-
 ```
 0000 -- Gran (Rebel)
 0001 -- Gran (original)

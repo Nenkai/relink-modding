@@ -38,7 +38,7 @@ Actions, when called, can have projectiles or other attacks linked to them that 
 `branchAtkHit_`             | int | Unknown.
 `dist_`                     | int | Unknown.
 `type_`                     | uint | Unknown.
-`controlTypeHash_`          | uint | Unknown.
+`controlTypeHash_`          | uint | Unknown. [List of Control Types](control_types.md)
 `supportTypeHash_`          | uint | Unknown.
 `actionName_`               | string | **Possibly unused.** Generally a name assigned to the action by the devs.
 `saveMotId{number}_`        | uint   | [Motions](motions.md) being called by this action. saved motions can be confusing at times, as certain actions will not play them in order, such as Parries
@@ -46,7 +46,7 @@ Actions, when called, can have projectiles or other attacks linked to them that 
 `freeWork{number}_`         | uint   | Unknown. 5 and 6 are seemingly always 1 
 `bulletType_`               | uint   | Refers to the FSM associated with the action, I do not know where this is set however, as to add FSM links. Flags are required in the action to call the FSM
 `bulletFreeWork{number}_`   | uint   | Unknown.
-`supportEffectList_`        | uint[] | Utilizes a hash and 6 values in an array format to state the buffs that will be applied to the character or team members when this player calls this action, so long as the required flag is in any of the [motions](motions.md) tied to the action. The first value in the array states how many buffs the game will attempt to give
+`supportEffectList_`        | uint[] | Utilizes a hash and 6 values in an array format to state the buffs that will be applied to the character or team members when this player calls this action, so long as the required flag is in any of the [motions](motions.md) tied to the action. 1st value = How many buffs the game will attempt to give, 2nd value = [Buff Id](buff_ids.md)
 `uiIconCategory_`           | uint   | Possibly unused.
 `actionCategory_`           | uint   | Unknown.
 `isTriggerAttackHit_`       | uint   | Unknown.
@@ -78,5 +78,6 @@ For other characters, the weapons are mostly decoration
 For *Cagliostro* and *Rosetta*, the Weapon animation assignments are located in the parameter file, where each action will be assigned a weapon animation (or multiple).
 
 ---
+
 
 *Credits: MidnightAugur*
