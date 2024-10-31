@@ -10,7 +10,7 @@ When applicable, make sure to support the authors!
 
 * [Worldwide Matchmaking](https://www.nexusmods.com/granbluefantasyrelink/mods/335) by *Nenkai*
 * [Skip Intro-Boot Logos & News](https://www.nexusmods.com/granbluefantasyrelink/mods/28) by *happihora*
-* [Better Sigil Descriptions](https://www.nexusmods.com/granbluefantasyrelink/mods/327) by *whuppo/MuraKarasu*
+* [Community Character Rebalance](https://www.nexusmods.com/granbluefantasyrelink/mods/502)
 * [Curio T4 Rewards With Quick Quest Tickets (Rebalance)](https://www.nexusmods.com/granbluefantasyrelink/mods/322) by *Nenkai*
 * [Show Curio Tier on Drop](https://www.nexusmods.com/granbluefantasyrelink/mods/117) by *Nenkai*
 * [Mute Vyrn/Lyria](https://www.nexusmods.com/granbluefantasyrelink/mods/208) by *happihora*
