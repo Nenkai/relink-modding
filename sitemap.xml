@@ -2,190 +2,202 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://nenkai.github.io/relink-modding/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/contributing/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/getting_started/extraction_modding/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/getting_started/mod_manager/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/modding/creating_mods/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/modding/installing_mods/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/modding/mod_manager_api/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/modding/recommended_mods_tools/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/models/exporting/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/models/importing/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/asset_paths/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/curio_loot_rates/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/enemy_break_part_rates/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/entity_prefixes/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/file_extensions/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/fsm/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/gacha_rates/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/item_ids/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/model_ids/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/quest_drop_rates/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/quest_ids/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/sigil_gem_ids/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/trait_skill_ids/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/weapon_materials/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/formats/minfo/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/formats/mmat/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/formats/objread/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/player/action_parameter/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/player/buff_ids/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/player/control_types/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/player/debuff_ailment_ids/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/player/motions/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/quests_layouts/placement/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/quests_layouts/quest_base_info/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/re/api/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/re/hashes/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
+    </url>
+    <url>
+         <loc>https://nenkai.github.io/relink-modding/resources/re/misc/</loc>
+         <lastmod>2024-11-12</lastmod>
+    </url>
+    <url>
+         <loc>https://nenkai.github.io/relink-modding/resources/re/networking/</loc>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/re/obj_id/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
+    </url>
+    <url>
+         <loc>https://nenkai.github.io/relink-modding/resources/re/save_units/</loc>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/re/user_attributes/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/resources/re/mechanics/rotd/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/tables/table_database/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/textures/granite/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/textures/textures/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/tutorials/file_extraction/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/tutorials/audio/audio_creation/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/tutorials/audio/audio_extraction/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/tutorials/textures/texture_creation/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
     <url>
          <loc>https://nenkai.github.io/relink-modding/tutorials/textures/texture_extraction/</loc>
-         <lastmod>2024-10-31</lastmod>
+         <lastmod>2024-11-12</lastmod>
     </url>
 </urlset>

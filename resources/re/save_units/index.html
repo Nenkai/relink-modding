@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://nenkai.github.io/relink-modding/resources/re/api/">
+        <link rel="canonical" href="https://nenkai.github.io/relink-modding/resources/re/save_units/">
       
       
-        <link rel="prev" href="../../formats/objread/">
+        <link rel="prev" href="../obj_id/">
       
       
-        <link rel="next" href="../hashes/">
+        <link rel="next" href="../user_attributes/">
       
       
       <link rel="icon" href="../../../images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>API - Granblue Fantasy - Relink Modding</title>
+        <title>Save Unit IDs - Granblue Fantasy - Relink Modding</title>
       
     
     
@@ -61,11 +61,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="API - Granblue Fantasy - Relink Modding" >
+        <meta  property="og:title"  content="Save Unit IDs - Granblue Fantasy - Relink Modding" >
       
         <meta  property="og:description"  content="Granblue Fantasy - Relink Modding Docs" >
       
-        <meta  property="og:image"  content="https://nenkai.github.io/relink-modding/assets/images/social/resources/re/api.png" >
+        <meta  property="og:image"  content="https://nenkai.github.io/relink-modding/assets/images/social/resources/re/save_units.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -73,15 +73,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://nenkai.github.io/relink-modding/resources/re/api/" >
+        <meta  property="og:url"  content="https://nenkai.github.io/relink-modding/resources/re/save_units/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="API - Granblue Fantasy - Relink Modding" >
+        <meta  name="twitter:title"  content="Save Unit IDs - Granblue Fantasy - Relink Modding" >
       
         <meta  name="twitter:description"  content="Granblue Fantasy - Relink Modding Docs" >
       
-        <meta  name="twitter:image"  content="https://nenkai.github.io/relink-modding/assets/images/social/resources/re/api.png" >
+        <meta  name="twitter:image"  content="https://nenkai.github.io/relink-modding/assets/images/social/resources/re/save_units.png" >
       
     
     
@@ -113,7 +113,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#api" class="md-skip">
+        <a href="#save-units" class="md-skip">
           Skip to content
         </a>
       
@@ -146,7 +146,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              API
+              Save Unit IDs
             
           </span>
         </div>
@@ -1723,32 +1723,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 7H5a2 2 0 0 0-2 2v8h2v-4h2v4h2V9a2 2 0 0 0-2-2m0 4H5V9h2m7-2h-4v10h2v-4h2a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2m0 4h-2V9h2m6 0v6h1v2h-4v-2h1V9h-1V7h4v2Z"/></svg>
-  
-  <span class="md-ellipsis">
-    API
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 7H5a2 2 0 0 0-2 2v8h2v-4h2v4h2V9a2 2 0 0 0-2-2m0 4H5V9h2m7-2h-4v10h2v-4h2a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2m0 4h-2V9h2m6 0v6h1v2h-4v-2h1V9h-1V7h4v2Z"/></svg>
@@ -1759,125 +1737,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#http-client-setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      HTTP Client Setup
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="HTTP Client Setup">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#base-url" class="md-nav__link">
-    <span class="md-ellipsis">
-      Base URL
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#request-headers" class="md-nav__link">
-    <span class="md-ellipsis">
-      Request Headers
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#errors" class="md-nav__link">
-    <span class="md-ellipsis">
-      Errors
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#endpoints" class="md-nav__link">
-    <span class="md-ellipsis">
-      Endpoints
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Endpoints">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#post-sysget_terms" class="md-nav__link">
-    <span class="md-ellipsis">
-      [POST] sys/get_terms
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#post-sysget_news" class="md-nav__link">
-    <span class="md-ellipsis">
-      [POST] sys/get_news
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#playlog-endpoints" class="md-nav__link">
-    <span class="md-ellipsis">
-      Playlog Endpoints
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Playlog Endpoints">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#post-main" class="md-nav__link">
-    <span class="md-ellipsis">
-      [POST] main
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1979,10 +1838,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../save_units/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 9H5V5h10m-3 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3m5-16H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7z"/></svg>
+  
+  <span class="md-ellipsis">
+    Save Unit IDs
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 9H5V5h10m-3 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3m5-16H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7z"/></svg>
@@ -1993,6 +1874,305 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#userdatamanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      UserDataManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#charactermanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CharacterManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weaponmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      WeaponManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenariomanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      ScenarioManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abilitymanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      AbilityManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gemmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      GemManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#itemmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      ItemManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#partymanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      PartyManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#questsystem" class="md-nav__link">
+    <span class="md-ellipsis">
+      QuestSystem
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fateepisodedatamanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      FateEpisodeDataManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uinetworkmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      UINetworkManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filtersortdatamanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      FilterSortDataManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cycletrademanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleTradeManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tutorialmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      TutorialManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#islandmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      IslandManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uishopmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      UIShopManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclegachamanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleGachaManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uimanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      ui::Manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uiinformationdialogmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      UIInformationDialogManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communication-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      Communication Manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cycleutilityrandom" class="md-nav__link">
+    <span class="md-ellipsis">
+      cycle::utility::Random
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclearchivemanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleArchiveManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclewordlistmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleWordListManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclemainstorymanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleMainStoryManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclebgmmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleBGMManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclepicturebookcharamanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CyclePictureBookCharaManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclepicturebookenemymanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CyclePictureBookEnemyManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclepicturebookpendulummanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CyclePictureBookPendulumManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cycletipsmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleTipsManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commandlistmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CommandListManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#playlogmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      PlaylogManager
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2322,101 +2502,281 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#http-client-setup" class="md-nav__link">
+  <a href="#userdatamanager" class="md-nav__link">
     <span class="md-ellipsis">
-      HTTP Client Setup
+      UserDataManager
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="HTTP Client Setup">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#base-url" class="md-nav__link">
-    <span class="md-ellipsis">
-      Base URL
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#request-headers" class="md-nav__link">
-    <span class="md-ellipsis">
-      Request Headers
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#errors" class="md-nav__link">
-    <span class="md-ellipsis">
-      Errors
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#endpoints" class="md-nav__link">
+  <a href="#charactermanager" class="md-nav__link">
     <span class="md-ellipsis">
-      Endpoints
+      CharacterManager
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Endpoints">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#post-sysget_terms" class="md-nav__link">
-    <span class="md-ellipsis">
-      [POST] sys/get_terms
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#post-sysget_news" class="md-nav__link">
-    <span class="md-ellipsis">
-      [POST] sys/get_news
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#playlog-endpoints" class="md-nav__link">
+  <a href="#weaponmanager" class="md-nav__link">
     <span class="md-ellipsis">
-      Playlog Endpoints
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Playlog Endpoints">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#post-main" class="md-nav__link">
-    <span class="md-ellipsis">
-      [POST] main
+      WeaponManager
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#scenariomanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      ScenarioManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abilitymanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      AbilityManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gemmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      GemManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#itemmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      ItemManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#partymanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      PartyManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#questsystem" class="md-nav__link">
+    <span class="md-ellipsis">
+      QuestSystem
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fateepisodedatamanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      FateEpisodeDataManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uinetworkmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      UINetworkManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filtersortdatamanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      FilterSortDataManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cycletrademanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleTradeManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tutorialmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      TutorialManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#islandmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      IslandManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uishopmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      UIShopManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclegachamanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleGachaManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uimanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      ui::Manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uiinformationdialogmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      UIInformationDialogManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communication-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      Communication Manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cycleutilityrandom" class="md-nav__link">
+    <span class="md-ellipsis">
+      cycle::utility::Random
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclearchivemanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleArchiveManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclewordlistmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleWordListManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclemainstorymanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleMainStoryManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclebgmmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleBGMManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclepicturebookcharamanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CyclePictureBookCharaManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclepicturebookenemymanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CyclePictureBookEnemyManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cyclepicturebookpendulummanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CyclePictureBookPendulumManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cycletipsmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CycleTipsManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commandlistmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      CommandListManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#playlogmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      PlaylogManager
+    </span>
+  </a>
   
 </li>
       
@@ -2435,7 +2795,7 @@
                   
 
   
-    <a href="https://github.com/Nenkai/relink-modding/edit/master/docs/resources/re/api.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/Nenkai/relink-modding/edit/master/docs/resources/re/save_units.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -2443,101 +2803,505 @@
   
 
 
-<h1 id="api">API<a class="headerlink" href="#api" title="Permanent link">&para;</a></h1>
-<p>The game reaches to some very basic API when booting up the game.</p>
-<hr />
-<h2 id="http-client-setup">HTTP Client Setup<a class="headerlink" href="#http-client-setup" title="Permanent link">&para;</a></h2>
-<p>Setup through <a href="https://partner.steamgames.com/doc/api/ISteamHTTP#CreateHTTPRequest"><code>ISteamHTTP::CreateHTTPRequest</code></a></p>
-<h3 id="base-url">Base URL<a class="headerlink" href="#base-url" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>https://                             # Protocol
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>gameapi-relink.granbluefantasy.jp/v1 # Domain
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>api                                  # Type
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>sys/get_terms                        # Endpoint
-</code></pre></div>
-<p>Example: <code>https://gameapi-relink.granbluefantasy.jp/v1/api/index.php/sys/get_terms</code></p>
-<hr />
-<h3 id="request-headers">Request Headers<a class="headerlink" href="#request-headers" title="Permanent link">&para;</a></h3>
-<p>Setup through <a href="https://partner.steamgames.com/doc/api/ISteamHTTP#SetHTTPRequestHeaderValue"><code>ISteamHTTP::SetHTTPRequestHeaderValue</code></a></p>
-<details class="abstract">
-<summary><code>App-Info</code> (Mandatory)</summary>
-<p><code>{}/{}.{}.{} ({}) language/{} region/{} platform/{}"</code></p>
-<ul>
-<li><code>{1}</code> - Game<ul>
-<li>Always <code>relink</code></li>
-</ul>
-</li>
-<li><code>{2/3/4}</code> - Version<ul>
-<li>Version from <a href="../user_attributes/">User Attributes</a>, so <code>major.minor.patch</code></li>
-</ul>
-</li>
-<li><code>{5}</code> - Platform String<ul>
-<li><code>STEAM</code></li>
-<li><code>PLAYSTATION_4</code></li>
-<li><code>PLAYSTATION_5</code></li>
-</ul>
-</li>
-<li><code>{6}</code> - Language Value<ul>
-<li><code>1</code> = en</li>
-</ul>
-</li>
-<li><code>{7}</code> - Region Value</li>
-<li><code>{8}</code> - Platform Value<ul>
-<li>1 = PS4</li>
-<li>2 = PS5</li>
-<li>3 = STEAM</li>
-</ul>
-</li>
-</ul>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<p><code>relink/1.1.1 (STEAM) language/1 region/0 platform/3"</code></p>
+<h1 id="save-units"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 9H5V5h10m-3 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3m5-16H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7z"/></svg></span> Save Units<a class="headerlink" href="#save-units" title="Permanent link">&para;</a></h1>
+<p>Save units are part of the save data. Every type of data is separated by a type number.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Many types may be missing still.</p>
 </div>
-</details>
-<details class="abstract">
-<summary><code>Signature</code> (Mandatory)</summary>
-<p>Key: <code>9xcleSD8efksogsz</code> (Steam), <code>id83dfsSlvg2Lo</code> (PS4)</p>
-<p>input: Current timestamp ms i.e 1711640120000 to string</p>
-<p>Signature = <code>Base64(input + ";" + ToString(HMACSHA256(input, key)))</code></p>
-</details>
-<hr />
-<h3 id="errors">Errors<a class="headerlink" href="#errors" title="Permanent link">&para;</a></h3>
-<p>Signature lasts for one minute or so, otherwise error (403):</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">[[</span><span class="mi">1</span><span class="p">],</span><span class="w"> </span><span class="p">[</span><span class="mi">4</span><span class="p">]]</span>
+<h2 id="userdatamanager">UserDataManager<a class="headerlink" href="#userdatamanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>- 1104
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>- 1105
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>- 1102
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>- 1101
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>- 1103
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>- 1106
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>- 1107
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>- 1114
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>- 1108
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>- 1109
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>- 1110
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>- 1111
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>- 1112
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>- 1113
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>- 4601
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>- 4602
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>- 4603
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>- 4604
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>- 4605
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>- 4606
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>- 4607
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>- 1151
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>- 1201
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>- 1202
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>- 1203
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>- 1204
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>- 1205
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>- 1206
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>- 1207
 </code></pre></div>
-<hr />
-<h2 id="endpoints">Endpoints<a class="headerlink" href="#endpoints" title="Permanent link">&para;</a></h2>
-<h3 id="post-sysget_terms">[POST] <code>sys/get_terms</code><a class="headerlink" href="#post-sysget_terms" title="Permanent link">&para;</a></h3>
-<p>When correct:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">[[</span><span class="mi">0</span><span class="p">],</span><span class="w"> </span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">]]</span>
-</code></pre></div></p>
-<hr />
-<h3 id="post-sysget_news">[POST] <code>sys/get_news</code><a class="headerlink" href="#post-sysget_news" title="Permanent link">&para;</a></h3>
-<div class="admonition example">
-<p class="admonition-title">Sample Result (json)</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">[[</span><span class="mi">0</span><span class="p">],[</span><span class="mi">0</span><span class="p">,</span><span class="mi">7</span><span class="p">,[[</span><span class="mi">7</span><span class="p">,</span><span class="s2">&quot;This Just In!&quot;</span><span class="p">,</span><span class="s2">&quot;Ver. 1.1.0 is now available!\nThis patch features a new quest addition, bug fixes, and other updates.&quot;</span><span class="p">,</span><span class="s2">&quot;cmn_imgnews_0110_00&quot;</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s2">&quot;https:\/\/relink.granbluefantasy.jp\/en\/news\/detail?id=uudl9p4so98&quot;</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">6</span><span class="p">,</span><span class="s2">&quot;Ready for The Final Vision?&quot;</span><span class="p">,</span><span class="s2">&quot;O \&quot;proud\&quot; skyfarers, victors of the highest order, Supreme Primarch Sandalphon\nhas a request for you. Join him in a battle against the ultimate foe, Lucilius!&quot;</span><span class="p">,</span><span class="s2">&quot;cmn_imgnews_0110_03&quot;</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s2">&quot;https:\/\/relink.granbluefantasy.jp\/en\/news\/detail?id=uudl9p4so98&quot;</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="s2">&quot;New Emote Set: Let&#39;s Chat!&quot;</span><span class="p">,</span><span class="s2">&quot;Come on, it&#39;s time to express yourself!\nLiven up the party with 3 new unique emotes that all characters can use!&quot;</span><span class="p">,</span><span class="s2">&quot;cmn_imgnews_0110_01&quot;</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s2">&quot;https:\/\/store.steampowered.com\/app\/2782160\/GRANBLUE_FANTASY_Relink\/&quot;</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">4</span><span class="p">,</span><span class="s2">&quot;Item Packs On Sale Now!&quot;</span><span class="p">,</span><span class="s2">&quot;Gear up for your adventure in Zegagrande with helpful, powerful sigils!\nThese packs also come with resources for enhancing characters and gear!\nSo get stronger and crush your foes!&quot;</span><span class="p">,</span><span class="s2">&quot;cmn_imgnews_0110_02&quot;</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s2">&quot;https:\/\/store.steampowered.com\/dlc\/881020\/GRANBLUE_FANTASY_Relink\/&quot;</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="s2">&quot;Upgrade Pack On Sale Now!&quot;</span><span class="p">,</span><span class="s2">&quot;Get all the goodies of the Special Edition with this upgrade pack!\nNow&#39;s the chance to pick up even more Relink goodness!\n*This product is intended for those who have purchased the digital Standard Edition.&quot;</span><span class="p">,</span><span class="s2">&quot;cmn_imgnews_0110_04&quot;</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s2">&quot;https:\/\/store.steampowered.com\/app\/2799850\/GRANBLUE_FANTASY_Relink\/&quot;</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="s2">&quot;Color Packs On Sale Now!&quot;</span><span class="p">,</span><span class="s2">&quot;Get more character colors with three additional color packs!\n*Color packs 1, 2 and 3 can be purchased individually or as a set of three.\n*The three-pack set is also included in the Deluxe Edition, Collector&#39;s Edition, and Digital Deluxe Edition.\n*The Special Edition only includes color packs 2 and 3.&quot;</span><span class="p">,</span><span class="s2">&quot;cmn_imgnews_0110_05&quot;</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s2">&quot;https:\/\/store.steampowered.com\/dlc\/881020\/GRANBLUE_FANTASY_Relink\/&quot;</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">1</span><span class="p">,</span><span class="s2">&quot;Official Site Information&quot;</span><span class="p">,</span><span class="s2">&quot;Check the official site for the latest information on Granblue Fantasy: Relink!&quot;</span><span class="p">,</span><span class="s2">&quot;cmn_imgnews_0110_00\t&quot;</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s2">&quot;https:\/\/relink.granbluefantasy.jp\/en\/&quot;</span><span class="p">,</span><span class="mi">0</span><span class="p">]]]]</span>
+<h2 id="charactermanager">CharacterManager<a class="headerlink" href="#charactermanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Unit ids 10000 through 10039
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>- 1301
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>- 1315
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>- 1302
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>- 1316
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>- 1317
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>- 1318
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>- 1303
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>- 1304
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>- 1305
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>- 1307
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>- 1321
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>- 1322
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>- 1402
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>- 1403
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>- 1404
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>- 1501
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>- 1502
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a>- 1503
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a>// unit ids altered? this value * 1000 and * 10000
+<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a>- 1601
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a>- 1602
+<a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a>- 1603
+<a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a>- 1604
+<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a>- 1605
+<a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a>- 1606
+<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a>- 1607
+<a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a>
+<a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a>- 1308
+<a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a>- 1309
+<a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a>- 1310
+<a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a>- 1311
+<a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a>- 1312
+<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a>- 1313
+<a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a>- 1314
+<a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a>
+<a id="__codelineno-1-40" name="__codelineno-1-40" href="#__codelineno-1-40"></a>unit ids 20000 through (20000 + (40 * 15))
+<a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a>
+<a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a>- 3001
+<a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a>- 3002
+<a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a>- 3003
+<a id="__codelineno-1-45" name="__codelineno-1-45" href="#__codelineno-1-45"></a>- 3004
+<a id="__codelineno-1-46" name="__codelineno-1-46" href="#__codelineno-1-46"></a>
+<a id="__codelineno-1-47" name="__codelineno-1-47" href="#__codelineno-1-47"></a>- 1402
+<a id="__codelineno-1-48" name="__codelineno-1-48" href="#__codelineno-1-48"></a>- 1403
+<a id="__codelineno-1-49" name="__codelineno-1-49" href="#__codelineno-1-49"></a>- 1404
+<a id="__codelineno-1-50" name="__codelineno-1-50" href="#__codelineno-1-50"></a>
+<a id="__codelineno-1-51" name="__codelineno-1-51" href="#__codelineno-1-51"></a>7 Unit ids 10100/10200
+<a id="__codelineno-1-52" name="__codelineno-1-52" href="#__codelineno-1-52"></a>- 3101
+<a id="__codelineno-1-53" name="__codelineno-1-53" href="#__codelineno-1-53"></a>- 3102
+<a id="__codelineno-1-54" name="__codelineno-1-54" href="#__codelineno-1-54"></a>- 3103
+<a id="__codelineno-1-55" name="__codelineno-1-55" href="#__codelineno-1-55"></a>- 3104
+<a id="__codelineno-1-56" name="__codelineno-1-56" href="#__codelineno-1-56"></a>- 3105
+<a id="__codelineno-1-57" name="__codelineno-1-57" href="#__codelineno-1-57"></a>- 3106
+<a id="__codelineno-1-58" name="__codelineno-1-58" href="#__codelineno-1-58"></a>- 3107
+<a id="__codelineno-1-59" name="__codelineno-1-59" href="#__codelineno-1-59"></a>- 3108
+<a id="__codelineno-1-60" name="__codelineno-1-60" href="#__codelineno-1-60"></a>
+<a id="__codelineno-1-61" name="__codelineno-1-61" href="#__codelineno-1-61"></a>Then 10100/10200 * 100
+<a id="__codelineno-1-62" name="__codelineno-1-62" href="#__codelineno-1-62"></a>
+<a id="__codelineno-1-63" name="__codelineno-1-63" href="#__codelineno-1-63"></a>- 3401
+<a id="__codelineno-1-64" name="__codelineno-1-64" href="#__codelineno-1-64"></a>- 3402
+<a id="__codelineno-1-65" name="__codelineno-1-65" href="#__codelineno-1-65"></a>- 1701
+<a id="__codelineno-1-66" name="__codelineno-1-66" href="#__codelineno-1-66"></a>- 1702
+<a id="__codelineno-1-67" name="__codelineno-1-67" href="#__codelineno-1-67"></a>
+<a id="__codelineno-1-68" name="__codelineno-1-68" href="#__codelineno-1-68"></a>- 1501
+<a id="__codelineno-1-69" name="__codelineno-1-69" href="#__codelineno-1-69"></a>- 1502
+<a id="__codelineno-1-70" name="__codelineno-1-70" href="#__codelineno-1-70"></a>- 1503
+<a id="__codelineno-1-71" name="__codelineno-1-71" href="#__codelineno-1-71"></a>
+<a id="__codelineno-1-72" name="__codelineno-1-72" href="#__codelineno-1-72"></a>// unit ids altered? this value * 1000 and * 10000
+<a id="__codelineno-1-73" name="__codelineno-1-73" href="#__codelineno-1-73"></a>- 1601
+<a id="__codelineno-1-74" name="__codelineno-1-74" href="#__codelineno-1-74"></a>- 1602
+<a id="__codelineno-1-75" name="__codelineno-1-75" href="#__codelineno-1-75"></a>- 1603
+<a id="__codelineno-1-76" name="__codelineno-1-76" href="#__codelineno-1-76"></a>- 1604
+<a id="__codelineno-1-77" name="__codelineno-1-77" href="#__codelineno-1-77"></a>- 1605
+<a id="__codelineno-1-78" name="__codelineno-1-78" href="#__codelineno-1-78"></a>- 1606
+<a id="__codelineno-1-79" name="__codelineno-1-79" href="#__codelineno-1-79"></a>- 1607
 </code></pre></div>
-</div>
-<hr />
-<h2 id="playlog-endpoints">Playlog Endpoints<a class="headerlink" href="#playlog-endpoints" title="Permanent link">&para;</a></h2>
-<p>Playlog is used for quest reports/telemetry. </p>
-<p>It is fired on:</p>
-<ul>
-<li>Quest clear (after the results screen)</li>
-<li>Quest abandon (immediately on abandon)</li>
-</ul>
-<p>Url is <code>https://main-playlog-relink.granbluefantasy.jp/playlog/</code></p>
-<h3 id="post-main">[POST] <code>main</code><a class="headerlink" href="#post-main" title="Permanent link">&para;</a></h3>
-<p><a href="../playlog_request.json"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h2v2H5v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5h2v2H5c-1.07-.27-2-.9-2-2v-4a2 2 0 0 0-2-2H0v-2h1a2 2 0 0 0 2-2V5a2 2 0 0 1 2-2m14 0a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2h1v2h-1a2 2 0 0 0-2 2v4a2 2 0 0 1-2 2h-2v-2h2v-5a2 2 0 0 1 2-2 2 2 0 0 1-2-2V5h-2V3zm-7 12a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m-4 0a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m8 0a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1"/></svg></span> Sample Request Data</a></p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Steam ID is hashed, it is not possible to refer back to the original steam profile that sent the result. Refer to generation below.</p>
-<p>Pseudo-code of uid generation:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kt">string</span><span class="w"> </span><span class="n">key</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;kdu7JfwdKDu3&quot;</span><span class="p">;</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="kt">string</span><span class="w"> </span><span class="n">str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;STEAM:&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">id</span><span class="p">;</span><span class="w"> </span><span class="c1">// id is SteamID64</span>
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">17</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">   </span><span class="n">str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">HMACSHA256ToStr</span><span class="p">(</span><span class="n">str</span><span class="p">,</span><span class="w"> </span><span class="n">key</span><span class="p">);</span><span class="w"> </span><span class="c1">// HMACSHA256 str + convert to hex string (lowercase)</span>
+<h2 id="weaponmanager">WeaponManager<a class="headerlink" href="#weaponmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>// No unit id
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>- 2801
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>// loop going on for these, possibly main id
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>- 2802
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>- 2803
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>- 2814
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>- 2815
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>- 2804
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>- 2805
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>- 2806
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>- 2807
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>- 1701
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>- 1702
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>- 2816
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>- 2813
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>
+<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a>
+<a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a>// unit ids 0 through 511
+<a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a>- 7401
+<a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a>- 7402
+<a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a>- 7403
 </code></pre></div>
-</div>
+<h2 id="scenariomanager">ScenarioManager<a class="headerlink" href="#scenariomanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>// unit ids 0 through 64
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>- 4202
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>- 4201
+</code></pre></div>
+<h2 id="abilitymanager">AbilityManager<a class="headerlink" href="#abilitymanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>// unit ids 0 through 640
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>- 3903
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>- 3904
+</code></pre></div>
+<h2 id="gemmanager">GemManager<a class="headerlink" href="#gemmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>// unit ids unk
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>- 2701
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>// Loop? 5100 entries
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>- 2702
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>- 2703
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>- 2704
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>- 2706
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>- 2707
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>- 1701
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>- 1702
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>
+<a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>// Loop? 900 entries
+<a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a>- 8001
+<a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a>- 8002
+<a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a>
+<a id="__codelineno-5-17" name="__codelineno-5-17" href="#__codelineno-5-17"></a>- 2708
+</code></pre></div>
+<h2 id="itemmanager">ItemManager<a class="headerlink" href="#itemmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>// unit ids unk
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>// Loop, 300 entries
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>- 1801
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>- 1802
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>- 1803
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>- 1804
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>- 1807
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>- 1805
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>- 2001
+<a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>
+<a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a>// Loop 999 entries, id increment 100?
+<a id="__codelineno-6-14" name="__codelineno-6-14" href="#__codelineno-6-14"></a>- 2002
+<a id="__codelineno-6-15" name="__codelineno-6-15" href="#__codelineno-6-15"></a>- 2003
+<a id="__codelineno-6-16" name="__codelineno-6-16" href="#__codelineno-6-16"></a>  // extra main id for these?
+<a id="__codelineno-6-17" name="__codelineno-6-17" href="#__codelineno-6-17"></a>  - 1901
+<a id="__codelineno-6-18" name="__codelineno-6-18" href="#__codelineno-6-18"></a>- 1902
+<a id="__codelineno-6-19" name="__codelineno-6-19" href="#__codelineno-6-19"></a>- 1903
+<a id="__codelineno-6-20" name="__codelineno-6-20" href="#__codelineno-6-20"></a>- 1904
+<a id="__codelineno-6-21" name="__codelineno-6-21" href="#__codelineno-6-21"></a>- 2004
+<a id="__codelineno-6-22" name="__codelineno-6-22" href="#__codelineno-6-22"></a>
+<a id="__codelineno-6-23" name="__codelineno-6-23" href="#__codelineno-6-23"></a>- 2101
+<a id="__codelineno-6-24" name="__codelineno-6-24" href="#__codelineno-6-24"></a>// Loop 5000 entries
+<a id="__codelineno-6-25" name="__codelineno-6-25" href="#__codelineno-6-25"></a>- 2102
+<a id="__codelineno-6-26" name="__codelineno-6-26" href="#__codelineno-6-26"></a>- 2103
+<a id="__codelineno-6-27" name="__codelineno-6-27" href="#__codelineno-6-27"></a>- 2104
+<a id="__codelineno-6-28" name="__codelineno-6-28" href="#__codelineno-6-28"></a>- 2105
+<a id="__codelineno-6-29" name="__codelineno-6-29" href="#__codelineno-6-29"></a>- 1701
+<a id="__codelineno-6-30" name="__codelineno-6-30" href="#__codelineno-6-30"></a>- 1702
+<a id="__codelineno-6-31" name="__codelineno-6-31" href="#__codelineno-6-31"></a>
+<a id="__codelineno-6-32" name="__codelineno-6-32" href="#__codelineno-6-32"></a>- 6801
+<a id="__codelineno-6-33" name="__codelineno-6-33" href="#__codelineno-6-33"></a>
+<a id="__codelineno-6-34" name="__codelineno-6-34" href="#__codelineno-6-34"></a>- 1806
+</code></pre></div>
+<h2 id="partymanager">PartyManager<a class="headerlink" href="#partymanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>- 2201/103000
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>- 2202/103000
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>- 2203/103000
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>- 2201/103001
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>- 2202/103001
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>- 2203/103001
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>- 2201/103002
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>- 2202/103002
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>- 2203/103002
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>- 2201/103003
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>- 2202/103003
+<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>- 2203/103003
+<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>
+<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>// unit ids 104000, 104001, 104002, 104003
+<a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>- 3003
+<a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a>- 3004
+<a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a>- 1402
+<a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a>- 1403
+<a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a>- 1404
+<a id="__codelineno-7-20" name="__codelineno-7-20" href="#__codelineno-7-20"></a>
+<a id="__codelineno-7-21" name="__codelineno-7-21" href="#__codelineno-7-21"></a>- 2401/10400
+<a id="__codelineno-7-22" name="__codelineno-7-22" href="#__codelineno-7-22"></a>- 2402/10400
+<a id="__codelineno-7-23" name="__codelineno-7-23" href="#__codelineno-7-23"></a>
+<a id="__codelineno-7-24" name="__codelineno-7-24" href="#__codelineno-7-24"></a>// unit ids 10500 through 105xx?
+<a id="__codelineno-7-25" name="__codelineno-7-25" href="#__codelineno-7-25"></a>- 2301
+<a id="__codelineno-7-26" name="__codelineno-7-26" href="#__codelineno-7-26"></a>- 2302
+<a id="__codelineno-7-27" name="__codelineno-7-27" href="#__codelineno-7-27"></a>
+<a id="__codelineno-7-28" name="__codelineno-7-28" href="#__codelineno-7-28"></a>// then same entities as i.e 104000, with main multiplied by 10 then + 1/2/3?
+</code></pre></div>
+<h2 id="questsystem">QuestSystem<a class="headerlink" href="#questsystem" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>- 2501
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>- 2502
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>- 2503
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>- 2504
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>- 2505
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>- 2506
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>- 2507
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>- 2508
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>- 2509
+<a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>
+<a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>- 2530
+<a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a>
+<a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a>- 2510
+<a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a>- 2511
+<a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a>- 2512
+<a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a>- 2513
+<a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a>- 2514
+<a id="__codelineno-8-18" name="__codelineno-8-18" href="#__codelineno-8-18"></a>- 2515
+<a id="__codelineno-8-19" name="__codelineno-8-19" href="#__codelineno-8-19"></a>- 2516
+<a id="__codelineno-8-20" name="__codelineno-8-20" href="#__codelineno-8-20"></a>- 2517
+<a id="__codelineno-8-21" name="__codelineno-8-21" href="#__codelineno-8-21"></a>- 2518
+<a id="__codelineno-8-22" name="__codelineno-8-22" href="#__codelineno-8-22"></a>- 2519
+<a id="__codelineno-8-23" name="__codelineno-8-23" href="#__codelineno-8-23"></a>- 2520
+<a id="__codelineno-8-24" name="__codelineno-8-24" href="#__codelineno-8-24"></a>- 2521
+<a id="__codelineno-8-25" name="__codelineno-8-25" href="#__codelineno-8-25"></a>- 2522
+<a id="__codelineno-8-26" name="__codelineno-8-26" href="#__codelineno-8-26"></a>
+<a id="__codelineno-8-27" name="__codelineno-8-27" href="#__codelineno-8-27"></a>- 2550
+<a id="__codelineno-8-28" name="__codelineno-8-28" href="#__codelineno-8-28"></a>- 2551
+<a id="__codelineno-8-29" name="__codelineno-8-29" href="#__codelineno-8-29"></a>- 2552
+<a id="__codelineno-8-30" name="__codelineno-8-30" href="#__codelineno-8-30"></a>- 2553
+<a id="__codelineno-8-31" name="__codelineno-8-31" href="#__codelineno-8-31"></a>- 2554
+<a id="__codelineno-8-32" name="__codelineno-8-32" href="#__codelineno-8-32"></a>- 2555
+<a id="__codelineno-8-33" name="__codelineno-8-33" href="#__codelineno-8-33"></a>
+<a id="__codelineno-8-34" name="__codelineno-8-34" href="#__codelineno-8-34"></a>- 2560
+<a id="__codelineno-8-35" name="__codelineno-8-35" href="#__codelineno-8-35"></a>- 2561
+<a id="__codelineno-8-36" name="__codelineno-8-36" href="#__codelineno-8-36"></a>- 2562
+<a id="__codelineno-8-37" name="__codelineno-8-37" href="#__codelineno-8-37"></a>- 2563
+<a id="__codelineno-8-38" name="__codelineno-8-38" href="#__codelineno-8-38"></a>
+<a id="__codelineno-8-39" name="__codelineno-8-39" href="#__codelineno-8-39"></a>- 2570
+<a id="__codelineno-8-40" name="__codelineno-8-40" href="#__codelineno-8-40"></a>- 2571
+<a id="__codelineno-8-41" name="__codelineno-8-41" href="#__codelineno-8-41"></a>- 2572
+<a id="__codelineno-8-42" name="__codelineno-8-42" href="#__codelineno-8-42"></a>- 2573
+<a id="__codelineno-8-43" name="__codelineno-8-43" href="#__codelineno-8-43"></a>- 2574
+<a id="__codelineno-8-44" name="__codelineno-8-44" href="#__codelineno-8-44"></a>- 2575
+<a id="__codelineno-8-45" name="__codelineno-8-45" href="#__codelineno-8-45"></a>- 2576
+<a id="__codelineno-8-46" name="__codelineno-8-46" href="#__codelineno-8-46"></a>- 2577
+<a id="__codelineno-8-47" name="__codelineno-8-47" href="#__codelineno-8-47"></a>
+<a id="__codelineno-8-48" name="__codelineno-8-48" href="#__codelineno-8-48"></a>- 2580
+<a id="__codelineno-8-49" name="__codelineno-8-49" href="#__codelineno-8-49"></a>- 2581
+<a id="__codelineno-8-50" name="__codelineno-8-50" href="#__codelineno-8-50"></a>- 2582
+<a id="__codelineno-8-51" name="__codelineno-8-51" href="#__codelineno-8-51"></a>- 2583
+</code></pre></div>
+<h2 id="fateepisodedatamanager">FateEpisodeDataManager<a class="headerlink" href="#fateepisodedatamanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>// unit ids 0 thru 800
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>- 3501
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>- 3502
+</code></pre></div>
+<h2 id="uinetworkmanager">UINetworkManager<a class="headerlink" href="#uinetworkmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>- unit id 10600, 10700, 10800,, 10900
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>- 4502
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>- 4503
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>- 4504
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>- 4505
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>- 4506
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>- 4507
+<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a>
+<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>- 4601
+<a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a>- 4602
+<a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a>- 4603
+<a id="__codelineno-10-13" name="__codelineno-10-13" href="#__codelineno-10-13"></a>- 4604
+<a id="__codelineno-10-14" name="__codelineno-10-14" href="#__codelineno-10-14"></a>- 4605
+<a id="__codelineno-10-15" name="__codelineno-10-15" href="#__codelineno-10-15"></a>- 4606
+<a id="__codelineno-10-16" name="__codelineno-10-16" href="#__codelineno-10-16"></a>- 4607
+<a id="__codelineno-10-17" name="__codelineno-10-17" href="#__codelineno-10-17"></a>
+<a id="__codelineno-10-18" name="__codelineno-10-18" href="#__codelineno-10-18"></a>- 4701
+<a id="__codelineno-10-19" name="__codelineno-10-19" href="#__codelineno-10-19"></a>- 4702
+<a id="__codelineno-10-20" name="__codelineno-10-20" href="#__codelineno-10-20"></a>- 4703
+<a id="__codelineno-10-21" name="__codelineno-10-21" href="#__codelineno-10-21"></a>- 4704
+<a id="__codelineno-10-22" name="__codelineno-10-22" href="#__codelineno-10-22"></a>- 4705
+<a id="__codelineno-10-23" name="__codelineno-10-23" href="#__codelineno-10-23"></a>- 4706
+<a id="__codelineno-10-24" name="__codelineno-10-24" href="#__codelineno-10-24"></a>- 4707
+<a id="__codelineno-10-25" name="__codelineno-10-25" href="#__codelineno-10-25"></a>- 4708
+<a id="__codelineno-10-26" name="__codelineno-10-26" href="#__codelineno-10-26"></a>
+<a id="__codelineno-10-27" name="__codelineno-10-27" href="#__codelineno-10-27"></a>// unit * 100?
+<a id="__codelineno-10-28" name="__codelineno-10-28" href="#__codelineno-10-28"></a>- 4801
+<a id="__codelineno-10-29" name="__codelineno-10-29" href="#__codelineno-10-29"></a>- 4802
+<a id="__codelineno-10-30" name="__codelineno-10-30" href="#__codelineno-10-30"></a>- 4803
+<a id="__codelineno-10-31" name="__codelineno-10-31" href="#__codelineno-10-31"></a>- 4804
+<a id="__codelineno-10-32" name="__codelineno-10-32" href="#__codelineno-10-32"></a>
+<a id="__codelineno-10-33" name="__codelineno-10-33" href="#__codelineno-10-33"></a>- 4901
+<a id="__codelineno-10-34" name="__codelineno-10-34" href="#__codelineno-10-34"></a>- 5001
+<a id="__codelineno-10-35" name="__codelineno-10-35" href="#__codelineno-10-35"></a>- 5002
+<a id="__codelineno-10-36" name="__codelineno-10-36" href="#__codelineno-10-36"></a>- 5003
+<a id="__codelineno-10-37" name="__codelineno-10-37" href="#__codelineno-10-37"></a>
+<a id="__codelineno-10-38" name="__codelineno-10-38" href="#__codelineno-10-38"></a>## misc
+<a id="__codelineno-10-39" name="__codelineno-10-39" href="#__codelineno-10-39"></a>- 7204
+<a id="__codelineno-10-40" name="__codelineno-10-40" href="#__codelineno-10-40"></a>- 7201
+<a id="__codelineno-10-41" name="__codelineno-10-41" href="#__codelineno-10-41"></a>- 7202
+<a id="__codelineno-10-42" name="__codelineno-10-42" href="#__codelineno-10-42"></a>- 7203
+</code></pre></div>
+<h2 id="filtersortdatamanager">FilterSortDataManager<a class="headerlink" href="#filtersortdatamanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>// unit id unk
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>- 3601
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>- 3701
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>// 32 entries
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>- 3801
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>- 3802
+</code></pre></div>
+<h2 id="cycletrademanager">CycleTradeManager<a class="headerlink" href="#cycletrademanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>// Unit unk
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>- 4004
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>// 1024 entries?
+<a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>- 4001
+<a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a>- 4002
+<a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a>- 4003
+<a id="__codelineno-12-8" name="__codelineno-12-8" href="#__codelineno-12-8"></a>
+<a id="__codelineno-12-9" name="__codelineno-12-9" href="#__codelineno-12-9"></a>- 4101
+<a id="__codelineno-12-10" name="__codelineno-12-10" href="#__codelineno-12-10"></a>- 4102
+<a id="__codelineno-12-11" name="__codelineno-12-11" href="#__codelineno-12-11"></a>- 4103
+<a id="__codelineno-12-12" name="__codelineno-12-12" href="#__codelineno-12-12"></a>- 4104
+<a id="__codelineno-12-13" name="__codelineno-12-13" href="#__codelineno-12-13"></a>- 4105
+<a id="__codelineno-12-14" name="__codelineno-12-14" href="#__codelineno-12-14"></a>- 4106
+<a id="__codelineno-12-15" name="__codelineno-12-15" href="#__codelineno-12-15"></a>- 4107
+</code></pre></div>
+<h2 id="tutorialmanager">TutorialManager<a class="headerlink" href="#tutorialmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>// unit id 0 thru 300
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>- 5901
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>- 5902
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>// unit id 0 thru 300
+<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>- 6001
+<a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>- 6002
+</code></pre></div>
+<h2 id="islandmanager">IslandManager<a class="headerlink" href="#islandmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>// unit ids 0 thru 32
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>- 6101
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>- 6102
+</code></pre></div>
+<h2 id="uishopmanager">UIShopManager<a class="headerlink" href="#uishopmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>// unit id 0 thru 32
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>- 6901
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>- 6902
+</code></pre></div>
+<h2 id="cyclegachamanager">CycleGachaManager<a class="headerlink" href="#cyclegachamanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>// unit id 0 thru 9
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>- 7001
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>- 7002
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>- 7003
+</code></pre></div>
+<h2 id="uimanager">ui:<img alt="🔓" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f513.svg" title=":unlock:" />:Manager<a class="headerlink" href="#uimanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>// unit id 0 thru 128
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>- 7101
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>- 7102
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>- 7103
+</code></pre></div>
+<h2 id="uiinformationdialogmanager">UIInformationDialogManager<a class="headerlink" href="#uiinformationdialogmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>- 7303
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>- 7304
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>- 7305
+<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a>- 7306
+<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>- 7307
+<a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a>- 7308
+<a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a>- 7309
+<a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a>- 7310
+<a id="__codelineno-18-9" name="__codelineno-18-9" href="#__codelineno-18-9"></a>
+<a id="__codelineno-18-10" name="__codelineno-18-10" href="#__codelineno-18-10"></a>// 64 entries
+<a id="__codelineno-18-11" name="__codelineno-18-11" href="#__codelineno-18-11"></a>- 7301
+<a id="__codelineno-18-12" name="__codelineno-18-12" href="#__codelineno-18-12"></a>- 7302
+<a id="__codelineno-18-13" name="__codelineno-18-13" href="#__codelineno-18-13"></a>
+<a id="__codelineno-18-14" name="__codelineno-18-14" href="#__codelineno-18-14"></a>// 64 entries
+<a id="__codelineno-18-15" name="__codelineno-18-15" href="#__codelineno-18-15"></a>- 7351
+<a id="__codelineno-18-16" name="__codelineno-18-16" href="#__codelineno-18-16"></a>- 7352
+</code></pre></div>
+<h2 id="communication-manager">Communication Manager<a class="headerlink" href="#communication-manager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>// unit ids 0 thru 29
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>- 6201
+<a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>- 6202
+<a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a>
+<a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a>// loop 100 unit entries?
+<a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a>- 6301
+<a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a>- 6302
+<a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a>
+<a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a>// loop 20?
+<a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a>- 7502
+<a id="__codelineno-19-11" name="__codelineno-19-11" href="#__codelineno-19-11"></a>- 7501
+<a id="__codelineno-19-12" name="__codelineno-19-12" href="#__codelineno-19-12"></a>- 7503
+<a id="__codelineno-19-13" name="__codelineno-19-13" href="#__codelineno-19-13"></a>- 7504
+<a id="__codelineno-19-14" name="__codelineno-19-14" href="#__codelineno-19-14"></a>
+<a id="__codelineno-19-15" name="__codelineno-19-15" href="#__codelineno-19-15"></a>- 7701/0/1/2/3
+<a id="__codelineno-19-16" name="__codelineno-19-16" href="#__codelineno-19-16"></a>- 7702/0/1/2/3
+<a id="__codelineno-19-17" name="__codelineno-19-17" href="#__codelineno-19-17"></a>- 7703/0/1/2/3
+</code></pre></div>
+<h2 id="cycleutilityrandom">cycle::utility::Random<a class="headerlink" href="#cycleutilityrandom" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>- 7601
+</code></pre></div>
+<h2 id="cyclearchivemanager">CycleArchiveManager<a class="headerlink" href="#cyclearchivemanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>// unit id 0 thru 100
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>- 7901
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>- 7902
+</code></pre></div>
+<h2 id="cyclewordlistmanager">CycleWordListManager<a class="headerlink" href="#cyclewordlistmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>// unit id 0 thru 150
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>- 8101
+<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>- 8102
+</code></pre></div>
+<h2 id="cyclemainstorymanager">CycleMainStoryManager<a class="headerlink" href="#cyclemainstorymanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>// unit id 0 thru 260
+<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>- 8201
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>- 8202
+</code></pre></div>
+<h2 id="cyclebgmmanager">CycleBGMManager<a class="headerlink" href="#cyclebgmmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>// unit id 0 thru 100
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>- 8301
+<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>- 8302
+</code></pre></div>
+<h2 id="cyclepicturebookcharamanager">CyclePictureBookCharaManager<a class="headerlink" href="#cyclepicturebookcharamanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>// unit id 0 thru 50
+<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>- 8401
+<a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>- 8402
+</code></pre></div>
+<h2 id="cyclepicturebookenemymanager">CyclePictureBookEnemyManager<a class="headerlink" href="#cyclepicturebookenemymanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>// unit id 0 thru 150
+<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>- 8501
+<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a>- 8502
+</code></pre></div>
+<h2 id="cyclepicturebookpendulummanager">CyclePictureBookPendulumManager<a class="headerlink" href="#cyclepicturebookpendulummanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>// unit id 0 thru 10
+<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>- 8601
+<a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a>- 8602
+</code></pre></div>
+<h2 id="cycletipsmanager">CycleTipsManager<a class="headerlink" href="#cycletipsmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>// unit id 0 thru 500
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>- 8701
+<a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a>- 8702
+</code></pre></div>
+<h2 id="commandlistmanager">CommandListManager<a class="headerlink" href="#commandlistmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>// unit id 0 thru 800
+<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a>- 8801
+<a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a>- 8802
+</code></pre></div>
+<h2 id="playlogmanager">PlaylogManager<a class="headerlink" href="#playlogmanager" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>- 8901
+<a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a>- 8902
+<a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a>- 8903
+<a id="__codelineno-30-4" name="__codelineno-30-4" href="#__codelineno-30-4"></a>- 8904
+<a id="__codelineno-30-5" name="__codelineno-30-5" href="#__codelineno-30-5"></a>- 8905
+<a id="__codelineno-30-6" name="__codelineno-30-6" href="#__codelineno-30-6"></a>- 8906
+<a id="__codelineno-30-7" name="__codelineno-30-7" href="#__codelineno-30-7"></a>- 8907
+<a id="__codelineno-30-8" name="__codelineno-30-8" href="#__codelineno-30-8"></a>- 8908
+<a id="__codelineno-30-9" name="__codelineno-30-9" href="#__codelineno-30-9"></a>- 8909
+<a id="__codelineno-30-10" name="__codelineno-30-10" href="#__codelineno-30-10"></a>- 8912
+<a id="__codelineno-30-11" name="__codelineno-30-11" href="#__codelineno-30-11"></a>- 8913
+<a id="__codelineno-30-12" name="__codelineno-30-12" href="#__codelineno-30-12"></a>- 8910
+<a id="__codelineno-30-13" name="__codelineno-30-13" href="#__codelineno-30-13"></a>- 8911
+<a id="__codelineno-30-14" name="__codelineno-30-14" href="#__codelineno-30-14"></a>- 8914
+</code></pre></div>
 
 
 
@@ -2560,7 +3324,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 22, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 12, 2024</span>
   </span>
 
     
@@ -2570,7 +3334,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 28, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 12, 2024</span>
   </span>
 
     
@@ -2630,7 +3394,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../formats/objread/" class="md-footer__link md-footer__link--prev" aria-label="Previous: .objread - Obj Read">
+          <a href="../obj_id/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Obj IDs">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -2640,20 +3404,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                .objread - Obj Read
+                Obj IDs
               </div>
             </div>
           </a>
         
         
           
-          <a href="../hashes/" class="md-footer__link md-footer__link--next" aria-label="Next: Hashes">
+          <a href="../user_attributes/" class="md-footer__link md-footer__link--next" aria-label="Next: User Attributes">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Hashes
+                User Attributes
               </div>
             </div>
             <div class="md-footer__button md-icon">
