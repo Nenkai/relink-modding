@@ -116,7 +116,10 @@ nav:
     - Reverse-Engineering:
         API: resources/re/api.md
         Hashes: resources/re/hashes.md
+        Misc: resources/re/misc.md
+        Networking: resources/re/networking.md
         Obj IDs: resources/re/obj_id.md
+        Save Unit IDs: resources/re/save_units.md
         User Attributes: resources/re/user_attributes.md
 
     - Mechanics:

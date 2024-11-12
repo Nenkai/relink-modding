@@ -1,0 +1,7 @@
+---
+icon: material/wrench
+---
+
+# :material-wrench: Misc
+
+* SBA Chain Chance (3 seconds) is hardcoded. Signature: `48 B8 ? ? ? ? ? ? ? ? 48 89 83 ? ? ? ? 48 C7 83 ? ? ? ? ? ? ? ? 48 8B 05`
