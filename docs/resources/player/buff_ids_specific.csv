@@ -23,7 +23,7 @@ Summon all Pets (Pl0700),`0x33841980`,864295296,?,N/A,N/A,N/A,N/A,1(Default),1(D
 Benediction Lvl 1 (Pl0700),`0x3E7147CE`,1047611342,?,N/A,N/A,N/A,N/A,1(Default),1(Default)
 Supplementary DMG (Self) (Pl0800),`0xC8313227`,3358667303,?,Time(s),Percent of DMG dealt,Number of Frames to Delay,?,1(Default),1(Default)
 Full Heal + Cleanse (Self) (Pl0900),`0x351D334B`,891106123,?,N/A,N/A,N/A,N/A,1(Default),1(Default)
-DMG Increase Based on SBA Gauge (Pl0900),`0xA35A1ACC`,2740591308,Maximum % Increase,?,N/A,N/A,1(Default),1(Default)
+DMG Increase Based on SBA Gauge (Pl0900),`0xA35A1ACC`,2740591308,?,Maximum % Increase,?,N/A,N/A,1(Default),1(Default)
 Unknown (Pl1000),`0xA3D08ECC`,2748354252,?,?,?,?,?,1(Default),1(Default)
 Unknown (Pl1100),`0x8C71F7DD`,2356279261,?,?,?,?,?,1(Default),1(Default)
 ATK UP + DEF UP (Self) (Pl1100),`0xE000D366`,3758150502,Percent,Time(s),?,N/A,1(Default),1(Default)
