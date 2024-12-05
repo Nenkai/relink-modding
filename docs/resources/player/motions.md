@@ -52,11 +52,11 @@ This allows the motion to be used multiple times, but have different `AttackRate
     | `10 (1024)`   | Unknown
     | `11 (2048)`   | Unknown
     | `12 (4096)`   | Unknown
-    | `13 (8192)`   | Unknown
+    | `13 (8192)`   | Allows the player to activate Skills
     | `14 (16324)`   | Unknown
     | `15 (32768)`   | Unknown
     | `16 (65536)`   | Unknown
-    | `17 (131072)`  | Allows the player to activate Skills
+    | `17 (131072)`  | Unknown
     | `18 (262144)`   | Unknown.
     | `19 (524288)`   | Unknown.
     | `20 (1048576)`   | Unknown
@@ -68,7 +68,7 @@ This allows the motion to be used multiple times, but have different `AttackRate
     | `26 (67108864)`  | Unknown
     | `27 (134217728)`  | Unknown
     | `28 (268435456)`  | Unknown
-    | `29 (536870912)`  | Unknown
+    | `29 (536870912)`  | Allows the character to turn while the action is being performed
     | `30 (1073741824)` | Closes the window on follow-up attacks. **`Config` is set to 1**, Generally set through `Flag1`, functions fine in `Flag0`
 
 ### `Flag1` Values
