@@ -26,7 +26,7 @@ Full Heal + Cleanse (Self) (Pl0900),`0x351D334B`,891106123,?,N/A,N/A,N/A,N/A,1(D
 DMG Increase Based on SBA Gauge (Pl0900),`0xA35A1ACC`,2740591308,?,Maximum % Increase,?,N/A,N/A,1(Default),1(Default)
 Unknown (Pl1000),`0xA3D08ECC`,2748354252,?,?,?,?,?,1(Default),1(Default)
 Unknown (Pl1100),`0x8C71F7DD`,2356279261,?,?,?,?,?,1(Default),1(Default)
-ATK UP + DEF UP (Self) (Pl1100),`0xE000D366`,3758150502,Percent,Time(s),?,N/A,1(Default),1(Default)
+ATK UP + DEF UP (Self) (Pl1100),`0xE000D366`,3758150502,?,Percent,Time(s),?,N/A,1(Default),1(Default)
 Draconic Release (Pl1100),`0x70FA1BE7`,1895439335,?,Base Percent (Multiplies up to 5x),Base Time(s),N/A,N/A,1(Default),1(Default)
 Valiant Stance (Pl1200),`0xB6B2FA0D`,3065182733,?,Base Percent (Multiplies up to 4x),Time(s),N/A,N/A,1(Default),1(Default)
 Trice Blade (Pl1300),`0x9234731A`,2452910874,?,?,Time(s),N/A,N/A,1(Default),1(Default)
