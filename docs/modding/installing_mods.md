@@ -17,12 +17,12 @@ The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manage
 
 ## Setting up Reloaded-II
 
-1. Download Reloaded-II's `Release.zip`, or `Setup.exe`.
+1. Download Reloaded-II's [`Release.zip`, or `Setup.exe`](https://github.com/Reloaded-Project/Reloaded-II/releases).
 2. Extract `Release.zip` to its own folder or run the `Setup.exe` and install it.
 3. Open `Reloaded-II.exe`.
 4. Press the `+` Icon to add a game and select `Granblue Fantasy Relink.exe`.
 5. In Reloaded-II's installation folder, open the folder called `Mods`.
-6. Extract the `gbfrelink.utility.manager.zip` using the `Extract To...` option. It  should look like this:
+6. Extract the [`gbfrelink.utility.manager.7z`](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases) using the `Extract To...` option. It  should look like this:
     <figure markdown>
     ![image](mod_manager_mods.png)
     *Make sure to extract `gbfrelink.utility.manager` into its own folder.*
@@ -38,7 +38,7 @@ The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manage
 ## Installing Mods
 
 1. Download a mod. You can find mods on sites like Nexus Mods and GameBanana.
-2. Extract the `gbfrelink.utility.manager.zip` and any of your mod .zips into the `Mods` folder using the `Extract Here` option. **DO NOT USE EXTRACT `Extract to ...`**
+2. Extract the `gbfrelink.utility.manager.7z` and any of your mod .zips into the `Mods` folder using the `Extract Here` option. **DO NOT USE EXTRACT `Extract to ...`**
     * Except for the gbfr.utility.manager, Mod folder structures in the `Mods` Folder should always look like `.../Mods/gbfrelink.mod.name/GBFR`:
     <figure markdown>
     ![image](https://i.imgur.com/kBKpQpT.png)

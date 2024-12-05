@@ -39,7 +39,7 @@ Actions, when called, can have projectiles or other attacks linked to them that 
 `dist_`                     | int | Unknown.
 `type_`                     | uint | Unknown.
 `controlTypeHash_`          | uint | Unknown. [List of Control Types](control_types.md)
-`supportTypeHash_`          | uint | Unknown.
+`supportTypeHash_`          | uint | Unknown. **Appears to be completely unused by game code**.
 `actionName_`               | string | **Possibly unused.** Generally a name assigned to the action by the devs.
 `saveMotId{number}_`        | uint   | [Motions](motions.md) being called by this action. saved motions can be confusing at times, as certain actions will not play them in order, such as Parries
 `actionFreeWork{number}_`   | uint   | Values associated with the action, such as for *Zeta*, when she does a Rhapsody parry, the angle of bounce and force behind the lift will be listed here
@@ -48,7 +48,7 @@ Actions, when called, can have projectiles or other attacks linked to them that 
 `bulletFreeWork{number}_`   | uint   | Unknown.
 `supportEffectList_`        | uint[] | Utilizes a hash and 6 values in an array format to state the buffs that will be applied to the character or team members when this player calls this action, so long as the required flag is in any of the [motions](motions.md) tied to the action. 1st value = How many buffs the game will attempt to give, 2nd value = [Buff Id](buff_ids.md)
 `uiIconCategory_`           | uint   | Possibly unused.
-`actionCategory_`           | uint   | Unknown.
+`actionCategory_`           | uint   | Unknown. Compared against `abilityBit_` in certain FSM nodes such as `AIBattleRequestAbilityAction` and `AIBattleUseIdAction`.
 `isTriggerAttackHit_`       | uint   | Unknown.
 `damageLimitType_`          | uint   | Should be unused after 1.3, the game migrated to the next value
 `damageLimitDataIndex_`     | uint   | Specifies the damage cap in the Parameter File's Damage cap index that is associated with this action
