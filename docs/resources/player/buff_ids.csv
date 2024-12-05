@@ -1,6 +1,6 @@
 Name,Hash,Hash (Decimal),Id,ArrayVal1,ArrayVal2,ArrayVal3,ArrayVal4,ArrayVal5,ArrayVal6
 Various,`0x3DF78A11`,`1039632913`,0,?,?,?,?,1(Default),1(Default)
-?,`0x74E366EA`,`1961060074`,1,?,?,?,?,1(Default),1(Default)
+Unknown,`0x74E366EA`,`1961060074`,1,?,?,?,?,1(Default),1(Default)
 ATK UP (Party),`0x7EA3642C`,`2124637228`,2,Percent,Time(s),N/A,N/A,1(Default),1(Default)
 DEF UP (Party),`0x7279FD12`,`1920597266`,3,Percent,Time(s),N/A,N/A,1(Default),1(Default)
 Damage Cut (Area),`0xB9EE55DF`,`3119404511`,4,Percent,Time(s),Range(m),N/A,1(Default),1(Default)
