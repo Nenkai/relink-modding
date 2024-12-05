@@ -1,6 +1,7 @@
 ---
 icon: material/account-arrow-up
-toc: hide
+hide:
+  - toc
 ---
 
 # :material-account-arrow-up: Buff IDs

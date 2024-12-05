@@ -1,5 +1,7 @@
 ---
 icon: material/account-arrow-down
+hide:
+  - toc
 ---
 
 # :material-account-arrow-down: Debuffs

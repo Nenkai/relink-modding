@@ -1,6 +1,7 @@
 ---
 icon: material/controller
-toc: hide
+hide:
+  - toc
 ---
 
 # :material-controller: Control Types
