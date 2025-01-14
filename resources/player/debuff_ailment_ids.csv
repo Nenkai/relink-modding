@@ -1,28 +1,28 @@
-Name,Category,Hash,Hash (Decimal),Id
-?,1,`0x3A104097`,`974143639`,0
-Burn,1,`0x10D25D5C`,`282221916`,1
-Dizzy,1,`0xB6F49156`,`-1225485994`,2
-Held Under,1,`0xF6533F8E`,`-162316402`,3
-Frostbite,1,`0xCE8AF003`,`-829755389`,4
-Sandtomb,1,`0x47BB7C64`,`1203469412`,5
-?,1,`0xD64D3367`,`-699583641`,6
-?,1,`0xC0C1D535`,`-1061038795`,7
-Paralysis,1,`0xB1508E3D`,`-1320120771`,8
-Poison,1,`0x5320CE6F`,`1394658927`,9
-Slow,1,`0x70873185`,`1887908229`,10
-Darkflame,1,`0x993235CA`,`-1724762678`,11
-?,1,`0x034CB30B`,`55358219`,12
-?,1,`0x8EB687C9`,`-1900640311`,13
-?,1,`0x0F0FC8B5`,`252692661`,14
-Glaciate,1,`0x35ABCF81`,`900452225`,15
-Bound,1,`0x62375707`,`1647793927`,16
-Skill Sealed,1,`0x29635228`,`694374952`,17
-SBA Sealed,1,`0x37E7BA96`,`937933462`,18
-Blight,1,`0x61B1700D`,`1639018509`,19
-Fear,1,`0xF67874A6`,`-159877978`,20
-Arvess Fermare,1,`0xF816D1FD`,`-132722179`,21
-Ethereal Prison,1,`0xC9932485`,`-913103739`,22
-Debuff Extension,1,`0x48841219`,`1216614937`,23
+Name,Category,Hash,Hash (Decimal),Id,`status` Id (?),Sound File/Id
+?,1,`0x3A104097`,`974143639`,0,?,?
+Burn,1,`0x10D25D5C`,`282221916`,1,1001,`burn`
+Dizzy,1,`0xB6F49156`,`-1225485994`,2,1003,`stun`
+Held Under,1,`0xF6533F8E`,`-162316402`,3,1008,`waterprison`
+Frostbite,1,`0xCE8AF003`,`-829755389`,4,1005,`frostbite`
+Sandtomb,1,`0x47BB7C64`,`1203469412`,5,1006,`sandman`
+?,1,`0xD64D3367`,`-699583641`,6,?,?
+?,1,`0xC0C1D535`,`-1061038795`,7,?,?
+Paralysis,1,`0xB1508E3D`,`-1320120771`,8,1007,`paralysis`
+Poison,1,`0x5320CE6F`,`1394658927`,9,1000,`poison`
+Slow,1,`0x70873185`,`1887908229`,10,1002,`slow`
+Darkflame,1,`0x993235CA`,`-1724762678`,11,1011,`darkburn`
+?,1,`0x034CB30B`,`55358219`,12,?,?
+?,1,`0x8EB687C9`,`-1900640311`,13,?,?
+?,1,`0x0F0FC8B5`,`252692661`,14,?,?
+Glaciate,1,`0x35ABCF81`,`900452225`,15,1004,`freeze`
+Bound,1,`0x62375707`,`1647793927`,16,1012,?
+Skill Sealed,1,`0x29635228`,`694374952`,17,1016,`disableability`
+SBA Sealed,1,`0x37E7BA96`,`937933462`,18,1017,`disableougi`
+Blight,1,`0x61B1700D`,`1639018509`,19,1018,`darkpoison`
+Fear,1,`0xF67874A6`,`-159877978`,20,1019,`fear`
+Arvess Fermare,1,`0xF816D1FD`,`-132722179`,21,1020,`arvessfermare`
+Ethereal Prison,1,`0xC9932485`,`-913103739`,22,?,?
+Debuff Extension,1,`0x48841219`,`1216614937`,23,1022,`debufftimeextend`
 ATK Down,2,`0xD21EADD5`,`-769741355`,<none>
 Def Down,2,`0xE7C92715`,`-406247659`,<none>
 ?,2,`0xBD5E4FDD`,`-1117892643`,<none>
