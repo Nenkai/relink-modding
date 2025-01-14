@@ -6,6 +6,11 @@ hide:
 
 # :material-account-arrow-down: Debuffs
 
+!!! warning
+    
+    * Many of the hashes/ids are hardcoded in the executable.
+    * Rows are also present in the `status` [table](../../tables/table_database.md).
+
 ## Category
 *Used by:*
 
