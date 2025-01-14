@@ -10,13 +10,15 @@ When applicable, make sure to support the authors!
 
 * [Worldwide Matchmaking](https://www.nexusmods.com/granbluefantasyrelink/mods/335) by *Nenkai*
 * [Skip Intro-Boot Logos & News](https://www.nexusmods.com/granbluefantasyrelink/mods/28) by *happihora*
-* [Community Character Rebalance](https://www.nexusmods.com/granbluefantasyrelink/mods/502)
+* [Community Character Rebalance](https://www.nexusmods.com/granbluefantasyrelink/mods/502) (Note: Not recommended online as it may break game balance)
 * [Curio T4 Rewards With Quick Quest Tickets (Rebalance)](https://www.nexusmods.com/granbluefantasyrelink/mods/322) by *Nenkai*
 * [Show Curio Tier on Drop](https://www.nexusmods.com/granbluefantasyrelink/mods/117) by *Nenkai*
 * [Mute Vyrn/Lyria](https://www.nexusmods.com/granbluefantasyrelink/mods/208) by *happihora*
+* [Stun Bar Cooldown Color Change](https://www.nexusmods.com/granbluefantasyrelink/mods/507) by *MidnightAugur*
 * [Mute Sierokarte and Parrot](https://www.nexusmods.com/granbluefantasyrelink/mods/52) by *SixTrillionOwls*
 * [Disable TAA/Bloom/Motion Blur/DoF & More](https://www.nexusmods.com/granbluefantasyrelink/mods/17) by *happihora*
 * [Weapon Customization Tool](https://www.nexusmods.com/granbluefantasyrelink/mods/451) by *Hazelberry* and *Nenkai*
+* [Midnight's Overhaul](https://www.nexusmods.com/granbluefantasyrelink/mods/455) by *MidnightAugur* (Note: Game/Quest/Content Overhaul, only recommended after fully completing the game).
 
 !!! tip
     More mods can be found on [Nexus Mods](https://www.nexusmods.com/granbluefantasyrelink)!
