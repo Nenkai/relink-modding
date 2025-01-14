@@ -46,7 +46,7 @@ The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manage
 3. In Reloaded-II make sure to tick on the checkbox next to the mods to enable them.
 4. Press `Launch Application` to launch the game and install the mods.
     * If you'd like to just launch the game with mods from steam, follow the instructions in the next section.
-
+5. Head to [Nexus Mods](https://www.nexusmods.com/granbluefantasyrelink/mods/). We also have a [recommend mod list here](recommended_mods_tools.md).
 !!! warning
     The game sends quest reports/results as telemetry data (named [PlayLog](../resources/re/api.md#playlog-endpoints)) which is recommended to **disable** when running mods (especially quest mods). You can do so by heading to `Game Options -> Other -> Play Log -> Do Not Agree`.
 
