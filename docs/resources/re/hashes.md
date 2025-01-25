@@ -36,14 +36,15 @@ An empty string `""` is always equal to `887AE0B0` / `B0 E0 7A 88`.
 
 ## Hash List
 
-You can grab a zipped hash list [here](hashlist.7z).
+You can grab a zipped hash list [here](hashlist.7z) (updated January 26th 2025).
 
 It contains:
 
 * Hashes for the majority of english words
 * Hashes for most strings for all game files gathered with `strings2`
-* Hashes for most strings gathered from the executable (1.0.3) with `strings2`
+* Hashes for most strings gathered from the executable with `strings2`
 * Hashes for most strings gathered from NierAutomata.exe with `strings2`
+* Hashes for strings such as `object_` => `Object`, useful for UI file component properties
 
 <script>
 document.getElementById("hash-str").addEventListener("input", (event) => {
