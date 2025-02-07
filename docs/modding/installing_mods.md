@@ -10,24 +10,31 @@ The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manage
 
 ## Requirements
 
-* [Reloaded-II Mod Manager](https://github.com/Reloaded-Project/Reloaded-II/releases)
-* [gbfrelink.utility.manager](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases)
+* :material-github: [Reloaded-II Mod Manager](https://github.com/Reloaded-Project/Reloaded-II/releases)
+* `gbfrelink.utility.manager` (:simple-nexusmods: [NexusMods](https://www.nexusmods.com/granbluefantasyrelink/mods/526) - :material-github: [Github](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases))
 
 ---
 
 ## Setting up Reloaded-II
 
+First, install Reloaded-II.
+
 1. Download Reloaded-II's [`Release.zip`, or `Setup.exe`](https://github.com/Reloaded-Project/Reloaded-II/releases).
 2. Extract `Release.zip` to its own folder or run the `Setup.exe` and install it.
 3. Open `Reloaded-II.exe`.
 4. Press the `+` Icon to add a game and select `Granblue Fantasy Relink.exe`.
-5. In Reloaded-II's installation folder, open the folder called `Mods`.
-6. Extract the [`gbfrelink.utility.manager.7z`](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases) using the `Extract To...` option. It  should look like this:
+
+Then, install the Mod Loader for Relink (two options):
+
+* Drag/Drop `gbfrelink.utility.manager.7z` into Reloaded-II. Make sure Reloaded-II is not running as admin (Windows disallows drag/drop on elevated processes).
+* Or, in Reloaded-II's installation folder, open the folder called `Mods`.
+    * Extract `gbfrelink.utility.manager.7z` using the `Extract To...` option. It should look like this:
     <figure markdown>
     ![image](mod_manager_mods.png)
     *Make sure to extract `gbfrelink.utility.manager` into its own folder.*
     </figure>
-7. In Reloaded-II make sure to tick on the checkbox next to `Granblue Fantasy Relink Mod Manager` to enable it.
+
+Then make sure to tick on the checkbox next to `Granblue Fantasy Relink Mod Manager` to enable it.
 
 !!! info
 
@@ -38,17 +45,24 @@ The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manage
 ## Installing Mods
 
 1. Download a mod. You can find mods on sites like Nexus Mods and GameBanana.
-2. Extract the `gbfrelink.utility.manager.7z` and any of your mod .zips into the `Mods` folder using the `Extract Here` option. **DO NOT USE EXTRACT `Extract to ...`**
-    * Except for the gbfr.utility.manager, Mod folder structures in the `Mods` Folder should always look like `.../Mods/gbfrelink.mod.name/GBFR`:
-    <figure markdown>
-    ![image](https://i.imgur.com/kBKpQpT.png)
-    </figure>
+2. Drag-Drop the zipped file into Reloaded-II.
 3. In Reloaded-II make sure to tick on the checkbox next to the mods to enable them.
 4. Press `Launch Application` to launch the game and install the mods.
     * If you'd like to just launch the game with mods from steam, follow the instructions in the next section.
 5. Head to [Nexus Mods](https://www.nexusmods.com/granbluefantasyrelink/mods/) for finding mods. We also have a [recommend mod list here](recommended_mods_tools.md).
+
 !!! warning
     The game sends quest reports/results as telemetry data (named [PlayLog](../resources/re/api.md#playlog-endpoints)) which is recommended to **disable** when running mods (especially quest mods). You can do so by heading to `Game Options -> Other -> Play Log -> Do Not Agree`.
+
+---
+
+## Removing Mods
+
+You can remove mods by disabling all mods **except** the mod loader, and start the game once.
+
+!!! warning "Warning - Mods that edit sound files"
+
+    You may need to verify integrity on Steam for mods that edit sound files as those cannot be reverted easily yet.
 
 ---
 
