@@ -99,6 +99,7 @@ nav:
 
     - Player System:
       - Actions / Parameters: resources/player/action_parameter.md
+      - Action IDs: resources/player/action_ids.md
       - Motions: resources/player/motions.md
       - Control Types: resources/player/control_types.md
       - Buff IDs: resources/player/buff_ids.md
