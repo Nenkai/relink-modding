@@ -46,7 +46,7 @@ icon: material/application-import
 
 !!! warning "Textures"
 
-    :material-arrow-right: Refer to the [Model Textures (Granite)](../tutorials/textures/texture_extraction.md#model-textures-granite) section on the Texture Extraction page for getting model textures.
+    :material-arrow-right: Refer to the [Model Textures (Granite)](../textures/granite.md) section on the Texture Extraction page for getting model textures.
     
     Textures must be manually applied to the model in blender.
 

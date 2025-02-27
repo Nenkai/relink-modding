@@ -100,33 +100,36 @@ nav:
     - Player System:
       - Actions / Parameters: resources/player/action_parameter.md
       - Action IDs: resources/player/action_ids.md
-      - Motions: resources/player/motions.md
-      - Control Types: resources/player/control_types.md
       - Buff IDs: resources/player/buff_ids.md
+      - Control Types: resources/player/control_types.md
       - Debuff/Ailment IDs: resources/player/debuff_ailment_ids.md
+      - Motions: resources/player/motions.md
+
+    - Scripting:
+      - FSMs: resources/fsm.md
 
     - Quests/Layouts:
       - Quest Base Info: resources/quests_layouts/quest_base_info.md
       - Placement Info: resources/quests_layouts/placement.md
 
     - Formats:
-        .cfct - Camera Fade Table: resources/formats/cfct.md
-        .minfo - Model Info: resources/formats/minfo.md
-        .mmat - Material Info: resources/formats/mmat.md
-        .objread - Obj Read: resources/formats/objread.md
-        .stpr - Streaming Prefetch: resources/formats/stpr.md
+        - .cfct - Camera Fade Table: resources/formats/cfct.md
+        - .minfo - Model Info: resources/formats/minfo.md
+        - .mmat - Material Info: resources/formats/mmat.md
+        - .objread - Obj Read: resources/formats/objread.md
+        - .stpr - Streaming Prefetch: resources/formats/stpr.md
 
     - Reverse-Engineering:
-        API: resources/re/api.md
-        Hashes: resources/re/hashes.md
-        Misc: resources/re/misc.md
-        Networking: resources/re/networking.md
-        Obj IDs: resources/re/obj_id.md
-        Save Unit IDs: resources/re/save_units.md
-        User Attributes: resources/re/user_attributes.md
+        - API: resources/re/api.md
+        - Hashes: resources/re/hashes.md
+        - Misc: resources/re/misc.md
+        - Networking: resources/re/networking.md
+        - Obj IDs: resources/re/obj_id.md
+        - Save Unit IDs: resources/re/save_units.md
+        - User Attributes: resources/re/user_attributes.md
 
     - Mechanics:
-        Roll of the Die: resources/re/mechanics/rotd.md
+        - Roll of the Die: resources/re/mechanics/rotd.md
       
   - Blender:
     - Model Importing: models/importing.md 

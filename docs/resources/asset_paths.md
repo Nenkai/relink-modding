@@ -1,7 +1,6 @@
 ---
 icon: material/file-tree
 hide:
-  - toc
   - footer
 ---
 
