@@ -240,7 +240,7 @@ icon: material/sword
 1700 = Umlauf
 ```
 
-### Ferry (Pl0800)
+### Lancelot (Pl0800)
 
 ```
 100 = Attack 1
@@ -278,7 +278,7 @@ icon: material/sword
 110 = Power Strike 1
 111 = Finisher 1
 120 = Power Strike 2
-121 = Finisher 2 
+121 = Finisher 2
 200 = Heavy Swing 1
 201 = Heavy Swing 2
 202 = Heavy Swing 3
