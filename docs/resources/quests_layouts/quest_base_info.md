@@ -175,12 +175,61 @@ List of available current objectives in the quest.
 | `idIndex_`               | `int`      | Unknown.
 | `udsId_`                 | `int`      | Unknown.
 
-??? abstract "`type_`"
+The value `canFail_` perhaps doesn't have the best name. It seems rather more
+accurate to say it acts as a `shouldFail` signal. When set to true, then a
+failure will be triggered for this objective once the condition determined by
+this objective's `type_` attribute has been met.
 
-    * 0 = Text
-    * 2 = Minutes
-    * 3 = Enemy Obj Id
-    * 7 = Percentage
+`isDisplay_` doesn't seem to have any hard rules, either. For a quest's three
+typical objectives, `isDisplay_` is usually set to true, except for when using
+either `type_` for displaying text strings, ironically. Some objectives do have
+hidden objectives, however, which can be used to trigger additional rewards.
+
+`type_` can take on many different (integer) values to indicate a multitude of
+different quest objectives. Known values are enumerated in the table below. Note
+that for many or most of these, the `id_` field isn't used and is expected to be `0`.
+
+| `type_=`       | Description                                                               |
+|----------------|---------------------------------------------------------------------------|
+| `0`            | No effect. Used to displays textual objective strings only (as guidance). |
+| `1`            | Appears Unused.                                                           |
+| `2`            | Completion time, full quest. Triggers after `count_` seconds elapsed. Usually used when `canFail_=true` to trigger objective's failure. |
+| `3`            | Collect Entity/Defeat Enemy `id_`, `count_` times.                        |
+| `4`            | Unsure.                                                                   |
+| `5`            | Destroy battleship installations, minimum of `count_`.                    |
+| `6`            | Appears Unused.                                                           |
+| `7`            | HP Percentage exceeds `count_` (defend-the-base) quests. For this value, `count_` is a float between `0.` and `1.` |
+| `8`            | Unsure. Perhaps some sort of internal timer for delays? Only used once.   |
+| `9`            | Appears Unused.                                                           |
+| `10`           | Activate any skill, minimum of `count_` times.                            |
+| `11`           | Appears Unused.                                                           |
+| `12`           | Skybound Art Usage, minimum of `count_` times.                            |
+| `13`           | Appears Unused.                                                           |
+| `14`           | Link Attacks Count, minimum (plus 1). For "do N link attacks", set `count_` to `N+1`. |
+| `15`           | Critical Condition Count, maximum (plus 1). For "do not enter critical more than N times", set `count_` to `N+1`. |
+| `16..18`       | Appears Unused.                                                           |
+| `19`           | Number of foe waves (defend-the-base quests), minimum of `count_`. Used with `canFail_=false`.  |
+| `20`           | Appears Unused.                                                           |
+| `21`           | Update/Refresh objective text. Used for specific fate story quests. Used with `canFail_=false`, `isDisplay_=false`.  |
+| `22`           | Appears Unused.                                                           |
+| `23`           | LinkTime Entry Count, minimum of `count_` times.                          |
+| `24`           | Number of Full Bursts triggered, minimum of `count_` times.               |
+| `25`           | Defeats/Kills via ether cannon, minimum of `count_`.                      |
+| `26`           | Defeats/Kills via thrown object, minimum of `count_`.                     |
+| `27`           | Appears Unused.                                                           |
+| `28`           | Obtain/Destroy Entities or Destructible Parts. `count_` set to minimum quantity (usually just `1`).    |
+| `29`           | Status Anomalies Received, maximum (plus 1). `count_=N+1`, and `id_` set to status effect's global ID. |
+| `30`           | Completion Time, after defeat of a foe (plus 1). For "defeat Y within 5 minutes after defeating X", set `count_=301`. |
+| `31`           | Appears Unused.                                                           |
+| `32`           | Unsure.                                                                   |
+| `33..37`       | Appears Unused.                                                           |
+| `38`           | Attacks Dodged, minimum of `count_` times. NOT perfect dodges.            |
+| `39`           | Appears Unused.                                                           |
+| `40`           | Attacks Guarded, minimum of `count_` times. NOT perfect guards.           |
+| `41`           | Attacks Perfect-Guarded, minimum of `count_` times.                       |
+| `42`           | Defeats/Kills via Dimension Warp, minimum of `count_`. (Angra Mainyu).    |
+| `43`           | Defeat/Negate light orb via ether cannon, minimum of `count_` times.      |
+
 
 ### Sub Mission
 
