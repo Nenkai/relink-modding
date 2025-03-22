@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.7">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -1624,11 +1624,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#general-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      General Understanding
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General Understanding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#layers" class="md-nav__link">
     <span class="md-ellipsis">
       Layers
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#override-transitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Override Transitions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2449,11 +2473,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#general-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      General Understanding
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General Understanding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#layers" class="md-nav__link">
     <span class="md-ellipsis">
       Layers
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#override-transitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Override Transitions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2491,14 +2539,21 @@
 
 
 <h1 id="fsm-finite-state-machine"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg></span> FSM (Finite State Machine)<a class="headerlink" href="#fsm-finite-state-machine" title="Permanent link">&para;</a></h1>
-<p>A fair chunk of the game's logic (quests, moves &amp; ai behavior) is scripted using FSMs - <a href="https://en.wikipedia.org/wiki/Finite-state_machine">Finite State Machines</a>.</p>
+<p>A fair chunk of the game's logic (quests, moves &amp; ai behavior) is scripted using FSMs - <a href="https://en.wikipedia.org/wiki/Finite-state_machine">Finite State Machines</a> which Cygames custom built for the game.</p>
 <p>You can find a fair chunk of these files in <code>system/fsm</code> files. They will <strong>always</strong> have the <code>_fsm_ingame</code> suffix - for some reason it is required.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>You can preview FSMs using <a href="https://github.com/Nenkai/RelinkToolkit2">RelinkToolkit2</a>.</p>
 </div>
-<h2 id="layers">Layers<a class="headerlink" href="#layers" title="Permanent link">&para;</a></h2>
+<h2 id="general-understanding">General Understanding<a class="headerlink" href="#general-understanding" title="Permanent link">&para;</a></h2>
+<p>FSMs are visual trees that organizes logic into blocks called <em>nodes</em>. Nodes are separated by arrows that can contain conditions to move from one state from another, say, AI moving, and then attacking. These are <em>transitions</em> - moving from one node to another. Each node may have one or multiple executing components - this determines what a node does. moving, using an action, etc.</p>
+<h3 id="layers">Layers<a class="headerlink" href="#layers" title="Permanent link">&para;</a></h3>
 <p>Sometimes FSMs are made up of smaller graphs called layers. When the FSM reaches the end of a layer, execution will go back to <strong>the beginning of it</strong>, not the start of the FSM. For FSM execution to fully complete, nodes that transition to other nodes usually have a transition with <code>FSMUnderLayerEndCondition</code>, which waits for the layer to be complete.</p>
+<p>When a node reaches a END node, the current layer ends. If the current layer is the root, the FSM ends.</p>
+<h3 id="override-transitions">Override Transitions<a class="headerlink" href="#override-transitions" title="Permanent link">&para;</a></h3>
+<p>Override Transitions are represented by RelinkToolkit2 as Orange-Red arrows.</p>
+<p>Before explaining what these do, it is important to understand how the game executes the FSM. On every frame, the game will start from the start of the tree and execute each node starting from the root. Regular transitions (denoted by a blue arrow in RelinkToolkit2) are evaluated and their result <strong>cached</strong> for each node. These are only executed once, until the flow goes back there. This is how the game remembers the last node it executed - by navigating from the root and navigating each node's cached result.</p>
+<p>Override transitions bypass that rule as they are always evaluated regardless. Which means that these may <strong>override</strong> or <strong>hijack</strong> the current FSM flow. A simple example would be link attacks - they may interrupt a character's current action in order to perform link-attack specific actions. One should see these transitions as a way to interrupt normal execution based on what happens during gameplay.</p>
 <hr />
 <h2 id="file-structure">File Structure<a class="headerlink" href="#file-structure" title="Permanent link">&para;</a></h2>
 <p>The FSMs file built in a <strong>depth-first</strong> manner. The game will iterate over every node in the file, link them to conditions and execution components accordingly, and then, build the final tree with the root node.</p>
@@ -2549,7 +2604,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 27, 2025 17:11:41">February 27, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 22, 2025 18:36:25">March 22, 2025</span>
   </span>
 
     
