@@ -4,16 +4,30 @@ icon: material/share-variant-outline
 
 # :material-share-variant: FSM (Finite State Machine)
 
-A fair chunk of the game's logic (quests, moves & ai behavior) is scripted using FSMs - [Finite State Machines](https://en.wikipedia.org/wiki/Finite-state_machine).
+A fair chunk of the game's logic (quests, moves & ai behavior) is scripted using FSMs - [Finite State Machines](https://en.wikipedia.org/wiki/Finite-state_machine) which Cygames custom built for the game.
 
 You can find a fair chunk of these files in `system/fsm` files. They will **always** have the `_fsm_ingame` suffix - for some reason it is required.
 
 !!! tip
     You can preview FSMs using [RelinkToolkit2](https://github.com/Nenkai/RelinkToolkit2).
 
-## Layers
+## General Understanding
+
+FSMs are visual trees that organizes logic into blocks called *nodes*. Nodes are separated by arrows that can contain conditions to move from one state from another, say, AI moving, and then attacking. These are *transitions* - moving from one node to another. Each node may have one or multiple executing components - this determines what a node does. moving, using an action, etc.
+
+### Layers
 
 Sometimes FSMs are made up of smaller graphs called layers. When the FSM reaches the end of a layer, execution will go back to **the beginning of it**, not the start of the FSM. For FSM execution to fully complete, nodes that transition to other nodes usually have a transition with `FSMUnderLayerEndCondition`, which waits for the layer to be complete.
+
+When a node reaches a END node, the current layer ends. If the current layer is the root, the FSM ends.
+
+### Override Transitions
+
+Override Transitions are represented by RelinkToolkit2 as Orange-Red arrows.
+
+Before explaining what these do, it is important to understand how the game executes the FSM. On every frame, the game will start from the start of the tree and execute each node starting from the root. Regular transitions (denoted by a blue arrow in RelinkToolkit2) are evaluated and their result **cached** for each node. These are only executed once, until the flow goes back there. This is how the game remembers the last node it executed - by navigating from the root and navigating each node's cached result.
+
+Override transitions bypass that rule as they are always evaluated regardless. Which means that these may **override** or **hijack** the current FSM flow. A simple example would be link attacks - they may interrupt a character's current action in order to perform link-attack specific actions. One should see these transitions as a way to interrupt normal execution based on what happens during gameplay.
 
 ---
 
