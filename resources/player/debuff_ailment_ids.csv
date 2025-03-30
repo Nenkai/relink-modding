@@ -27,6 +27,5 @@ ATK Down,2,`0xD21EADD5`,`-769741355`,<none>
 Def Down,2,`0xE7C92715`,`-406247659`,<none>
 ?,2,`0xBD5E4FDD`,`-1117892643`,<none>
 Dispel,2,`0xF70DC616`,`-150092266`,<none>
-Drain,3,`0xF493ECEE`,`-191632146`,<none>
-Max HP Down,3,`0x6680BF9B`,`1719713691`,<none>
-Dispel,3,`0xF70DC616`,`-150092266`,<none>
+Drain,2,`0xF493ECEE`,`-191632146`,<none>
+Max HP Down,2,`0x6680BF9B`,`1719713691`,<none>
