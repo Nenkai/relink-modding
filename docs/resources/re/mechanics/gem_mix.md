@@ -1,4 +1,8 @@
-# Sigil Synthesis Grand Success
+---
+icon: material/party-popper
+---
+
+# :material-party-popper: Sigil Synthesis Grand Success
 
 !!! tip
 
@@ -6,19 +10,29 @@
 
 ## Execution
 
-For Sigil Synthesis (known as Gem Mix ingame), the game combines total level of all skills inserted. Lv11+Lv11 & Lv11+Lv11 = 44.
+Sigil Synthesis has an unexplained feature where the game will randomly award a gem with a maxed level rather than the default level (which is 11). 
 
-It is then used as a key into `gem_mix_success` table.
+!!! tip
 
-* Column 1 is the weight chance for regular success.
-* Column 2 is the weight chance for grand success.
+    Internally:
+    * Sigil Synthesis = Gem Mix
+    * Sigil = Gem
+    * Trait = Skill
+    * Ticket = Knicknack Voucher
 
-All traits from both sigils are put into an array of 4 traits then the list is shuffled.
-The first two are taken. That's the new sigil.
+For how this works; the game combines total level of all skills inserted. Lv11+Lv11 & Lv11+Lv11 = 44.
 
-If it's a grand success, assign the maximum possible level for the sigil. Otherwise default level.
+It is then used as a key into `gem_mix_success` [table](../../../tables/table_database.md).
 
-Cost is determined from `gem_mix_rupi` and `gem_mix_ticket` tables, also based on total level.
+* The first column is the weight chance for regular (great) success.
+* The second column is the weight chance for grand success.
+
+All skills from both sigils are put into an array of 4 skills then the list is shuffled.
+The first two are taken. That's the new gem.
+
+If it's a grand success, assign the maximum possible level for the gem. Otherwise default level.
+
+Cost is determined from `gem_mix_rupi` and `gem_mix_ticket` tables, also based on total combined skill level for both gems. Current rupies & tickets are deducted based on that.
 
 ## Chance List
 
