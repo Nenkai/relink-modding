@@ -15,6 +15,7 @@ Sigil Synthesis has an unexplained feature where the game will randomly award a 
 !!! tip
 
     Internally:
+    
     * Sigil Synthesis = Gem Mix
     * Sigil = Gem
     * Trait = Skill
