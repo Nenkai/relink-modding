@@ -2322,6 +2322,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#siero" class="md-nav__link">
+    <span class="md-ellipsis">
+      Siero
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#other-useful-signatures" class="md-nav__link">
     <span class="md-ellipsis">
       Other useful signatures
@@ -2598,6 +2607,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#siero" class="md-nav__link">
+    <span class="md-ellipsis">
+      Siero
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#other-useful-signatures" class="md-nav__link">
     <span class="md-ellipsis">
       Other useful signatures
@@ -2657,6 +2675,7 @@
 The first two are taken. That's the new gem.</p>
 <p>If it's a grand success, assign the maximum possible level for the gem. Otherwise default level.</p>
 <p>Cost is determined from <code>gem_mix_rupi</code> and <code>gem_mix_ticket</code> tables, also based on total combined skill level for both gems. Current rupies &amp; tickets are deducted based on that.</p>
+<hr />
 <h2 id="chance-list">Chance List<a class="headerlink" href="#chance-list" title="Permanent link">&para;</a></h2>
 <p>Total Sigil Level to Chance
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>44 (4x Lvl.11) = 45%
@@ -2669,6 +2688,15 @@ The first two are taken. That's the new gem.</p>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>58 = 75%
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>60 (4x Lv.15) = 85%
 </code></pre></div></p>
+<h2 id="siero">Siero<a class="headerlink" href="#siero" title="Permanent link">&para;</a></h2>
+<p>Siero can show three messages on the right side before synthesis:</p>
+<ul>
+<li><code>Some solid picks you got there.\nReady whenever you are!</code> (<code>TXT_YOROZU_COMP_PROB_LOW</code>)</li>
+<li><code>I've got a good feeling about this!\nHope it turns out great!</code> (<code>TXT_YOROZU_COMP_PROB_MID</code>)</li>
+<li><code>Oh my! I think we've got a real\nwinner here! I've got goosebumps!</code> (<code>TXT_YOROZU_COMP_PROB_HIGH</code>)</li>
+</ul>
+<p>The second and third ones are chosen if the weight/percentage for the current combined sigil level (column 2 of <code>gem_mix_success</code>) is above the last two columns in the <code>constant</code> table, respectively. Otherwise, the first one (default) is picked.</p>
+<hr />
 <h2 id="other-useful-signatures">Other useful signatures<a class="headerlink" href="#other-useful-signatures" title="Permanent link">&para;</a></h2>
 <ul>
 <li>GemManager::GetGemInfoFromSlotId(__int64 a1, _QWORD *a2, unsigned int a3) - <code>41 56 56 57 55 53 48 83 EC ? 44 89 C3 49 89 D6 48 89 CF 48 81 C1 ? ? ? ? 48 8B 87 ? ? ? ? FF 50 ? 39 D8 0F 84 ? ? ? ? 89 D8 C1 E8 ? 89 D9 C1 E9 ? 0F B6 D3 48 BE ? ? ? ? ? ? ? ? 48 31 D6 48 BA ? ? ? ? ? ? ? ? 48 0F AF F2 0F B6 EF 48 31 F5 48 0F AF EA 0F B6 C0 48 31 E8 48 0F AF C2 48 31 C8 48 0F AF C2 48 23 87 ? ? ? ? 48 8B 8F ? ? ? ? 48 8B B7 ? ? ? ? 48 89 C2 48 C1 E2 ? 48 8B 54 16 ? 48 39 CA 0F 84 ? ? ? ? 39 5A ? 74 ? 48 01 C0 48 8B 34 C6 31 C0 66 0F 1F 84 00 ? ? ? ? 48 39 F2 74 ? 48 8B 52 ? 39 5A ? 75 ? 48 39 CA 74 ? 48 8B 42 ? 48 85 C0 74 ? 8B 50 ? 8B 6F</code></li>
@@ -2706,7 +2734,7 @@ The first two are taken. That's the new gem.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 14, 2025 00:28:08">April 14, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 14, 2025 00:42:13">April 14, 2025</span>
   </span>
 
     
