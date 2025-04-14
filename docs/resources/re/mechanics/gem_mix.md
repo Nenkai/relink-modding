@@ -60,7 +60,9 @@ Siero can show three messages on the right side before synthesis:
 * `I've got a good feeling about this!\nHope it turns out great!` (`TXT_YOROZU_COMP_PROB_MID`)
 * `Oh my! I think we've got a real\nwinner here! I've got goosebumps!` (`TXT_YOROZU_COMP_PROB_HIGH`)
 
-The second and third ones are chosen if the weight/percentage for the current combined sigil level (column 2 of `gem_mix_success`) is above the last two columns in the `constant` table, respectively. Otherwise, the first one (default) is picked.
+The second and third ones are chosen if the weight/percentage for the current combined sigil level (column 2 of `gem_mix_success`) is above the last two columns in the `constant` table, respectively. In 1.3, the second message has weight 5400 (54%) and the third message is 7000 (70%). 
+
+Otherwise, the first one (default) is picked.
 
 ---
 
