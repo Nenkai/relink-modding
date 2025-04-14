@@ -130,6 +130,7 @@ nav:
 
     - Mechanics:
         - Roll of the Die: resources/re/mechanics/rotd.md
+        - Sigil Synth. Grand Success: resources/re/mechanics/gem_mix.md
       
   - Blender:
     - Model Importing: models/importing.md 
