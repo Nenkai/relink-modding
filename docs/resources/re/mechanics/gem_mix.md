@@ -10,7 +10,7 @@ icon: material/party-popper
 
 ## Execution
 
-Sigil Synthesis has an unexplained feature where the game will randomly award a gem with a maxed level rather than the default level (which is 11). When this happens, a 'Grand Success' in place of a 'Great Success'.
+Sigil Synthesis has an unexplained feature where the game will randomly award a gem with a maxed level rather than the default level (which is 11). When this happens, a 'Grand Success' in place of a 'Great Success' is shown.
 
 !!! tip
 
