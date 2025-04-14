@@ -35,6 +35,8 @@ If it's a grand success, assign the maximum possible level for the gem. Otherwis
 
 Cost is determined from `gem_mix_rupi` and `gem_mix_ticket` tables, also based on total combined skill level for both gems. Current rupies & tickets are deducted based on that.
 
+---
+
 ## Chance List
 
 Total Sigil Level to Chance
@@ -49,6 +51,18 @@ Total Sigil Level to Chance
 58 = 75%
 60 (4x Lv.15) = 85%
 ```
+
+## Siero
+
+Siero can show three messages on the right side before synthesis:
+
+* `Some solid picks you got there.\nReady whenever you are!` (`TXT_YOROZU_COMP_PROB_LOW`)
+* `I've got a good feeling about this!\nHope it turns out great!` (`TXT_YOROZU_COMP_PROB_MID`)
+* `Oh my! I think we've got a real\nwinner here! I've got goosebumps!` (`TXT_YOROZU_COMP_PROB_HIGH`)
+
+The second and third ones are chosen if the weight/percentage for the current combined sigil level (column 2 of `gem_mix_success`) is above the last two columns in the `constant` table, respectively. Otherwise, the first one (default) is picked.
+
+---
 
 ## Other useful signatures
 
