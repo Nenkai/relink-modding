@@ -28,7 +28,7 @@ It is then used as a key into `gem_mix_success` [table](../../../tables/table_da
 * The first column is the weight chance for regular (great) success.
 * The second column is the weight chance for grand success.
 
-All skills from both sigils are put into an array of 4 skills then the list is shuffled.
+All skills from both gems are put into an array of 4 skills then the list is shuffled.
 The first two are taken. That's the new gem.
 
 If it's a grand success, assign the maximum possible level for the gem. Otherwise default level.
