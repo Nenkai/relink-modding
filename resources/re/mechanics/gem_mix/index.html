@@ -2629,13 +2629,15 @@
 <h1 id="sigil-synthesis-grand-success">Sigil Synthesis Grand Success<a class="headerlink" href="#sigil-synthesis-grand-success" title="Permanent link">&para;</a></h1>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Handled by <code>ui::fsm::action::MixGem</code> fsm component, at <code>55 41 57 41 56 41 55 41 54 56 57 53 48 81 EC ? ? ? ? 48 8D AC 24 ? ? ? ? 48 83 E4 ? 48 89 E3 48 89 AB ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 4C 8B 2D</code>.</p>
+<p>Handled by <code>ui::fsm::action::MixGem</code> fsm component. Signature: <code>55 41 57 41 56 41 55 41 54 56 57 53 48 81 EC ? ? ? ? 48 8D AC 24 ? ? ? ? 48 83 E4 ? 48 89 E3 48 89 AB ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 4C 8B 2D</code>.</p>
 </div>
 <h2 id="execution">Execution<a class="headerlink" href="#execution" title="Permanent link">&para;</a></h2>
 <p>For Sigil Synthesis (known as Gem Mix ingame), the game combines total level of all skills inserted. Lv11+Lv11 &amp; Lv11+Lv11 = 44.</p>
-<p>It is then used as a key into <code>gem_mix_success</code> table.
-* Column 1 is the weight chance for regular success.
-* Column 2 is the weight chance for grand success.</p>
+<p>It is then used as a key into <code>gem_mix_success</code> table.</p>
+<ul>
+<li>Column 1 is the weight chance for regular success.</li>
+<li>Column 2 is the weight chance for grand success.</li>
+</ul>
 <p>All traits from both sigils are put into an array of 4 traits then the list is shuffled.
 The first two are taken. That's the new sigil.</p>
 <p>If it's a grand success, assign the maximum possible level for the sigil. Otherwise default level.</p>
@@ -2647,26 +2649,25 @@ The first two are taken. That's the new sigil.</p>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>48 = 51%
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>50 = 54%
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>52 = 57%
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>52 = 57%
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>54 = 60%
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>56 = 70%
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>58 = 75%
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>60 (4x Lv.15) = 85%
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>54 = 60%
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>56 = 70%
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>58 = 75%
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>60 (4x Lv.15) = 85%
 </code></pre></div></p>
 <h2 id="other-useful-signatures">Other useful signatures<a class="headerlink" href="#other-useful-signatures" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>GemManager::GetGemInfoFromSlotId(__int64 a1, _QWORD *a2, unsigned int a3)</code> - <code>41 56 56 57 55 53 48 83 EC ? 44 89 C3 49 89 D6 48 89 CF 48 81 C1 ? ? ? ? 48 8B 87 ? ? ? ? FF 50 ? 39 D8 0F 84 ? ? ? ? 89 D8 C1 E8 ? 89 D9 C1 E9 ? 0F B6 D3 48 BE ? ? ? ? ? ? ? ? 48 31 D6 48 BA ? ? ? ? ? ? ? ? 48 0F AF F2 0F B6 EF 48 31 F5 48 0F AF EA 0F B6 C0 48 31 E8 48 0F AF C2 48 31 C8 48 0F AF C2 48 23 87 ? ? ? ? 48 8B 8F ? ? ? ? 48 8B B7 ? ? ? ? 48 89 C2 48 C1 E2 ? 48 8B 54 16 ? 48 39 CA 0F 84 ? ? ? ? 39 5A ? 74 ? 48 01 C0 48 8B 34 C6 31 C0 66 0F 1F 84 00 ? ? ? ? 48 39 F2 74 ? 48 8B 52 ? 39 5A ? 75 ? 48 39 CA 74 ? 48 8B 42 ? 48 85 C0 74 ? 8B 50 ? 8B 6F</code></li>
-<li><code>GetGemMixSuccessForGemSlots</code> - <code>41 56 56 57 55 53 48 83 EC ? 4D 89 CE 44 89 C3</code></li>
-<li><code>RandomManager::GetRandomValue</code> - <code>55 56 57 48 83 EC ? 48 8D 6C 24 ? 48 C7 45 ? ? ? ? ? 8B 81 ? ? ? ? 83 F8</code></li>
-<li><code>GetGemMixRupiCostForGemSlots</code> - <code>E8 ? ? ? ? 89 43 ? C6 44 24</code></li>
-<li><code>GetSigilListForGemMix</code> - <code>E8 ? ? ? ? 48 8D 4B ? 4C 8B 43</code> - Returns a struct containing a count and the list of sigil hashes</li>
-<li><code>GetDefaultLevelForGem</code> - <code>E8 ? ? ? ? 45 85 FF 74 ? 4C 89 E9</code></li>
-<li><code>GetMaxPossibleLevelForGem</code> - <code>56 57 55 53 8B 71 ? 21 D6 4C 8B 41 ? 4C 8B 49 ? 48 89 F0 48 C1 E0 ? 49 8B 5C 01 ? B8 ? ? ? ? 4C 39 C3 0F 84 ? ? ? ? 39 53 ? 74 ? 48 01 F6 49 8B 34 F1 66 0F 1F 84 00 ? ? ? ? 48 39 F3 0F 84 ? ? ? ? 48 8B 5B ? 39 53 ? 75 ? 4C 39 C3 0F 84 ? ? ? ? 48 8B 5B</code></li>
-<li><code>CreateNewGem</code> - <code>55 41 57 41 56 41 55 41 54 56 57 53 48 81 EC ? ? ? ? 48 8D AC 24 ? ? ? ? 48 C7 45 ? ? ? ? ? 41 89 D5 8B 79</code></li>
-<li><code>SetGemTrait</code>- <code>55 41 57 41 56 56 57 53 48 83 EC ? 48 8D 6C 24 ? 48 C7 45 ? ? ? ? ? 45 89 CE 45 89 C7 89 D3</code></li>
-<li><code>GetTotalGemLevelFromGemSlotId</code> - <code>56 57 53 48 83 EC ? 89 D3 48 89 CE 48 81 C1 ? ? ? ? 48 8B 86 ? ? ? ? FF 50 ? 89 C1 31 C0 39 D9 0F 84 ? ? ? ? 89 D9 C1 E9 ? 41 89 D9 41 C1 E9 ? 44 0F B6 C3 48 BA ? ? ? ? ? ? ? ? 4C 31 C2 49 B8 ? ? ? ? ? ? ? ? 49 0F AF D0 0F B6 FF 48 31 D7 49 0F AF F8 0F B6 C9 48 31 F9 49 0F AF C8 4C 31 C9 49 0F AF C8 48 23 8E ? ? ? ? 4C 8B 86 ? ? ? ? 48 8B B6 ? ? ? ? 48 89 CA 48 C1 E2 ? 48 8B 54 16 ? 4C 39 C2 74 ? 39 5A ? 74 ? 48 01 C9 48 8B 0C CE 66 66 66 66 66 66 2E 0F 1F 84 00 ? ? ? ? 48 39 CA 74 ? 48 8B 52 ? 39 5A ? 75 ? 4C 39 C2 74 ? 48 8B 4A ? 48 85 C9 74 ? 31 C0 81 39 ? ? ? ? 74</code></li>
-<li><code>AddOrRemoveRupies</code> - <code>55 41 56 56 57 53 48 81 EC ? ? ? ? 48 8D AC 24 ? ? ? ? 48 C7 45 ? ? ? ? ? 48 89 CE 89 D1</code></li>
-<li><code>AddOrRemoveItem</code> - <code>55 41 57 41 56 41 55 41 54 56 57 53 48 81 EC ? ? ? ? 48 8D AC 24 ? ? ? ? 48 83 E4 ? 48 89 E3 48 89 AB ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 45 85 C0 0F 84</code></li>
+<li>GemManager::GetGemInfoFromSlotId(__int64 a1, _QWORD *a2, unsigned int a3) - <code>41 56 56 57 55 53 48 83 EC ? 44 89 C3 49 89 D6 48 89 CF 48 81 C1 ? ? ? ? 48 8B 87 ? ? ? ? FF 50 ? 39 D8 0F 84 ? ? ? ? 89 D8 C1 E8 ? 89 D9 C1 E9 ? 0F B6 D3 48 BE ? ? ? ? ? ? ? ? 48 31 D6 48 BA ? ? ? ? ? ? ? ? 48 0F AF F2 0F B6 EF 48 31 F5 48 0F AF EA 0F B6 C0 48 31 E8 48 0F AF C2 48 31 C8 48 0F AF C2 48 23 87 ? ? ? ? 48 8B 8F ? ? ? ? 48 8B B7 ? ? ? ? 48 89 C2 48 C1 E2 ? 48 8B 54 16 ? 48 39 CA 0F 84 ? ? ? ? 39 5A ? 74 ? 48 01 C0 48 8B 34 C6 31 C0 66 0F 1F 84 00 ? ? ? ? 48 39 F2 74 ? 48 8B 52 ? 39 5A ? 75 ? 48 39 CA 74 ? 48 8B 42 ? 48 85 C0 74 ? 8B 50 ? 8B 6F</code></li>
+<li>GetGemMixSuccessForGemSlots - <code>41 56 56 57 55 53 48 83 EC ? 4D 89 CE 44 89 C3</code></li>
+<li>RandomManager::GetRandomValue - <code>55 56 57 48 83 EC ? 48 8D 6C 24 ? 48 C7 45 ? ? ? ? ? 8B 81 ? ? ? ? 83 F8</code></li>
+<li>GetGemMixRupiCostForGemSlots - <code>E8 ? ? ? ? 89 43 ? C6 44 24</code></li>
+<li>GetSigilListForGemMix - <code>E8 ? ? ? ? 48 8D 4B ? 4C 8B 43</code> - Returns a struct containing a count and the list of sigil hashes</li>
+<li>GetDefaultLevelForGem - <code>E8 ? ? ? ? 45 85 FF 74 ? 4C 89 E9</code></li>
+<li>GetMaxPossibleLevelForGem - <code>56 57 55 53 8B 71 ? 21 D6 4C 8B 41 ? 4C 8B 49 ? 48 89 F0 48 C1 E0 ? 49 8B 5C 01 ? B8 ? ? ? ? 4C 39 C3 0F 84 ? ? ? ? 39 53 ? 74 ? 48 01 F6 49 8B 34 F1 66 0F 1F 84 00 ? ? ? ? 48 39 F3 0F 84 ? ? ? ? 48 8B 5B ? 39 53 ? 75 ? 4C 39 C3 0F 84 ? ? ? ? 48 8B 5B</code></li>
+<li>CreateNewGem - <code>55 41 57 41 56 41 55 41 54 56 57 53 48 81 EC ? ? ? ? 48 8D AC 24 ? ? ? ? 48 C7 45 ? ? ? ? ? 41 89 D5 8B 79</code></li>
+<li>SetGemTrait- <code>55 41 57 41 56 56 57 53 48 83 EC ? 48 8D 6C 24 ? 48 C7 45 ? ? ? ? ? 45 89 CE 45 89 C7 89 D3</code></li>
+<li>GetTotalGemLevelFromGemSlotId - <code>56 57 53 48 83 EC ? 89 D3 48 89 CE 48 81 C1 ? ? ? ? 48 8B 86 ? ? ? ? FF 50 ? 89 C1 31 C0 39 D9 0F 84 ? ? ? ? 89 D9 C1 E9 ? 41 89 D9 41 C1 E9 ? 44 0F B6 C3 48 BA ? ? ? ? ? ? ? ? 4C 31 C2 49 B8 ? ? ? ? ? ? ? ? 49 0F AF D0 0F B6 FF 48 31 D7 49 0F AF F8 0F B6 C9 48 31 F9 49 0F AF C8 4C 31 C9 49 0F AF C8 48 23 8E ? ? ? ? 4C 8B 86 ? ? ? ? 48 8B B6 ? ? ? ? 48 89 CA 48 C1 E2 ? 48 8B 54 16 ? 4C 39 C2 74 ? 39 5A ? 74 ? 48 01 C9 48 8B 0C CE 66 66 66 66 66 66 2E 0F 1F 84 00 ? ? ? ? 48 39 CA 74 ? 48 8B 52 ? 39 5A ? 75 ? 4C 39 C2 74 ? 48 8B 4A ? 48 85 C9 74 ? 31 C0 81 39 ? ? ? ? 74</code></li>
+<li>AddOrRemoveRupies - <code>55 41 56 56 57 53 48 81 EC ? ? ? ? 48 8D AC 24 ? ? ? ? 48 C7 45 ? ? ? ? ? 48 89 CE 89 D1</code></li>
+<li>AddOrRemoveItem - <code>55 41 57 41 56 41 55 41 54 56 57 53 48 81 EC ? ? ? ? 48 8D AC 24 ? ? ? ? 48 83 E4 ? 48 89 E3 48 89 AB ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 45 85 C0 0F 84</code></li>
 </ul>
 
 
@@ -2690,7 +2691,7 @@ The first two are taken. That's the new sigil.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 14, 2025 00:12:12">April 14, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 14, 2025 00:16:10">April 14, 2025</span>
   </span>
 
     
