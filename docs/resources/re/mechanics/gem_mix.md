@@ -76,7 +76,7 @@ Otherwise, the first one (default) is picked.
 * GetDefaultLevelForGem - `E8 ? ? ? ? 45 85 FF 74 ? 4C 89 E9`
 * GetMaxPossibleLevelForGem - `56 57 55 53 8B 71 ? 21 D6 4C 8B 41 ? 4C 8B 49 ? 48 89 F0 48 C1 E0 ? 49 8B 5C 01 ? B8 ? ? ? ? 4C 39 C3 0F 84 ? ? ? ? 39 53 ? 74 ? 48 01 F6 49 8B 34 F1 66 0F 1F 84 00 ? ? ? ? 48 39 F3 0F 84 ? ? ? ? 48 8B 5B ? 39 53 ? 75 ? 4C 39 C3 0F 84 ? ? ? ? 48 8B 5B`
 * CreateNewGem - `55 41 57 41 56 41 55 41 54 56 57 53 48 81 EC ? ? ? ? 48 8D AC 24 ? ? ? ? 48 C7 45 ? ? ? ? ? 41 89 D5 8B 79`
-* SetGemTrait- `55 41 57 41 56 56 57 53 48 83 EC ? 48 8D 6C 24 ? 48 C7 45 ? ? ? ? ? 45 89 CE 45 89 C7 89 D3`
+* SetGemTrait - `55 41 57 41 56 56 57 53 48 83 EC ? 48 8D 6C 24 ? 48 C7 45 ? ? ? ? ? 45 89 CE 45 89 C7 89 D3`
 * GetTotalGemLevelFromGemSlotId - `56 57 53 48 83 EC ? 89 D3 48 89 CE 48 81 C1 ? ? ? ? 48 8B 86 ? ? ? ? FF 50 ? 89 C1 31 C0 39 D9 0F 84 ? ? ? ? 89 D9 C1 E9 ? 41 89 D9 41 C1 E9 ? 44 0F B6 C3 48 BA ? ? ? ? ? ? ? ? 4C 31 C2 49 B8 ? ? ? ? ? ? ? ? 49 0F AF D0 0F B6 FF 48 31 D7 49 0F AF F8 0F B6 C9 48 31 F9 49 0F AF C8 4C 31 C9 49 0F AF C8 48 23 8E ? ? ? ? 4C 8B 86 ? ? ? ? 48 8B B6 ? ? ? ? 48 89 CA 48 C1 E2 ? 48 8B 54 16 ? 4C 39 C2 74 ? 39 5A ? 74 ? 48 01 C9 48 8B 0C CE 66 66 66 66 66 66 2E 0F 1F 84 00 ? ? ? ? 48 39 CA 74 ? 48 8B 52 ? 39 5A ? 75 ? 4C 39 C2 74 ? 48 8B 4A ? 48 85 C9 74 ? 31 C0 81 39 ? ? ? ? 74`
 * AddOrRemoveRupies - `55 41 56 56 57 53 48 81 EC ? ? ? ? 48 8D AC 24 ? ? ? ? 48 C7 45 ? ? ? ? ? 48 89 CE 89 D1`
 * AddOrRemoveItem - `55 41 57 41 56 41 55 41 54 56 57 53 48 81 EC ? ? ? ? 48 8D AC 24 ? ? ? ? 48 83 E4 ? 48 89 E3 48 89 AB ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 45 85 C0 0F 84`

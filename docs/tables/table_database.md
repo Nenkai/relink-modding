@@ -51,6 +51,7 @@ GBFRDataTools.exe sqlite-to-tbl -i <path to SQLite file> -o <path of output tabl
 
 ## Additional Notes
 
+* A list of tables is available [here](table_list.md)
 * For random-looking-values, [Hashes](../resources/re/hashes.md) are used for table relationships. Blank columns signify a hash of `887AE0B0` (empty string/no value).
 * The actual type of each column can be found by inspecting the `.headers` files of GBFRDataTool under the `Headers` folder.
 * Many of the columns are unknown and may need to be figured out first.

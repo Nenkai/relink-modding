@@ -138,6 +138,7 @@ nav:
 
   - Tables:
     - Table Database: tables/table_database.md
+    - Table List: tables/table_list.md
 
   - Contributing: contributing.md
 
