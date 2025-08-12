@@ -118,6 +118,7 @@ nav:
         - .mmat - Material Info: resources/formats/mmat.md
         - .objread - Obj Read: resources/formats/objread.md
         - .stpr - Streaming Prefetch: resources/formats/stpr.md
+        - Effect callselector: resources/formats/call_selector.md 
 
     - Reverse-Engineering:
         - API: resources/re/api.md
