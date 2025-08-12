@@ -134,7 +134,7 @@ icon: material/table-multiple
 * `quest_difficulty`
 * `quest_overkill_table` - Defines MSP multipliers depending on how much damage was done past a boss's health bar (and how many?)
 * `quest_param`
-* `quest_rank`
+* `quest_rank` - Defines parameters per quest rank/difficulty (i.e Maniac/Proud, etc). Key is the rank parsed from the quest id minus 1. Example: 407320 = rank 7 - 1 = row 6.
 * `result_box_rate`
 * `reward` - Defines all rewards in the game
 * `reward_demo`
