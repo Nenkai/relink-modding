@@ -12,10 +12,12 @@ When applicable, make sure to support the authors!
 * [Skip Intro-Boot Logos & News](https://www.nexusmods.com/granbluefantasyrelink/mods/28) by *happihora*
 * [Community Character Rebalance](https://www.nexusmods.com/granbluefantasyrelink/mods/502) 
     * **Note**: *Vanilla compatible*, not recommended online as it may break game balance.
-* [Curio T4 Rewards With Quick Quest Tickets (Rebalance)](https://www.nexusmods.com/granbluefantasyrelink/mods/322) by *Nenkai*
 * [Show Curio Tier on Drop](https://www.nexusmods.com/granbluefantasyrelink/mods/117) by *Nenkai*
 * [Mute Vyrn/Lyria](https://www.nexusmods.com/granbluefantasyrelink/mods/208) by *happihora*
 * [Stun Bar Cooldown Color Change](https://www.nexusmods.com/granbluefantasyrelink/mods/507) by *MidnightAugur*
+* [Return Imbued Stones](https://www.nexusmods.com/granbluefantasyrelink/mods/425) by *Nenkai*
+* [Automatic Power Adjustment](https://www.nexusmods.com/granbluefantasyrelink/mods/539) by *Nenkai*
+    * Useful for experienced players willing to play with friends or new players without carrying them.
 * [Mute Sierokarte and Parrot](https://www.nexusmods.com/granbluefantasyrelink/mods/52) by *SixTrillionOwls*
 * [Disable TAA/Bloom/Motion Blur/DoF & More](https://www.nexusmods.com/granbluefantasyrelink/mods/17) by *happihora*
 * [Weapon Customization Tool](https://www.nexusmods.com/granbluefantasyrelink/mods/451) by *Hazelberry* and *Nenkai*
