@@ -42,6 +42,7 @@ The scaling itself largely depends on the player's PWR, and depends on informati
 In particular, the game will select the last row in which the cutoff is right below the character's PWR. (game loops from the last row to the first one).
 
 From there, the game can limit the following attributes:
+
 * Attack Masteries (`ap_tree_atk`, where on the tree to start as locked)
 * Defense Masteries (`ap_tree_def`, where on the tree to start as locked)
 * Weapon Masteries (`ap_tree_wep`, where on the tree to start as locked)
