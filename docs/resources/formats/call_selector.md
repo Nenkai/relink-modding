@@ -4,7 +4,7 @@ icon: material/select-search
 
 # :material-select-search: Effect Call Selector
 
-The effect call selector file (`effect/callselector.bxm`) is responsible for showing different effects per weapon attack (or main effect?), used for Ferry, Seofon and Sandalphon. It is mostly a lookup table.
+The effect call selector file (`effect/callselector.bxm`) is responsible for showing different VFX effects per weapon attack (or main effect?), used for Ferry, Seofon and Sandalphon. It is mostly a lookup table.
 
 It's also a rather old file by PlatinumGames.
 
@@ -14,7 +14,7 @@ It's also a rather old file by PlatinumGames.
 | `EstId`   | Returned Effect ID after searching                                                  |
 | `ObjId`   | Weapon Obj ID for searching                                                         |
 | `Level`   | Unknown.                                                                            |
-| `ID`      | Main search key; some kind of EstId, referenced by est VFX files, 'FWK' part, field 'wk1'. wk0 has to be 4. (in the case of esp01?)  |
+| `ID`      | Main search key; some kind of EstId, referenced by est VFX files, 'FWK' part, field 'wk1'. wk0 has to be 4. (in the case of esp01?) - Refer to the 010 Editor [.est](https://github.com/Nenkai/010GameTemplates/blob/main/PlatinumGames/Plat_Eff_Est.bt) template for more information. |
 
 For instance, for Ferry, the following IDs represent:
 
