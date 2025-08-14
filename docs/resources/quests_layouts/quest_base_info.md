@@ -106,7 +106,7 @@ Quest Base Info files (`quest/{quest_id}/baseinfo.msg`) provides the basic & cri
 | `strengthValue_`         | `int`      | Strength value.
 | `rcommendedCombatPower_` | `int`      | Display value of recommended PWR.
 | `islandId_`              | `string`   | Island name where the quest takes place. Used mainly for displaying the name, maps to `island` [table](../../tables/table_database.md).
-| `gameCategory_`          | `int`      | Unknown.
+| `gameCategory_`          | `int`      | Quest category, 0 through 8, in the following order: 'Horde', 'Defend', 'Boss', 'Explore', 'Survival', <empty>, <empty>, 'Conquest'.
 | `multiQuestType_`        | `int`      | Unknown.
 | `location_`              | `string`   | Display location name where the quest takes place. Used mainly for displaying the location, maps to `location` [table](../../tables/table_database.md).
 | `enemyIds_[]`            | `ObjId[]`  | Display enemies in the quest. [Object ID](../re/obj_id.md).
