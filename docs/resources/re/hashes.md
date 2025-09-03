@@ -36,7 +36,7 @@ An empty string `""` is always equal to `887AE0B0` / `B0 E0 7A 88`.
 
 ## Hash List
 
-You can grab a zipped hash list [here](hashlist.7z) (updated January 26th 2025).
+You can grab a zipped hash list [here](hashlist.7z) (updated Sept 3rd 2025).
 
 It contains:
 

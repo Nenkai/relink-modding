@@ -7,34 +7,34 @@ icon: material/identifier
 ## Player (pl)
 
 ```
-0000 -- Gran (Rebel)
-0001 -- Gran (original)
-0100 -- Djeeta (Rebel)
-0101 -- Djeeta (original)
-0200 -- Katalina
-0300 -- Rackam
-0400 -- Io
-0500 -- Eugen
-0600 -- Rosetta
-0700 -- Ferry 
-0800 -- Lancelot
-0900 -- Vane
-1000 -- Percivale
-1100 -- Siegfried
-1101 -- Siegfried (Open Helmet)
-1102 -- Siegfried (Closed Helmet)
-1200 -- Charlotta
-1300 -- Yodarha
-1400 -- Narmaya
-1500 -- Ghandagoza
-1600 -- Zeta
-1700 -- Vaseraga
-1800 -- Cagliostro
-1900 -- Id
-2000 -- Id (Transformation)
-2100 -- Sandalphon (1.3.0)
-2200 -- Seofon (1.2.0)
-2300 -- Tweyen (1.2.0)
+PL0000 -- Gran (Rebel)
+PL0001 -- Gran (original)
+PL0100 -- Djeeta (Rebel)
+PL0101 -- Djeeta (original)
+PL0200 -- Katalina
+PL0300 -- Rackam
+PL0400 -- Io
+PL0500 -- Eugen
+PL0600 -- Rosetta
+PL0700 -- Ferry 
+PL0800 -- Lancelot
+PL0900 -- Vane
+PL1000 -- Percivale
+PL1100 -- Siegfried
+PL1101 -- Siegfried (Open Helmet)
+PL1102 -- Siegfried (Closed Helmet)
+PL1200 -- Charlotta
+PL1300 -- Yodarha
+PL1400 -- Narmaya
+PL1500 -- Ghandagoza
+PL1600 -- Zeta
+PL1700 -- Vaseraga
+PL1800 -- Cagliostro
+PL1900 -- Id
+PL2000 -- Id (Transformation)
+PL2100 -- Sandalphon (1.3.0)
+PL2200 -- Seofon (1.2.0)
+PL2300 -- Tweyen (1.2.0)
 ```
 
 ---
@@ -42,41 +42,41 @@ icon: material/identifier
 ## NPC (np)
 
 ```
-0000 -- Lyria
-0001 -- Lyria (Church of Avia)
-0100 -- Vyrn
-0200 -- Sierokarte
-0300 -- Rolan
-0301 -- Rolan (2)
-0400 -- Historiath
-0500 -- Lilith
-0600 -- Zathba
-0700 -- Human Man
-0702 -- Human Man (2)
-0800 -- Old Man with Cane
-0900 -- Human Boy
-1000 -- Human Woman
-1002 -- Human Woman (2)
-1010 -- Human Woman (3)
-1200 -- Erune Man
-1202 -- Dagger
-1300 -- Erune Woman
-1400 -- Harvin Man
-1402 -- Rilla
-1500 -- Harvin Girl
-1502 -- Harvin Woman
-1510 -- Harvin Girl (2)
-1600 -- Draph Man
-1602 -- Pops
-1700 -- Draph Woman
-1702 -- Draph Woman (2)
-1710 -- Draph Woman (3)
-1800 -- Mellose Acolyte
-1900 -- Seedhollow Soldier
-2000 -- Boy
-2100 -- Girl
-2200 -- Alliance Receptionist
-2201 -- Alliance Receptionist (2)
+NP0000 -- Lyria
+NP0001 -- Lyria (Church of Avia)
+NP0100 -- Vyrn
+NP0200 -- Sierokarte
+NP0300 -- Rolan
+NP0301 -- Rolan (2)
+NP0400 -- Historiath
+NP0500 -- Lilith
+NP0600 -- Zathba
+NP0700 -- Human Man
+NP0702 -- Human Man (2)
+NP0800 -- Old Man with Cane
+NP0900 -- Human Boy
+NP1000 -- Human Woman
+NP1002 -- Human Woman (2)
+NP1010 -- Human Woman (3)
+NP1200 -- Erune Man
+NP1202 -- Dagger
+NP1300 -- Erune Woman
+NP1400 -- Harvin Man
+NP1402 -- Rilla
+NP1500 -- Harvin Girl
+NP1502 -- Harvin Woman
+NP1510 -- Harvin Girl (2)
+NP1600 -- Draph Man
+NP1602 -- Pops
+NP1700 -- Draph Woman
+NP1702 -- Draph Woman (2)
+NP1710 -- Draph Woman (3)
+NP1800 -- Mellose Acolyte
+NP1900 -- Seedhollow Soldier
+NP2000 -- Boy
+NP2100 -- Girl
+NP2200 -- Alliance Receptionist
+NP2201 -- Alliance Receptionist (2)
 ```
 
 ---
@@ -84,97 +84,97 @@ icon: material/identifier
 ## Enemy (em)
 
 ```
-0000 -- Goblin Stormer/Bandit/Striker/Gatherer/Trooper/Savage Carrion-Eater
-0001 -- Goblin Witch Doctor/Hexer/Pyromancer
-0002 -- Goblin Tanker/Mud-Covered Swordsman
-0003 -- Goblin Archer/Frenzied Archer
-0004 -- Goblin Soldier/Gladiator/Rowdy Bord/Craver Janaf/Sandeater Gimza
-0005 -- Goblin Warrior/Greatshield Madbeat
-0100 -- Skeleton/Mossy Skeleton
-0101 -- Frosty Bones/Withered Holy Knight/Icy Hexblade
-0102 -- Gerasene
-0103 -- Scarmiglione
-0200 -- Timber Wolf/Sand Wolf/Ravenous Wolf
-0201 -- Goblin Wolfrider/Crimson Runner
-0300 -- Hornbird/Ominous Raptor/Crazed Crow/Minepecker
-0400 -- Wyvern
-0500 -- Quakadile
-0501 -- Blizzadile
-0502 -- Infernadile
-0600 -- Slime
-0601 -- Silverslime
-0602 -- Goldslime
-0603 -- King Silverslime
-0604 -- King Goldslime
-0605 -- Prismatic Slime
-0701 -- Cyaegha/Silent Watcher
-0705 -- Ahriman
-0706 -- Nazarbonju/Eternal Gaze
-0800 -- Flame Gyre
-0801 -- Aqua Gyre
-0802 -- Earth Gyre
-0803 -- Wind Gyre
-0804 -- Light Gyre
-0805 -- Dark Gyre
-0900 -- Fire Spirit/Trialbeast Flame Elemental/Phondam Elemental/Vayoi Elemental/Torchlight Spirit/Crimson Phantom/Ruby Phantom/Shimmering Flame
-0901 -- Water Effigy
-0902 -- Water Spirit/Elemental/Phantom
-0903 -- Wind Effigy
-1000 -- Aviaeth Saber/Aviaeth Trooper
-1001 -- Aviaeth Lancer
-1002 -- Aviaeth Archer
-1003 -- Aviaeth Flagbearer/Aviaeth Honor Guard
-1004 -- Inquisitor Rook/Aviaeth Dreadnaught/Galcia the Saved/Hardened Rynell
-1005 -- Reaper Avalan/Sinner Balgas/Aviaeth Avenger/Deluded Derleth
-1006 -- Aviaeth Crusader
-1100 -- Sword Veil Fellowship
-1200 -- Vaza'ite Raptor
-1300 -- Droita Sentinel
-1301 -- Droita Mother/Droita Mother (Assault)/Droita Cyclops Prototype
-1303 -- Droita Balsam/Torpedo Balsam
-1500 -- Rock Golem
-1600 -- Griffin/Wraithwing/Goblin Eater/Obsidian Raptor
-1700 -- Behemoth
-1800 -- Ancient Dragon/Frumious Bandersnatch/Ferocious Garamud
-1801 -- Vrazarek Firewyrm
-1802 -- Wilinus Icewyrm
-1803 -- Corvell Earthwyrm
-1804 -- Elusious Windwyrm
-1805 -- Radis Whitewyrm
-1806 -- Evyl Blackwyrm
-1900 -- Tayu'itar/Tayu'itar Mk II
-2000 -- Gallanza
-2100 -- Maglielle/Mysterious Swordsman
-2300 -- Id (Dragonform)
-2400 -- Lilith
-2500 -- Pincer
-2600 -- Cobra/Sand Reaper
-2700 -- Sir Barrold
-2800 -- Ominous Form/Vengeful Wraith/Calamitous Specter
-3100 -- Pyet-A
-7000 -- Proto Bahamut
-7100 -- Vulkan Bolla
-7110 -- Vulkan Bolla Nihilla
-7200 -- Furycane
-7210 -- Furycane Nihilla
-7300 -- Managarmr
-7310 -- Managarmr Nihilla
-7400 -- Excavallion
-7401 -- Talus Reactor (Excavallion)
-7404 -- Spinal Core (Excavallion)
-7406 -- Atlas Plug/Bolt/Primal Cylinder (Excavallion)
-7407 -- Deltoid Reactor/Forearm Reactor (Excavallion)
-7408 -- Coxa Reactor (Excavallion)
-7409 -- Chest Reactor (Excavallion)
-7410 -- Spinal Core (Excavallion)
-7500 -- Angra Mainyu
-7520 -- Daeva
-7530 -- Aka Manah
-7540 -- Aka Manah (Wires)
-7600 -- Bahamut Versa
-7603 -- Bahamut Core
-7610 -- Bahamut Versa Omega
-7700 -- Lucilius
+EM0000 -- Goblin Stormer/Bandit/Striker/Gatherer/Trooper/Savage Carrion-Eater
+EM0001 -- Goblin Witch Doctor/Hexer/Pyromancer
+EM0002 -- Goblin Tanker/Mud-Covered Swordsman
+EM0003 -- Goblin Archer/Frenzied Archer
+EM0004 -- Goblin Soldier/Gladiator/Rowdy Bord/Craver Janaf/Sandeater Gimza
+EM0005 -- Goblin Warrior/Greatshield Madbeat
+EM0100 -- Skeleton/Mossy Skeleton
+EM0101 -- Frosty Bones/Withered Holy Knight/Icy Hexblade
+EM0102 -- Gerasene
+EM0103 -- Scarmiglione
+EM0200 -- Timber Wolf/Sand Wolf/Ravenous Wolf
+EM0201 -- Goblin Wolfrider/Crimson Runner
+EM0300 -- Hornbird/Ominous Raptor/Crazed Crow/Minepecker
+EM0400 -- Wyvern
+EM0500 -- Quakadile
+EM0501 -- Blizzadile
+EM0502 -- Infernadile
+EM0600 -- Slime
+EM0601 -- Silverslime
+EM0602 -- Goldslime
+EM0603 -- King Silverslime
+EM0604 -- King Goldslime
+EM0605 -- Prismatic Slime
+EM0701 -- Cyaegha/Silent Watcher
+EM0705 -- Ahriman
+EM0706 -- Nazarbonju/Eternal Gaze
+EM0800 -- Flame Gyre
+EM0801 -- Aqua Gyre
+EM0802 -- Earth Gyre
+EM0803 -- Wind Gyre
+EM0804 -- Light Gyre
+EM0805 -- Dark Gyre
+EM0900 -- Fire Spirit/Trialbeast Flame Elemental/Phondam Elemental/Vayoi Elemental/Torchlight Spirit/Crimson Phantom/Ruby Phantom/Shimmering Flame
+EM0901 -- Water Effigy
+EM0902 -- Water Spirit/Elemental/Phantom
+EM0903 -- Wind Effigy
+EM1000 -- Aviaeth Saber/Aviaeth Trooper
+EM1001 -- Aviaeth Lancer
+EM1002 -- Aviaeth Archer
+EM1003 -- Aviaeth Flagbearer/Aviaeth Honor Guard
+EM1004 -- Inquisitor Rook/Aviaeth Dreadnaught/Galcia the Saved/Hardened Rynell
+EM1005 -- Reaper Avalan/Sinner Balgas/Aviaeth Avenger/Deluded Derleth
+EM1006 -- Aviaeth Crusader
+EM1100 -- Sword Veil Fellowship
+EM1200 -- Vaza'ite Raptor
+EM1300 -- Droita Sentinel
+EM1301 -- Droita Mother/Droita Mother (Assault)/Droita Cyclops Prototype
+EM1303 -- Droita Balsam/Torpedo Balsam
+EM1500 -- Rock Golem
+EM1600 -- Griffin/Wraithwing/Goblin Eater/Obsidian Raptor
+EM1700 -- Behemoth
+EM1800 -- Ancient Dragon/Frumious Bandersnatch/Ferocious Garamud
+EM1801 -- Vrazarek Firewyrm
+EM1802 -- Wilinus Icewyrm
+EM1803 -- Corvell Earthwyrm
+EM1804 -- Elusious Windwyrm
+EM1805 -- Radis Whitewyrm
+EM1806 -- Evyl Blackwyrm
+EM1900 -- Tayu'itar/Tayu'itar Mk II
+EM2000 -- Gallanza
+EM2100 -- Maglielle/Mysterious Swordsman
+EM2300 -- Id (Dragonform)
+EM2400 -- Lilith
+EM2500 -- Pincer
+EM2600 -- Cobra/Sand Reaper
+EM2700 -- Sir Barrold
+EM2800 -- Ominous Form/Vengeful Wraith/Calamitous Specter
+EM3100 -- Pyet-A
+EM7000 -- Proto Bahamut
+EM7100 -- Vulkan Bolla
+EM7110 -- Vulkan Bolla Nihilla
+EM7200 -- Furycane
+EM7210 -- Furycane Nihilla
+EM7300 -- Managarmr
+EM7310 -- Managarmr Nihilla
+EM7400 -- Excavallion
+EM7401 -- Talus Reactor (Excavallion)
+EM7404 -- Spinal Core (Excavallion)
+EM7406 -- Atlas Plug/Bolt/Primal Cylinder (Excavallion)
+EM7407 -- Deltoid Reactor/Forearm Reactor (Excavallion)
+EM7408 -- Coxa Reactor (Excavallion)
+EM7409 -- Chest Reactor (Excavallion)
+EM7410 -- Spinal Core (Excavallion)
+EM7500 -- Angra Mainyu
+EM7520 -- Daeva
+EM7530 -- Aka Manah
+EM7540 -- Aka Manah (Wires)
+EM7600 -- Bahamut Versa
+EM7603 -- Bahamut Core
+EM7610 -- Bahamut Versa Omega
+EM7700 -- Lucilius
 ```
 
 ---
@@ -182,12 +182,12 @@ icon: material/identifier
 ## Map Animated (ba)
 
 ```
-0350 -- Cat
-2103 -- Grapnel
-7200 -- Keeper
-7201 -- Watcher
-7210 -- Calamitous Vestiges
-7211 -- Calamitous Gate
+BA0350 -- Cat
+BA2103 -- Grapnel
+BA7200 -- Keeper
+BA7201 -- Watcher
+BA7210 -- Calamitous Vestiges
+BA7211 -- Calamitous Gate
 ```
 
 ---
@@ -195,11 +195,11 @@ icon: material/identifier
 ## Map Breakable Props (bh)
 
 ```
-0002 -- Merchant's Cargo
-0003 -- Hallowed Ground
-0004 -- Barricade
-2002 -- 20mm Ether Autocannon
-2005 -- Control Unit
+BH0002 -- Merchant's Cargo
+BH0003 -- Hallowed Ground
+BH0004 -- Barricade
+BH2002 -- 20mm Ether Autocannon
+BH2005 -- Control Unit
 ```
 
 ---
@@ -209,110 +209,110 @@ Source: `table/weapon.tbl` & `table/text/en/text.json`
 
 ### Captain (Gran/Djeeta)
 ```
-wp0000 - Traveller's Sword
-wp0001 - Durandal
-wp0002 - Sword of Eos (Sword of Eos, the Star Key)
-wp0003 - Albacore Blade
-wp0004 - Ultima Sword
-wp0005 - Seven-Star Sword (Seven-Star Sword, Celestial)
-wp0010 - False Sword of the Apocalypse
-wp0100 - Partenza
+WP0000 - Traveller's Sword
+WP0001 - Durandal
+WP0002 - Sword of Eos (Sword of Eos, the Star Key)
+WP0003 - Albacore Blade
+WP0004 - Ultima Sword
+WP0005 - Seven-Star Sword (Seven-Star Sword, Celestial)
+WP0010 - False Sword of the Apocalypse
+WP0100 - Partenza
 ```
 
 ### Katalina
 ```
-wp0200 - Rukalsa
-wp0201 - Flame Rapier
-wp0202 - Murgleis (Murgleis, the Azure Oath)
-wp0203 - Luminiera Sword Omega
-wp0204 - Ephemeron
-wp0205 - Blutgang (Blutgang, Blade of Refuge)
-wp0290 - Ares
-wp0291 - Ares Sword
-wp0292 - Ares Shield
+WP0200 - Rukalsa
+WP0201 - Flame Rapier
+WP0202 - Murgleis (Murgleis, the Azure Oath)
+WP0203 - Luminiera Sword Omega
+WP0204 - Ephemeron
+WP0205 - Blutgang (Blutgang, Blade of Refuge)
+WP0290 - Ares
+WP0291 - Ares Sword
+WP0292 - Ares Shield
 ```
 
 ### Rackam
 ```
-wp0300 - Flintspike
-wp0301 - Wheellock Axe
-wp0302 - Benedia (Benedia, Azure Ammunition)
-wp0303 - Tiamat Bolt Omega
-wp0304 - Stormcloud
-wp0305 - Freikugel (Freikugel, the Purifier)
-wp0370 - Shotgun
+WP0300 - Flintspike
+WP0301 - Wheellock Axe
+WP0302 - Benedia (Benedia, Azure Ammunition)
+WP0303 - Tiamat Bolt Omega
+WP0304 - Stormcloud
+WP0305 - Freikugel (Freikugel, the Purifier)
+WP0370 - Shotgun
 ```
 
 ### Io
 ```
-wp0400 - Little Witch Scepter
-wp0401 - Zhezl
-wp0402 - Gambanteinn (Gambanteinn, Staff of Hope)
-wp0403 - Colossus Cane Omega
-wp0404 - Tupsimati
-wp0405 - Caduceus (Caduceus, Immortal Coil)
+WP0400 - Little Witch Scepter
+WP0401 - Zhezl
+WP0402 - Gambanteinn (Gambanteinn, Staff of Hope)
+WP0403 - Colossus Cane Omega
+WP0404 - Tupsimati
+WP0405 - Caduceus (Caduceus, Immortal Coil)
 ```
 
 ### Eugen
 ```
-wp0500 - Dreyse
-wp0501 - Matchlock
-wp0502 - Ak-4A (AK-4A, the Suppressor)
-wp0503 - Leviathan Muzzle
-wp0504 - Clarion
-wp0505 - Draconic Fire (Draconic Fire, Charring Breath)
-wp0590 - Thrown Grenade
+WP0500 - Dreyse
+WP0501 - Matchlock
+WP0502 - Ak-4A (AK-4A, the Suppressor)
+WP0503 - Leviathan Muzzle
+WP0504 - Clarion
+WP0505 - Draconic Fire (Draconic Fire, Charring Breath)
+WP0590 - Thrown Grenade
 ```
 
 ### Rosetta
 ```
-wp0600 - Egoism
-wp0601 - Swordbreaker
-wp0602 - Love Eternal (Love Eternal, Forevermore)
-wp0603 - Rose Crystal Knife
-wp0604 - Cortana
-wp0605 - Dagger of Bahamut Coda (Primal Dagger of Bahamut Coda)
-wp0690 - Large Rose Vine
-wp0691 - Vine
-wp0692 - Large Vine
-wp0693 - Large Rose
-wp0694 - Large Leafy Vine
-wp0695 - Round Vine?
+WP0600 - Egoism
+WP0601 - Swordbreaker
+WP0602 - Love Eternal (Love Eternal, Forevermore)
+WP0603 - Rose Crystal Knife
+WP0604 - Cortana
+WP0605 - Dagger of Bahamut Coda (Primal Dagger of Bahamut Coda)
+WP0690 - Large Rose Vine
+WP0691 - Vine
+WP0692 - Large Vine
+WP0693 - Large Rose
+WP0694 - Large Leafy Vine
+WP0695 - Round Vine?
 ```
 
 ### Ferry
 ```
-wp0700 - Geisterpeitche
-wp0701 - Leather Belt
-wp0702 - Ethereal Lasher (Ethereal Lasher, Fleeting End)
-wp0703 - Flame Lit Curl
-wp0704 - Live Wire
-wp0705 - Erinnerung (Erinnerung, From Beyond)
-wp0790 - Momo
-wp0791 - Fugee
-wp0792 - Nicola
-wp0793 - GeeGee
-wp0794 - Beppo
+WP0700 - Geisterpeitche
+WP0701 - Leather Belt
+WP0702 - Ethereal Lasher (Ethereal Lasher, Fleeting End)
+WP0703 - Flame Lit Curl
+WP0704 - Live Wire
+WP0705 - Erinnerung (Erinnerung, From Beyond)
+WP0790 - Momo
+WP0791 - Fugee
+WP0792 - Nicola
+WP0793 - GeeGee
+WP0794 - Beppo
 ```
 
 ### Lancelot
 ```
-wp0800 - Altachiara
-wp0801 - Hoarfrost Blade Persius
-wp0802 - Blanc Comme Neige
-wp0803 - Vegalta
-wp0804 - Knight of Ice (Knight of Ice, the Silver Blur)
-wp0805 - Damascus Knife (Damascus Knife, the Unseen)
+WP0800 - Altachiara
+WP0801 - Hoarfrost Blade Persius
+WP0802 - Blanc Comme Neige
+WP0803 - Vegalta
+WP0804 - Knight of Ice (Knight of Ice, the Silver Blur)
+WP0805 - Damascus Knife (Damascus Knife, the Unseen)
 ```
 
 ### Vane
 ```
-wp0900 - Alabarda
-wp0901 - Swan
-wp0902 - Treuer Krieger (Treuer Krieger, the Dauntless)
-wp0903 - Ukonvasara
-wp0904 - Blossom Axe
-wp0905 - Mjolnir (Mjolnir, Thunderous Crusher)
+WP0900 - Alabarda
+WP0901 - Swan
+WP0902 - Treuer Krieger (Treuer Krieger, the Dauntless)
+WP0903 - Ukonvasara
+WP0904 - Blossom Axe
+WP0905 - Mjolnir (Mjolnir, Thunderous Crusher)
 ```
 
 ### Percival

@@ -2,7 +2,7 @@
 icon: material/bone-off
 ---
 
-:material-lightbulb: Data Version: `1.1.x`
+:material-lightbulb: Data Version: `1.3.x`
 
 !!! note ":material-note: Notes/Observations"
 
@@ -410,10 +410,12 @@ UnkFlag/Id: 0
 
 ----
 
-## EM1700
+## Behemoth (EM1700)
 ### Part Group #1
 UnkFlag/Id: 0
 #### Body Part 0
 ```
-  - [R6] ITEM_32_0043 (10000)
+  - [R6] Rancorous Lance (10000)
 ```
+
+----
