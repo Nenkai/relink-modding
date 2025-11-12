@@ -70,12 +70,12 @@ On 23 October 2025, a change was made that looked even more suspicious:
 
 <figure markdown>
   ![Image title](unknown_app.png){ width="800" }
-  <figcaption>Source: <a href="url">https://steamdb.info/app/881020/history/?changeid=31850368</a></figcaption>
+  <figcaption>Source: <a href="https://steamdb.info/app/881020/history/?changeid=31850368">https://steamdb.info/app/881020/history/?changeid=31850368</a></figcaption>
 </figure>
 
 <figure markdown>
   ![Image title](unknown_app2.png){ width="800" }
-  <figcaption>Source: <a href="url">https://steamdb.info/changelist/31850368/</a></figcaption>
+  <figcaption>Source: <a href="https://steamdb.info/changelist/31850368/">https://steamdb.info/changelist/31850368/</a></figcaption>
 </figure>
 
 A change occured that affected Relink, and some other app. The term app is actually used loosely here - an app on steam represents a product on Steam, that does not necessarily need to be available. It could be a game, software, a demo, or a DLC.
@@ -84,7 +84,7 @@ The thing is that, app `4131170` is totally unknown and hidden from the store. W
 
 <figure markdown>
   ![Image title](unknown_app3.png){ width="800" }
-  <figcaption>Source: <a href="url">https://steamdb.info/app/4131170/history/</a></figcaption>
+  <figcaption>Source: <a href="https://steamdb.info/app/4131170/history/">https://steamdb.info/app/4131170/history/</a></figcaption>
 </figure>
 
 The initial change that "affected 2 items" is likely Relink being registered to a DLC, or something else. We have little information here, but we can only speculate.
@@ -93,7 +93,7 @@ A DLC change when not hidden, looks like this:
 
 <figure markdown>
   ![Image title](dlc_change.png){ width="800" }
-  <figcaption>Source: <a href="url">https://steamdb.info/changelist/22755897/</a></figcaption>
+  <figcaption>Source: <a href="https://steamdb.info/changelist/22755897/">https://steamdb.info/changelist/22755897/</a></figcaption>
 </figure>
 
 ---
