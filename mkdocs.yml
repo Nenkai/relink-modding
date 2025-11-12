@@ -143,6 +143,9 @@ nav:
     - Table Database: tables/table_database.md
     - Table List: tables/table_list.md
 
+  - Other:
+    - Possible Updates: other/possible_updates.md
+    
   - Contributing: contributing.md
 
 markdown_extensions:
