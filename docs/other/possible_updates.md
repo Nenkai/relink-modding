@@ -4,6 +4,10 @@ icon: material/update
 
 # :material-update: Possible Game Updates
 
+**UPDATE**: Confirmed to be Granblue Fantasy: Relink - Endless Ragnarok! https://steamdb.info/app/4306890/history/
+
+---
+
 Been long time due, but it is becoming likely that the game *may* receive a future update due to a few hints here and there.
 
 ## :material-steam: SteamDB Updates
