@@ -94,7 +94,7 @@ This allows the motion to be used multiple times, but have different `AttackRate
     | `14 (16324)`   | Unknown.
     | `15 (32768)`   | Unknown.
     | `16 (65536)`   | Unknown.
-    | `17 (131072)`  | Unknown.
+    | `17 (131072)`  | Hold Input (press-and-hold branch). **`Config` must be set to 0** (Config=1 is ineffective).
     | `18 (262144)`   | Perfect Window (does not actually perform the attack, just allows the input)
     | `19 (524288)`   | Perfect Attack (does not allow input, only calls the action). **`Config` is set to 1.**
     | `20 (1048576)`   | Unknown.
