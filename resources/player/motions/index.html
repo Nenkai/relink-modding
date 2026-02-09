@@ -3279,11 +3279,11 @@ This allows the motion to be used multiple times, but have different <code>Attac
 <li><code>facialmotion</code> - Controls facial animations</li>
 <li><code>flags</code> - Controls flags needed to be called during the animation (see below for flag values)</li>
 <li><code>ik</code> - Controls inverse kinematics</li>
-<li><code>mesh</code> - Unknown</li>
+<li><code>mesh</code> - Controls mesh visibility states (ex. Sandalphon's wings).</li>
 <li><code>attack</code> - Controls hitboxes that the animation will spawn, note that these hitboxes will not hit automatically, the amount of times the character can hit and when is controlled by flags</li>
 <li><code>se</code> - Controls sound effects</li>
 <li><code>camera</code> - Controls camera movements</li>
-<li><code>speed</code> - Controls the speed of the ANIMATION. this does not affect VFX, but does affect hitboxes and flags. i am not aware if it affects camera or sound effects</li>
+<li><code>speed</code> - Controls the speed of the ANIMATION. This does not affect vfx or sound effect speeds</li>
 <li><code>cloth</code> - ?</li>
 </ul>
 </li>
@@ -3327,7 +3327,7 @@ This allows the motion to be used multiple times, but have different <code>Attac
 </tr>
 <tr>
 <td><code>6 (64)</code></td>
-<td>Unknown</td>
+<td>Allows Y Inputs</td>
 </tr>
 <tr>
 <td><code>7 (128)</code></td>
@@ -3347,7 +3347,7 @@ This allows the motion to be used multiple times, but have different <code>Attac
 </tr>
 <tr>
 <td><code>11 (2048)</code></td>
-<td>Unknown</td>
+<td>Gives the character i-Frames for the duration</td>
 </tr>
 <tr>
 <td><code>12 (4096)</code></td>
@@ -3367,19 +3367,19 @@ This allows the motion to be used multiple times, but have different <code>Attac
 </tr>
 <tr>
 <td><code>16 (65536)</code></td>
-<td>Unknown</td>
+<td>Re-enables Gravity when called</td>
 </tr>
 <tr>
 <td><code>17 (131072)</code></td>
-<td>Unknown</td>
+<td>Significantly lowers Gravity when called</td>
 </tr>
 <tr>
 <td><code>18 (262144)</code></td>
-<td>Unknown.</td>
+<td>Unknown</td>
 </tr>
 <tr>
 <td><code>19 (524288)</code></td>
-<td>Unknown.</td>
+<td>Allows "branchAtkHit_" to trigger if any hits have been landed during the action</td>
 </tr>
 <tr>
 <td><code>20 (1048576)</code></td>
@@ -3399,7 +3399,7 @@ This allows the motion to be used multiple times, but have different <code>Attac
 </tr>
 <tr>
 <td><code>24 (16777216)</code></td>
-<td>Unknown</td>
+<td>Allows X Inputs</td>
 </tr>
 <tr>
 <td><code>25 (33554432)</code></td>
@@ -3411,7 +3411,7 @@ This allows the motion to be used multiple times, but have different <code>Attac
 </tr>
 <tr>
 <td><code>27 (134217728)</code></td>
-<td>Unknown</td>
+<td>Inherent Stout, or knockback/stagger resistance</td>
 </tr>
 <tr>
 <td><code>28 (268435456)</code></td>
@@ -3441,7 +3441,7 @@ This allows the motion to be used multiple times, but have different <code>Attac
 <tbody>
 <tr>
 <td><code>0 (1)</code></td>
-<td>Unknown.</td>
+<td>May be action specific, allows motion to interact with parry gapclosing during the time it is enabled.</td>
 </tr>
 <tr>
 <td><code>1 (2)</code></td>
@@ -3453,7 +3453,7 @@ This allows the motion to be used multiple times, but have different <code>Attac
 </tr>
 <tr>
 <td><code>3 (8)</code></td>
-<td>Unknown.</td>
+<td>Marks the End of an SBA action, allowing other players to chain, or for Full Burst to happen. <strong>Config is set to 1</strong>.</td>
 </tr>
 <tr>
 <td><code>4 (16)</code></td>
@@ -3521,7 +3521,7 @@ This allows the motion to be used multiple times, but have different <code>Attac
 </tr>
 <tr>
 <td><code>20 (1048576)</code></td>
-<td>Unknown.</td>
+<td>Activates Vane's Inherent Guard effect.</td>
 </tr>
 <tr>
 <td><code>21 (2097152)</code></td>
@@ -3533,7 +3533,7 @@ This allows the motion to be used multiple times, but have different <code>Attac
 </tr>
 <tr>
 <td><code>23 (8388608)</code></td>
-<td>Unknown.</td>
+<td>Parry Frames</td>
 </tr>
 <tr>
 <td><code>24 (16777216)</code></td>
@@ -3561,7 +3561,7 @@ This allows the motion to be used multiple times, but have different <code>Attac
 </tr>
 <tr>
 <td><code>30 (1073741824)</code></td>
-<td>Unknown.</td>
+<td>Closes the window on follow-up attacks. <strong>Config is set to 1</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -3590,7 +3590,7 @@ This allows the motion to be used multiple times, but have different <code>Attac
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 7, 2026 20:05:05 UTC">February 7, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 8, 2026 21:30:20 UTC">February 8, 2026</span>
   </span>
 
     
@@ -3618,11 +3618,6 @@ This allows the motion to be used multiple times, but have different <code>Attac
     
     <nav>
       
-        <a href="https://github.com/yy556023" class="md-author" title="@yy556023">
-          
-          <img src="https://avatars.githubusercontent.com/u/82579328?v=4&amp;size=72" alt="yy556023">
-        </a>
-      
         <a href="https://github.com/MidnightAugur" class="md-author" title="@MidnightAugur">
           
           <img src="https://avatars.githubusercontent.com/u/165240242?v=4&amp;size=72" alt="MidnightAugur">
@@ -3631,6 +3626,11 @@ This allows the motion to be used multiple times, but have different <code>Attac
         <a href="https://github.com/web-flow" class="md-author" title="@web-flow">
           
           <img src="https://avatars.githubusercontent.com/u/19864447?v=4&amp;size=72" alt="web-flow">
+        </a>
+      
+        <a href="https://github.com/yy556023" class="md-author" title="@yy556023">
+          
+          <img src="https://avatars.githubusercontent.com/u/82579328?v=4&amp;size=72" alt="yy556023">
         </a>
       
         <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">

@@ -3265,27 +3265,27 @@
 <tr>
 <td><code>abilityTag_</code></td>
 <td>string</td>
-<td>Names the skill, refers to <code>ability</code> <a href="../../../tables/table_database/">table</a>. This is only used for actual abilities, not just normal actions. Example: "AB_PL0000_09" (this is Gran's 9th ability, which the ordering of abilities can be found by matching this against the Text file for the abilities, or removing all selected abilities in game, and counting from top to bottom).</td>
+<td>Names the skill, refers to <code>ability</code> <a href="../../../tables/table_database/">table</a>. This is only used for actual abilities, not just normal actions. Example: "AB_PL0000_09" (this is Gran's 9th ability. The ordering of abilities can be found by matching this against <code>data\system\table\text\[Language]\text.msg</code>, or removing all selected abilities in game, and counting from top to bottom).</td>
 </tr>
 <tr>
 <td><code>saveActionType_</code></td>
 <td>int</td>
-<td>Unknown.</td>
+<td>Unknown. Certain numbers can change how the skill cooldown is spent. ie. on skill startup, or when Flag1:7 is called.</td>
 </tr>
 <tr>
 <td><code>straddleFlagBit_</code></td>
 <td>int</td>
-<td>Bit flags. Controls how the game will handle the action. Bit 1 made the move assigned to this flag be affected by quick charge on Vaseraga.</td>
+<td>Bit flags. Controls how the game will handle the action. May remove the ability to chain to other actions without the right flags.</td>
 </tr>
 <tr>
 <td><code>usePoint_</code></td>
 <td>int</td>
-<td>Whether to grants honors to the player upon using the action</td>
+<td>Whether to grants honors to the player upon using the action.</td>
 </tr>
 <tr>
 <td><code>autoHomingType_</code></td>
 <td>int</td>
-<td>Unknown. Possibly impacts how the game handles targeting while this move is called</td>
+<td>Unknown. Possibly impacts how the game handles targeting while this move is called.</td>
 </tr>
 <tr>
 <td><code>autoHomingOffsetDistance_</code></td>
@@ -3295,12 +3295,12 @@
 <tr>
 <td><code>abilityStocks_</code></td>
 <td>int</td>
-<td>This will be the number of charges an ability can hold, like <em>Lancelot</em>'s Lawinsturm</td>
+<td>This will be the number of charges an ability can hold, like <em>Lancelot</em>'s Lawinsturm.</td>
 </tr>
 <tr>
 <td><code>saveAbilityChargeType_</code></td>
 <td>int</td>
-<td>1 will make the ability function like an other, 2 will set it to be a 1 time use, like Seofon's 7SB or Tweyen's 2CS</td>
+<td>1 will make the ability function like any other, 2 will set it to be a 1 time use, like Seofon's 7SB or Tweyen's 2CS.</td>
 </tr>
 <tr>
 <td><code>abilityChargeTime_</code></td>
@@ -3310,52 +3310,52 @@
 <tr>
 <td><code>abilityChargeDelayMin_</code></td>
 <td>int</td>
-<td>Extra timer that will delay the cooldown starting, this does not impact Cascade</td>
+<td>Extra timer that will delay the cooldown starting, this does not impact Cascade.</td>
 </tr>
 <tr>
 <td><code>abilityChargeDelayMax_</code></td>
 <td>int</td>
-<td>Extra timer that will delay the cooldown starting, this does not impact Cascade</td>
+<td>Extra timer that will delay the cooldown starting, this does not impact Cascade.</td>
 </tr>
 <tr>
 <td><code>branchXAtk_</code></td>
 <td>int</td>
-<td>When X is pressed during this action, so long as the flags are set to allow X presses, then the action listed in this will begin</td>
+<td>When X is pressed while Flag0:1 or Flag0:24 is enabled in the action being played, it will go to the action listed.</td>
 </tr>
 <tr>
 <td><code>branchYAtk_</code></td>
 <td>int</td>
-<td>Same as above, but for Y</td>
+<td>When Y is pressed while Flag0:1 or Flag0:6 is enabled in the action being played, it will go to the action listed.</td>
 </tr>
 <tr>
 <td><code>branchXAtk_Just_</code></td>
 <td>int</td>
-<td>When X is pressed within a specified window in the flags for the action/motions, it will go to the action listed</td>
+<td>When X is pressed while Flag1:18 is enabled in the action being played, and Flag1:19 is called, it will go to the action listed.</td>
 </tr>
 <tr>
 <td><code>branchYAtk_Just_</code></td>
 <td>int</td>
-<td>Same as above but for Y</td>
+<td>When Y is pressed while Flag1:18 is enabled in the action being played, and Flag1:19 is called, it will go to the action listed.</td>
 </tr>
 <tr>
 <td><code>branchXAtk_Hold_</code></td>
 <td>int</td>
-<td>Allow charging actions after this one. This functions a little weirdly, as the action seems to be needed to be specified in both the hold and press entries, and requires the following action to accept the input</td>
+<td>When X is being held when Flag1:17 is enabled, the action will transition to the action listed here.</td>
 </tr>
 <tr>
 <td><code>branchYAtk_Hold_</code></td>
 <td>int</td>
-<td>Same as before but for Y</td>
+<td>When Y is being held when Flag1:17 is enabled, the action will transition to the action listed here.</td>
 </tr>
 <tr>
 <td><code>branchAtkHit_</code></td>
 <td>int</td>
-<td>Unknown.</td>
+<td>When Flag0:19 is called during an action, if attacks have landed prior to the flag being called, the action listed here will begin.</td>
 </tr>
 <tr>
 <td><code>dist_</code></td>
 <td>int</td>
-<td>Unknown.</td>
+<td>Affects the distance the action is set to be called at by AI.</td>
 </tr>
 <tr>
 <td><code>type_</code></td>
@@ -3365,7 +3365,7 @@
 <tr>
 <td><code>controlTypeHash_</code></td>
 <td>uint</td>
-<td>Unknown. <a href="../control_types/">List of Control Types</a></td>
+<td>Controls how motions in an action are handled when called. <a href="../control_types/">List of Control Types</a></td>
 </tr>
 <tr>
 <td><code>supportTypeHash_</code></td>
@@ -3375,12 +3375,12 @@
 <tr>
 <td><code>actionName_</code></td>
 <td>string</td>
-<td><strong>Possibly unused.</strong> Generally a name assigned to the action by the devs.</td>
+<td><strong>Possibly unused.</strong> Generally a name assigned to the action by the devs. Does not seem to impact anything, and is purely for in-house naming.</td>
 </tr>
 <tr>
 <td><code>saveMotId{number}_</code></td>
 <td>uint</td>
-<td><a href="../motions/">Motions</a> being called by this action. saved motions can be confusing at times, as certain actions will not play them in order, such as Parries</td>
+<td><a href="../motions/">Motions</a> being called by this action.</td>
 </tr>
 <tr>
 <td><code>actionFreeWork{number}_</code></td>
@@ -3395,7 +3395,7 @@
 <tr>
 <td><code>bulletType_</code></td>
 <td>uint</td>
-<td>Refers to the FSM associated with the action, I do not know where this is set however, as to add FSM links. Flags are required in the action to call the FSM</td>
+<td>Refers to the FSM associated with the action. This value is only used on specific characters and links from value to FSM are set in the executable. FSM is called by Flag1:4 in the motions tied to the action.</td>
 </tr>
 <tr>
 <td><code>bulletFreeWork{number}_</code></td>
@@ -3405,7 +3405,7 @@
 <tr>
 <td><code>supportEffectList_</code></td>
 <td>uint[]</td>
-<td>Utilizes a hash and 6 values in an array format to state the buffs that will be applied to the character or team members when this player calls this action, so long as the required flag is in any of the <a href="../motions/">motions</a> tied to the action. 1st value = How many buffs the game will attempt to give, 2nd value = <a href="../buff_ids/">Buff Id</a></td>
+<td>Utilizes a hash and 6 values in an array format to state the buffs that will be applied to the character or team members when Flag1:2 is called during andy of the <a href="../motions/">motions</a> in this action. 1st value in the array is how many buffs the game should be attempting to give, 2-8th value = <a href="../buff_ids/">Buff Id</a></td>
 </tr>
 <tr>
 <td><code>uiIconCategory_</code></td>
@@ -3415,12 +3415,12 @@
 <tr>
 <td><code>actionCategory_</code></td>
 <td>uint</td>
-<td>Unknown. Compared against <code>abilityBit_</code> in certain FSM nodes such as <code>AIBattleRequestAbilityAction</code> and <code>AIBattleUseIdAction</code>.</td>
+<td>BitFlag that affects how this action is called by AI when the skill is available. Each has specific requirements to be active depending on conditions set in the executable. Compared against <code>abilityBit_</code> in certain FSM nodes such as <code>AIBattleRequestAbilityAction</code> and <code>AIBattleUseIdAction</code>.</td>
 </tr>
 <tr>
 <td><code>isTriggerAttackHit_</code></td>
 <td>uint</td>
-<td>Unknown.</td>
+<td>Allows supportEffects to be called by a hitbox with atkFlag:29 on hit when set to <code>true</code>.</td>
 </tr>
 <tr>
 <td><code>damageLimitType_</code></td>
@@ -3450,7 +3450,7 @@
 <tr>
 <td><code>isCheckComboCutAbility_</code></td>
 <td>bool</td>
-<td>Unknown.</td>
+<td>When set to <code>true</code>, disables players from casting a skill and having access to the skill follow-ups listed in BranchXAtk and BranchYAtk before the skill cooldown is used either by flag1:7, or by other methods. Not tested if it can function on non-skill actions.</td>
 </tr>
 </tbody>
 </table>
@@ -3468,7 +3468,7 @@
 <p>The weapons will have motion files and BXMs specific to them.</p>
 <p>For some characters, the weapons will handle their own hitboxes</p>
 <p>For other characters, the weapons are mostly decoration</p>
-<p>For <em>Cagliostro</em> and <em>Rosetta</em>, the Weapon animation assignments are located in the parameter file, where each action will be assigned a weapon animation (or multiple).</p>
+<p>For <em>Cagliostro</em> and <em>Rosetta</em>, the weapon animation assignments are located in the parameter file, where each action will be assigned a weapon animation (or multiple).</p>
 <hr>
 <p><em>Credits: MidnightAugur</em></p>
 
@@ -3493,7 +3493,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="December 5, 2024 15:46:34 UTC">December 5, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 8, 2026 18:03:06 UTC">February 8, 2026</span>
   </span>
 
     
@@ -3520,6 +3520,16 @@
 
     
     <nav>
+      
+        <a href="https://github.com/MidnightAugur" class="md-author" title="@MidnightAugur">
+          
+          <img src="https://avatars.githubusercontent.com/u/165240242?v=4&amp;size=72" alt="MidnightAugur">
+        </a>
+      
+        <a href="https://github.com/web-flow" class="md-author" title="@web-flow">
+          
+          <img src="https://avatars.githubusercontent.com/u/19864447?v=4&amp;size=72" alt="web-flow">
+        </a>
       
         <a href="https://github.com/Nenkai" class="md-author" title="@Nenkai">
           
