@@ -19,7 +19,7 @@ The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manage
 
 First, install Reloaded-II.
 
-1. Download Reloaded-II's [`Release.zip`, or `Setup.exe`](https://github.com/Reloaded-Project/Reloaded-II/releases).
+1. Download Reloaded-II's [`Release.zip`, or `Setup.exe`](https://github.com/Reloaded-Project/Reloaded-II/releases) (scroll down to the bottom of the *last* release)
 2. Extract `Release.zip` to its own folder or run the `Setup.exe` and install it.
 3. Open `Reloaded-II.exe`.
 4. Press the `+` Icon to add a game and select `Granblue Fantasy Relink.exe`.
