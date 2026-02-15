@@ -1,6 +1,14 @@
-# Character Colors / Packs
+---
+icon: material/format-color-fill
+---
 
-* [Captain](color_packs/captain.md)
+# :material-format-color-fill: Character Colors / Packs
+
+All character colors can be previewed here.
+
+Credits to Sir Phasmo on the unofficial gbfr [discord](https://discord.gg/KRm6WtQkVR) for taking pictures for all of them.
+
+* [Gran](color_packs/gran.md)
 * [Djeeta](color_packs/djeeta.md)
 * [Katalina](color_packs/katalina.md)
 * [Rackam](color_packs/rackam.md)
