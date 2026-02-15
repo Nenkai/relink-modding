@@ -83,7 +83,9 @@ Welcome to the world of GBFR Modding! Here you can learn all about modding the g
 
     ---
 
-    Join the Discord for mods, guidance & more!
+    Join the Discords for mods, guidance & more!
+
+    [![Granblue Fantasy Relink Discord](https://discordapp.com/api/guilds/1201230973388456088/widget.png?style=banner2&raw=true)](https://discord.gg/KRm6WtQkVR)
 
     [![Relink Modding Community Discord](https://discordapp.com/api/guilds/1203608338344976434/widget.png?style=banner2&raw=true)](https://discord.gg/gbsG4CDsru)
 
