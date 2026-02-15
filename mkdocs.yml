@@ -142,8 +142,34 @@ nav:
   - Tables:
     - Table Database: tables/table_database.md
     - Table List: tables/table_list.md
-
-  - Other:
+    
+  - Other / Additional Resources:
+    - Character Colors / Packs:
+      - Index: resources/other/color_packs.md
+      - Characters:
+        - Gran: resources/other/color_packs/gran.md
+        - Djeeta: resources/other/color_packs/djeeta.md
+        - Katalina: resources/other/color_packs/katalina.md
+        - Rackam: resources/other/color_packs/rackam.md
+        - Io: resources/other/color_packs/io.md
+        - Eugen: resources/other/color_packs/eugen.md
+        - Rosetta: resources/other/color_packs/rosetta.md
+        - Ferry: resources/other/color_packs/ferry.md
+        - Lancelot: resources/other/color_packs/lancelot.md
+        - Vane: resources/other/color_packs/vane.md
+        - Percival: resources/other/color_packs/percival.md
+        - Siegfried: resources/other/color_packs/siegfried.md
+        - Charlotta: resources/other/color_packs/charlotta.md
+        - Yodarha: resources/other/color_packs/yodarha.md
+        - Narmaya: resources/other/color_packs/narmaya.md
+        - Ghandagoza: resources/other/color_packs/ghandagoza.md
+        - Zeta: resources/other/color_packs/zeta.md
+        - Vaseraga: resources/other/color_packs/vaseraga.md
+        - Cagliostro: resources/other/color_packs/cagliostro.md
+        - Id: resources/other/color_packs/id.md
+        - Sandalphon: resources/other/color_packs/sandalphon.md
+        - Seofon: resources/other/color_packs/seofon.md
+        - Tweyen: resources/other/color_packs/tweyen.md
     - Possible Updates: other/possible_updates.md
     
   - Contributing: contributing.md
