@@ -1,67 +1,67 @@
 Id,Name,Id Hash
 SKILL_000_00,ATK,50079A1C
 SKILL_001_00,HP,F372F096
-SKILL_002_00,(Empty),7279E478
+SKILL_002_00,"(Unused. Defense)",7279E478
 SKILL_003_00,Critical Hit Rate,8D78A19B
 SKILL_004_00,Stun Power,CEB700EE
 SKILL_005_00,Enmity,3F488339
 SKILL_006_00,Stamina,2FC8FBFF
-SKILL_007_00,(Empty),9B90820C
-SKILL_008_00,Charged Attack DMG,1C360C63
-SKILL_009_00,Linked Together,3FEC5F80
-SKILL_010_00,(Empty),6D5ACD5C
-SKILL_011_00,(Empty),98ACE800
-SKILL_012_00,Throw DMG,8D078597
+SKILL_007_00,"(Unused, no functionality)",9B90820C
+SKILL_008_00,Charged Attack DMG (AtkCategoryFlag 1),1C360C63
+SKILL_009_00,Linked Together (AtkCategoryFlag 17 & 18),3FEC5F80
+SKILL_010_00,"(Unused, no functionality)",6D5ACD5C
+SKILL_011_00,"(Unused, no functionality)",98ACE800
+SKILL_012_00,Throw DMG (AtkCategoryFlag 6),8D078597
 SKILL_013_00,Critical Hit DMG,C0979A17
 SKILL_014_00,Weak Point DMG,6B694D6D
-SKILL_015_00,(Empty),54401E12
-SKILL_016_00,(Empty),3D718078
-SKILL_017_00,Combo Finisher DMG,A7A45F28
-SKILL_018_00,Concentrated Fire,B360801D
-SKILL_019_00,(Empty),0E592AC4
+SKILL_015_00,"(Unused DMG sigil. Triggers on attack during enemy action/attack (counter?))",54401E12
+SKILL_016_00,"(Unused DMG sigil. Triggers when Link % is not 0%)",3D718078
+SKILL_017_00,Combo Finisher DMG (AtkCategoryFlag 5),A7A45F28
+SKILL_018_00,Concentrated Fire (AtkCategoryFlag 3),B360801D
+SKILL_019_00,(Unused DMG sigil. AtkCategoryFlag 4),0E592AC4
 SKILL_020_00,DMG Cap,DC584F60
-SKILL_021_00,(Empty),6CD9DBB8
-SKILL_022_00,(Empty),48069644
-SKILL_023_00,(Empty),CAC6AFF2
+SKILL_021_00,"(Unused, no functionality)",6CD9DBB8
+SKILL_022_00,"(Unused, no functionality)",48069644
+SKILL_023_00,"(Unused, no functionality)",CAC6AFF2
 SKILL_024_00,Combo Booster,F17850B9
-SKILL_025_00,(Empty),2982C763
-SKILL_026_00,(Empty),FE02D02F
+SKILL_025_00,"(Unused, no functionality)",2982C763
+SKILL_026_00,"(Unused Defense Sigil)",FE02D02F
 SKILL_027_00,Tyranny,71F11A9B
 SKILL_028_00,Lucky Charge,C35B111B
 SKILL_029_00,Injury to Insult,4F1A3683
 SKILL_030_00,Overdrive Assassin,A9D17F55
 SKILL_031_00,Break Assassin,AC9674C1
-SKILL_032_00,(Empty),A254AB8C
-SKILL_033_00,(Empty),BC90C6A4
-SKILL_034_00,(Empty),998A78CD
-SKILL_035_00,(Empty),BEB4D1E9
+SKILL_032_00,"(Unused, no functionality)",A254AB8C
+SKILL_033_00,"(Unused, no functionality)",BC90C6A4
+SKILL_034_00,"(Unused, no functionality)",998A78CD
+SKILL_035_00,"(Unused Defense Sigil)",BEB4D1E9
 SKILL_036_00,Garrison,E6CDBA9C
-SKILL_037_00,(Empty),06F7CEDE
-SKILL_038_00,(Empty),709B29B6
-SKILL_039_00,(Empty),F8F6FD8E
-SKILL_040_00,(Empty),E338C0E0
-SKILL_041_00,(Empty),687202B5
-SKILL_042_00,(Empty),D5A33083
-SKILL_043_00,(Empty),130111F4
+SKILL_037_00,(Unused Defense Sigil (Element 0?)),06F7CEDE
+SKILL_038_00,(Unused Defense Sigil (Element 1?)),709B29B6
+SKILL_039_00,(Unused Defense Sigil (Element 2?)),F8F6FD8E
+SKILL_040_00,(Unused Defense Sigil (Element 3?)),E338C0E0
+SKILL_041_00,(Unused Defense Sigil (Element 4?)),687202B5
+SKILL_042_00,(Unused Defense Sigil (Element 5?)),D5A33083
+SKILL_043_00,"(Unused, no functionality)",130111F4
 SKILL_044_00,Stout Heart,A1A8E39D
 SKILL_045_00,Guts,E69A4694
 SKILL_046_00,Poison Resistance,973B49AF
 SKILL_047_00,Burn Resistance,7C84A6B3
-SKILL_048_00,(Empty),E22E33A8
-SKILL_049_00,(Empty),81A3BBB4
-SKILL_050_00,(Empty),C7848E9E
+SKILL_048_00,"(Unused, no functionality)",E22E33A8
+SKILL_049_00,"(Unused, no functionality)",81A3BBB4
+SKILL_050_00,"(Unused, no functionality)",C7848E9E
 SKILL_051_00,Sandtomb Resistance,D54F8CA7
 SKILL_052_00,Glaciate Resistance,FB572681
-SKILL_053_00,(Empty),F2FDA35D
+SKILL_053_00,"(Unused, no functionality)",F2FDA35D
 SKILL_054_00,Dizzy Resistance,3759A5B9
 SKILL_055_00,Paralysis Resistance,2242921F
-SKILL_056_00,(Empty),D62AC108
+SKILL_056_00,"(Unused, no functionality)",D62AC108
 SKILL_057_00,Skill Sealed Resistance,50B453DD
 SKILL_058_00,SBA Sealed Resistance,CFB48782
-SKILL_059_00,(Empty),BAA020D8
+SKILL_059_00,"(Unused, no functionality)",BAA020D8
 SKILL_060_00,Improved Guard,0AA20846
 SKILL_061_00,Guard Payback,3C2B57B0
-SKILL_062_00,(Empty),E0A7A887
+SKILL_062_00,"(Unused, no functionality)",E0A7A887
 SKILL_063_00,Improved Dodge,8B3BF60C
 SKILL_064_00,Dodge Payback,7C2E4D64
 SKILL_065_00,Improved Healing,9389CC06
@@ -70,48 +70,48 @@ SKILL_067_00,Drain,7CCFF74F
 SKILL_068_00,Autorevive,95F3FA86
 SKILL_069_00,Quick Cooldown,318D12E9
 SKILL_070_00,Cascade,05F2ECDC
-SKILL_071_00,(Empty),C1F72F43
+SKILL_071_00,"(Unused, no functionality)",C1F72F43
 SKILL_072_00,Uplift,B5FF9FD3
 SKILL_073_00,Potion Hoarder,24883AF3
-SKILL_074_00,(Empty),E833D96A
-SKILL_075_00,(Empty),3DDA90FA
-SKILL_076_00,(Empty),7EDE8000
+SKILL_074_00,"(Unused, no functionality)",E833D96A
+SKILL_075_00,"(Unused, no functionality)",3DDA90FA
+SKILL_076_00,"(Unused, no functionality)",7EDE8000
 SKILL_077_00,Low Profile,DC607D75
 SKILL_078_00,Provoke,6018372B
 SKILL_079_00,Fast Learner,F687C5EF
 SKILL_080_00,Rupie Tycoon,C86F3082
-SKILL_081_00,(Empty),B9C865C1
-SKILL_082_00,(Empty),2816B618
-SKILL_083_00,Skilled Assault,EAE321EB
-SKILL_084_00,(Empty),F69D1076
+SKILL_081_00,"(Unused, no functionality)",B9C865C1
+SKILL_082_00,(Unused DMG sigil. Normal Attacks - AtkCategoryFlag 0),2816B618
+SKILL_083_00,Skilled Assault (AtkCategoryFlag 16),EAE321EB
+SKILL_084_00,(Unused DMG sigil. AtkCategoryFlag 18),F69D1076
 SKILL_085_00,Aegis,E0ABFDFE
 SKILL_086_00,Slow Resistance,A2FA9685
 SKILL_087_00,Firm Stance,B6E31F76
 SKILL_088_00,Blight Resistance,9702860F
-SKILL_089_00,(Empty),935D84E7
-SKILL_090_00,(Empty),C1DC2F4A
-SKILL_091_00,(Empty),A1E395FA
-SKILL_092_00,(Empty),10810867
-SKILL_093_00,(Empty),C7B4AAB4
+SKILL_089_00,(Unused DMG sigil. AtkCategoryFlag 7),935D84E7
+SKILL_090_00,(Unused DMG sigil. Perfect Attacks - AtkCategoryFlag 8),C1DC2F4A
+SKILL_091_00,"(Unused, buff id 0)",A1E395FA
+SKILL_092_00,"(Unused, buff id 1)",10810867
+SKILL_093_00,"(Unused, no functionality)",C7B4AAB4
 SKILL_094_00,Steady Focus,0053599E
-SKILL_095_00,(Empty),1D02DF7D
+SKILL_095_00,"(Unused, no functionality)",1D02DF7D
 SKILL_096_00,Steel Nerves,1470F860
-SKILL_097_00,(Empty),9189DE53
-SKILL_098_00,(Empty),323F6C09
-SKILL_099_00,(Empty),4B400B01
+SKILL_097_00,"(Unused, no functionality)",9189DE53
+SKILL_098_00,"(Unused, no functionality)",323F6C09
+SKILL_099_00,"(Unused, has functionality)",4B400B01
 SKILL_100_00,Supplements,3F2C482E
-SKILL_101_00,(Empty),734C58D1
-SKILL_102_00,(Empty),5209463B
+SKILL_101_00,"(Unused, HAS functionality)",734C58D1
+SKILL_102_00,"(Unused, HAS functionality)",5209463B
 SKILL_103_00,Natural Defenses,0EAD65E0
 SKILL_104_00,Nimble Defense,09AA7DB5
-SKILL_105_00,(Empty),7D99DBD6
+SKILL_105_00,"(Unused, no functionality)",7D99DBD6
 SKILL_106_00,Nimble Onslaught,D2C8E10A
 SKILL_107_00,Precise Resilience,29B292A8
-SKILL_108_00,(Empty),52692E71
+SKILL_108_00,"(Unused, no functionality)",52692E71
 SKILL_109_00,Precise Wrath,7EDD69D0
 SKILL_110_00,Life on the Line,8F502F0D
 SKILL_111_00,Quick Charge,84078CB0
-SKILL_112_00,(Empty),D0A1C6E5
+SKILL_112_00,"(Unused, no functionality)",D0A1C6E5
 SKILL_113_00,Sigil Booster,57E8A93F
 SKILL_114_00,Fearless Drive,CD030268
 SKILL_114_01,Fearless Spirit,A38510E2
@@ -169,14 +169,15 @@ SKILL_131_02,Crimson's Warpath,4F135217
 SKILL_132_00,Ebony's Presence,7440E869
 SKILL_132_01,Ebony's Poise,CD124165
 SKILL_132_02,Ebony's Warpath,d8f66c1c
-SKILL_133_00,Fortifying Vigor,0FBA47E8
-SKILL_134_00,Instilling Vigor,A4D6B880
-SKILL_135_00,Gilding Vigor,CDEB73F6
+SKILL_133_00,Fortifying Vigor (Japan Bonus Sigil 1: HP & Recovery+),0FBA47E8
+SKILL_134_00,Instilling Vigor (Japan Bonus Sigil - EXP Sigil),A4D6B880
+SKILL_135_00,Gilding Vigor (Japan Bonus Sigil - Enemy Rupies+),CDEB73F6
 SKILL_136_00,Held Under Resistance,1DC9D7E7
 SKILL_137_00,Darkflame Resistance,DD4A701E
 SKILL_138_00,ATK↓ Resistance,4BF2E191
 SKILL_139_00,DEF↓ Resistance,66DE60B1
 SKILL_140_00,Crabby Resonance,082033CB
+SKILL_141_00,Crabvestment Returns,D461ECFB
 SKILL_141_04,Crabvestment Returns,D461ECFB
 SKILL_142_00,Seven Net,9AD8B5E6
 SKILL_143_00,Catastrophe,40223C28
@@ -211,6 +212,8 @@ SKILL_172_00,Supreme Primarch's Awe,D40D1E9B
 SKILL_172_01,Supreme Primarch's Nimbus,15806DFC
 SKILL_172_03,Supreme Primarch's Warpath,4E5F6706
 SKILL_172_03,Ain,1A2EF59E
+SKILL_230_00,"(Unused, has functionality. cap related)",D3047326
+SKILL_231_00,<unknown>,ED3A49A1
 SKILL_233_00,Berserker Echo,EE85CD1F
 SKILL_234_00,Spartan Echo,3D8153A1
 SKILL_235_00,Super Ultimate Perfect Dodge,51C115D2
