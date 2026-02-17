@@ -1,7 +1,7 @@
 Id,Name,Id Hash
 SKILL_000_00,ATK,50079A1C
 SKILL_001_00,HP,F372F096
-SKILL_002_00,"(Unused. Defense)",7279E478
+SKILL_002_00,"(Unused. DEF)",7279E478
 SKILL_003_00,Critical Hit Rate,8D78A19B
 SKILL_004_00,Stun Power,CEB700EE
 SKILL_005_00,Enmity,3F488339
@@ -14,18 +14,18 @@ SKILL_011_00,"(Unused, no functionality)",98ACE800
 SKILL_012_00,Throw DMG (AtkCategoryFlag 6),8D078597
 SKILL_013_00,Critical Hit DMG,C0979A17
 SKILL_014_00,Weak Point DMG,6B694D6D
-SKILL_015_00,"(Unused DMG sigil. Triggers on attack during enemy action/attack (counter?))",54401E12
-SKILL_016_00,"(Unused DMG sigil. Triggers when Link % is not 0%)",3D718078
+SKILL_015_00,"(Unused DMG trait. Triggers on attack during enemy action/attack (counter?))",54401E12
+SKILL_016_00,"(Unused DMG trait. Triggers when Link % is not 0%)",3D718078
 SKILL_017_00,Combo Finisher DMG (AtkCategoryFlag 5),A7A45F28
 SKILL_018_00,Concentrated Fire (AtkCategoryFlag 3),B360801D
-SKILL_019_00,(Unused DMG sigil. AtkCategoryFlag 4),0E592AC4
+SKILL_019_00,(Unused DMG trait. AtkCategoryFlag 4),0E592AC4
 SKILL_020_00,DMG Cap,DC584F60
 SKILL_021_00,"(Unused, no functionality)",6CD9DBB8
 SKILL_022_00,"(Unused, no functionality)",48069644
 SKILL_023_00,"(Unused, no functionality)",CAC6AFF2
 SKILL_024_00,Combo Booster,F17850B9
 SKILL_025_00,"(Unused, no functionality)",2982C763
-SKILL_026_00,"(Unused Defense Sigil)",FE02D02F
+SKILL_026_00,"(Unused Defense Flat or %)",FE02D02F
 SKILL_027_00,Tyranny,71F11A9B
 SKILL_028_00,Lucky Charge,C35B111B
 SKILL_029_00,Injury to Insult,4F1A3683
@@ -34,14 +34,14 @@ SKILL_031_00,Break Assassin,AC9674C1
 SKILL_032_00,"(Unused, no functionality)",A254AB8C
 SKILL_033_00,"(Unused, no functionality)",BC90C6A4
 SKILL_034_00,"(Unused, no functionality)",998A78CD
-SKILL_035_00,"(Unused Defense Sigil)",BEB4D1E9
+SKILL_035_00,"(Unused Defense (or Damage Reduction?) Trait)",BEB4D1E9
 SKILL_036_00,Garrison,E6CDBA9C
-SKILL_037_00,(Unused Defense Sigil (Element 0?)),06F7CEDE
-SKILL_038_00,(Unused Defense Sigil (Element 1?)),709B29B6
-SKILL_039_00,(Unused Defense Sigil (Element 2?)),F8F6FD8E
-SKILL_040_00,(Unused Defense Sigil (Element 3?)),E338C0E0
-SKILL_041_00,(Unused Defense Sigil (Element 4?)),687202B5
-SKILL_042_00,(Unused Defense Sigil (Element 5?)),D5A33083
+SKILL_037_00,(Unused Defense Trait (Element 0?)),06F7CEDE
+SKILL_038_00,(Unused Defense Trait (Element 1?)),709B29B6
+SKILL_039_00,(Unused Defense Trait (Element 2?)),F8F6FD8E
+SKILL_040_00,(Unused Defense Trait (Element 3?)),E338C0E0
+SKILL_041_00,(Unused Defense Trait (Element 4?)),687202B5
+SKILL_042_00,(Unused Defense Trait (Element 5?)),D5A33083
 SKILL_043_00,"(Unused, no functionality)",130111F4
 SKILL_044_00,Stout Heart,A1A8E39D
 SKILL_045_00,Guts,E69A4694
@@ -81,16 +81,16 @@ SKILL_078_00,Provoke,6018372B
 SKILL_079_00,Fast Learner,F687C5EF
 SKILL_080_00,Rupie Tycoon,C86F3082
 SKILL_081_00,"(Unused, no functionality)",B9C865C1
-SKILL_082_00,(Unused DMG sigil. Normal Attacks - AtkCategoryFlag 0),2816B618
+SKILL_082_00,(Unused DMG trait. Normal Attacks - AtkCategoryFlag 0),2816B618
 SKILL_083_00,Skilled Assault (AtkCategoryFlag 16),EAE321EB
-SKILL_084_00,(Unused DMG sigil. AtkCategoryFlag 18),F69D1076
+SKILL_084_00,(Unused DMG trait. SBA Attacks - AtkCategoryFlag 18),F69D1076
 SKILL_085_00,Aegis,E0ABFDFE
 SKILL_086_00,Slow Resistance,A2FA9685
 SKILL_087_00,Firm Stance,B6E31F76
 SKILL_088_00,Blight Resistance,9702860F
-SKILL_089_00,(Unused DMG sigil. AtkCategoryFlag 7),935D84E7
-SKILL_090_00,(Unused DMG sigil. Perfect Attacks - AtkCategoryFlag 8),C1DC2F4A
-SKILL_091_00,"(Unused, buff id 0)",A1E395FA
+SKILL_089_00,(Unused DMG trait. AtkCategoryFlag 7),935D84E7
+SKILL_090_00,(Unused DMG trait. Perfect Attacks - AtkCategoryFlag 8),C1DC2F4A
+SKILL_091_00,"(Unused, ATK % Buff on Damage taken. (value[0] = Value, value[1] = Duration)",A1E395FA
 SKILL_092_00,"(Unused, buff id 1)",10810867
 SKILL_093_00,"(Unused, no functionality)",C7B4AAB4
 SKILL_094_00,Steady Focus,0053599E
@@ -98,10 +98,10 @@ SKILL_095_00,"(Unused, no functionality)",1D02DF7D
 SKILL_096_00,Steel Nerves,1470F860
 SKILL_097_00,"(Unused, no functionality)",9189DE53
 SKILL_098_00,"(Unused, no functionality)",323F6C09
-SKILL_099_00,"(Unused, has functionality)",4B400B01
+SKILL_099_00,"(Unused Crit Trait, % Crit on Enemy Weakpoint)",4B400B01
 SKILL_100_00,Supplements,3F2C482E
-SKILL_101_00,"(Unused, HAS functionality)",734C58D1
-SKILL_102_00,"(Unused, HAS functionality)",5209463B
+SKILL_101_00,"(Unused, Damage Cut (Area) Buff Duration Increase Multiplier)",734C58D1
+SKILL_102_00,"(Unused, Invincibility (Area (Rampart)) Duration Increase Multiplier)",5209463B
 SKILL_103_00,Natural Defenses,0EAD65E0
 SKILL_104_00,Nimble Defense,09AA7DB5
 SKILL_105_00,"(Unused, no functionality)",7D99DBD6
@@ -212,8 +212,9 @@ SKILL_172_00,Supreme Primarch's Awe,D40D1E9B
 SKILL_172_01,Supreme Primarch's Nimbus,15806DFC
 SKILL_172_03,Supreme Primarch's Warpath,4E5F6706
 SKILL_172_03,Ain,1A2EF59E
-SKILL_230_00,"(Unused, has functionality. cap related)",D3047326
-SKILL_231_00,"(Unused, has functionality. cap related)",ED3A49A1
+SKILL_230_00,"(Unused Cap Skill, value[0] = Max Attack, value[1] = DMG Cap % Increase (additive))",D3047326
+SKILL_231_00,"(Unused Cap Skill, value[0] = Max Hp, value[1] = DMG Cap % Increase (additive))",ED3A49A1
+SKILL_232_00,"(Unused Link Time (length? or time slowing multiplier?)",259F189B
 SKILL_233_00,Berserker Echo,EE85CD1F
 SKILL_234_00,Spartan Echo,3D8153A1
 SKILL_235_00,Super Ultimate Perfect Dodge,51C115D2
