@@ -33,6 +33,10 @@ Data is extracted from `limit_bonus_mediation_category` table.
 * Health Up (Duplicate 2)
 * Health Up (Duplicate 3)
 * Health Up (Duplicate 4)
+* Critical Hit Rate Up (Duplicate 1)
+* Critical Hit Rate Up (Duplicate 2)
+* Stun Power Up (Duplicate 1)
+* Stun Power Up (Duplicate 2)
 
 ### Tier 2/3
 
