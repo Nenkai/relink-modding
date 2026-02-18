@@ -86,6 +86,7 @@ nav:
     - General IDs:
       - Item IDs: resources/item_ids.md
       - Model IDs: resources/model_ids.md
+      - Phase IDs: resources/phase_ids.md
       - Quest IDs: resources/quest_ids.md
       - Sigil/Gem IDs: resources/sigil_gem_ids.md
       - Trait/Skill IDs: resources/trait_skill_ids.md
