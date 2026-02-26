@@ -959,7 +959,12 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#old-method-nier-cli" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -967,11 +972,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -4140,7 +4140,12 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#old-method-nier-cli" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4148,11 +4153,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -4184,6 +4184,7 @@
 <h1 id="creating-textures"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.29 21h2.83L21 12.12V9.29M19 21c.55 0 1.05-.22 1.41-.59.37-.36.59-.86.59-1.41v-2l-4 4M5 3a2 2 0 0 0-2 2v2l4-4m4.88 0L3 11.88v2.83L14.71 3m4.79.08L3.08 19.5c.09.35.27.66.51.91.25.24.56.42.91.51L20.93 4.5c-.19-.7-.73-1.24-1.43-1.42"></path></svg></span> Creating Textures<a class="headerlink" href="#creating-textures" title="Permanent link">¶</a></h1>
 <h2 id="new-method-gbfrdatatools">New Method (GBFRDataTools)<a class="headerlink" href="#new-method-gbfrdatatools" title="Permanent link">¶</a></h2>
 <p>Using GBFRDataTools, you can create textures aswell as rebuild, or create texture atlases from scratch.</p>
+<p>NOTE: Currently all textures are converted to BC7 when not using <code>.dds</code>. If you need finer control, use your own <code>.dds</code> files. (Texconv is used for this process, which may not be compatible with linux)</p>
 <h3 id="building-wtbs">Building WTBs<a class="headerlink" href="#building-wtbs" title="Permanent link">¶</a></h3>
 <p>You can provide a standard image (<code>.png</code>, will be converted using BC7_UNORM), or a <code>.dds</code> (properties will be kept, you are free to create it however you want using i.e Compressonator, Intel Texture Works, Paint.NET plugin, etc)</p>
 <p>You may pass <code>--no-mipmaps</code>, which you <strong>should</strong>, for UI textures since those don't need mipmaps.</p>
@@ -4200,7 +4201,7 @@
 <p>The texture atlas will be generated, you just have to provide a folder that contains pngs/dds files.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>GBFRDataTools img-to-tex-atlas -i &lt;folder&gt;
 </code></pre></div>
-<h3 id="old-method-nier-cli">Old Method - Nier CLI<a class="headerlink" href="#old-method-nier-cli" title="Permanent link">¶</a></h3>
+<h2 id="old-method-nier-cli">Old Method - Nier CLI<a class="headerlink" href="#old-method-nier-cli" title="Permanent link">¶</a></h2>
 <ol>
 <li>Download <a href="https://github.com/ArthurHeitmann/nier_cli/releases/tag/v1.3.0_mgrr">Nier CLI</a>. This program is used to convert <code>.wtb</code> texture files to a standard viewable image format, or into <code>.wtb</code>.</li>
 <li>Create a new folder named <code>&lt;YOUR_FILE_NAME&gt;.wtb_extracted</code>. <code>&lt;YOUR_FILE_NAME&gt;</code> should be replaced with the output texture file name you want. The <code>.wtb_extracted</code> at the end of the folder is important.</li>
@@ -4229,7 +4230,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 26, 2026 20:34:24 UTC">February 26, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 26, 2026 20:40:40 UTC">February 26, 2026</span>
   </span>
 
     
