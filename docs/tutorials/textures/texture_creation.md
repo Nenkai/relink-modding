@@ -8,6 +8,8 @@ icon: material/image-plus
 
 Using GBFRDataTools, you can create textures aswell as rebuild, or create texture atlases from scratch.
 
+NOTE: Currently all textures are converted to BC7 when not using `.dds`. If you need finer control, use your own `.dds` files. (Texconv is used for this process, which may not be compatible with linux)
+
 ### Building WTBs
 
 You can provide a standard image (`.png`, will be converted using BC7_UNORM), or a `.dds` (properties will be kept, you are free to create it however you want using i.e Compressonator, Intel Texture Works, Paint.NET plugin, etc)
