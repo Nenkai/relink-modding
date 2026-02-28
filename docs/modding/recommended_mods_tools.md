@@ -19,10 +19,15 @@ When applicable, make sure to support the authors!
 * [Automatic Power Adjustment](https://www.nexusmods.com/granbluefantasyrelink/mods/539) by *Nenkai*
     * Useful for experienced players willing to play with friends or new players without carrying them.
 * [Mute Sierokarte and Parrot](https://www.nexusmods.com/granbluefantasyrelink/mods/52) by *SixTrillionOwls*
+* [Auto-copy Session Id to Clipboard](https://www.nexusmods.com/granbluefantasyrelink/mods/565) by *Nenkai*
+* [Automatic Power Adjustment](https://www.nexusmods.com/granbluefantasyrelink/mods/539) by *Nenkai*
+    * Useful for playing with friends and scaling yourself to their level.
 * [Disable TAA/Bloom/Motion Blur/DoF & More](https://www.nexusmods.com/granbluefantasyrelink/mods/17) by *happihora*
+* [PS4/PS5 Controller Input Buttons](https://www.nexusmods.com/granbluefantasyrelink/mods/570) by *Nenkai*
 * [Weapon Customization Tool](https://www.nexusmods.com/granbluefantasyrelink/mods/451) by *Hazelberry* and *Nenkai*
 * [Midnight's Overhaul](https://www.nexusmods.com/granbluefantasyrelink/mods/455) by *MidnightAugur* 
     * **Note**: Game/Quest/Content overhaul. *Incompatible with Vanilla*, only recommended after fully completing the game.
+* [Discord Rich Presence Support](https://www.nexusmods.com/granbluefantasyrelink/mods/540)
 
 !!! tip
     More mods can be found on [Nexus Mods](https://www.nexusmods.com/granbluefantasyrelink)!
