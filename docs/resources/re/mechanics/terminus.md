@@ -53,6 +53,7 @@ TLDR: **Chance to get ANY weapon is always 20%.** The chance to roll for a speci
 
 ## Full Algorithm
 
+This is the full reverse-engineered algorithm dumbed down and simplified into pseudo-code.
 
 ```
 get reward row from quest's reward id
