@@ -53,7 +53,7 @@ Up to 3 titles can be earned by characters (no duplicates) across them. Up to 39
 | EVA_WEAK_POINT             | I Smell Weakness     | Number of weakpoint attacks (elemental) | >= 5 
 | EVA_FAST_ATTACK            | Rusher               | Times attacked an enemy first | >= 5 enemies 
 | EVA_LINKTIME_ATTACK        | Quick as Lightning   | Number of attacks during link time? | >= 50 
-| EVA_NO_DAMAGE              | Untouchable          | No damage received | Not been hit flag
+| EVA_NO_DAMAGE              | Unscathed            | No damage received | Not been hit flag
 
 ---
 
