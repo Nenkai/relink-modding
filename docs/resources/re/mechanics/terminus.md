@@ -97,3 +97,5 @@ bool RewardLotData::ShouldGiveWeapon(RewardLotData *a1, uint storyDifficultyType
 bool WeaponManager::HasWeapon(WeaponManager *a1, uint weaponId)
 56 57 4C 8B 41
 ```
+
+:material-arrow-right: Decompiled code: https://gist.github.com/Nenkai/4111b4fb44e3c00aadf4245e4f581c43
