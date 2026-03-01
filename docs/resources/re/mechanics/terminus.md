@@ -94,6 +94,6 @@ void RewardManager::GetReward(RewardManager *a1, void *a2, unsigned int rewardLo
 bool RewardLotData::ShouldGiveWeapon(RewardLotData *a1, uint storyDifficultyType, int rewardRank)
 41 56 56 57 53 48 83 EC ? 0F B6 41
 
-bool WeaponManager::HasWeapon(RewardLotData *a1, uint storyDifficultyType, int rewardRank)
+bool WeaponManager::HasWeapon(WeaponManager *a1, uint weaponId)
 56 57 4C 8B 41
 ```
