@@ -137,6 +137,7 @@ nav:
         - PWR / Power: resources/re/mechanics/pwr_power.md
         - Roll of the Die: resources/re/mechanics/rotd.md
         - Sigil Synth. Grand Success: resources/re/mechanics/gem_mix.md
+        - Terminus Weapon Rolling: resources/re/mechanics/terminus.md
       
   - Blender:
     - Model Importing: models/importing.md 
