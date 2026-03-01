@@ -41,7 +41,7 @@ The game iterates though the list of reward lots, makes a sum of the `Weight` co
 
 A random number is rolled which we will call `value` = `rand() % totalWeight`.
 
-It then iterates through rows again, checks if the lot is available again (otherwise goes to the next one), and checks if that number is below the current lot's weight. If so, the weapon is **then rolled**, and the entire algorithm for that lot *ends*. This ensure that you cannot roll more than one weapon. Otherwise, `value -= current lot's weight`, and moving on to the next row.
+It then iterates through rows again, checks if the lot is available again (otherwise goes to the next one), and checks if `value` is below the current lot's weight. If so, the weapon is **then rolled**, and the entire algorithm for that lot *ends*. This ensure that you cannot roll more than one weapon. Otherwise, `value -= current lot's weight`, and moving on to the next row.
 
 TLDR: **Chance to get ANY weapon is always 20%.** The chance to roll for a specific character **becomes higher the LESS characters you have unlocked.** You can only roll for characters that you have unlocked. You cannot have more than one character's terminus weapon.
 
@@ -94,6 +94,6 @@ void RewardManager::GetReward(RewardManager *a1, void *a2, unsigned int rewardLo
 bool RewardLotData::ShouldGiveWeapon(RewardLotData *a1, uint storyDifficultyType, int rewardRank)
 41 56 56 57 53 48 83 EC ? 0F B6 41
 
-bool RewardLotData::ShouldGiveWeapon(RewardLotData *a1, uint storyDifficultyType, int rewardRank)
+bool WeaponManager::HasWeapon(RewardLotData *a1, uint storyDifficultyType, int rewardRank)
 56 57 4C 8B 41
 ```
