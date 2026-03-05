@@ -2,6 +2,10 @@
 icon: material/identifier
 ---
 
+This page documents human readable names for known entities.
+
+A full 'behavior' list dumped from the game is available [here](behavior_ids.md).
+
 # :material-identifier: Model IDs
 
 ## Player (pl)
