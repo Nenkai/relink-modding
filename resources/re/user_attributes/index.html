@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
     
     
       
@@ -4160,13 +4160,13 @@
 
 
 <h1 id="user-defined-params">User Defined Params<a class="headerlink" href="#user-defined-params" title="Permanent link">¶</a></h1>
-<p>User defined params is a 16 bytes blob resource stored in the executable.</p>
+<p>User defined params is a 16 bytes blob resource stored in the executable (<code>USER_DEFINED_PARAMS</code>).</p>
 <p>It holds:</p>
 <ul>
 <li>0x00 - The language (4 bytes)</li>
 <li>0x04 - Application version (3 bytes, patch/minor/major)</li>
-<li>0x08 - 4 bytes (unused)</li>
-<li>0x0C - Number of granite tile sets to load - 0 means load all (<code>version minor * 3</code> so <code>v1.1</code> = load <code>0.gts</code> through 6)</li>
+<li>0x08 - Display version (3 bytes, patch/minor/major)</li>
+<li>0x0C - Number of granite tile sets to load (if <code>0</code>, load all based on <code>application version minor * 3</code> so <code>1</code> = load <code>0.gts</code> through <code>6.gts</code>)</li>
 </ul>
 <p>Minor in particular is often used in the code as a feature/system unlock flag (which, do not work without the required files).</p>
 <h2 id="ps-version">PS Version<a class="headerlink" href="#ps-version" title="Permanent link">¶</a></h2>
@@ -4193,7 +4193,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 7, 2024 15:38:50 UTC">May 7, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 12, 2026 17:55:44 UTC">March 12, 2026</span>
   </span>
 
     
