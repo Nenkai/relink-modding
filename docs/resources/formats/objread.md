@@ -18,4 +18,4 @@ The `info.objread` file appears to be **extremely important** as it seems to con
 
 Unknown.
 
-* [Flatbuffer Schema](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/ObjReadAppend.fbs)
+* [Flatbuffer Schema](https://github.com/Nenkai/GBFRDataTools/blob/master/GBFRDataTools.FlatBuffers/ObjReadAppend.fbs)

@@ -37,7 +37,7 @@ Make sure you have the [GBFR Blender Tools Add-on](../models/importing.md#instal
 By this point you must be wondering how to export textures for the game *without* using granite. This is done by editing the [Material Set](../resources/formats/mmat.md) (`.mmat`) file, located in `model/<model_prefix>/<model_id>/vars/<number>.mmat` (each number represents a different material variation, used for color packs).
 
 * Get [FlatBuffers / flatc](https://github.com/google/flatbuffers/releases), which you should already have if you already imported models. Extract it.
-* Get the [FlatBuffer MMat schema](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MMat_ModelMaterial.fbs). Schemas are used to tell `flatc` how to read and write the material files.
+* Get the [FlatBuffer MMat schema](https://github.com/Nenkai/GBFRDataTools/blob/master/GBFRDataTools.FlatBuffers/MMat_ModelMaterial.fbs). Schemas are used to tell `flatc` how to read and write the material files.
 * Run the following command to convert the `.mmat` file into a human readable `.json` file:
 
 ``` { .yaml .annotate }

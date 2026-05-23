@@ -8,7 +8,7 @@ icon: material/palette-swatch-variant
 
 This file is a [FlatBuffer](https://flatbuffers.dev/) file. 
 
-* [Flatbuffer Schema](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MMat_ModelMaterial.fbs)
+* [Flatbuffer Schema](https://github.com/Nenkai/GBFRDataTools/blob/master/GBFRDataTools.FlatBuffers/MMat_ModelMaterial.fbs)
 * [010 Editor Template](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MMat_ModelMaterial.bt)
 
 ## Header

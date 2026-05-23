@@ -8,7 +8,7 @@ icon: material/axis-arrow-info
 
 This file is a [FlatBuffer](https://flatbuffers.dev/) file. 
 
-* [Flatbuffer Schema](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MInfo_ModelInfo.fbs)
+* [Flatbuffer Schema](https://github.com/Nenkai/GBFRDataTools/blob/master/GBFRDataTools.FlatBuffers/MInfo_ModelInfo.fbs)
 * [010 Editor Template](https://github.com/Nenkai/010GameTemplates/blob/main/Cygames/Granblue%20Fantasy%20-%20Relink/MInfo_ModelInfo.bt)
 
 ## Header
