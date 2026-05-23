@@ -41,7 +41,7 @@ By this point you must be wondering how to export textures for the game *without
 * Run the following command to convert the `.mmat` file into a human readable `.json` file:
 
 ``` { .yaml .annotate }
-flatc --json --strict-json -- <path_to_fbs_file> --raw-binary <path_to_mmat_file>
+latc --json --strict-json --raw-binary MMat_ModelMaterial.fbs -- <path to .json file>
 ```
 
 !!! tip
