@@ -4416,9 +4416,9 @@
 <td>Sub-type of shader.</td>
 </tr>
 <tr>
-<td>unk_8</td>
+<td>shadow_type</td>
 <td>byte</td>
-<td>Unknown. Should be 0 to 3.</td>
+<td>Shadow type. 0 = none, 1 = enabled (unknown), 2 = enabled (with alpha), 3 = enabled (alpha ignored)</td>
 </tr>
 <tr>
 <td>bool9</td>
@@ -4431,9 +4431,9 @@
 <td>Unknown.</td>
 </tr>
 <tr>
-<td>bool11</td>
+<td>ignore_alpha</td>
 <td>bool</td>
-<td>Unknown.</td>
+<td>Whether to ignore alpha.</td>
 </tr>
 <tr>
 <td>bool12</td>
@@ -4709,36 +4709,36 @@
 <a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    g_EmissivePower        = 0x06CFE5A4,
 <a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>    g_0A05A26F             = 0x0A05A26F,
 <a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>    g_11664BFC             = 0x11664BFC,
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>    g_EnableDiscardMask    = 0x24C1ABA9,
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>    g_EnableDiscardMask    = 0x24C1ABA9, // Bool
 <a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>    g_2AEDA6AD             = 0x2AEDA6AD,
-<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>    g_2B5C866C             = 0x2B5C866C,
-<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>    g_372C03F0             = 0x372C03F0,
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>    g_2B5C866C             = 0x2B5C866C, // Bool
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>    g_372C03F0             = 0x372C03F0, // Bool
 <a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>    g_UseIceEmissive0      = 0x3C966EE3,
-<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>    g_4298F7E4             = 0x4298F7E4,
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>    g_4298F7E4             = 0x4298F7E4, // Bool
 <a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>    g_EnableOutLine        = 0x49D8C1B9,
-<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>    g_53F49792             = 0x53F49792,
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>    g_53F49792_EnableAlpha_GUESSED = 0x53F49792, // Name is guessed on functionality.
 <a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>    g_56346692             = 0x56346692,
-<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>    g_IsUseAlbedoAlphaClip = 0x60F31A22,
-<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>    g_IsUseDetailNormal    = 0x6C5CB9AC,
-<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>    g_IsUseDitherMap       = 0x7920C84F,
-<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>    g_EnableBooleanMask    = 0x920821E1,
-<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a>    g_92339519             = 0x92339519,
-<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>    g_93D9F63A             = 0x93D9F63A,
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>    g_IsUseAlbedoAlphaClip = 0x60F31A22, // Bool
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>    g_IsUseDetailNormal    = 0x6C5CB9AC, // Bool
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>    g_IsUseDitherMap       = 0x7920C84F, // Bool
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>    g_EnableBooleanMask    = 0x920821E1, // Bool
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a>    g_92339519             = 0x92339519, // Bool
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>    g_93D9F63A             = 0x93D9F63A, // Bool
 <a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a>    g_SwayAmplitude        = 0x98EBBEC2,
 <a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a>    g_9C83F56F             = 0x9C83F56F,
-<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a>    g_ContainerUse         = 0x9F1DA064,
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a>    g_ContainerUse         = 0x9F1DA064, // Bool
 <a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a>    g_A6EB1B34             = 0xA6EB1B34,
-<a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a>    g_AB261CFA             = 0xAB261CFA,
-<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a>    g_AC6F995D             = 0xAC6F995D,
-<a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a>    g_B0EA41D9             = 0xB0EA41D9,
-<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a>    g_B460A0F0             = 0xB460A0F0,
-<a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a>    g_BAEF6920             = 0xBAEF6920,
-<a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a>    g_C5BD3DED             = 0xC5BD3DED,
-<a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a>    g_C9762248             = 0xC9762248,
-<a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a>    g_UseIceEmissive       = 0xCA06A6B6,
-<a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a>    g_TwoSided             = 0xD94F2821,
-<a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a>    g_UseColorNoise        = 0xE208C4C4,
-<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a>    g_E56343C0             = 0xE56343C0,
+<a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a>    g_AB261CFA             = 0xAB261CFA, // Bool
+<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a>    g_AC6F995D             = 0xAC6F995D, // Bool
+<a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a>    g_B0EA41D9             = 0xB0EA41D9, // Bool
+<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a>    g_IsUseDepthFade       = 0xB460A0F0, // Bool
+<a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a>    g_BAEF6920             = 0xBAEF6920, // Bool
+<a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a>    g_C5BD3DED             = 0xC5BD3DED, // Bool
+<a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a>    g_C9762248             = 0xC9762248, // Bool
+<a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a>    g_UseIceEmissive       = 0xCA06A6B6, // Bool
+<a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a>    g_TwoSided             = 0xD94F2821, // Bool
+<a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a>    g_UseColorNoise        = 0xE208C4C4, // Bool
+<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a>    g_E56343C0             = 0xE56343C0, // Bool
 <a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a>    g_EB6F1AE7             = 0xEB6F1AE7,
 <a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a>}
 </code></pre></div>
@@ -4765,7 +4765,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 23, 2026 00:40:08 UTC">May 23, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 23, 2026 20:01:42 UTC">May 23, 2026</span>
   </span>
 
     

@@ -3060,17 +3060,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#transparency_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Transparency
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#exporting-textures" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4272,17 +4261,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#transparency_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Transparency
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#exporting-textures" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4419,7 +4397,6 @@
 </div>
 <hr>
 <h3 id="materials"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.29 21h2.83L21 12.12V9.29M19 21c.55 0 1.05-.22 1.41-.59.37-.36.59-.86.59-1.41v-2l-4 4M5 3a2 2 0 0 0-2 2v2l4-4m4.88 0L3 11.88v2.83L14.71 3m4.79.08L3.08 19.5c.09.35.27.66.51.91.25.24.56.42.91.51L20.93 4.5c-.19-.7-.73-1.24-1.43-1.42"></path></svg></span> Materials<a class="headerlink" href="#materials" title="Permanent link">¶</a></h3>
-<h4 id="transparency">Transparency<a class="headerlink" href="#transparency" title="Permanent link">¶</a></h4>
 <p>Editing materials are done by editing the <a href="../../resources/formats/mmat/">Material Set</a> (<code>.mmat</code>) file, located in <code>model/&lt;model_prefix&gt;/&lt;model_id&gt;/vars/&lt;number&gt;.mmat</code> (each number represents a different material variation, used for color packs).</p>
 <ul>
 <li>Get <a href="https://github.com/google/flatbuffers/releases">FlatBuffers / flatc</a>, which you should already have if you already imported models. Extract it.</li>
@@ -4436,7 +4413,7 @@
 <p>To convert your material <code>.json</code> file back into <code>.mmat</code>, run this command:</p>
 <div class="annotate highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="l l-Scalar l-Scalar-Plain">flatc -b &lt;path_to_fbs_file&gt; &lt;path_to_json_file&gt;</span>
 </code></pre></div>
-<h4 id="transparency_1">Transparency<a class="headerlink" href="#transparency_1" title="Permanent link">¶</a></h4>
+<h4 id="transparency">Transparency<a class="headerlink" href="#transparency" title="Permanent link">¶</a></h4>
 <p>This is mostly down to trial and error. To get transparency to play well, refer to the following steps:</p>
 <ol>
 <li>
@@ -4455,7 +4432,10 @@
 </ol>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Double-sided (backface culling) with transparent meshes haven't been figured out yet, a way to get around it is to make a thin mesh that covers both sides.</p>
+<ul>
+<li>Double-sided (backface culling) with transparent meshes haven't been figured out yet, a way to get around it is to make a thin mesh that covers both sides.</li>
+<li>A partially transparent texture may still have some noise while moving the camera around. How to get around this is unknown (TAA artifact or masking?)</li>
+</ul>
 </div>
 <h4 id="exporting-textures">Exporting Textures<a class="headerlink" href="#exporting-textures" title="Permanent link">¶</a></h4>
 <p>To export textures, you must edit the materials to make sure that they do <em>not</em> use Granite.</p>
@@ -4480,13 +4460,17 @@
 </details>
 <p>Now, inside the <code>texture_maps</code> section, you will see all the textures associated to each material map. As you've removed the granite section, your textures will need to be put in the following folders (if they aren't already there):</p>
 <ul>
-<li>4k: <code>texture/4k/{name}.texture</code></li>
-<li>2k: <code>texture/2k/{name}.texture</code></li>
+<li>4k: <code>texture/4k/{name}.texture</code> (Graphics texture quality = Ultra)</li>
+<li>2k: <code>texture/2k/{name}.texture</code> (Graphics texture quality = Standard)</li>
 </ul>
 <p>These textures files are simply <code>.wtb</code> files with a different extension. Follow <a href="../../tutorials/textures/texture_creation/">this simple guide</a> to create <code>.wtb</code> files. Change your <code>.wtb</code> extension to <code>.texture</code> once that's done.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>DDS files are required beforehand.</p>
+<ul>
+<li><strong>DDS files</strong> are required to convert into <code>.wtb/.texture</code>.</li>
+<li><strong>Try to respect the user's graphics settings and do provide differing texture resolutions rather than copy <code>4k</code> into <code>2k</code>!</strong></li>
+<li>Switching between <code>4k</code> and <code>2k</code> using the game options requires a game restart.</li>
+</ul>
 </div>
 <hr>
 <h2 id="exporting-checklist"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.5 1.75v11.5c0 .138.112.25.25.25h3.17a.75.75 0 0 1 0 1.5H2.75A1.75 1.75 0 0 1 1 13.25V1.75C1 .784 1.784 0 2.75 0h8.5C12.216 0 13 .784 13 1.75v7.736a.75.75 0 0 1-1.5 0V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25m13.274 9.537zl-4.557 4.45a.75.75 0 0 1-1.055-.008l-1.943-1.95a.75.75 0 0 1 1.062-1.058l1.419 1.425 4.026-3.932a.75.75 0 1 1 1.048 1.074M4.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5M4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75"></path></svg></span> Exporting Checklist<a class="headerlink" href="#exporting-checklist" title="Permanent link">¶</a></h2>
@@ -4566,7 +4550,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 23, 2026 18:20:00 UTC">May 23, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 23, 2026 20:01:42 UTC">May 23, 2026</span>
   </span>
 
     
