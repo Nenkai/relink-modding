@@ -32,24 +32,56 @@ Make sure you have the [GBFR Blender Tools Add-on](../models/importing.md#instal
 
 ---
 
-### :material-texture: Exporting Textures
+### :material-texture: Materials 
 
-By this point you must be wondering how to export textures for the game *without* using granite. This is done by editing the [Material Set](../resources/formats/mmat.md) (`.mmat`) file, located in `model/<model_prefix>/<model_id>/vars/<number>.mmat` (each number represents a different material variation, used for color packs).
+#### Transparency
+
+Editing materials are done by editing the [Material Set](../resources/formats/mmat.md) (`.mmat`) file, located in `model/<model_prefix>/<model_id>/vars/<number>.mmat` (each number represents a different material variation, used for color packs).
 
 * Get [FlatBuffers / flatc](https://github.com/google/flatbuffers/releases), which you should already have if you already imported models. Extract it.
 * Get the [FlatBuffer MMat schema](https://github.com/Nenkai/GBFRDataTools/blob/master/GBFRDataTools.FlatBuffers/MMat_ModelMaterial.fbs). Schemas are used to tell `flatc` how to read and write the material files.
 * Run the following command to convert the `.mmat` file into a human readable `.json` file:
 
 ``` { .yaml .annotate }
-latc --json --strict-json --raw-binary MMat_ModelMaterial.fbs -- <path to .json file>
+flatc --json --strict-json --raw-binary MMat_ModelMaterial.fbs -- <path to .json file>
 ```
 
 !!! tip
 
     `<path_to_fbs_file>` should be the path to the `.fbs` file and `<path_to_mmat_file>` should be the path to the `.mmat` file.
 
-* You should now have a `.json` file next to the original `.mmat` file. Open it in a text editor (preferably something like [Notepad++](https://notepad-plus-plus.org/downloads/)).
-* Scroll down to `granite_params`. **Remove the entire section**. This will force the game *not* to use texture streaming and use local files instead.
+You should now have a `.json` file next to the original `.mmat` file. Open it in a text editor (preferably something like [Notepad++](https://notepad-plus-plus.org/downloads/)).
+
+To convert your material `.json` file back into `.mmat`, run this command:
+
+``` { .yaml .annotate }
+flatc -b <path_to_fbs_file> <path_to_json_file>
+```
+
+#### Transparency
+
+This is mostly down to trial and error. To get transparency to play well, refer to the following steps:
+
+1. Ensure that your material has the following shader parameter, as it ensures to process the alpha channel
+```json
+{
+  "param_hash": "g_53F49792_EnableAlpha_GUESSED",
+  "value_or_offset": 1,
+  "value_type": "U8"
+},
+```
+
+2. Set `ignore_alpha` to `false`. This ensures that the alpha will blend, otherwise the edges of your texture will have artifacts
+3. Set `shadow_type` to `ShadowEnable_AlphaBlend`. This ensures the alpha properly propagates to the shadow aswell.
+
+!!! warning
+    Double-sided (backface culling) with transparent meshes haven't been figured out yet, a way to get around it is to make a thin mesh that covers both sides.
+
+#### Exporting Textures
+
+To export textures, you must edit the materials to make sure that they do *not* use Granite.
+
+Scroll down to `granite_params`. **Remove the entire section**. This will force the game *not* to use texture streaming and use local files instead.
 
 ??? example "Example section to remove"
 
@@ -79,14 +111,6 @@ These textures files are simply `.wtb` files with a different extension. Follow 
 
 !!! note
     DDS files are required beforehand.
-
-Finally, to convert your material `.json` file into `.mmat`:
-
-``` { .yaml .annotate }
-flatc -b <path_to_fbs_file> <path_to_json_file>
-```
-
-Rename the newly created `.bin` file extension to `.mmat`.
 
 ---
 
