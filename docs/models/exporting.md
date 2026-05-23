@@ -34,8 +34,6 @@ Make sure you have the [GBFR Blender Tools Add-on](../models/importing.md#instal
 
 ### :material-texture: Materials 
 
-#### Transparency
-
 Editing materials are done by editing the [Material Set](../resources/formats/mmat.md) (`.mmat`) file, located in `model/<model_prefix>/<model_id>/vars/<number>.mmat` (each number represents a different material variation, used for color packs).
 
 * Get [FlatBuffers / flatc](https://github.com/google/flatbuffers/releases), which you should already have if you already imported models. Extract it.
