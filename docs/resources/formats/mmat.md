@@ -36,10 +36,10 @@ This file is a [FlatBuffer](https://flatbuffers.dev/) file.
 | unique_material_name_hash_maybe | XXHash32Custom(str) | Hash of the name of this material.
 | shader_type           | byte              | Type of shader to use.
 | shader_sub_type       | byte              | Sub-type of shader.
-| unk_8                 | byte              | Unknown. Should be 0 to 3.
+| shadow_type           | byte              | Shadow type. 0 = none, 1 = enabled (unknown), 2 = enabled (with alpha), 3 = enabled (alpha ignored) 
 | bool9                 | bool              | Unknown.
 | bool10                | bool              | Unknown.
-| bool11                | bool              | Unknown.
+| ignore_alpha          | bool              | Whether to ignore alpha.
 | bool12                | bool              | Unknown.
 
 ??? abstract "Shader Type"
@@ -238,36 +238,36 @@ Unknown. This is indexed by `constant_buffer_indices` within materials.
         g_EmissivePower        = 0x06CFE5A4,
         g_0A05A26F             = 0x0A05A26F,
         g_11664BFC             = 0x11664BFC,
-        g_EnableDiscardMask    = 0x24C1ABA9,
+        g_EnableDiscardMask    = 0x24C1ABA9, // Bool
         g_2AEDA6AD             = 0x2AEDA6AD,
-        g_2B5C866C             = 0x2B5C866C,
-        g_372C03F0             = 0x372C03F0,
+        g_2B5C866C             = 0x2B5C866C, // Bool
+        g_372C03F0             = 0x372C03F0, // Bool
         g_UseIceEmissive0      = 0x3C966EE3,
-        g_4298F7E4             = 0x4298F7E4,
+        g_4298F7E4             = 0x4298F7E4, // Bool
         g_EnableOutLine        = 0x49D8C1B9,
-        g_53F49792             = 0x53F49792,
+        g_53F49792_EnableAlpha_GUESSED = 0x53F49792, // Name is guessed on functionality.
         g_56346692             = 0x56346692,
-        g_IsUseAlbedoAlphaClip = 0x60F31A22,
-        g_IsUseDetailNormal    = 0x6C5CB9AC,
-        g_IsUseDitherMap       = 0x7920C84F,
-        g_EnableBooleanMask    = 0x920821E1,
-        g_92339519             = 0x92339519,
-        g_93D9F63A             = 0x93D9F63A,
+        g_IsUseAlbedoAlphaClip = 0x60F31A22, // Bool
+        g_IsUseDetailNormal    = 0x6C5CB9AC, // Bool
+        g_IsUseDitherMap       = 0x7920C84F, // Bool
+        g_EnableBooleanMask    = 0x920821E1, // Bool
+        g_92339519             = 0x92339519, // Bool
+        g_93D9F63A             = 0x93D9F63A, // Bool
         g_SwayAmplitude        = 0x98EBBEC2,
         g_9C83F56F             = 0x9C83F56F,
-        g_ContainerUse         = 0x9F1DA064,
+        g_ContainerUse         = 0x9F1DA064, // Bool
         g_A6EB1B34             = 0xA6EB1B34,
-        g_AB261CFA             = 0xAB261CFA,
-        g_AC6F995D             = 0xAC6F995D,
-        g_B0EA41D9             = 0xB0EA41D9,
-        g_B460A0F0             = 0xB460A0F0,
-        g_BAEF6920             = 0xBAEF6920,
-        g_C5BD3DED             = 0xC5BD3DED,
-        g_C9762248             = 0xC9762248,
-        g_UseIceEmissive       = 0xCA06A6B6,
-        g_TwoSided             = 0xD94F2821,
-        g_UseColorNoise        = 0xE208C4C4,
-        g_E56343C0             = 0xE56343C0,
+        g_AB261CFA             = 0xAB261CFA, // Bool
+        g_AC6F995D             = 0xAC6F995D, // Bool
+        g_B0EA41D9             = 0xB0EA41D9, // Bool
+        g_IsUseDepthFade       = 0xB460A0F0, // Bool
+        g_BAEF6920             = 0xBAEF6920, // Bool
+        g_C5BD3DED             = 0xC5BD3DED, // Bool
+        g_C9762248             = 0xC9762248, // Bool
+        g_UseIceEmissive       = 0xCA06A6B6, // Bool
+        g_TwoSided             = 0xD94F2821, // Bool
+        g_UseColorNoise        = 0xE208C4C4, // Bool
+        g_E56343C0             = 0xE56343C0, // Bool
         g_EB6F1AE7             = 0xEB6F1AE7,
     }
     ```

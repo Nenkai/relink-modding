@@ -73,7 +73,8 @@ This is mostly down to trial and error. To get transparency to play well, refer 
 3. Set `shadow_type` to `ShadowEnable_AlphaBlend`. This ensures the alpha properly propagates to the shadow aswell.
 
 !!! warning
-    Double-sided (backface culling) with transparent meshes haven't been figured out yet, a way to get around it is to make a thin mesh that covers both sides.
+    * Double-sided (backface culling) with transparent meshes haven't been figured out yet, a way to get around it is to make a thin mesh that covers both sides.
+    * A partially transparent texture may still have some noise while moving the camera around. How to get around this is unknown (TAA artifact or masking?)
 
 #### Exporting Textures
 
@@ -102,13 +103,15 @@ Scroll down to `granite_params`. **Remove the entire section**. This will force 
 
 Now, inside the `texture_maps` section, you will see all the textures associated to each material map. As you've removed the granite section, your textures will need to be put in the following folders (if they aren't already there):
 
-* 4k: `texture/4k/{name}.texture`
-* 2k: `texture/2k/{name}.texture`
+* 4k: `texture/4k/{name}.texture` (Graphics texture quality = Ultra)
+* 2k: `texture/2k/{name}.texture` (Graphics texture quality = Standard)
 
 These textures files are simply `.wtb` files with a different extension. Follow [this simple guide](../tutorials/textures/texture_creation.md) to create `.wtb` files. Change your `.wtb` extension to `.texture` once that's done.
 
 !!! note
-    DDS files are required beforehand.
+    * **DDS files** are required to convert into `.wtb/.texture`.
+    * **Try to respect the user's graphics settings and do provide differing texture resolutions rather than copy `4k` into `2k`!**
+    * Switching between `4k` and `2k` using the game options requires a game restart.
 
 ---
 
