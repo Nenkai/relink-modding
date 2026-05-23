@@ -46,14 +46,14 @@ flatc --json --strict-json --raw-binary MMat_ModelMaterial.fbs -- <path to .json
 
 !!! tip
 
-    `<path_to_fbs_file>` should be the path to the `.fbs` file and `<path_to_mmat_file>` should be the path to the `.mmat` file.
+    `<path_to_mmat_file>` should be the path to the `.mmat` file.
 
 You should now have a `.json` file next to the original `.mmat` file. Open it in a text editor (preferably something like [Notepad++](https://notepad-plus-plus.org/downloads/)).
 
-To convert your material `.json` file back into `.mmat`, run this command:
+To convert your material `.json` file back into `.mmat`, run this command (note: it will overwrite if it already exists):
 
 ``` { .yaml .annotate }
-flatc -b <path_to_fbs_file> <path_to_json_file>
+flatc -b MMat_ModelMaterial.fbs <path_to_json_file>
 ```
 
 #### Transparency
