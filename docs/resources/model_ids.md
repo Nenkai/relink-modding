@@ -156,7 +156,7 @@ EM2600 -- Cobra/Sand Reaper
 EM2700 -- Sir Barrold
 EM2800 -- Ominous Form/Vengeful Wraith/Calamitous Specter
 EM3100 -- Pyet-A
-EM7000 -- Proto Bahamut
+EM7001 -- Proto Bahamut
 EM7100 -- Vulkan Bolla
 EM7110 -- Vulkan Bolla Nihilla
 EM7200 -- Furycane
