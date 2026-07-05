@@ -12,7 +12,6 @@ The mesh and model are however completely reusable and require no editing.
 
 ## Solution 1: Use a mod loader configuration to automatically force update constant buffers
 
-
 This is a mod loader feature. You can instruct the mod loader to force a modded material file to match the constant buffers present in an original model file. (Note: this applies to the mod loader version to be released alongside the DLC).
 
 !!! WARNING
