@@ -143,6 +143,7 @@ nav:
   - Blender:
     - Model Importing: models/importing.md 
     - Model Exporting: models/exporting.md
+    - Updating models for ER: models/updating_models_for_er.md
 
   - Tables:
     - Table Database: tables/table_database.md

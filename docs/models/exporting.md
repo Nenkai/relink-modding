@@ -41,7 +41,7 @@ Editing materials are done by editing the [Material Set](../resources/formats/mm
 * Run the following command to convert the `.mmat` file into a human readable `.json` file:
 
 ``` { .yaml .annotate }
-flatc --json --strict-json --raw-binary MMat_ModelMaterial.fbs -- <path to .json file>
+flatc --json --strict-json --raw-binary MMat_ModelMaterial.fbs -- <path to .mmat file>
 ```
 
 !!! tip
