@@ -1,3 +1,9 @@
 .md-grid {
     max-width: 1560px; 
 }
+
+/* Announce Banner */
+.md-banner {
+  background-color: #ffcc00; /* background */
+  color: #000000;            /* text color */
+}
