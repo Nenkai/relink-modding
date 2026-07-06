@@ -37,7 +37,7 @@ These will require to be manually updated.
 
 ### :material-plus: QoL Mods (such as code injection mods created by Nenkai)
 
-Naturally, these mods also broke, however some of them have already been updated ahead of time and will be updated ahead of time:
+In general code-injection mods also broke due to compiler changes from their end, however some of them have already been updated ahead of time (and will be released with ER):
 
 * [Detailed SBA & Enemy Percentage](https://www.nexusmods.com/granbluefantasyrelink/mods/428)
 * [Auto-copy Session Id to Clipboard](https://www.nexusmods.com/granbluefantasyrelink/mods/565)
