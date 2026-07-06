@@ -25,6 +25,8 @@ Welcome to the world of GBFR Modding! Here you can learn all about modding the g
 
     [:material-medal-outline: Recommended Mods/Tools](modding/recommended_mods_tools.md)
 
+    [:material-exclamation: Endless Ragnarok and Mods](modding/endless_ragnarok_and_mods.md)
+
 -   :material-wrench:{ .lg .middle } __Tutorials for Modders__
 
     ---

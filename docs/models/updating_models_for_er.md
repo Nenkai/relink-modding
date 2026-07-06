@@ -2,7 +2,7 @@
 icon: material/update
 ---
 
-# :material-update: Updating Model Mods for Endless Ragnarok
+# :material-update: Model Mods and Endless Ragnarok
 
 Endless Ragnarok has made some shader changes that requires material files (`.mmat`) files to be updated, as they contain constant buffers used for shaders. If you do not do this, models may appear darker than they should.
 
@@ -10,9 +10,19 @@ Endless Ragnarok has made some shader changes that requires material files (`.mm
 
 The mesh and model are however completely reusable and require no editing.
 
-## Solution 1: Use a mod loader configuration to automatically force update constant buffers
+## For Users
 
-This is a mod loader feature. You can instruct the mod loader to force a modded material file to match the constant buffers present in an original model file. (Note: this applies to the mod loader version to be released alongside the DLC).
+You *can* right-click the Mod Manager in Reloaded-II, press 'Configure' and turn on "Auto-Upgrade .mmat constant buffers".
+
+!!! WARNING
+
+	This might break other mods at the cost of compatibility. Preferably seek to use updated mods.
+
+## For Modders
+
+### Solution 1: Use a mod loader configuration to automatically force update constant buffers
+
+This is a mod loader feature. You can instruct the mod loader to force a modded material file to match the constant buffers present in an original model file. **(Note: this applies to the mod loader version to be released alongside the DLC)**.
 
 !!! WARNING
 
@@ -31,7 +41,7 @@ In your modded folder, create `GBFR/config/material_config.json`. Here is a samp
 
 This will force `model/fp/fp1600/vars/0.mmat` and `model/pl/pl1600/vars/0.mmat` to be updated based on the original models.
 
-## Solution 2: Diff the material files and apply the changes manually
+### Solution 2: Diff the material files and apply the changes manually
 
 This is the more manual solution if you need a more fine-grained way of verifying constant buffers, incase you previously updated these on your own.
 
