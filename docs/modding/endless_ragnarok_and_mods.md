@@ -19,7 +19,7 @@ It retains compatibility with both 1.3 and Endless Ragnarok (2.0).
 
 ### :material-human: Model Mods
 
-Unfortunately, **not all model mods are compatible out of the gate with Endless Ragnarok.** Any model mods that make changes to a model's material files will need to be [updated/edited].
+Unfortunately, **not all model mods are compatible out of the gate with Endless Ragnarok.** Any model mods that make changes to a model's material files will need to be updated/edited.
 
 You can however force such mods to work.
 
