@@ -16,7 +16,9 @@ You *can* right-click the Mod Manager in Reloaded-II, press 'Configure' and turn
 
 !!! WARNING
 
-	This might break other mods at the cost of compatibility. Preferably seek to use updated mods.
+	This is a last resort option and may break other model mods. Preferably seek to use updated mods.
+
+	This forces mods to match with original model data.
 
 ## For Modders
 
