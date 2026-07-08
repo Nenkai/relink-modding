@@ -7,9 +7,7 @@ icon: material/exclamation
 New game, mod breakage. This is kind of a classic that we have no control over, but we've established a list of things to look out for.
 
 !!! warning
-    **You should turn off ALL mods in Endless Ragnarok. No game files are ever altered in the game folder so you should be fine simply updating the game.**
-
-    **Delete `winmm.dll`/`dinput8.dll`/`version.dll` aswell from the game folder if it is present.**
+    **Delete `winmm.dll`/`dinput8.dll`/`version.dll/scripts folder` from the game folder if it is present.**
 
 ## For Users
 
@@ -31,7 +29,9 @@ You can however force such mods to work.
 
 Item uncaps [such as this mod](https://www.nexusmods.com/granbluefantasyrelink/mods/528) will not be compatible until a new version is made.
 
-**Please use your items/vouchers before playing Endless Ragnarok (due to save transfer) and before taking off the mod. Otherwise items will recap to the original maximum (999)**.
+**Please use your items before playing Endless Ragnarok (due to save transfer) and before taking off the mod. Otherwise items will recap to the original maximum (999)**.
+
+Vouchers cap has been increased to 99.999 in Endless Ragnarok by default.
 
 ### :material-table: Table/Gameplay mods
 
