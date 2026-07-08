@@ -4,7 +4,7 @@ icon: material/update
 
 # :material-update: Model Mods and Endless Ragnarok
 
-Endless Ragnarok has made some shader changes that requires material files (`.mmat`) files to be updated, as they contain constant buffers used for shaders. If you do not do this, models may appear darker than they should.
+Endless Ragnarok has made some shader changes that requires material files (`.mmat`) files to be updated, as they contain constant buffers & shader parameters used for shaders. If you do not do this, models may appear darker than they should.
 
 **This cannot be automated as certain mods may have made legitimate changes to these constant buffers.**
 
@@ -20,6 +20,8 @@ You *can* right-click the Mod Manager in Reloaded-II, press 'Configure' and turn
 
 	This forces mods to match with original model data.
 
+	There may still be issues regarding certain mods.
+
 ## For Modders
 
 ### Solution 1: Use a mod loader configuration to automatically force update constant buffers
@@ -29,6 +31,8 @@ This is a mod loader feature. You can instruct the mod loader to force a modded 
 !!! WARNING
 
     Only use this if you did not previously alter constant buffers voluntarily (i.e for extra shader values tuning).
+
+	There may still be issues if the original model has had shader parameter changes.
 
 In your modded folder, create `GBFR/config/material_config.json`. Here is a sample file:
 
