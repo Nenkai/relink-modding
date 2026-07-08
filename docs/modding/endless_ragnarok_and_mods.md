@@ -7,7 +7,7 @@ icon: material/exclamation
 New game, mod breakage. This is kind of a classic that we have no control over, but we've established a list of things to look out for.
 
 !!! warning
-    **You should turn off ALL mods in Endless Ragnarok.**
+    **You should turn off ALL mods in Endless Ragnarok. No game files are ever altered in the game folder so you should be fine simply updating the game.**
 
 ## For Users
 
