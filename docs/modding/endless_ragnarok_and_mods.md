@@ -9,6 +9,8 @@ New game, mod breakage. This is kind of a classic that we have no control over, 
 !!! warning
     **You should turn off ALL mods in Endless Ragnarok. No game files are ever altered in the game folder so you should be fine simply updating the game.**
 
+    **Delete `winmm.dll` aswell if it is present.**
+
 ## For Users
 
 ### :material-cog: The mod loader (gbfrelink.utility.manager)
