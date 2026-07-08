@@ -15,7 +15,7 @@ New game, mod breakage. This is kind of a classic that we have no control over, 
 
 ### :material-cog: The mod loader (gbfrelink.utility.manager)
 
-The mod loader has already been updated locally and the new version **will be released when Endless Ragnarok is released.**
+[The mod loader has been updated. (2.0.1)](https://www.nexusmods.com/granbluefantasyrelink/mods/526)
 
 It retains compatibility with both 1.3 and Endless Ragnarok (2.0).
 
@@ -41,13 +41,16 @@ These will require to be manually updated.
 
 ### :material-plus: QoL Mods (such as code injection mods created by Nenkai)
 
-In general code-injection mods also broke due to compiler changes from their end, however some of them have already been updated ahead of time (and will be released with ER):
+In general code-injection mods also broke due to compiler changes from their end, however some of them have already been updated ahead of time:
 
+Updated Mods:
 * [Detailed SBA & Enemy Percentage](https://www.nexusmods.com/granbluefantasyrelink/mods/428)
 * [Auto-copy Session Id to Clipboard](https://www.nexusmods.com/granbluefantasyrelink/mods/565)
+* [Automatic Power Adjustment](https://www.nexusmods.com/granbluefantasyrelink/mods/539)
+
+To be updated:
 * [Discord Rich Presence](https://www.nexusmods.com/granbluefantasyrelink/mods/540) (will need to be filled with quest ids and images)
 * [Return Imbued Stones](https://www.nexusmods.com/granbluefantasyrelink/mods/425) (70%, still needs to be verified to be working with ER)
-* [Automatic Power Adjustment](https://www.nexusmods.com/granbluefantasyrelink/mods/539)
 
 Mods that are deprecated and will not be updated as Endless Ragnarok has it built-in:
 
