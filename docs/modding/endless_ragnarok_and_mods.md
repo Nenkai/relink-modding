@@ -7,7 +7,7 @@ icon: material/exclamation
 New game, mod breakage. This is kind of a classic that we have no control over, but we've established a list of things to look out for.
 
 !!! warning
-    **Delete `winmm.dll`/`dinput8.dll`/`version.dll/scripts folder` from the game folder if it is present.**
+    **Delete `winmm.dll`/`dinput8.dll`/`version.dll`/`scripts` folder` from the game folder if it is present.**
 
 ## For Users
 
