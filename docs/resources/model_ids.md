@@ -39,6 +39,12 @@ PL2000 -- Id (Transformation)
 PL2100 -- Sandalphon (1.3.0)
 PL2200 -- Seofon (1.2.0)
 PL2300 -- Tweyen (1.2.0)
+PL2400 -- Gallanza (2.0.0)
+PL2500 -- Maglielle (2.0.0)
+PL2600 -- Beatrix (2.0.0)
+PL2700 -- Eustace (2.0.0)
+PL2800 -- Fraux (2.0.0)
+PL2900 -- Fediel (2.0.0)
 ```
 
 ---
