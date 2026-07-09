@@ -44,15 +44,15 @@ These will require to be manually updated.
 In general code-injection mods also broke due to compiler changes from their end, however some of them have already been updated ahead of time:
 
 Updated Mods:
+
 * [Detailed SBA & Enemy Percentage](https://www.nexusmods.com/granbluefantasyrelink/mods/428)
 * [Auto-copy Session Id to Clipboard](https://www.nexusmods.com/granbluefantasyrelink/mods/565)
 * [Automatic Power Adjustment](https://www.nexusmods.com/granbluefantasyrelink/mods/539)
 
-
 To be updated:
+
 * [Discord Rich Presence](https://www.nexusmods.com/granbluefantasyrelink/mods/540) (will need to be filled with quest ids and images)
 * [Return Imbued Stones](https://www.nexusmods.com/granbluefantasyrelink/mods/425) (70%, still needs to be verified to be working with ER)
-
 
 Mods that are deprecated and will not be updated as Endless Ragnarok has it built-in:
 
