@@ -11,7 +11,7 @@ The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manage
 ## Requirements
 
 * :material-github: [Reloaded-II Mod Manager](https://github.com/Reloaded-Project/Reloaded-II/releases)
-* `gbfrelink.utility.manager` (:simple-nexusmods: [NexusMods](https://www.nexusmods.com/granbluefantasyrelink/mods/526) - :material-github: [Github](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases))
+* `gbfrelink.utility.manager` ([NexusMods](https://www.nexusmods.com/granbluefantasyrelink/mods/526) - :material-github: [Github](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases))
 
 ---
 
