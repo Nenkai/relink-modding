@@ -779,11 +779,13 @@ icon: material/sword
 320 = Aerial Attack 3
 400 = Launch
 410 = Aerial Barrage
+1000 = Merculight
 1100 = Depravity
 1200 = Clincher
 1300 = Valiant Weave
 1400 = Wheel of Death
 1510 = Lethal Rain
+1600 = Peerless Eye
 1700 = Two-Crown's Strife 1
 1701 = Two-Crown's Strife 2
 ```
