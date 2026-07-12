@@ -185,6 +185,8 @@ EM7600 -- Bahamut Versa
 EM7603 -- Bahamut Core
 EM7610 -- Bahamut Versa Omega
 EM7700 -- Lucilius
+EM8000 -- Seofon
+EM8100 -- Tweyen
 ```
 
 ---
