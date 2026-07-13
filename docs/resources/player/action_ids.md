@@ -789,3 +789,55 @@ icon: material/sword
 1700 = Two-Crown's Strife 1
 1701 = Two-Crown's Strife 2
 ```
+
+### Beatrix (PL2600)
+
+```
+100 = Attack 1
+101 = Attack 2
+102 = Attack 3
+103 = Attack 4
+110 = Power Strike 1
+111 = Combo Finisher 1
+120 = Power Strike 2
+121 = Combo Finisher 2
+130 = Power Strike 3
+131 = Combo Finisher 3
+140 = Combo Finisher 4
+200 = Delta Clock
+300 = Aerial Attack 1
+301 = Aerial Attack 2
+302 = Aerial Attack 3
+303 = Aerial Combo Finisher
+400 = Launch
+410 = Aerial Barrage
+700 = Guard
+850 = Aerial Attack 1 (Devour Causality)
+851 = Aerial Attack 2 (Devour Causality)
+852 = Aerial Attack 3 (Devour Causality)
+855 = Aerial Combo Finisher (Devour Causality)
+860 = Launch (Devour Causality)
+870 = Aerial Barrage (Devour Causality)
+900 = Attack 1 (Devour Causality)
+901 = Attack 2 (Devour Causality)
+902 = Attack 3 (Devour Causality)
+903 = Attack 4 (Devour Causality)
+910 = Power Strike 1 (Devour Causality)
+911 = Combo Finisher 1 (Devour Causality)
+920 = Power Strike 2 (Devour Causality)
+921 = Combo Finisher 2 (Devour Causality)
+930 = Power Strike 3 (Devour Causality)
+931 = Combo Finisher 3 (Devour Causality)
+940 = Combo Finisher 4 (Devour Causality)
+950 = Power Finisher 1 (Devour Causality)
+960 = Power Finisher 2 (Devour Causality)
+970 = Power Finisher 3 (Devour Causality)
+980 = Power Finisher 4 (Devour Causality)
+1000 = Riding Free
+2000 = Star Chaser
+3000 = Embrasque Sword
+4000 = Eternity poop
+5000 = Hearts on Fire
+6000 = Thunderbird
+7000 = Unchained
+8000 = Rising Nova
