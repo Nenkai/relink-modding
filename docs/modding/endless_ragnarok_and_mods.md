@@ -49,9 +49,6 @@ Updated Mods:
 * [Auto-copy Session Id to Clipboard](https://www.nexusmods.com/granbluefantasyrelink/mods/565)
 * [Automatic Power Adjustment](https://www.nexusmods.com/granbluefantasyrelink/mods/539)
 * [Discord Rich Presence](https://www.nexusmods.com/granbluefantasyrelink/mods/540) (will need to be filled with quest ids and images)
-
-To be updated:
-
 * [Return Imbued Stones](https://www.nexusmods.com/granbluefantasyrelink/mods/425) (70%, still needs to be verified to be working with ER)
 
 Mods that are deprecated and will not be updated as Endless Ragnarok has it built-in:
@@ -69,8 +66,8 @@ Any other mods will require an update.
 
 ### GBFRDataTools
 
-[GBFRDataTools](https://github.com/Nenkai/GBFRDataTools) only requires a file list update, which will not happen immediately on release (as I (Nenkai) would like to enjoy it, but contributions are also welcome).
+[GBFRDataTools](https://github.com/Nenkai/GBFRDataTools) was updated with a new file list aswell as table headers (except some not to encourage cheat creation).
 
 ### File Name Logger
 
-Also updated locally, and will be released on ER update.
+~~Also updated locally, and will be released on ER update.~~ TBA.
