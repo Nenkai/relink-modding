@@ -779,11 +779,65 @@ icon: material/sword
 320 = Aerial Attack 3
 400 = Launch
 410 = Aerial Barrage
+1000 = Merculight
 1100 = Depravity
 1200 = Clincher
 1300 = Valiant Weave
 1400 = Wheel of Death
 1510 = Lethal Rain
+1600 = Peerless Eye
 1700 = Two-Crown's Strife 1
 1701 = Two-Crown's Strife 2
 ```
+
+### Beatrix (PL2600)
+
+```
+100 = Attack 1
+101 = Attack 2
+102 = Attack 3
+103 = Attack 4
+110 = Power Strike 1
+111 = Combo Finisher 1
+120 = Power Strike 2
+121 = Combo Finisher 2
+130 = Power Strike 3
+131 = Combo Finisher 3
+140 = Combo Finisher 4
+200 = Delta Clock
+300 = Aerial Attack 1
+301 = Aerial Attack 2
+302 = Aerial Attack 3
+303 = Aerial Combo Finisher
+400 = Launch
+410 = Aerial Barrage
+700 = Guard
+850 = Aerial Attack 1 (Undying Blue)
+851 = Aerial Attack 2 (Undying Blue)
+852 = Aerial Attack 3 (Undying Blue)
+855 = Aerial Combo Finisher (Undying Blue)
+860 = Launch (Undying Blue)
+870 = Aerial Barrage (Undying Blue)
+900 = Attack 1 (Undying Blue)
+901 = Attack 2 (Undying Blue)
+902 = Attack 3 (Undying Blue)
+903 = Attack 4 (Undying Blue)
+910 = Power Strike 1 (Undying Blue)
+911 = Combo Finisher 1 (Undying Blue)
+920 = Power Strike 2 (Undying Blue)
+921 = Combo Finisher 2 (Undying Blue)
+930 = Power Strike 3 (Undying Blue)
+931 = Combo Finisher 3 (Undying Blue)
+940 = Combo Finisher 4 (Undying Blue)
+950 = Power Finisher 1 (Undying Blue)
+960 = Power Finisher 2 (Undying Blue)
+970 = Power Finisher 3 (Undying Blue)
+980 = Power Finisher 4 (Undying Blue)
+1000 = Riding Free
+2000 = Star Chaser
+3000 = Embrasque Sword
+4000 = Eternity poop
+5000 = Hearts on Fire
+6000 = Thunderbird
+7000 = Unchained
+8000 = Rising Nova

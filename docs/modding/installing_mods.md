@@ -11,17 +11,17 @@ The Reloaded II mod manager combined with the Granblue Fantasy Relink Mod Manage
 ## Requirements
 
 * :material-github: [Reloaded-II Mod Manager](https://github.com/Reloaded-Project/Reloaded-II/releases)
-* `gbfrelink.utility.manager` (:simple-nexusmods: [NexusMods](https://www.nexusmods.com/granbluefantasyrelink/mods/526) - :material-github: [Github](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases))
+* `gbfrelink.utility.manager` ([NexusMods](https://www.nexusmods.com/granbluefantasyrelink/mods/526) - :material-github: [Github](https://github.com/WistfulHopes/gbfrelink.utility.manager/releases))
 
 ---
 
 ## Setting up Reloaded-II
 
-First, install Reloaded-II.
+First, install Reloaded-II using either the installer (`Setup.exe`) _or_ portable release (`Release.zip`).
 
-1. Download Reloaded-II's [`Release.zip`, or `Setup.exe`](https://github.com/Reloaded-Project/Reloaded-II/releases) (scroll down to the bottom of the *last* release)
-2. Extract `Release.zip` to its own folder or run the `Setup.exe` and install it.
-3. Open `Reloaded-II.exe`.
+1. Download Reloaded-II's [`Setup.exe` or `Release.zip`](https://github.com/Reloaded-Project/Reloaded-II/releases/latest) (scroll down to the Assets of the _latest_ release)
+2. Run `Setup.exe`, or extract `Release.zip` to its own folder
+3. Run `Reloaded-II.exe`.
 4. Press the `+` Icon to add a game and select `Granblue Fantasy Relink.exe`.
 
 Then, install the Mod Loader for Relink (two options):
