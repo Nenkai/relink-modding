@@ -65,7 +65,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv11 (23.91%) / Lv12 (22.83%) / Lv13 (21.74%) / Lv14 (20.65%) / Lv15 (10.87%)
 * Tyranny (18.40%)
   - Lv11 (23.91%) / Lv12 (22.83%) / Lv13 (21.74%) / Lv14 (20.65%) / Lv15 (10.87%)
-* Linked Together (AtkCategoryFlag 17 & 18) (18.40%)
+* Linked Together (18.40%)
   - Lv11 (23.91%) / Lv12 (22.83%) / Lv13 (21.74%) / Lv14 (20.65%) / Lv15 (10.87%)
 * Improved Healing (18.40%)
   - Lv11 (23.91%) / Lv12 (22.83%) / Lv13 (21.74%) / Lv14 (20.65%) / Lv15 (10.87%)
@@ -576,7 +576,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 * Celestial Ventus (20.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
-* 0DE887A0 (20.00%)
+* Celestial Nyx (20.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 
 [Equip Bonuses]
@@ -852,7 +852,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Celestial Terra (20.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* 0DE887A0 (20.00%)
+* Celestial Nyx (20.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 
 [Equip Bonuses]
@@ -892,7 +892,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv11 (23.91%) / Lv12 (22.83%) / Lv13 (21.74%) / Lv14 (20.65%) / Lv15 (10.87%)
 * Celestial Terra (18.40%)
   - Lv11 (23.91%) / Lv12 (22.83%) / Lv13 (21.74%) / Lv14 (20.65%) / Lv15 (10.87%)
-* 0DE887A0 (18.40%)
+* Celestial Nyx (18.40%)
   - Lv11 (23.91%) / Lv12 (22.83%) / Lv13 (21.74%) / Lv14 (20.65%) / Lv15 (10.87%)
 
 [Equip Bonuses]
@@ -1236,7 +1236,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Critical Hit DMG (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Charged Attack DMG (AtkCategoryFlag 1) (25.00%)
+* Charged Attack DMG (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 
 [Equip Bonuses]
@@ -1273,7 +1273,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 * Critical Hit DMG (25.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
-* Charged Attack DMG (AtkCategoryFlag 1) (25.00%)
+* Charged Attack DMG (25.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 
 [Equip Bonuses]
@@ -1501,7 +1501,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Critical Hit Rate (20.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Skilled Assault (AtkCategoryFlag 16) (20.00%)
+* Skilled Assault (20.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Glaciate Resistance (20.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
@@ -1540,7 +1540,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 * Critical Hit Rate (20.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
-* Skilled Assault (AtkCategoryFlag 16) (20.00%)
+* Skilled Assault (20.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 * Glaciate Resistance (20.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
@@ -1657,7 +1657,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Improved Healing (20.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Skilled Assault (AtkCategoryFlag 16) (20.00%)
+* Skilled Assault (20.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Slow Resistance (20.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
@@ -1696,7 +1696,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 * Improved Healing (20.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
-* Skilled Assault (AtkCategoryFlag 16) (20.00%)
+* Skilled Assault (20.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 * Slow Resistance (20.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
@@ -2037,7 +2037,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Stamina (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Combo Finisher DMG (AtkCategoryFlag 5) (25.00%)
+* Combo Finisher DMG (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 
 [Equip Bonuses]
@@ -2074,7 +2074,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 * Stamina (25.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
-* Combo Finisher DMG (AtkCategoryFlag 5) (25.00%)
+* Combo Finisher DMG (25.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 
 [Equip Bonuses]
@@ -2183,7 +2183,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Nimble Defense (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Concentrated Fire (AtkCategoryFlag 3) (25.00%)
+* Concentrated Fire (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Weak Point DMG (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
@@ -2220,7 +2220,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 * Nimble Defense (25.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
-* Concentrated Fire (AtkCategoryFlag 3) (25.00%)
+* Concentrated Fire (25.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 * Weak Point DMG (25.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
@@ -2257,7 +2257,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Aegis (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* 0DE887A0 (25.00%)
+* Celestial Nyx (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Enmity (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
@@ -2294,7 +2294,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 * Aegis (25.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
-* 0DE887A0 (25.00%)
+* Celestial Nyx (25.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 * Enmity (25.00%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
@@ -2674,7 +2674,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 * Life on the Line (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
-* Skilled Assault (AtkCategoryFlag 16) (33.33%)
+* Skilled Assault (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 
 [Equip Bonuses]
@@ -2709,7 +2709,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Life on the Line (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Skilled Assault (AtkCategoryFlag 16) (33.33%)
+* Skilled Assault (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 
 [Equip Bonuses]
@@ -2810,7 +2810,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 ### Light Gyre I
 ```
 [Main Traits]
-* Linked Together (AtkCategoryFlag 17 & 18) (33.33%)
+* Linked Together (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 * HP (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
@@ -2845,7 +2845,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 ### Light Gyre II
 ```
 [Main Traits]
-* Linked Together (AtkCategoryFlag 17 & 18) (33.33%)
+* Linked Together (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * HP (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
@@ -2882,7 +2882,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 [Main Traits]
 * Tyranny (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
-* 0DE887A0 (33.33%)
+* Celestial Nyx (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 * Combo Booster (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
@@ -2917,7 +2917,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 [Main Traits]
 * Tyranny (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* 0DE887A0 (33.33%)
+* Celestial Nyx (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Combo Booster (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
@@ -2952,7 +2952,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 [Main Traits]
 * Celestial Incendo (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
-* Linked Together (AtkCategoryFlag 17 & 18) (33.33%)
+* Linked Together (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 * Steady Focus (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
@@ -2987,7 +2987,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 [Main Traits]
 * Celestial Incendo (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Linked Together (AtkCategoryFlag 17 & 18) (33.33%)
+* Linked Together (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Steady Focus (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
@@ -3024,7 +3024,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 * Quick Cooldown (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
-* Combo Finisher DMG (AtkCategoryFlag 5) (33.33%)
+* Combo Finisher DMG (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 
 [Equip Bonuses]
@@ -3059,7 +3059,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Quick Cooldown (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Combo Finisher DMG (AtkCategoryFlag 5) (33.33%)
+* Combo Finisher DMG (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 
 [Equip Bonuses]
@@ -3490,7 +3490,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 [Main Traits]
 * Less Is More (25.00%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
-* Concentrated Fire (AtkCategoryFlag 3) (25.00%)
+* Concentrated Fire (25.00%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 * Injury to Insult (25.00%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
@@ -3527,7 +3527,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 [Main Traits]
 * Less Is More (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Concentrated Fire (AtkCategoryFlag 3) (25.00%)
+* Concentrated Fire (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Injury to Insult (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
@@ -3856,7 +3856,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 [Main Traits]
 * Quick Charge (25.00%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
-* Concentrated Fire (AtkCategoryFlag 3) (25.00%)
+* Concentrated Fire (25.00%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 * Head Start (25.00%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
@@ -3893,7 +3893,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 [Main Traits]
 * Quick Charge (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Concentrated Fire (AtkCategoryFlag 3) (25.00%)
+* Concentrated Fire (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Head Start (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
@@ -4076,7 +4076,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 ### Goblin Soldier I
 ```
 [Main Traits]
-* Linked Together (AtkCategoryFlag 17 & 18) (25.00%)
+* Linked Together (25.00%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 * ATK (25.00%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
@@ -4113,7 +4113,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 ### Goblin Soldier II
 ```
 [Main Traits]
-* Linked Together (AtkCategoryFlag 17 & 18) (25.00%)
+* Linked Together (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * ATK (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
@@ -4154,7 +4154,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 * HP (25.00%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
-* Charged Attack DMG (AtkCategoryFlag 1) (25.00%)
+* Charged Attack DMG (25.00%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 * DEF↓ Resistance (25.00%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
@@ -4191,7 +4191,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * HP (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Charged Attack DMG (AtkCategoryFlag 1) (25.00%)
+* Charged Attack DMG (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * DEF↓ Resistance (25.00%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
@@ -4298,7 +4298,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 * Stamina (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
-* Combo Finisher DMG (AtkCategoryFlag 5) (33.33%)
+* Combo Finisher DMG (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 
 [Equip Bonuses]
@@ -4333,7 +4333,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Stamina (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Combo Finisher DMG (AtkCategoryFlag 5) (33.33%)
+* Combo Finisher DMG (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 
 [Equip Bonuses]
@@ -5146,7 +5146,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 * Improved Healing (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
-* Combo Finisher DMG (AtkCategoryFlag 5) (33.33%)
+* Combo Finisher DMG (33.33%)
   - Lv4 (35.00%) / Lv5 (33.00%) / Lv6 (32.00%)
 
 [Equip Bonuses]
@@ -5181,7 +5181,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 * Improved Healing (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
-* Combo Finisher DMG (AtkCategoryFlag 5) (33.33%)
+* Combo Finisher DMG (33.33%)
   - Lv7 (27.00%) / Lv8 (26.00%) / Lv9 (24.00%) / Lv10 (23.00%)
 
 [Equip Bonuses]
@@ -5216,7 +5216,7 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 * Improved Healing (33.33%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
-* Combo Finisher DMG (AtkCategoryFlag 5) (33.33%)
+* Combo Finisher DMG (33.33%)
   - Lv11 (22.00%) / Lv12 (21.00%) / Lv13 (20.00%) / Lv14 (19.00%) / Lv15 (18.00%)
 
 [Equip Bonuses]
@@ -5629,4 +5629,3 @@ To navigate this more easily, ++ctrl+f++ and search by summon name or trait/bonu
 * Healing Cap Up (9.09%)
   - +35% (25.00%) / +40% (25.00%) / +45% (25.00%) / +50% (25.00%)
 ```
-
