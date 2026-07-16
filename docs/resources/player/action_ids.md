@@ -841,3 +841,4 @@ icon: material/sword
 6000 = Thunderbird
 7000 = Unchained
 8000 = Rising Nova
+```
