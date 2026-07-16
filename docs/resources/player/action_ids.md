@@ -836,7 +836,7 @@ icon: material/sword
 1000 = Riding Free
 2000 = Star Chaser
 3000 = Embrasque Sword
-4000 = Eternity poop
+4000 = Eternity Loop
 5000 = Hearts on Fire
 6000 = Thunderbird
 7000 = Unchained
