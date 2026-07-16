@@ -808,7 +808,7 @@ icon: material/sword
 300 = Aerial Attack 1
 301 = Aerial Attack 2
 302 = Aerial Attack 3
-303 = Aerial Combo Finisher
+310 = Aerial Combo Finisher
 400 = Launch
 410 = Aerial Barrage
 700 = Guard
