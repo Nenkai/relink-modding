@@ -6,7 +6,7 @@ icon: material/crystal-ball
 
 :material-lightbulb: Data Version: `2.0.2`
 
-This pages documents all the available traits and their chances on summons.
+This page documents all the available traits and their chances on summons.
 
 !!! note ":material-note: Notes/Observations"
 
