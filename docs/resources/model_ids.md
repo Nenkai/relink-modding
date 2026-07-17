@@ -187,6 +187,9 @@ EM7610 -- Bahamut Versa Omega
 EM7700 -- Lucilius
 EM8000 -- Seofon
 EM8100 -- Tweyen
+EM8200 -- Beelzebub
+EM8300 -- The World
+EM8400 -- Omnis Zegalith
 ```
 
 ---

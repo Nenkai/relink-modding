@@ -808,7 +808,7 @@ icon: material/sword
 300 = Aerial Attack 1
 301 = Aerial Attack 2
 302 = Aerial Attack 3
-303 = Aerial Combo Finisher
+310 = Aerial Combo Finisher
 400 = Launch
 410 = Aerial Barrage
 700 = Guard
@@ -836,8 +836,9 @@ icon: material/sword
 1000 = Riding Free
 2000 = Star Chaser
 3000 = Embrasque Sword
-4000 = Eternity poop
+4000 = Eternity Loop
 5000 = Hearts on Fire
 6000 = Thunderbird
 7000 = Unchained
 8000 = Rising Nova
+```
