@@ -23,6 +23,6 @@ Since the majority of mods fail to disclose heavy AI usage for creation, we unfo
 * [REALTIME CHARA SWAP](https://www.nexusmods.com/granbluefantasyrelink/mods/647) (Readme, Undisclosed source code)
 * [Interface SFX Mixer](https://www.nexusmods.com/granbluefantasyrelink/mods/649) (Undisclosed source code)
 * [Infinity Full Assist Unlock](https://www.nexusmods.com/granbluefantasyrelink/mods/655) (Source code)
-* [GBFR Team DPS Meter](https://www.nexusmods.com/granbluefantasyrelink/mods/662) (Source code)
+* [GBFR Team DPS Meter](https://www.nexusmods.com/granbluefantasyrelink/mods/662) (Undisclosed source code (Github but only compiled release))
 * [Ultima Sigils](https://www.nexusmods.com/granbluefantasyrelink/mods/661) (Header)
 * [Extra Sigil Slots](https://www.nexusmods.com/granbluefantasyrelink/mods/657) (Header, Source code)
