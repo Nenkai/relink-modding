@@ -54,6 +54,8 @@ Then make sure to tick on the checkbox next to `Granblue Fantasy Relink Mod Mana
 !!! warning
     The game sends quest reports/results as telemetry data (named [PlayLog](../resources/re/api.md#playlog-endpoints)) which is recommended to **disable** when running mods (especially quest mods). You can do so by heading to `Game Options -> Other -> Play Log -> Do Not Agree`.
 
+    We also keep a list of AI-slop mods for informational purposes [here](ai_created_mods.md).
+
 ---
 
 ## Removing Mods

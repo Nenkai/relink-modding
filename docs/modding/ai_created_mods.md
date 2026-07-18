@@ -1,0 +1,25 @@
+# AI Created Mods
+
+Since the majority of mods fail to disclose heavy AI usage for creation, we keep a list here for informational purposes.
+
+!!! warning
+    
+    **We do not endorse or recommend any of these mods.**
+
+* [GBFR PE Patch Tool](https://www.nexusmods.com/granbluefantasyrelink/mods/584) (Readme, Source code)
+* [gbfr-logs DLC compatibility (awa Edition)] (Source code)
+* [Smart Synthesis](https://www.nexusmods.com/granbluefantasyrelink/mods/602) (Header, Undisclosed source code)
+* [Perfect dodge window bump with options](https://www.nexusmods.com/granbluefantasyrelink/mods/607) (Header, Undisclosed source code)
+* [Sigil Search](https://www.nexusmods.com/granbluefantasyrelink/mods/614) (Readme, Undisclosed source code)
+* [Configurable vouchers and transmarvels multipliers](https://www.nexusmods.com/granbluefantasyrelink/mods/615) (Header, Undisclosed source code)
+* [YequModmanager](https://www.nexusmods.com/granbluefantasyrelink/mods/623) (Undisclosed source code, **Obfuscated**, **Encryption code**)
+* [Configurable Mastery Point Multiplier](https://www.nexusmods.com/granbluefantasyrelink/mods/635) (Header, Undisclosed source code)
+* [Guaranteed Terminus and Behemoth sigil drops](https://www.nexusmods.com/granbluefantasyrelink/mods/636) (Header, Undisclosed source code)
+* [Character Voice Mixer](https://www.nexusmods.com/granbluefantasyrelink/mods/637) (Header, Source code)
+* [Perfect Guard window bump with options](https://www.nexusmods.com/granbluefantasyrelink/mods/646) (Header, Undisclosed source code)
+* [REALTIME CHARA SWAP](https://www.nexusmods.com/granbluefantasyrelink/mods/647) (Readme, Undisclosed source code)
+* [Interface SFX Mixer](https://www.nexusmods.com/granbluefantasyrelink/mods/649) (Undisclosed source code)
+* [Infinity Full Assist Unlock](https://www.nexusmods.com/granbluefantasyrelink/mods/655) (Source code)
+* [GBFR Team DPS Meter](https://www.nexusmods.com/granbluefantasyrelink/mods/662) (Source code)
+* [Ultima Sigils](https://www.nexusmods.com/granbluefantasyrelink/mods/661) (Header)
+* [Extra Sigil Slots](https://www.nexusmods.com/granbluefantasyrelink/mods/657) (Header, Source code)
