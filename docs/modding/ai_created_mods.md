@@ -1,13 +1,16 @@
 # AI Created Mods
 
-Since the majority of mods fail to disclose heavy AI usage for creation, we keep a list here for informational purposes.
+Since the majority of mods fail to disclose heavy AI usage for creation, we unfortunately keep a list here for informational purposes.
 
 !!! warning
     
     **We do not endorse or recommend any of these mods.**
 
+    Feel free to review the code (if possible, if it is readable).
+
+* [gbfr-ultrawide](https://github.com/zhen469891/gbfr-ultrawide) (Source code)
 * [GBFR PE Patch Tool](https://www.nexusmods.com/granbluefantasyrelink/mods/584) (Readme, Source code)
-* [gbfr-logs DLC compatibility (awa Edition)] (Source code)
+* [gbfr-logs DLC compatibility (awa Edition)](https://www.nexusmods.com/granbluefantasyrelink/mods/596) (Source code)
 * [Smart Synthesis](https://www.nexusmods.com/granbluefantasyrelink/mods/602) (Header, Undisclosed source code)
 * [Perfect dodge window bump with options](https://www.nexusmods.com/granbluefantasyrelink/mods/607) (Header, Undisclosed source code)
 * [Sigil Search](https://www.nexusmods.com/granbluefantasyrelink/mods/614) (Readme, Undisclosed source code)
