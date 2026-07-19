@@ -56,15 +56,26 @@ Then make sure to tick on the checkbox next to `Granblue Fantasy Relink Mod Mana
 
     We also keep a list of AI-slop mods for informational purposes [here](ai_created_mods.md).
 
+### Troubleshooting
+
+#### ⚠️ `Method not found: 'Void Reloaded.Memory.SigScan.ReloadedII.Interfaces.IStartupScanner.AddMainModuleScan`
+
+Missing dependencies that did not auto-download. Paste these two links into your browser:
+
+Click these two links to force download them:
+
+* [Reloaded.Hooks.ReloadedII](r2://https://github.com/Sewer56/Reloaded.SharedLib.Hooks.ReloadedII/releases/download/1.16.3/Reloaded.Hooks.ReloadedII1.16.3.7z)
+* [Reloaded.Memory.SigScan.ReloadedII](r2://https://github.com/Reloaded-Project/Reloaded.Memory.SigScan/releases/download/3.1.16/Reloaded.Memory.SigScan.ReloadedII1.2.14.7z)
+
+#### ⚠️ `Failed to apply title screen mod info for system/table/text/bp/text_ui.msg: The requested operation requires an element of type 'Object', but the target element has type 'Number'.`
+
+Verify game files integrity on steam.
+
 ---
 
 ## Removing Mods
 
-You can remove mods by disabling all mods **except** the mod loader, and start the game once.
-
-!!! warning "Warning - Mods that edit sound files"
-
-    You may need to verify integrity on Steam for mods that edit sound files as those cannot be reverted easily yet.
+Simply don't boot with Reloaded-II. The mod loader creates an overlay over the game folder for each mod, so no changes are ever permanent.
 
 ---
 
@@ -82,6 +93,8 @@ Some programs/mods that directly inject into the game, like SpecialK or GBFRelin
 4. Press `Deploy ASI Loader`.
 
 You can now either launch the game through Reloaded-II or Steam.
+
+To remove it, remove `winmm.dll` and the `scripts` folder from the game folder.
 
 ---
 
@@ -101,7 +114,6 @@ You can now either launch the game through Reloaded-II or Steam.
 
 To properly update to a newer game version with mods installed:
 
-* Rename `orig_data.i` in the game's folder to `data.i`. Otherwise Steam delta patching may attempt to patch a modded `data.i`, leading in an invalid file.
 * Remove any tools/patch files you may have installed in the game's folder such as: 
     * `scripts` folder
     * `.asi` files 
