@@ -6,6 +6,7 @@ icon: material/treasure-chest
 
 !!! note ":material-note: Notes/Observations"
 
+    * **This is the page for the base game quests! [Head here for Endless Ragnarok quests](quest_drop_rates_er.md)**
     * If you are using this anywhere, give proper credits to Nenkai
     * Some curio drops appears to be locked until Proud difficulty is reached.
     * Proud difficulty is a 100% chance of curio drop.

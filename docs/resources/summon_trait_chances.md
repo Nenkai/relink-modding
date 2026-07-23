@@ -13,7 +13,7 @@ This page documents all the available traits and their chances on summons.
     !!! note ":material-note: Notes/Observations"
 
         * If you are using this anywhere, give proper credits to Nenkai/this site
-        * Some summons are given through first quest clear rewards with preset traits/stats and are not be shown here.
+        * Some summons are given through first quest clear rewards with preset traits/stats and are not be shown here. [They are listed on the quest rates page](quest_drop_rates_er.md).
         * Obtaining an optimal summon is very unlikely and may not be legitimate in normal scenarios. (a Lucilius with Gamma Lv15 & Normal Damage Cap Up at 100% is roughly one   in  0.005%, **1/18331 runs where the quest DOES give you that summon**)
         * Grinding for minmaxing/perfect rolling due to the above statement is therefore not advisable. Consider using whatever you come across. 
 
