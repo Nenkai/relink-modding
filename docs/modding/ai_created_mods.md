@@ -29,3 +29,4 @@ Since the majority of mods fail to disclose heavy AI usage for creation, we unfo
 * [Wrightstone Picker](https://www.nexusmods.com/granbluefantasyrelink/mods/682) (Source code)
 * [QoL Ultima Sigils Combination](https://www.nexusmods.com/granbluefantasyrelink/mods/680)
 * [Summon Drop Picker](https://www.nexusmods.com/granbluefantasyrelink/mods/677) (Header, Source code)
+* [Relink Logs (gbfr-logs fork)](https://www.nexusmods.com/granbluefantasyrelink/mods/688) (Source code)
