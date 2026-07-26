@@ -37,4 +37,3 @@ Since the majority of mods fail to disclose heavy AI usage for creation, we unfo
 | [Ultima Sigils](https://www.nexusmods.com/granbluefantasyrelink/mods/661) || Header
 | [Wrightstone Picker](https://www.nexusmods.com/granbluefantasyrelink/mods/682) || Source code | Explicit AI usage disclosure (mod tag).
 | [YequModmanager](https://www.nexusmods.com/granbluefantasyrelink/mods/623) || Undisclosed source code **Obfuscated**, **Encryption code** | Manager is built in an extremely "businessy/enterprise-grade" manner ("IExtensionBackgroundServiceProviderV2", "IModDeploymentModePreparationTransaction"). The main executable has obfuscated classes, some of which performing encryption related tasks and other dubious Windows API calls. Mod author has deleted some messages on their Nexus mod page regarding disclosure.
-'enterprise-like' code ("AssistModeUnlockPolicy", "BuildVerificationStatus", "BuildIdentity", "FullAssistGatePolicy", ...)
