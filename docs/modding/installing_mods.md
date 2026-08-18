@@ -51,10 +51,10 @@ Then make sure to tick on the checkbox next to `Granblue Fantasy Relink Mod Mana
     * If you'd like to just launch the game with mods from steam, follow the instructions in the next section.
 5. Head to [Nexus Mods](https://www.nexusmods.com/granbluefantasyrelink/mods/) for finding mods. We also have a [recommend mod list here](recommended_mods_tools.md).
 
-!!! warning
-    The game sends quest reports/results as telemetry data (named [PlayLog](../resources/re/api.md#playlog-endpoints)) which is recommended to **disable** when running mods (especially quest mods). You can do so by heading to `Game Options -> Other -> Play Log -> Do Not Agree`.
-
-    We also keep a list of AI-slop mods for informational purposes [here](ai_created_mods.md).
+!!! danger "Important Warnings!"
+    * The game sends quest reports/results as telemetry data (named [PlayLog](../resources/re/api.md#playlog-endpoints)) which is recommended to **disable** when running mods (especially quest mods). You can do so by heading to `Game Options -> Other -> Play Log -> Do Not Agree`.
+    * The majority of mods created since Endless Ragnarok are fully created through the use of AI. We keep a list of AI-slop mods for informational purposes [here](ai_created_mods.md).
+    * As a result of the above and a lack of awareness, many mods use **code-injection** and *may* be unsafe to use. These mods run at the same privilege level as a normal process (in this case, the game). **Many of these mods do not disclose their source code either**. Exercise caution.
 
 ### Troubleshooting
 

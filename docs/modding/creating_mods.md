@@ -24,17 +24,18 @@ If you have successfully gotten your mod to work, congratulations!
 
 !!! warning
 
-    **Before you consider creating a mod, ESPECIALLY if AI is involved in any capacity:*
+    **Before you consider creating a mod, ESPECIALLY if AI is involved in any capacity:**
 
     Consider whether you *need* to create a code-injection mod. One that uses a `.dll` file to perform mod changes that file-based mods cannot do.
 
     Do you need to make file changes? 
+
     * Yes -> Do you need to make variations of that file?
-      * Yes -> Do you need to make many of them or alter the file based on user choice?
-       * Yes -> Make a code-injection tool with a configurable panel.
+        * Yes -> Do you need to make many of them or alter the file based on user choice?
+            * Yes -> Make a code-injection tool with a configurable panel.
     * No -> Make multiple mods/downloads on the same mod page on nexus.
 
-    **You should never create a code-injection mod unless you really HAVE to**. There are many potential security concerns in doing so since they allow access to the machine at hand, outside of the game. **Disclose source-code ALWAYS.**
+    **You should never create a code-injection mod unless you really HAVE to**. There are many potential security concerns in doing so since they allow access to the machine at hand, outside of the game. __**Disclose source-code ALWAYS.**__ Do not simply use Github to *only upload releases either*, Github is not a download platform.
 
     And ask people who have made such mods before and learn from them. Many AI generated code-injection mods seen around are not well made and completely ignore some very easy ways to perform tasks from code and thus reinvent the wheel.
 
