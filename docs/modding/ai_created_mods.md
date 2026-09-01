@@ -10,7 +10,7 @@ Since the majority of mods fail to disclose heavy AI usage for creation, we unfo
 
     The majority of the ones not disclosing AI use are based on educated guesses (in the case of mods with missing source code, analysis after decompilation).
 
-:material-history: Last Updated: `Aug. 17, 2026`
+:material-history: Last Updated: `Sept. 01, 2026`
 
 | Name                               | Source       | Elements | Extra Notes/Evidence |
 |------------------------------------|--------------|----------|-------------|
