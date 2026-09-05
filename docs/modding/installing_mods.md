@@ -54,7 +54,9 @@ Then make sure to tick on the checkbox next to `Granblue Fantasy Relink Mod Mana
 !!! danger "Important Warnings!"
     * The game sends quest reports/results as telemetry data (named [PlayLog](../resources/re/api.md#playlog-endpoints)) which is recommended to **disable** when running mods (especially quest mods). You can do so by heading to `Game Options -> Other -> Play Log -> Do Not Agree`.
     * The majority of mods created since Endless Ragnarok are fully created through the use of AI. We keep a list of AI-slop mods for informational purposes [here](ai_created_mods.md).
-    * As a result of the above and a lack of awareness, many mods use **code-injection** and *may* be unsafe to use. These mods run at the same privilege level as a normal process (in this case, the game). **Many of these mods do not disclose their source code either**.  Nexus Mods's VirusTotal scan *may* be an initial indication of suspect code, but likewise, checks are also easily worked around. **Exercise caution.**
+    * As a result of the above and a lack of awareness, many mods use **code-injection** and *may* be **unsafe to use.** These mods run at the same privilege level as a normal process (in this case, the game). **Many of these mods do not disclose their source code either**.  Nexus Mods's VirusTotal scan *may* be an initial indication of suspect code, but likewise, checks are also easily worked around. **Exercise caution.**  
+    You can find out such mods by heading into a mod page on Nexus Mods, and hit `Preview file contents`. Any `.dll` file is code that is code injected into the game. Alternatively in Reloaded-II's `Configure Mods` page, you can select a tag on the top-right. `Code Injection` will display all such mods.  
+    **Please ensure that you trust the authors or have reviewed their source code (if even disclosed) before running such mods!**
 
 ### Troubleshooting
 
