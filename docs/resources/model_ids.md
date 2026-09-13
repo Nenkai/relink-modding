@@ -189,6 +189,7 @@ EM8000 -- Seofon
 EM8100 -- Tweyen
 EM8200 -- Beelzebub
 EM8300 -- The World
+EM8301 -- The World (WingMode)
 EM8400 -- Omnis Zegalith
 ```
 
