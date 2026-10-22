@@ -14,10 +14,9 @@ hide:
 ## Category
 *Used by:*
 
+* :material-xml: [BXM] Used by attack bxms (`type_`)
 * :material-graph: [FSM] `BT::AreaEffectAttackAction` (`category_`)
-    * `0x67AE4C55` - Category 0
-    * `0x78D65167` - Category 1
-    * `0x9CD39782` - Category 2
+{{ read_csv('debuff_ailment_categories.csv') }}
 
 ## Debuff Type
 Used by:
@@ -30,6 +29,12 @@ Used by:
 
 !!! note
 
-    These range from id 1000 to 1022, used by 'status' table
+    'status' Ids can be found in the 'status' table
 
-{{ read_csv('debuff_ailment_ids.csv') }}
+## Player Receiving
+If a player is hit with a hitbox which contains this information, this is how it is translated.
+{{ read_csv('debuff_ailment_player_receiving_ids.csv') }}
+
+## Enemy Receiving
+If an enemy is hit with a hitbox which contains this information, this is how it is translated.
+{{ read_csv('debuff_ailment_enemy_receiving_ids.csv') }}
