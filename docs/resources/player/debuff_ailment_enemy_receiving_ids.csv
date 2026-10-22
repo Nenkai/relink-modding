@@ -28,7 +28,7 @@ Nothing,2,`0xBD5E4FDD`,`3177074653`,0,,
 ATK Down,2,`0xD21EADD5`,`3525225941`,1,2,`atkdown`
 Def Down,2,`0xE7C92715`,`3888719637`,2,3,`defdown`
 Drain,2,`0xF493ECEE`,`4103335150`,3,-1,
-Dispel,2,`0xF70DC616`,`4144875030`,4,40,
+Dispel,2,`0xF70DC616`,`4144875030`,4,40,?
 Nothing,2,`0x6680BF9B`,`1719713691`,5,-1,
 Stackable ATK Down,2,`0x97E51570`,`2548372848`,6,67,`atkdownadd`
 Stackable DEF Down,2,`0xA2329FB0`,`2721226672`,7,59,`defdownadd`
