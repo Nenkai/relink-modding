@@ -23,11 +23,10 @@ Fear,1,`0xF67874A6`,`4135089318`,20,1019,`fear`
 Arvess Fermare,1,`0xF816D1FD`,`4162245117`,21,1020,`arvessfermare`
 Ethereal Prison,1,`0xC9932485`,`3381863557`,22,1021,`elementweak`
 Debuff Extension,1,`0x48841219`,`1216614937`,23,1022,`debufftimeextend`
-,,,,,,
 Nothing,2,`0xBD5E4FDD`,`3177074653`,0,,
 ATK Down,2,`0xD21EADD5`,`3525225941`,1,2,`atkdown`
 Def Down,2,`0xE7C92715`,`3888719637`,2,3,`defdown`
-Drain,2,`0xF493ECEE`,`4103335150`,3,-1,
+Drain (Not a Status),2,`0xF493ECEE`,`4103335150`,3,-1,
 Dispel,2,`0xF70DC616`,`4144875030`,4,40,?
 Nothing,2,`0x6680BF9B`,`1719713691`,5,-1,
 Stackable ATK Down,2,`0x97E51570`,`2548372848`,6,67,`atkdownadd`
