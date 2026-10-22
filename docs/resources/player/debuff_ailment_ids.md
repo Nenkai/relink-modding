@@ -16,6 +16,7 @@ hide:
 
 * :material-xml: [BXM] Used by attack bxms (`type_`)
 * :material-graph: [FSM] `BT::AreaEffectAttackAction` (`category_`)
+
 {{ read_csv('debuff_ailment_categories.csv') }}
 
 ## Debuff Type
@@ -33,8 +34,10 @@ Used by:
 
 ## Player Receiving
 If a player is hit with a hitbox which contains this information, this is how it is translated.
+
 {{ read_csv('debuff_ailment_player_receiving_ids.csv') }}
 
 ## Enemy Receiving
 If an enemy is hit with a hitbox which contains this information, this is how it is translated.
+
 {{ read_csv('debuff_ailment_enemy_receiving_ids.csv') }}
